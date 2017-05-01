@@ -1,0 +1,244 @@
+
+
+\documentclass[12pt]{article}
+
+%%% These are some packages that are useful
+\usepackage{amsfonts, lipsum}
+\usepackage{amsmath,amssymb, amscd,amsbsy, amsthm, enumerate}
+\usepackage{mdframed, titlesec, setspace,verbatim, multicol}
+\usepackage[top=1in, bottom=1in, left=.75in, right=.75in]{geometry}
+\usepackage[unicode]{hyperref}
+\usepackage{tikz, pgfplots, xcolor, fancyhdr}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{textcomp}
+
+%%% Page formatting
+%\setlength{\headsep}{30pt}
+\setlength{\parindent}{0pt}
+\setlength{\textheight}{9in}
+
+%%% Header and Footer Info
+\pagestyle{fancy}
+\fancyhead[L]{{\large \textbf{Practice - 002}}}
+\fancyhead[C]{Date:\space\space\space\space}
+\fancyhead[R]{Name: \space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space}
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+
+%%% These define our question environment and help number things correctly
+\theoremstyle{definition}
+\newtheorem{thm}{Theorem}
+\newtheorem{question}[thm]{Question}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{DEF}[thm]{Definition}
+\newtheorem{rem}[thm]{Remark}
+
+%%% This defines the solution environment for you to write your solutions
+\newenvironment{soln}
+{\let\oldqedsymbol=\qedsymbol
+	\renewcommand{\qedsymbol}{$ $}
+	\begin{proof}[\bfseries\upshape \color{blue}Solution]\color{blue}}
+	{\end{proof}
+	\renewcommand{\qedsymbol}{\oldqedsymbol}}
+
+%%% This defines the note environment for you to write your notes
+\newenvironment{note}
+{\let\oldqedsymbol=\qedsymbol
+	\renewcommand{\qedsymbol}{$ $}
+	\begin{proof}[\bfseries\upshape \color{blue}Note]\color{Red}}
+	{\end{proof}
+	\renewcommand{\qedsymbol}{\oldqedsymbol}}
+
+
+%%% These are some shortcuts that are handy
+\def\real{{\mathbb R}}
+\def\Natural{\mathbb{N}}
+\def\dx{\textnormal{dx}}
+\def\dy{\textnormal{dy}}
+\def\dz{\textnormal{dz}}
+\def\dt{\textnormal{dt}}
+\def\ds{\textnormal{ds}}
+\def\dw{\textnormal{dw}}
+\def\Re{\textnormal{Re}}
+\def\Im{\textnormal{Im}}
+\def\exp{\textnormal{exp}}
+\def\interior{\textnormal{interior}}
+\def\al{\alpha}
+\def\del{\delta}
+\def\Del{\Delta}
+\def\gam{\gamma}
+\def\Gam{\Gamma}
+\def\Om{\Omega}
+\def\ep{\varepsilon}
+\def\lam{\lambda}
+\def\rational{{\mathbb Q}}
+\def\integer{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\Z{{\mathbb Z}}
+\def\N{{\mathbb N}}
+\def\R{{\mathbb R}}
+\def\grad{\nabla}
+\def\C{\mathcal C}
+\def\P{\mathcal P}
+\def\T{\mathcal T}
+\def\I{\mathcal I}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\inner}[1]{\langle #1 \rangle}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\spanvect}{\textnormal{span}}
+\newcommand{\union}{\cup}
+\newcommand{\Union}{\bigcup}
+\def\intersect{\cap}
+\def\Intersect{\bigcap}
+
+\DeclareMathOperator*{\Limsup}{LIMSUP}
+
+
+
+
+%%% Document Starts now
+\begin{document}
+
+	\begin{center}
+	{\LARGE \textbf{3$^{\textrm{rd}}$ grade Mathematical Problem Solving: 002}}\\
+		\vspace{.6cm}
+	\end{center}
+
+\begin{center}
+	For this entire page, $A,B,C$, and $D$ can be any numbers.
+\end{center}
+A \textbf{fraction} is represented by any number on top of another number separated by a line. For example $\frac{A}{B}$ is the fraction of "A over B". The number on top is called a \textbf{numerator} and the number on the bottom is called a \textbf{denominator}. So $A$ is the numerator and $B$ is the denominator for $\frac{A}{B}$. Two examples of this with real numbers are
+\begin{align}
+\frac{27}{42} \hspace{0.3cm}\implies \hspace{0.3cm}\begin{cases}
+27 \textrm{ is the numerator} \\
+42 \textrm{ is the denominator}
+\end{cases} \hspace{2cm} \frac{62}{13} \hspace{0.3cm}\implies \hspace{0.3cm}\begin{cases}
+62 \textrm{ is the numerator} \\
+13 \textrm{ is the denominator}
+\end{cases}
+\end{align}
+
+A fraction is represents a real number. A fraction is larger than one if the numerator is bigger than the denominator. A fraction is smaller than one if the denominator is larger than the numerator. A fraction is equal to one if the numerator is equal to the denominator. These rules can be written as
+\begin{align}
+\frac{A}{B} &\textrm{ is smaller than one if A is smaller than B.} \\
+\frac{A}{B} &\textrm{ is larger than one if A is larger than B.} \\
+\frac{A}{B} &\textrm{ is equal to one if A is equal to B.} 
+\end{align} 
+
+
+
+
+To \textbf{multiply} the fraction $\frac{A}{B}$ by $\frac{C}{D}$, you must first multiply both numbers on the top of the fraction and then both numbers on the bottom of the fraction. The formula for this is
+\begin{align}
+\frac{A}{B} \times \frac{C}{D} = \frac{A \times C}{B \times D}.
+\end{align}
+For example,
+\begin{align}
+\frac{1}{2} \times \frac{1}{2} = \frac{1 \times 1}{2 \times 2} = \frac{1}{4} \hspace{1cm}\textrm{and}\hspace{1cm}\frac{3}{4}\times \frac{2}{5} = \frac{3 \times 2}{4 \times 5} = \frac{6}{20}.
+\end{align}
+To \textbf{divide} the fraction $\frac{A}{B}$ by $\frac{C}{D}$, you must first flip one of the fractions, then multiply both numbers on the top of the fraction and then both numbers on the bottom of the fraction. The formula for this is
+\begin{align}
+	\frac{A}{B} \div \frac{C}{D} = \frac{A}{B} \times \frac{D}{C}= \frac{A \times D}{B \times C}.
+\end{align}
+For example,
+\begin{align}
+	\frac{1}{2} \div \frac{1}{2} = \frac{1}{2} \times \frac{2}{1} = \frac{1 \times 2}{2 \times 1} = \frac{2}{2} \hspace{1cm}\textrm{and}\hspace{1cm}\frac{3}{4}\div \frac{2}{5} =\frac{3}{4}\times \frac{5}{2}= \frac{3 \times 5}{4 \times 2} = \frac{15}{8}.
+\end{align}
+\newpage
+\subsection{Exercises}
+Write the \textbf{numerator} next to each of the following fractions.
+\begin{multicols}{3}
+	\begin{enumerate}[1)]
+		\item \large{$\frac{12}{34}$}
+		\item \large{$\frac{15}{54}$}
+		\item \large{$\frac{28}{42}$}
+		\item \large{$\frac{7}{56}$}
+		\item \large{$\frac{36}{16}$}
+		\item \large{$\frac{31}{30}$}
+		\item \large{$\frac{72}{16}$}
+		\item \large{$\frac{63}{16}$}
+		\item \large{$\frac{30}{2}$}
+	\end{enumerate}
+\end{multicols}
+Write the \textbf{denominator} next to each of the following fractions.
+\begin{multicols}{3}
+	\begin{enumerate}[1)]\setcounter{enumi}{9}
+		\item \large{$\frac{31}{71}$}
+		\item \large{$\frac{20}{8}$} 
+		\item \large{$\frac{19}{9}$}
+		\item \large{$\frac{21}{9}$}
+		\item \large{$\frac{99}{11}$}
+		\item \large{$\frac{11}{2}$}
+		\item \large{$\frac{71}{56}$}
+		\item \large{$\frac{14}{14}$}
+		\item \large{$\frac{2}{23}$}
+	\end{enumerate}
+\end{multicols}
+\textbf{Multiply and divide} the following fractions.
+\begin{multicols}{2}
+\begin{enumerate}[1)]\setcounter{enumi}{18}
+	\item \large{$\frac{1}{2} \times \frac{3}{4}= $}
+	\item \large{$\frac{5}{9} \times \frac{3}{6}= $}
+	\item \large{$\frac{4}{5} \times \frac{5}{8}= $}
+	\item \large{$\frac{7}{8} \times \frac{1}{7}= $}
+	\item \large{$\frac{4}{6} \times \frac{4}{6}= $}
+	\item \large{$\frac{6}{8} \times \frac{5}{6}= $}
+	\item \large{$\frac{3}{7} \div \frac{4}{9}= $}
+	\item \large{$\frac{2}{8} \div \frac{3}{5}= $}
+	\item \large{$\frac{1}{9} \div \frac{3}{7}= $}
+	\item \large{$\frac{2}{9} \div \frac{2}{7}= $}
+	\item \large{$\frac{9}{1} \div \frac{2}{8}= $}
+	\item \large{$\frac{1}{2} \div \frac{1}{1}= $}
+\end{enumerate}
+\end{multicols}
+Label the following fractions either ``\textbf{smaller}" if they are smaller than one, ``\textbf{greater}" if they are greater than one, or ``\textbf{one}" if they are equal to one.
+\begin{multicols}{2}
+	\begin{enumerate}[1)]\setcounter{enumi}{30}
+		\item \large{$\frac{12}{34}$}\textrm{ is}
+		\item \large{$\frac{15}{54}$}\textrm{ is}
+		\item \large{$\frac{28}{42}$}\textrm{ is}
+		\item \large{$\frac{7}{56}$}\textrm{ is}
+		\item \large{$\frac{36}{16}$}\textrm{ is}
+		\item \large{$\frac{30}{30}$}\textrm{ is}
+		\item \large{$\frac{31}{71}$}\textrm{ is}
+		\item \large{$\frac{20}{8}$} \textrm{ is}
+		\item \large{$\frac{19}{9}$}\textrm{ is}
+		\item \large{$\frac{21}{9}$}\textrm{ is}
+		\item \large{$\frac{99}{11}$}\textrm{ is}
+		\item \large{$\frac{1}{2}$}\textrm{ is}
+	\end{enumerate}
+\end{multicols}
+
+	
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

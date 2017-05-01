@@ -1,0 +1,227 @@
+
+
+\documentclass[12pt]{article}
+
+%%% These are some packages that are useful
+\usepackage{amsfonts, lipsum}
+\usepackage{amsmath,amssymb, amscd,amsbsy, amsthm, enumerate}
+\usepackage{mdframed, titlesec, setspace,verbatim, multicol}
+\usepackage[top=1in, bottom=1in, left=.45in, right=.45in]{geometry}
+\usepackage[unicode]{hyperref}
+\usepackage{tikz, pgfplots, xcolor, fancyhdr}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{textcomp}
+
+%%% Page formatting
+%\setlength{\headsep}{30pt}
+\setlength{\parindent}{0pt}
+\setlength{\textheight}{9in}
+
+%%% Header and Footer Info
+\pagestyle{fancy}
+\fancyhead[L]{{\large \textbf{Practice - 001}}}
+\fancyhead[C]{Date:}
+\fancyhead[R]{Name: \space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space}
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+
+%%% These define our question environment and help number things correctly
+\theoremstyle{definition}
+\newtheorem{thm}{Theorem}
+\newtheorem{question}[thm]{Question}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{DEF}[thm]{Definition}
+\newtheorem{rem}[thm]{Remark}
+
+%%% This defines the solution environment for you to write your solutions
+\newenvironment{soln}
+{\let\oldqedsymbol=\qedsymbol
+	\renewcommand{\qedsymbol}{$ $}
+	\begin{proof}[\bfseries\upshape \color{blue}Solution]\color{blue}}
+	{\end{proof}
+	\renewcommand{\qedsymbol}{\oldqedsymbol}}
+
+%%% This defines the note environment for you to write your notes
+\newenvironment{note}
+{\let\oldqedsymbol=\qedsymbol
+	\renewcommand{\qedsymbol}{$ $}
+	\begin{proof}[\bfseries\upshape \color{blue}Note]\color{Red}}
+	{\end{proof}
+	\renewcommand{\qedsymbol}{\oldqedsymbol}}
+
+
+%%% These are some shortcuts that are handy
+\def\real{{\mathbb R}}
+\def\Natural{\mathbb{N}}
+\def\dx{\textnormal{dx}}
+\def\dy{\textnormal{dy}}
+\def\dz{\textnormal{dz}}
+\def\dt{\textnormal{dt}}
+\def\ds{\textnormal{ds}}
+\def\dw{\textnormal{dw}}
+\def\Re{\textnormal{Re}}
+\def\Im{\textnormal{Im}}
+\def\exp{\textnormal{exp}}
+\def\interior{\textnormal{interior}}
+\def\al{\alpha}
+\def\del{\delta}
+\def\Del{\Delta}
+\def\gam{\gamma}
+\def\Gam{\Gamma}
+\def\Om{\Omega}
+\def\ep{\varepsilon}
+\def\lam{\lambda}
+\def\rational{{\mathbb Q}}
+\def\integer{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\Z{{\mathbb Z}}
+\def\N{{\mathbb N}}
+\def\R{{\mathbb R}}
+\def\grad{\nabla}
+\def\C{\mathcal C}
+\def\P{\mathcal P}
+\def\T{\mathcal T}
+\def\I{\mathcal I}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\inner}[1]{\langle #1 \rangle}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\spanvect}{\textnormal{span}}
+\newcommand{\union}{\cup}
+\newcommand{\Union}{\bigcup}
+\def\intersect{\cap}
+\def\Intersect{\bigcap}
+
+\DeclareMathOperator*{\Limsup}{LIMSUP}
+
+
+
+
+%%% Document Starts now
+\begin{document}
+
+	\begin{center}
+	{\LARGE \textbf{3$^{\textrm{rd}}$ grade mathematical Problem Solving: 001}}\\
+		\vspace{.6cm}
+	\end{center}
+	
+\begin{question}
+	(2 points) There are about 24 hours in one day. How many hours are in 12 days?
+\end{question}
+
+\vspace{2.5cm}
+
+\begin{question}
+	(2 points) There are 60 minutes in one hour. How many minutes are there in one day?
+\end{question}
+
+\vspace{2.5cm}
+ 
+\begin{question}
+	(2 points) There are 60 seconds in one minute. How many seconds are in 40 minutes?
+\end{question}
+
+\vspace{2.5cm}
+
+\begin{question}
+	(6 points) Pretend $a,b,c$, and $d$ are any numbers. To multiply the fraction $\frac{a}{b}$ by $\frac{c}{d}$, you must first multiply both numbers on the top of the fraction and then both numbers on the bottom of the fraction. The formula for this is
+	\begin{align}
+	\frac{a}{b} \times \frac{c}{d} = \frac{a \times c}{b \times d}.
+	\end{align}
+	For example,
+	\begin{align}
+	\frac{1}{2} \times \frac{1}{2} = \frac{1 \times 1}{2 \times 2} = \frac{1}{4} \hspace{1cm}\textrm{and}\hspace{1cm}\frac{3}{4}\times \frac{2}{5} = \frac{3 \times 2}{4 \times 5} = \frac{6}{20}.
+	\end{align}
+	Now, multiply the following fractions together:
+	\begin{multicols}{3}
+		\item \begin{align*}
+		\frac{2}{3} \times \frac{3}{5}=
+		\end{align*}
+		\item \begin{align*}
+		\frac{2}{4} \times \frac{2}{5}=
+		\end{align*}
+		\item \begin{align*}
+		\frac{7}{3} \times \frac{2}{3}=
+		\end{align*}
+		\item \begin{align*}
+		\frac{1}{3} \times \frac{5}{6}=
+		\end{align*}
+		\item \begin{align*}
+		\frac{2}{8} \times \frac{7}{5}=
+		\end{align*}
+		\item \begin{align*}
+		\frac{3}{3} \times \frac{4}{3}=
+		\end{align*}
+	\end{multicols}
+\end{question}
+
+\begin{question}
+	(6 points) The order of operations are important. If you have an expression that has addition, subtraction, and multiplication, it is very important that you do the multiplication FIRST. For example, if you have $7\times 2 + 3$ you should first multiply the 7 by 2 before adding 3. So we would have 
+	\begin{align}
+	7\times 2 + 3 = 14 + 3 = 17.
+	\end{align} 
+	Now, solve the following expressions:
+	\begin{multicols}{2}
+		\noindent
+	\begin{align*}
+	7 \times 2 + 5 = 
+	\end{align*}
+	\begin{align*}
+	6 \times 3 + 2 = 
+	\end{align*}
+	\begin{align*}
+	14 \times 2 + 5 = 
+	\end{align*}
+	\begin{align*}
+	12 + 4 \times 8 = 
+	\end{align*}
+	\begin{align*}
+	14 \times 2 - 8 = 
+	\end{align*}
+	\begin{align*}
+	6 - 2 \times 2 = 
+	\end{align*}
+	\end{multicols}
+\end{question}
+
+\vspace{1cm}
+\begin{question}
+	(2 points) The above rule must always hold whenever you are solving a mathematical equation. Now, solve the following:
+	\begin{align*}
+	3 \times 2 + 5 + 7 \times 2 - 6 + 2 \times 2 = 
+	\end{align*}
+\end{question}
+\vspace{2cm}
+\begin{question}
+	(Bonus: 2 points) Write an interesting story that somehow involves math.
+\end{question}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,234 @@
+
+
+\documentclass[12pt]{article}
+
+%%% These are some packages that are useful
+\usepackage{amsfonts, lipsum}
+\usepackage{amsmath,amssymb, amscd,amsbsy, amsthm, enumerate}
+\usepackage{mdframed, titlesec, setspace,verbatim, multicol}
+\usepackage[top=1in, bottom=1in, left=.45in, right=.45in]{geometry}
+\usepackage[unicode]{hyperref}
+\usepackage{tikz, pgfplots, xcolor, fancyhdr}
+\usepackage{listings}
+\usepackage{xcolor}
+
+%%% Page formatting
+%\setlength{\headsep}{30pt}
+\setlength{\parindent}{0pt}
+\setlength{\textheight}{9in}
+
+%%% Header and Footer Info
+\pagestyle{fancy}
+\fancyhead[L]{{\large Practice - \textbf{002}}}
+\fancyhead[C]{Date:}
+\fancyhead[R]{Name: \space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space}
+\fancyfoot[L]{\LaTeX}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+
+%%% These define our question environment and help number things correctly
+\theoremstyle{definition}
+\newtheorem{thm}{Theorem}
+\newtheorem{question}[thm]{Question}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{DEF}[thm]{Definition}
+\newtheorem{rem}[thm]{Remark}
+
+%%% This defines the solution environment for you to write your solutions
+\newenvironment{soln}
+{\let\oldqedsymbol=\qedsymbol
+	\renewcommand{\qedsymbol}{$ $}
+	\begin{proof}[\bfseries\upshape \color{blue}Solution]\color{blue}}
+	{\end{proof}
+	\renewcommand{\qedsymbol}{\oldqedsymbol}}
+
+%%% This defines the note environment for you to write your notes
+\newenvironment{note}
+{\let\oldqedsymbol=\qedsymbol
+	\renewcommand{\qedsymbol}{$ $}
+	\begin{proof}[\bfseries\upshape \color{blue}Note]\color{Red}}
+	{\end{proof}
+	\renewcommand{\qedsymbol}{\oldqedsymbol}}
+
+
+%%% These are some shortcuts that are handy
+\def\real{{\mathbb R}}
+\def\Natural{\mathbb{N}}
+\def\dx{\textnormal{dx}}
+\def\dy{\textnormal{dy}}
+\def\dz{\textnormal{dz}}
+\def\dt{\textnormal{dt}}
+\def\ds{\textnormal{ds}}
+\def\dw{\textnormal{dw}}
+\def\Re{\textnormal{Re}}
+\def\Im{\textnormal{Im}}
+\def\exp{\textnormal{exp}}
+\def\interior{\textnormal{interior}}
+\def\al{\alpha}
+\def\del{\delta}
+\def\Del{\Delta}
+\def\gam{\gamma}
+\def\Gam{\Gamma}
+\def\Om{\Omega}
+\def\ep{\varepsilon}
+\def\lam{\lambda}
+\def\rational{{\mathbb Q}}
+\def\integer{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\Z{{\mathbb Z}}
+\def\N{{\mathbb N}}
+\def\R{{\mathbb R}}
+\def\grad{\nabla}
+\def\C{\mathcal C}
+\def\P{\mathcal P}
+\def\T{\mathcal T}
+\def\I{\mathcal I}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\inner}[1]{\langle #1 \rangle}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\spanvect}{\textnormal{span}}
+\newcommand{\union}{\cup}
+\newcommand{\Union}{\bigcup}
+\def\intersect{\cap}
+\def\Intersect{\bigcap}
+
+\DeclareMathOperator*{\Limsup}{LIMSUP}
+
+
+
+\lstset { %
+	language=C++,
+	backgroundcolor=\color{black!5}, % set backgroundcolor
+	basicstyle=\footnotesize,% basic font setting
+}
+
+%%% Document Starts now
+\begin{document}
+
+	\begin{center}
+	{\LARGE \textbf{Entry College Level Problem Solving: 002}}\\
+		\vspace{.6cm}
+	\end{center}
+	\begin{center}
+		Please write all answers on this page. You may use scrap paper to do your work on but please attach any scrap paper used after completion. Do not use a calculator.
+	\end{center}
+	
+	The limit definition of the derivative of a function $f: \real \rightarrow \real$ is given by the formula
+	\begin{align}
+	\frac{\partial}{\partial x}f(x) = f'(x)= \lim\limits_{\Delta x \rightarrow 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}
+	\end{align}
+\begin{question}
+	Compute the derivative of the function $g: \real \rightarrow \real$ where $g(x)=x^2+2x+1$ using the limit definition.
+\end{question}
+
+\vspace{3 cm}
+
+\begin{question}
+	Compute the derivative of the function $h: \real \rightarrow \real$ where $h(x)=x^3+5x$ using the limit definition.
+\end{question}
+
+\vspace{3cm}
+
+
+\begin{question}
+	On planet X, the height of an object at some time $t$ that is thrown upwards at some initial velocity $v_0$ is given by $h(t)=v_0t-30t^2$. In order to determine the velocity $v(t)$ and acceleration $a(t)$ we can use
+	\begin{align}
+	v(t)&=h'(t) \\
+	a(t)&=h''(t) = v'(t).
+	\end{align}
+	Calculate the velocity and acceleration functions on planet X.
+\end{question}
+
+
+\newpage
+The quadratic formula is used to determine the roots (zeros) of any polynomial expression of the form $0=ax^2+bx+c$ and is given by
+\begin{align}
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+\end{align}
+\begin{question}
+	Find the roots of $4=2x^2+3x+5$.
+\end{question}
+
+\vspace{3cm}
+
+\begin{question}
+	Find an equation for the roots of $c-2b=cx^2+4ab-2cx$ in simplest form.
+\end{question}
+
+\vspace{3cm}
+
+In order to quickly calculate the sum (addition) of all values from $1$ to $n$, we can use the formula
+\begin{align}
+\sum_{i=1}^{n}i=\frac{n(n+1)}{2}
+\end{align}
+\begin{question}
+	Using the above formula, calculate the sum of all natural numbers from 1 to 500.
+\end{question}
+
+\vspace{3cm}
+
+\begin{question}
+	Using equation (5) from above, determine the sum of all natural numbers from 1 to 60 plus the sum of all natural numbers from 80 to 120.
+\end{question}
+
+\newpage
+Similar to the previous summation equation, the sum of the square of all natural numbers from 1 to $n$ can be determined by
+\begin{align}
+\sum_{i=1}^{n}i^2=\frac{n(n+1)(2n+1)}{6}.
+\end{align}
+And furthermore
+\begin{align}
+\sum_{i=1}^{n}i^3=\frac{n^2(n+1)^2}{4}.
+\end{align}
+\begin{question}
+	Use equations (5)-(7) to calculate 
+	\begin{align}
+	\sum_{i=1}^{15}i^3+i^2+i
+	\end{align}
+\end{question}
+
+\vspace{2cm}
+
+\begin{question}
+	Use equations (5)-(7) to calculate 
+	\begin{align}
+	\sum_{i=1}^{10}4i^3+2i^2+2i
+	\end{align}
+\end{question}
+
+\vspace{2cm}
+	\begin{question}
+Solve the following system of equations for $x,y,z$.
+\begin{align}
+2x+7y+3z&=14 \\
+4x+5z+2y&=5 \\
+z+9x+y&=2
+\end{align}
+\end{question}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

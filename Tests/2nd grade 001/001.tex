@@ -1,0 +1,229 @@
+
+
+\documentclass[12pt]{article}
+
+%%% These are some packages that are useful
+\usepackage{amsfonts, lipsum}
+\usepackage{amsmath,amssymb, amscd,amsbsy, amsthm, enumerate}
+\usepackage{mdframed, titlesec, setspace,verbatim, multicol}
+\usepackage[top=1in, bottom=1in, left=.45in, right=.45in]{geometry}
+\usepackage[unicode]{hyperref}
+\usepackage{tikz, pgfplots, xcolor, fancyhdr}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{textcomp}
+
+%%% Page formatting
+%\setlength{\headsep}{30pt}
+\setlength{\parindent}{0pt}
+\setlength{\textheight}{9in}
+
+%%% Header and Footer Info
+\pagestyle{fancy}
+\fancyhead[L]{{\large \textbf{Practice - 001}}}
+\fancyhead[C]{Date:}
+\fancyhead[R]{Name: \space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space}
+\fancyfoot[L]{\LaTeX}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+
+%%% These define our question environment and help number things correctly
+\theoremstyle{definition}
+\newtheorem{thm}{Theorem}
+\newtheorem{question}[thm]{Question}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{DEF}[thm]{Definition}
+\newtheorem{rem}[thm]{Remark}
+
+%%% This defines the solution environment for you to write your solutions
+\newenvironment{soln}
+{\let\oldqedsymbol=\qedsymbol
+	\renewcommand{\qedsymbol}{$ $}
+	\begin{proof}[\bfseries\upshape \color{blue}Solution]\color{blue}}
+	{\end{proof}
+	\renewcommand{\qedsymbol}{\oldqedsymbol}}
+
+%%% This defines the note environment for you to write your notes
+\newenvironment{note}
+{\let\oldqedsymbol=\qedsymbol
+	\renewcommand{\qedsymbol}{$ $}
+	\begin{proof}[\bfseries\upshape \color{blue}Note]\color{Red}}
+	{\end{proof}
+	\renewcommand{\qedsymbol}{\oldqedsymbol}}
+
+
+%%% These are some shortcuts that are handy
+\def\real{{\mathbb R}}
+\def\Natural{\mathbb{N}}
+\def\dx{\textnormal{dx}}
+\def\dy{\textnormal{dy}}
+\def\dz{\textnormal{dz}}
+\def\dt{\textnormal{dt}}
+\def\ds{\textnormal{ds}}
+\def\dw{\textnormal{dw}}
+\def\Re{\textnormal{Re}}
+\def\Im{\textnormal{Im}}
+\def\exp{\textnormal{exp}}
+\def\interior{\textnormal{interior}}
+\def\al{\alpha}
+\def\del{\delta}
+\def\Del{\Delta}
+\def\gam{\gamma}
+\def\Gam{\Gamma}
+\def\Om{\Omega}
+\def\ep{\varepsilon}
+\def\lam{\lambda}
+\def\rational{{\mathbb Q}}
+\def\integer{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\Z{{\mathbb Z}}
+\def\N{{\mathbb N}}
+\def\R{{\mathbb R}}
+\def\grad{\nabla}
+\def\C{\mathcal C}
+\def\P{\mathcal P}
+\def\T{\mathcal T}
+\def\I{\mathcal I}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\inner}[1]{\langle #1 \rangle}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\spanvect}{\textnormal{span}}
+\newcommand{\union}{\cup}
+\newcommand{\Union}{\bigcup}
+\def\intersect{\cap}
+\def\Intersect{\bigcap}
+
+\DeclareMathOperator*{\Limsup}{LIMSUP}
+
+
+
+
+%%% Document Starts now
+\begin{document}
+
+	\begin{center}
+	{\LARGE \textbf{2$^{\textrm{nd}}$ grade Problem Solving: 001}}\\
+		\vspace{.6cm}
+	\end{center}
+	
+\begin{question}
+	List ten items that are found in most (almost all) houses.
+\end{question}
+
+\vspace{4cm}
+
+\begin{question}
+	Sally is exactly three feet tall. She knows that each foot has twelve inches and knows that john is two inches taller than her. How tall is John in inches?
+\end{question}
+
+\vspace{4cm}
+
+\begin{question}
+	Find the next two terms of the following sequence:
+	\begin{large}
+	\begin{align*}
+	1,1,2,3,5,8,13,21, 34,\dots
+	\end{align*}
+	\end{large}
+\end{question}
+
+\vspace{3cm}
+
+\begin{question}
+	Find the three missing numbers in the sequence below:
+	\begin{large}
+	\begin{align*}
+	\frac{1}{2}, \frac{2}{3}, \frac{3}{ }, \frac{4}{5}, \frac{5}{ }, \frac{ }{7}, \frac{7}{8}
+	\end{align*}
+	\end{large}
+\end{question}
+
+\newpage
+
+\begin{question}
+David is heading to the mall. He first stops at a shoe shop and buys two shoes. Then, he heads to a game store and buys one board game and two card games. Afterwards, he heads to a media store and buys three movies, one CD, and headphones. next, he heads to the food court and buys a hamburger and a water for lunch. Finally, he heads to the book store and buys one book right before leaving. How many items did David buy?
+\end{question}
+
+\vspace{2cm}
+
+\begin{question}
+	Solve the following and show all your work:
+	\begin{align*}
+	1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19
+	\end{align*}
+\end{question}
+
+\vspace{4cm}
+
+\begin{question}
+	Find and explain the mistake in the following story.
+	\begin{quote}
+		Tippy was a very small dog. She loved to go for long walks. Some days she would cook herself lunch then go for a walk. She loved to walk down the road and all over the neighborhood. Some days she would even go for walks when the sun was already down. 
+	\end{quote}
+\end{question}
+
+\newpage
+
+\begin{question}
+	Unscramble the following combinations of letters to make words.
+	\begin{multicols}{2}\begin{large}
+	\begin{align*}
+	&\textrm{elohl} \\
+	&\textrm{ogd} \\
+	&\textrm{pzzai} \\
+	&\textrm{etbal} 
+	\end{align*}	
+	
+	\begin{align*}
+	&\textrm{lferow} \\
+	&\textrm{utmocepr} \\
+	&\textrm{ath} \\
+	&\textrm{iplowl} 
+	\end{align*}
+	
+	\end{large}\end{multicols}
+\end{question}
+
+\begin{question}
+	Sally's father has 5 children. Their names are John, Jack, Jeff, and Josh. What is the name of the fifth child?
+\end{question}
+
+\vspace{2cm}
+
+\begin{question}
+	Place the following objects in order from heaviest to lightest.
+	\begin{large}
+	\begin{center}
+		a bowling ball, a basketball, the moon, the sun, \\ the earth, a marble, a helium balloon
+	\end{center}
+	\end{large}
+\end{question}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
