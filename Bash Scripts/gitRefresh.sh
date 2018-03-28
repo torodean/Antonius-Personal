@@ -27,3 +27,7 @@ cd Antonius-GINA
 git pull
 git status
 cd ..
+cd The-Potato-Pages
+git pull
+git status
+cd ..
