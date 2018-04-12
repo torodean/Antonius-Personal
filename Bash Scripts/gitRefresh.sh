@@ -6,6 +6,13 @@ git status
 cd ..
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
+echo "...Updating repository for Antonius-Handbook-II"
+cd Antonius-Handbook
+git pull
+git status
+cd ..
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
 echo "...Updating repository for Antonius-Websites"
 cd Antonius-Websites
 git pull

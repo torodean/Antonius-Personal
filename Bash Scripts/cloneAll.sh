@@ -1,6 +1,7 @@
 #!/bin/sh
 
 git clone https://github.com/torodean/Antonius-Handbook.git
+git clone https://github.com/torodean/Antonius-Handbook-II.git
 git clone https://github.com/torodean/Antonius-Personal.git
 git clone https://github.com/torodean/Antonius-MIA.git
 git clone https://github.com/torodean/Antonius-Websites.git
