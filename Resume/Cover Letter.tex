@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{d0sag3} % CV theme - options include: 'casual' (default), 'd0sag3', 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Antonius} % Your first name
+\familyname{Torode} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\address{16789 Chandler Rd.}{East Lansing, Michigan 48823}
+\mobile{1 (517) 512-3580}
+%\phone{None}
+\email{AWTorode@gmail.com}
+%\homepage{http://goo.gl/EsPPa4}{http://goo.gl/EsPPa4 (LinkedIn)} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{Contact via e-mail is best}
+%\photo[70pt][0.4pt]{pictures/picture_me} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"Everyone is a genius in their own way" - Antonius Torode}
+
+%----------------------------------------------------------------------------------------
+\usepackage{background}
+\backgroundsetup{
+	scale=1,
+	angle=0,
+	opacity=.1,  %% adjust
+	contents={\includegraphics[trim={0 0 0 2cm},width=\paperwidth,height=\paperheight]{BG3.jpg}}
+}
+\begin{document}
+\makecvtitle 
+%\includegraphics[scale=0.43]{index.png}
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+\recipient{Department of Physics and Astronomy}{
+	Michigan State University \\
+	Biomedical Physical Sciences \\
+	567 Wilson Road,  \\
+	East Lansing, MI 48824} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+
+\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+% Print letter body here
+\hspace{1cm} I was thrilled to receive the email informing me of the IT computing assistants needed for the Physics and Astronomy department. As a future physicist, I am always looking for an opportunity to improve my skill-set. I am a very efficient and quick learner. I grew up building and maintaining computers mainly on a windows XP/7 OS. I have since had experience with Linux (Ubuntu) as it is what I use for my school endeavors here at MSU. I have preformed bare-bone installs of Windows on numerous occasions and assembled custom machines from scratch as well as replaced faulty equipment. Though my main area of focus the past few years has been mathematics and physics, I have done much programming in languages varying from HTML, CSS, python, php, java and more. I have even created an entire encryption algorithm and developed a working windows application from scratch in C++. I am also extremely well versed in \LaTeX, with which I wrote this cover letter and resume with.
+
+\hspace{1cm} Some of my previous employment included condensed matter physics research at Oakland University, where I was tasked with developing and setting up my own experimental apparatus giving me unique hands on experience. Other employment includes data research at CLRS, inc, where I worked with large spreadsheets of data, helped with technological maintenance and even was tasked with unique research tasks. Following these, I worked as a campus tutor at Oakland Community College where I had to interact with many students on a daily basis. I had to be able to articulate ideas and concepts as well as identifying where others were struggling in order to facilitate the proper help. 
+
+\hspace{1cm} Currently, I am focused directly on school, though I will not be attending summer classes and therefore will have an open schedule. While I am not working, I plan to further my education to get ahead for the following semesters. I would love the opportunity to meet with you and see if I would be right to help out with this position. I look forward to hearing from you and if you have any questions or further inquiries, you can look to my attached resume for details and my contact information.
+
+\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
