@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.11)  11 MAY 2018 10:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.11)  11 MAY 2018 11:12
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -833,7 +833,7 @@ Package microtype Info: Character `029' is missing
 (C:\Users\torodean\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-<BG5.jpg, id=30, 1084.05pt x 1799.72375pt>
+<BG5.jpg, id=34, 1084.05pt x 1799.72375pt>
 File: BG5.jpg Graphic file (type jpg)
 <use BG5.jpg>
 Package pdftex.def Info: BG5.jpg  used on input line 127.
@@ -859,7 +859,7 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 g>]
 File: BG5.jpg Graphic file (type jpg)
 <use BG5.jpg>
-Package pdftex.def Info: BG5.jpg  used on input line 169.
+Package pdftex.def Info: BG5.jpg  used on input line 166.
 (pdftex.def)             Requested size: 597.51956pt x 845.04561pt.
 
 
@@ -871,7 +871,7 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 [2]
 File: BG5.jpg Graphic file (type jpg)
 <use BG5.jpg>
-Package pdftex.def Info: BG5.jpg  used on input line 251.
+Package pdftex.def Info: BG5.jpg  used on input line 254.
 (pdftex.def)             Requested size: 597.51956pt x 845.04561pt.
 
 
@@ -881,26 +881,19 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
  (resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
-
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: 72963543C99A98F6B284DE4DFD990C4A;815
-(rerunfilecheck)             After:  E0859623D3336D216C6C437A63C4643A;1028.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: 4F158BB10FEF681EE3F6889336D665E3;1028.
  ) 
 Here is how much of TeX's memory you used:
- 21534 strings out of 493305
- 386912 string characters out of 3138865
- 473027 words of memory out of 3000000
- 24654 multiletter control sequences out of 15000+200000
+ 21537 strings out of 493305
+ 386965 string characters out of 3138865
+ 473074 words of memory out of 3000000
+ 24657 multiletter control sequences out of 15000+200000
  60313 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,67p,774b,759s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -915,9 +908,9 @@ ublic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso1
 m Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/torodean/AppData/Roaming/MiKTeX/2.9
 /fonts/type1/public/marvosym/marvosym.pfb>
-Output written on resume.pdf (3 pages, 466824 bytes).
+Output written on resume.pdf (3 pages, 467239 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 112 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
- 19010 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 19018 words of extra memory for PDF output out of 20736 (max. 10000000)
 
