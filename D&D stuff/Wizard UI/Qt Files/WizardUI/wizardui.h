@@ -1,14 +1,22 @@
+//============================================================================
+// Name        : wizardui.h
+// Author      : Antonius Torode
+// Date        : 5-17-2018
+// Copyright   : This file can be used under the conditions of Antonius' 
+//				 General Purpose License (AGPL).
+// Description : Header file for wizardui.cpp.
+//============================================================================
+
 #ifndef WIZARDUI_H
 #define WIZARDUI_H
 
 #include <QMainWindow>
 
 namespace Ui {
-class WizardUI;
+	class WizardUI;
 }
 
-class WizardUI : public QMainWindow
-{
+class WizardUI : public QMainWindow{
     Q_OBJECT
 
 public:
@@ -16,28 +24,26 @@ public:
     ~WizardUI();
 
 private slots:
-    void on_pushButton_16_clicked();
-
-    void on_pushButton_15_clicked();
-
-    void on_pushButton_4_clicked();
-
-    void on_pushButton_3_clicked();
-
-    void on_pushButton_6_clicked();
-
-    void on_pushButton_5_clicked();
-
-    void on_pushButton_8_clicked();
-
-    void on_pushButton_7_clicked();
-
-    void on_pushButton_10_clicked();
-
-    void on_pushButton_9_clicked();
+    void on_levelModifier_plus_clicked();
+    void on_levelModifier_minus_clicked();
+	
+    void on_strengthModifier_plus_clicked();
+    void on_strengthModifier_minus_clicked();
+    void on_dexterityModifier_plus_clicked();
+    void on_dexterityModifier_minus_clicked();
+    void on_constitutionModifier_plus_clicked();
+    void on_constitutionModifier_minus_clicked();
+    void on_intelligenceModifier_plus_clicked();
+    void on_intelligenceModifier_minus_clicked();
+	void on_wisdomModifier_plus_clicked();
+    void on_wisdomModifier_minus_clicked();
+	void on_charismaModifier_plus_clicked();
+    void on_charismaModifier_minus_clicked();
 
 private:
     Ui::WizardUI *ui;
+	int getModierFromScore(int score);
+	void setModifiers();
 };
 
 #endif // WIZARDUI_H

@@ -1,3 +1,14 @@
+<!--
+============================================================================
+// Name        : wizardui.ui
+// Author      : Antonius Torode
+// Date        : 5-17-2018
+// Copyright   : This file can be used under the conditions of Antonius' 
+//				 General Purpose License (AGPL).
+// Description : ui file corresponding with wizardui.cpp
+//============================================================================-
+-->
+
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>WizardUI</class>
@@ -462,7 +473,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_3">
+    <widget class="QLineEdit" name="levelModifier_main">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -668,7 +679,7 @@
       <string>-</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_15">
+    <widget class="QPushButton" name="levelModifier_minus">
      <property name="geometry">
       <rect>
        <x>110</x>
@@ -681,7 +692,7 @@
       <string>-</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_16">
+    <widget class="QPushButton" name="levelModifier_plus">
      <property name="geometry">
       <rect>
        <x>90</x>
@@ -775,7 +786,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_65">
+    <widget class="QPushButton" name="dexterityModifier_plus5">
      <property name="geometry">
       <rect>
        <x>290</x>
@@ -788,7 +799,7 @@
       <string>-</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_66">
+    <widget class="QPushButton" name="dexterityModifier_plus6">
      <property name="geometry">
       <rect>
        <x>270</x>
@@ -882,7 +893,7 @@
       <string>Speed</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_37">
+    <widget class="QPushButton" name="strengthModifier_minus7">
      <property name="geometry">
       <rect>
        <x>230</x>
@@ -908,7 +919,7 @@
     <property name="title">
      <string>Statistics</string>
     </property>
-    <widget class="QLineEdit" name="lineEdit_11">
+    <widget class="QLineEdit" name="strengthModifier_main">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -918,7 +929,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="strengthModifier_minus">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -931,7 +942,7 @@
       <string>-</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_4">
+    <widget class="QPushButton" name="strengthModifier_plus">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -944,7 +955,7 @@
       <string>+</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_12">
+    <widget class="QLineEdit" name="strengthModifier_bonus">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -960,7 +971,47 @@
       <string/>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_7">
+	    <widget class="QPushButton" name="dexterityModifier_plus">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>40</y>
+       <width>21</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="dexterityModifier_bonus">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>40</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="dexterityModifier_main">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>40</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="dexterityModifier_minus">
+    <widget class="QPushButton" name="constitutionModifier_minus">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -973,7 +1024,7 @@
       <string>-</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_8">
+    <widget class="QPushButton" name="constitutionModifier_plus">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -986,7 +1037,7 @@
       <string>+</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_15">
+    <widget class="QLineEdit" name="constitutionModifier_bonus">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -1002,7 +1053,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_16">
+    <widget class="QLineEdit" name="constitutionModifier_main">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -1012,7 +1063,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_9">
+    <widget class="QPushButton" name="intelligenceModifier_minus">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -1025,7 +1076,7 @@
       <string>-</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_10">
+    <widget class="QPushButton" name="intelligenceModifier_plus">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -1038,7 +1089,7 @@
       <string>+</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_17">
+    <widget class="QLineEdit" name="intelligenceModifier_bonus">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -1054,7 +1105,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_18">
+    <widget class="QLineEdit" name="intelligenceModifier_main">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -1064,7 +1115,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_11">
+    <widget class="QPushButton" name="wisdomModifier_minus">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -1077,7 +1128,7 @@
       <string>-</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_12">
+    <widget class="QPushButton" name="wisdomModifier_plus">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -1090,7 +1141,7 @@
       <string>+</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_19">
+    <widget class="QLineEdit" name="wisdomModifier_bonus">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -1106,7 +1157,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_20">
+    <widget class="QLineEdit" name="wisdomModifier_main">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -1116,7 +1167,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_13">
+    <widget class="QPushButton" name="charismaModifier_minus">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -1129,7 +1180,7 @@
       <string>-</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_14">
+    <widget class="QPushButton" name="charismaModifier_plus">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -1142,7 +1193,7 @@
       <string>+</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_21">
+    <widget class="QLineEdit" name="charismaModifier_bonus">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -1158,7 +1209,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_22">
+    <widget class="QLineEdit" name="charismaModifier_main">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -1168,7 +1219,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_36">
+    <widget class="QPushButton" name="strengthModifier_minus6">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -1178,10 +1229,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Intelligence</string>
+      <string>intelligence</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_38">
+    <widget class="QPushButton" name="strengthModifier_minus8">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -1194,7 +1245,7 @@
       <string>Wisdom</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_39">
+    <widget class="QPushButton" name="strengthModifier_minus9">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -1204,10 +1255,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Dexterity</string>
+      <string>dexterity</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_40">
+    <widget class="QPushButton" name="strengthModifier_plus0">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -1217,10 +1268,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Constitution</string>
+      <string>constitution</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_41">
+    <widget class="QPushButton" name="strengthModifier_plus1">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -1233,46 +1284,6 @@
       <string>Charisma</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_6">
-     <property name="geometry">
-      <rect>
-       <x>140</x>
-       <y>40</y>
-       <width>21</width>
-       <height>23</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>+</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_13">
-     <property name="enabled">
-      <bool>false</bool>
-     </property>
-     <property name="geometry">
-      <rect>
-       <x>180</x>
-       <y>40</y>
-       <width>31</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_14">
-     <property name="geometry">
-      <rect>
-       <x>100</x>
-       <y>40</y>
-       <width>41</width>
-       <height>20</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_5">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -1285,7 +1296,7 @@
       <string>-</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_35">
+    <widget class="QPushButton" name="strengthModifier_minus5">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -1298,7 +1309,7 @@
       <string>Strength</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_42">
+    <widget class="QPushButton" name="strengthModifier_plus2">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -1514,7 +1525,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_30">
+    <widget class="QLineEdit" name="levelModifier_main0">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -1530,7 +1541,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_31">
+    <widget class="QLineEdit" name="levelModifier_main1">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -1559,7 +1570,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_32">
+    <widget class="QLineEdit" name="levelModifier_main2">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -1640,7 +1651,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_33">
+    <widget class="QLineEdit" name="levelModifier_main3">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -1656,7 +1667,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_34">
+    <widget class="QLineEdit" name="levelModifier_main4">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -1672,7 +1683,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_36">
+    <widget class="QLineEdit" name="levelModifier_main6">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -1688,7 +1699,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_37">
+    <widget class="QLineEdit" name="levelModifier_main7">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -1704,7 +1715,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_38">
+    <widget class="QLineEdit" name="levelModifier_main8">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -1720,7 +1731,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_39">
+    <widget class="QLineEdit" name="levelModifier_main9">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -2015,7 +2026,7 @@
       <string>Stealth</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_30">
+    <widget class="QPushButton" name="strengthModifier_minus0">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -2028,7 +2039,7 @@
       <string>Performance</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_31">
+    <widget class="QPushButton" name="strengthModifier_minus1">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -2041,7 +2052,7 @@
       <string>Religion</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_32">
+    <widget class="QPushButton" name="strengthModifier_minus2">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -2054,7 +2065,7 @@
       <string>Survival</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_33">
+    <widget class="QPushButton" name="strengthModifier_minus3">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -2067,7 +2078,7 @@
       <string>Persuasion</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_34">
+    <widget class="QPushButton" name="strengthModifier_minus4">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -2267,7 +2278,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_59">
+    <widget class="QPushButton" name="dexterityModifier_minus9">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -2280,7 +2291,7 @@
       <string>Strength</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_60">
+    <widget class="QPushButton" name="dexterityModifier_plus0">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -2290,10 +2301,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Dexterity</string>
+      <string>dexterity</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_61">
+    <widget class="QPushButton" name="dexterityModifier_plus1">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -2303,10 +2314,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Constitution</string>
+      <string>constitution</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_62">
+    <widget class="QPushButton" name="dexterityModifier_plus2">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -2316,10 +2327,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Intelligence</string>
+      <string>intelligence</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_63">
+    <widget class="QPushButton" name="dexterityModifier_plus3">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -2332,7 +2343,7 @@
       <string>Wisdom</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_64">
+    <widget class="QPushButton" name="dexterityModifier_plus4">
      <property name="geometry">
       <rect>
        <x>60</x>
