@@ -11,6 +11,9 @@
 #define WIZARDUI_H
 
 #include <QMainWindow>
+#include <string>
+
+using namespace std::string;
 
 namespace Ui {
 	class WizardUI;
@@ -39,11 +42,12 @@ private slots:
     void on_wisdomModifier_minus_clicked();
 	void on_charismaModifier_plus_clicked();
     void on_charismaModifier_minus_clicked();
+	void on_abilityModifier_all_clicked();
 
 private:
     Ui::WizardUI *ui;
 	int getModierFromScore(int score);
-	void setModifiers();
+	void setModifiers(string stats);
 };
 
 #endif // WIZARDUI_H
