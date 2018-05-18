@@ -13,7 +13,7 @@
 #include <QMainWindow>
 #include <string>
 
-using namespace std::string;
+using std::string;
 
 namespace Ui {
 	class WizardUI;
@@ -44,10 +44,23 @@ private slots:
     void on_charismaModifier_minus_clicked();
 	void on_abilityModifier_all_clicked();
 
+    void on_strengthModifier_check_clicked();
+
+    void on_dexterityModifier_check_clicked();
+
+    void on_constitutionModifier_check_clicked();
+
+    void on_intelligenceModifier_check_clicked();
+
+    void on_wisdomModifier_check_clicked();
+
+    void on_charismaModifier_check_clicked();
+
 private:
     Ui::WizardUI *ui;
 	int getModierFromScore(int score);
 	void setModifiers(string stats);
+    int rolldXX(int xx, int seed);
 };
 
 #endif // WIZARDUI_H
