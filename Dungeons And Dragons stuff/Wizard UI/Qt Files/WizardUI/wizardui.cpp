@@ -253,29 +253,49 @@ void WizardUI::setModifiers(string stats){
 void WizardUI::on_strengthModifier_check_clicked(){
     QString strength_str = ui->strengthModifier_bonus->text();
     int ability = strength_str.toInt();
-    ability = rolldXX(20,randCounter) + ability;
+    int roll = rolldXX(20,randCounter) + ability;
     randCounter++;
     ui->ability_saving_throw->setText(QString::number(ability));
 }
 
 void WizardUI::on_dexterityModifier_check_clicked(){
-
+	QString dexterity_str = ui->dexterityModifier_bonus->text();
+    int ability = strength_str.toInt();
+    int roll = rolldXX(20,randCounter) + ability;
+    randCounter++;
+    ui->ability_saving_throw->setText(QString::number(roll));
 }
 
 void WizardUI::on_constitutionModifier_check_clicked(){
-
+	QString constitution_str = ui->constitutionModifier_bonus->text();
+    int ability = strength_str.toInt();
+    int roll = rolldXX(20,randCounter) + ability;
+    randCounter++;
+    ui->ability_saving_throw->setText(QString::number(roll));
 }
 
 void WizardUI::on_intelligenceModifier_check_clicked(){
-
+	QString intelligence_str = ui->intelligenceModifier_bonus->text();
+    int ability = strength_str.toInt();
+    int roll = rolldXX(20,randCounter) + ability;
+    randCounter++;
+    ui->ability_saving_throw->setText(QString::number(roll));
 }
 
 void WizardUI::on_wisdomModifier_check_clicked(){
-
+	QString wisdom_str = ui->wisdomModifier_bonus->text();
+    int ability = strength_str.toInt();
+    int roll = rolldXX(20,randCounter) + ability;
+    randCounter++;
+    ui->ability_saving_throw->setText(QString::number(roll));
 }
 
 void WizardUI::on_charismaModifier_check_clicked(){
-
+	QString charisma_str = ui->charismaModifier_bonus->text();
+    int ability = strength_str.toInt();
+    int roll = rolldXX(20,randCounter) + ability;
+    randCounter++;
+    ui->ability_saving_throw->setText(QString::number(roll));
 }
 
 //Returns a random integer between min and max.

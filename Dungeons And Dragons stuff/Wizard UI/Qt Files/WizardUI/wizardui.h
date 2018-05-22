@@ -44,16 +44,12 @@ private slots:
     void on_charismaModifier_minus_clicked();
 	void on_abilityModifier_all_clicked();
 
+	//Ability score checks.
     void on_strengthModifier_check_clicked();
-
     void on_dexterityModifier_check_clicked();
-
     void on_constitutionModifier_check_clicked();
-
     void on_intelligenceModifier_check_clicked();
-
     void on_wisdomModifier_check_clicked();
-
     void on_charismaModifier_check_clicked();
 
 private:
