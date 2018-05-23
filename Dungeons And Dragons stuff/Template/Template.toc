@@ -1,0 +1,12 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Chapter 1: The Dark \LaTeX }{3}{chapter*.2}
+\contentsline {section}{Main Section}{3}{section*.3}
+\contentsline {subsection}{Fun with boxes}{3}{section*.3}
+\contentsline {subsubsection}{Even more fun!}{3}{section*.3}
+\contentsline {subsubsection}{Weapon, +1, +2, or +3}{3}{section*.3}
+\contentsline {section}{Spells}{3}{section*.3}
+\contentsline {subsubsection}{Beautiful Typesetting}{3}{section*.3}
+\contentsline {section}{Colors}{4}{section*.3}
+\contentsline {subsection}{Examples}{4}{table.0.1}
+\contentsline {subsubsection}{Using \lstinline !themecolor!}{4}{table.0.1}
+\contentsline {subsubsection}{Using element color arguments}{5}{lstnumber.-1.19}

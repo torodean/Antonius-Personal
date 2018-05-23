@@ -1,0 +1,16 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Chapter 1: The Trinity Stones}{3}{chapter*.2}
+\contentsline {section}{Creation of a Trinity}{3}{section*.3}
+\contentsline {section}{Creation of the Stones}{3}{section*.3}
+\contentsline {section}{The Celestial Guard}{3}{section*.3}
+\contentsline {section}{The Space Stone}{4}{section*.3}
+\contentsline {section}{The Matter Stone}{4}{section*.3}
+\contentsline {section}{The Time Stone}{4}{section*.3}
+\contentsline {chapter}{The Campaign}{5}{chapter*.4}
+\contentsline {chapter}{The Zones}{6}{chapter*.5}
+\contentsline {section}{The Statu Peninsula}{6}{section*.6}
+\contentsline {section}{Aurushire}{6}{section*.6}
+\contentsline {section}{Rem Silva}{6}{section*.6}
+\contentsline {section}{The Pluvian Forest}{6}{section*.6}
+\contentsline {section}{Spati Aethereu Thalamun}{6}{section*.6}
+\contentsline {section}{Auru Convallis}{6}{section*.6}

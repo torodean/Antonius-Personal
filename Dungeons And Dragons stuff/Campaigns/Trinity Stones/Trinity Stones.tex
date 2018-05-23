@@ -1,0 +1,138 @@
+% Changing book to article will make the footers match on each page,
+% rather than alternate every other.
+%
+% Note that the article class does not have chapters.
+\documentclass[letterpaper,10pt,twoside,twocolumn,openany]{book}
+
+% Use babel or polyglossia to automatically redefine macros for terms
+% Armor Class, Level, etc...
+% Default output is in English; captions are located in lib/dndstring-captions.sty.
+% If no captions exist for a language, English will be used.
+%1. To load a language with babel:
+%	\usepackage[<lang>]{babel}
+%2. To load a language with polyglossia:
+%	\usepackage{polyglossia}
+%	\setdefaultlanguage{<lang>}
+\usepackage[english]{babel}
+%usepackage[italian]{babel}
+% For further options (multilanguage documents, hypenations, language environments...)
+% please refer to babel/polyglossia's documentation.
+
+\usepackage[utf8]{inputenc}
+\usepackage{hang}
+\usepackage{lipsum}
+\usepackage{listings}
+\usepackage{hyperref}
+
+\usepackage{dnd}
+
+\lstset{%
+  basicstyle=\ttfamily,
+  language=[LaTeX]{TeX},
+}
+
+\usepackage{eso-pic}
+\newcommand\BackgroundPic{%
+	\put(0,0){%
+		\parbox[b][\paperheight]{\paperwidth}{%
+			\vfill
+			\centering
+			\includegraphics[width=\paperwidth,height=\paperheight,%
+			keepaspectratio]{img/paper.jpg}%
+			\vfill
+}}}
+
+\title{Trinity Stones of Creation}
+\author{Antonius Torode}
+\date{Latest update: \today}
+
+
+% Start document
+\begin{document}
+
+\AddToShipoutPicture*{\BackgroundPic}
+\maketitle
+\tableofcontents
+
+% Your content goes here
+
+% Comment this out if you're using the article class.
+\chapter{Chapter 1: The Trinity Stones}
+
+\section{Creation of a Trinity}
+
+\begin{quotebox}
+	In the beginning, God created the Heavens and the Earth. A singularity of reality from whence space was formed, energy was made, and time unraveled. A trinity of reality to be unbroken forever.
+\end{quotebox}
+
+No matter the story of beginning, it all arrives at the same principles. Space, time, and matter. A trinity of reality stemming from the creation itself. For none can exist without another, and in existence all must come simultaneously. These forces of the cosmos work in unison and cannot be broken from each other. At least that's how we've perceived it.
+
+\section{Creation of the Stones}
+
+It is said that those who can harness the power of reality itself would have unrivaled power. The outcomes of reality itself would be for them to decide. Unfortunately to harness the trinity would be to harness the universe, a space incomprehensible to perceive. In ancient times, there existed an organization known as the Celestial Guard. This group of people extended through all races and across the entire world. A common goal among them was to understand and tap into this trinity. Through centuries, hidden mysteries of the universe began to be unraveled, bringing forth the secrets of magic and powers known today. The Celestial Guard was the primary source of the advancements of knowledge. It is said that the knowledge and understandings of these ancients vastly surpassed anyone from todays era. 
+
+Over time, the Celestial Guard became segregated. After discoveries pertaining to parallel realms, there became hidden agendas. A civil war on a global scale ensued among the Celestial Guard. A war on such great of a scale that the majority of knowledge was lost as a consequence. As it is told, the council of seven (the last leaders of the Celestial Guard) had unlocked an understanding that has never before been known. Through this they were able to create what we call the Infinity Stones. 
+
+A minuscule part of reality was harnessed into three stones, space, time, and matter. Each stone is unique in appearance but all mesmerizing in appearance. The stones are said to bring immeasurable powers to the users. Not by their powers themselves, but through the understanding they bring. The stones were created as a milestone in understanding. Unfortunately, due to the war and the hastily actions of the council, the stones were hidden away. A powerful spell was placed on the stones such that they cannot be found save all together. If any stone is found apart from a counterpart, reality itself will bend around the stone, hence placing it back in hiding. The stones have a unique ability to act on their own each in a unique way. 
+
+\section{The Celestial Guard}
+
+The Celestial Guard is an ancient world-wide coalition of beings. The Guard was started by a group of elite warriors whom banded together to dethrone a corrupt kingdom. Seven warriors in total were among the original Guard. They were able to take down an entire kingdom from within and established a new council of seven where their goals and actions carried enough wait to gain the allegiance of the masses. After establishing a new government, they created what was known as the Celestial Guard, where knowledge and understandings were all but the property of the world. 
+
+Once established, the advancements of the era accelerated at a growing rate. This was before the time of wizards and sorcerers. However, through time, as secrets became unraveled, these classes became commonplace. Each generation, the council kept the same size of seven. Seven elite members based on their accomplishments. After a few hundred years, the council became involved with the discovery of the trinity of reality. The focus of the council's research became focused on this and this alone. Breakthroughs in this field lead to new spell discoveries and new ways to shape reality. Unfortunately the surface of knowledge was barely scratched, until one day.
+
+In one era, a generation of six master sorcerers, wizards, and warlocks existed as part of the council. The seventh member was a warrior named Kurdran. It was rare that the whole council would get together, and just as rare for only six of them to get together. There was a find by one of the members, however, where all of the members got together save Kurdran. Together, the six members explored a new concept that one of them had discovered. After only a few short days, a rift in space was created. A single point in space was expanded and shown to contain energy and time in the absence of space (at least, the space that had been known about). This was the void. The six members were not prepared for what followed and one of them was lost to sealing the rift. This rift had unforeseen consequences throughout all of space. Space became unstable and rifts began to appear at random.
+
+This incident created changes on a global scale, which negatively impacted the incentives of many. New possibilities in magic were being opened to many. The council was now down to six total. Somehow, through a chain of small events, news got out of the council and rumors were put together with the new changes that the rift brought. The council was blamed and civil war broke out. This was a war to drown out all other wars. The war went on for years, between new factions that had broken out within the Celestial guard. The six council members appeared to have all dissipated. In reality, they were hidden. With the opening of the void, plane shifting was now an option. The council members banded together as six hidden in reality on a new plane. There they were able to focus on their studies. They believed the only way to reverse what they had done with the initial rift is to understand the other elements of the trinity. 
+
+First, the council had to disrupt time itself, creating a reality of only space and matter. One mistake doing this and they would have been trapped in a single moment for eternity. Following this, matter had to be torn from reality to 
+create existence pertaining of only space and time. A pure vacuum in which anything matter would be instantly annihilated. With each advancement, reality itself became more unstable. It took much time, but after learning what they could about these new realities, they knew how to stop the chaos. This is when the Trinity Stones were created. The stones were containers for the tears in our reality. They each bear the power of the trinity to seal each individual tear in reality.
+
+Among returning from hiding, the world was shattered. While away, the void realm had consumed many, time had been warped, energy expanded out of balance. The trinity stones ended the chaos, but the damage was irreparable. The Celestial Guard was no longer a thing, for the members had all been scattered, destroyed, or changed. The stones were then sealed away, behind a powerful spell. The last act of the council before they disbanded. The members each went their own way in order aid and rebuild in different locations. Over time, the Celestial Guard was forgotten by most. The world grew into a new place as it is today and all of this only exists in mere legend.  
+
+\section{The Space Stone}
+
+
+
+\section{The Matter Stone}
+
+
+
+\section{The Time Stone}
+
+
+
+\chapter{The Campaign}
+
+
+
+\chapter{The Zones}
+
+\section{The Statu Peninsula}
+
+The Statu peninsula (commonly referred to as just Statu) is largly un-mapped area. As the name suggests, Statu is a peninsula that cannot be accessed from foot to the north. It contains very dense forestation and mountainous regions to the northern area that are not possible to travel through. The south is colonized by Aurushire where a small number of people settle. There are generally a small number of visitors to Statu, save those who are trading and working with the mines to the East of Aurushire. The best way to access Statu is through the Aurushire port.
+
+To the West of Aurushire, there is a large forest that is significantly less dense than the northern regions. To the north of this is very dense un-explored forest and mountainous regions. Directly north of Aurushire is The Pluvian Forest. This region is not very often visited. Strange occurances pertaining to what some call 'strange spatial events' occur in The Pluvian Forest which generally ward off visitors. To the southeast of Aurushire, there is a hostile tribe of river Naga which attack travelers and visitors on sight. Because of this, the area to the southeast and the forest regions to the East of Aurushire are unexplored. What is known of this region is that there is a large valley that leads from the Naga camps into the mountain/forest region.
+
+\section{Aurushire}
+
+Aurushire (also commonly referred to as Goldshire) is a small village located on the southern end of the Statu peninsula. Just East of Aurushire is a large mountain containing mine shafts used for gold mining. It is not well known, other by those who work in the mines, but strange things happen within these mines where mined gold will spontaneously be regrown after being removed from the mines. This phenomenon is where Aurushire (Goldshire) retreived its name from and is thought to be related to the spacial occurrences reported in The Pluvian Forest. 
+
+\section{Rem Silva}
+
+Rem Silvia is the name of the Forest that is located to the West of Aurushire. This forest, along with The Pluvian Forest often experiences strange spacial phenomenon. Unlike The Pluvian Forest, temporal phenomenon have also commonly been reported as occurring in this region. The occurrences of these random phenomenon do not appear marginally as often or as strong as in The Pluvian Forest which makes this region of particular interest to experienced hunters.
+
+\section{The Pluvian Forest}
+
+The Pluvian Forest is the name of the foest that is located to the North of Aurushire. The forest is known for strange spacial occurrences happening within it. Those who travel into The Pluvian Forest do not generally return or will return very confused or changed.
+
+\section{Spati Aethereu Thalamun}
+
+Spati Aethereu Thalamun (Space chamber) is the name of one of the Three Trinity Stone chambers. Specifically, This one is the space chamber. It was created by The Space Stone with remnants of the time and matter stones. Not much is known about this chamber. It is presumed to have been made when the Incantation to hide the Trinity stones was finished. The only way to reach Spati Aethereu Thalamun is to successfully travel through The Pluvian Forest. The reasons for the strange occurrences within The Pluvian Forest are believed to originate from this chamber.
+
+\section{Auru Convallis}
+
+This is the area to the East of Aurushire. This area is unexplored and all is known about it is that it is heavily dense with mountainous and forest terrain and the only known entrance path is through the southern shore which is blocked by a hostile Naga tribe.
+
+% End document
+\end{document}
