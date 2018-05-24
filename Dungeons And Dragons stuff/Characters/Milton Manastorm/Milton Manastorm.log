@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.11)  23 MAY 2018 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.11)  24 MAY 2018 11:22
 entering extended mode
-**./Template.tex
-(Template.tex
+**"./Milton Manastorm.tex"
+("Milton Manastorm.tex"
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
@@ -1604,8 +1604,8 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 (C:\Users\torodean\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
-(Template.aux)
-\openout1 = `Template.aux'.
+("Milton Manastorm.aux")
+\openout1 = `"Milton Manastorm.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
@@ -1630,8 +1630,7 @@ LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <10> not available
 \c@lstlisting=\count353
 \AtBeginShipoutBox=\box96
 Package hyperref Info: Link coloring OFF on input line 51.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
@@ -1643,9 +1642,9 @@ LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
 
-(Template.out) (Template.out)
+("Milton Manastorm.out") ("Milton Manastorm.out")
 \@outlinefile=\write7
-\openout7 = `Template.out'.
+\openout7 = `"Milton Manastorm.out"'.
 
 
 *geometry* driver: auto-detecting
@@ -1736,7 +1735,7 @@ LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <12> not available
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-<img/paper.jpg, id=63, 614.295pt x 794.97pt>
+<img/paper.jpg, id=50, 614.295pt x 794.97pt>
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
 Package pdftex.def Info: img/paper.jpg  used on input line 55.
@@ -1752,14 +1751,10 @@ LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <10> not available
 (Font)              Font shape `T1/pbk/l/sc' tried instead on input line 55.
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <24.88> not available
 (Font)              Font shape `T1/pbk/l/sc' tried instead on input line 55.
- (Template.toc
+ ("Milton Manastorm.toc"
 LaTeX Font Info:    Font shape `T1/pbk/bx/sc' in size <10> not available
 (Font)              Font shape `T1/pbk/b/sc' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/pbk/b/sc' in size <10> not available
-(Font)              Font shape `T1/pbk/db/sc' tried instead on input line 2.
-LaTeX Font Info:    Font shape `T1/pbk/bx/sc' in size <7> not available
-(Font)              Font shape `T1/pbk/b/sc' tried instead on input line 2.
-LaTeX Font Info:    Font shape `T1/pbk/b/sc' in size <7> not available
 (Font)              Font shape `T1/pbk/db/sc' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <10> not available
 (Font)              Font shape `T1/pbk/b/n' tried instead on input line 2.
@@ -1767,7 +1762,7 @@ LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <10> not available
 (Font)              Font shape `T1/pbk/db/n' tried instead on input line 2.
 )
 \tf@toc=\write8
-\openout8 = `Template.toc'.
+\openout8 = `"Milton Manastorm.toc"'.
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
@@ -1781,7 +1776,7 @@ File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
 Package pdftex.def Info: img/paper.jpg  used on input line 55.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-<img/footerscroll.pdf, id=76, 596.2275pt x 42.15584pt>
+<img/footerscroll.pdf, id=59, 596.2275pt x 42.15584pt>
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
 Package pdftex.def Info: img/footerscroll.pdf  used on input line 55.
@@ -1791,237 +1786,72 @@ Package pdftex.def Info: img/footerscroll.pdf  used on input line 55.
 
 
  <./img/footerscroll.pdf>]
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <20.74> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 60.
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <17.28> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 62.
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 62.
-
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 66.
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-Missing character: There is no ; in font nullfont!
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <14.4> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 69.
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <12> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 70.
-LaTeX Font Info:    Try loading font information for T1+fosj on input line 73.
-
-(C:\Users\torodean\AppData\Roaming\MiKTeX\2.9\tex\latex\opensans\t1fosj.fd
-File: t1fosj.fd 2011/11/11 Fontinst v1.927 font definitions for T1/fosj.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `fosj' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/fosj/bx/n' in size <10> not available
-(Font)              Font shape `T1/fosj/b/n' tried instead on input line 73.
-LaTeX Font Info:    Font shape `T1/fosj/bx/sc' in size <10> not available
-(Font)              Font shape `T1/fosj/b/sc' tried instead on input line 73.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 73.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `pcr' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <10> not available
-(Font)              Font shape `T1/pbk/l/it' tried instead on input line 77.
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
- 
- []
-
-LaTeX Font Info:    Font shape `T1/pbk/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/pbk/b/sc' tried instead on input line 99.
-LaTeX Font Info:    Font shape `T1/pbk/b/sc' in size <14.4> not available
-(Font)              Font shape `T1/pbk/db/sc' tried instead on input line 99.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 101.
-( FP-EVAL ( FP-UPN ( FP-ADD ) ( FP-DIV ) ( FP-MUL ) ) ) ( FP-ADD ) ( FP-TRUNC
-) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
-( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
-( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP )
-) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL
-( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV )
-) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL
-( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC )
-( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? )
-( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) )
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 122.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
-[]\T1/lmss/bx/sl/10 Monster-super-powers. \T1/lmss/m/n/10 (+20) This Mon-ster h
-as some
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
-[]\T1/lmss/bx/sl/10 Generate text. \T1/lmss/m/n/10 (+20) This one can gen-er-at
-e tremen-dous
- []
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 143.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 143.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 143.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 143.
-(pdftex.def)             Requested size: 614.33043pt x 43.00287pt.
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <7> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 143.
-[3
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
-[]|\T1/lmss/m/n/10 (+20) Controls [][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
-[]|\T1/lmss/m/n/10 (+20) Controls [][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
-[]|\T1/lmss/m/n/10 (+20) Controls [][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
-[]|\T1/lmss/m/n/10 (+20) Controls back-ground of even
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--162
- 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--177
-
- []
-
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <5> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 182.
-LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 194.
-
-Overfull \hbox (14.85507pt too wide) in paragraph at lines 209--210
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--234
- 
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 234.
+Package pdftex.def Info: img/paper.jpg  used on input line 74.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 234.
+Package pdftex.def Info: img/paper.jpg  used on input line 74.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 234.
+Package pdftex.def Info: img/paper.jpg  used on input line 74.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 234.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 74.
 (pdftex.def)             Requested size: 614.33043pt x 43.00287pt.
- [4]
-Overfull \hbox (14.85507pt too wide) in paragraph at lines 246--247
-[][][][][][][][][][][][][][][][][] 
- []
+ [3
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--260
- 
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 262.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 262.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 262.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 262.
-(pdftex.def)             Requested size: 614.33043pt x 43.00287pt.
-[5
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
- (Template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
-Package rerunfilecheck Info: File `Template.out' has not changed.
-(rerunfilecheck)             Checksum: A0E3DF90DE9F2440D33AABE4446362E3;342.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 79.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 79.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 79.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 79.
+(pdftex.def)             Requested size: 614.33043pt x 43.00287pt.
+
+[4
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+ ("Milton Manastorm.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package rerunfilecheck Info: File `"Milton Manastorm".out' has not changed.
+(rerunfilecheck)             Checksum: 14A605C2EFFFD9F4371B282B068267F0;110.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 38389 strings out of 493305
- 746965 string characters out of 3138865
- 1042308 words of memory out of 3000000
- 41197 multiletter control sequences out of 15000+200000
- 621923 words of font info for 134 fonts, out of 3000000 for 9000
+ 36490 strings out of 493305
+ 720684 string characters out of 3138865
+ 1024354 words of memory out of 3000000
+ 39391 multiletter control sequences out of 15000+200000
+ 549191 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,17n,122p,10492b,2479s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/torodean/A
-ppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/opensans/opensans-04.enc}{C:/Users/to
-rodean/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/opensans/opensans-01.enc}{C:/
-Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/torodean/AppDat
-a/Roaming/MiKTeX/2.9/fonts/type1/public/opensans/OpenSans-Bold.pfb><C:/Users/to
-rodean/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/opensans/OpenSans-Regular.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
-m/lmssbo10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/urw/bookman/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/b
-ookman/ubkli8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Template.pdf (5 pages, 1869069 bytes).
+ 70i,17n,122p,10502b,858s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/urw/bookman/ubkl8a.pfb>
+Output written on "Milton Manastorm.pdf" (4 pages, 1661943 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 28887 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 89 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 10423 words of extra memory for PDF output out of 12000 (max. 10000000)
 
