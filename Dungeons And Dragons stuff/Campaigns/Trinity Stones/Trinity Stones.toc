@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\select@language {english}
 \contentsline {chapter}{Chapter 1: The Trinity Stones}{3}{chapter*.2}
 \contentsline {section}{Creation of a Trinity}{3}{section*.3}
 \contentsline {section}{Creation of the Stones}{3}{section*.3}
@@ -10,7 +10,13 @@
 \contentsline {chapter}{The Zones}{6}{chapter*.5}
 \contentsline {section}{The Statu Peninsula}{6}{section*.6}
 \contentsline {section}{Aurushire}{6}{section*.6}
-\contentsline {section}{Rem Silva}{6}{section*.6}
-\contentsline {section}{The Pluvian Forest}{6}{section*.6}
-\contentsline {section}{Spati Aethereu Thalamun}{6}{section*.6}
-\contentsline {section}{Auru Convallis}{6}{section*.6}
+\contentsline {subsection}{NPC's}{6}{section*.7}
+\contentsline {section}{Rem Silva}{6}{section*.7}
+\contentsline {subsection}{NPC's/Modified Creatures}{7}{section*.8}
+\contentsline {section}{The Pluvian Forest}{11}{Item.4}
+\contentsline {subsection}{NPC's}{13}{section*.9}
+\contentsline {section}{Spati Aethereu Thalamun}{13}{section*.9}
+\contentsline {section}{Auru Convallis}{13}{section*.9}
+\contentsline {chapter}{Spells}{14}{chapter*.10}
+\contentsline {chapter}{Maps}{15}{chapter*.11}
+\contentsline {section}{Aurushire}{15}{section*.12}
