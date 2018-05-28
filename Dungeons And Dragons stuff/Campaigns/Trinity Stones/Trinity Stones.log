@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  27 MAY 2018 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  27 MAY 2018 22:03
 entering extended mode
 **"./Trinity Stones.tex"
 ("Trinity Stones.tex"
@@ -1733,7 +1733,7 @@ LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <12> not available
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-<img/paper.jpg, id=117, 614.295pt x 794.97pt>
+<img/paper.jpg, id=119, 614.295pt x 794.97pt>
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
 Package pdftex.def Info: img/paper.jpg  used on input line 55. on input line 55
@@ -1782,7 +1782,7 @@ Package pdftex.def Info: img/paper.jpg  used on input line 55. on input line 55
 .
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
 e 55.
-<img/footerscroll.pdf, id=145, pagebox=cropbox, 596.2275pt x 42.15584pt>
+<img/footerscroll.pdf, id=148, pagebox=cropbox, 596.2275pt x 42.15584pt>
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
 Package pdftex.def Info: img/footerscroll.pdf  used on input line 55. on input 
@@ -1842,53 +1842,53 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 105. on input line 1
-05.
+Package pdftex.def Info: img/paper.jpg  used on input line 106. on input line 1
+06.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 105.
+e 106.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 105. on input line 1
-05.
+Package pdftex.def Info: img/paper.jpg  used on input line 106. on input line 1
+06.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 105.
+e 106.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 105. on input line 1
-05.
+Package pdftex.def Info: img/paper.jpg  used on input line 106. on input line 1
+06.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 105.
+e 106.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 105. on input
- line 105.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 106. on input
+ line 106.
 Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
- 105.
+ 106.
  [4]
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 109. on input line 1
-09.
+Package pdftex.def Info: img/paper.jpg  used on input line 111. on input line 1
+11.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 109.
+e 111.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 109. on input line 1
-09.
+Package pdftex.def Info: img/paper.jpg  used on input line 111. on input line 1
+11.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 109.
+e 111.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 109. on input line 1
-09.
+Package pdftex.def Info: img/paper.jpg  used on input line 111. on input line 1
+11.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 109.
+e 111.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 109. on input
- line 109.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 111. on input
+ line 111.
 Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
- 109.
+ 111.
 
 [5
 
@@ -1896,20 +1896,20 @@ Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 111.
+(hyperref)                be the same. Added a new anchor on input line 113.
 
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <14.4> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 121.
+(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 123.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 121.
+(hyperref)                be the same. Added a new anchor on input line 123.
 
 LaTeX Font Info:    Font shape `T1/pbk/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/pbk/b/sc' tried instead on input line 125.
+(Font)              Font shape `T1/pbk/b/sc' tried instead on input line 127.
 LaTeX Font Info:    Font shape `T1/pbk/b/sc' in size <14.4> not available
-(Font)              Font shape `T1/pbk/db/sc' tried instead on input line 125.
+(Font)              Font shape `T1/pbk/db/sc' tried instead on input line 127.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 127.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 129.
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
 ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN
@@ -1919,26 +1919,26 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
 ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-TRUNC ) ( FP-CLIP ) ) )
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
 []\T1/lmss/m/n/10 (+20) Common, Elvish, Dwarvish, Gnomish,
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 152.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 154.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
 []\T1/lmss/bx/sl/10 Mystical Senses. \T1/lmss/m/n/10 (+20) If a tar-get tries t
 o de-ceive you, it
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
 []\T1/lmss/bx/sl/10 Water sight. \T1/lmss/m/n/10 (+20) You can see clearly up t
 o two miles over
  []
 
-LaTeX Font Info:    Try loading font information for T1+fosj on input line 158.
+LaTeX Font Info:    Try loading font information for T1+fosj on input line 160.
 
 (C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\opensans\t1fosj.fd
 File: t1fosj.fd 2011/11/11 Fontinst v1.927 font definitions for T1/fosj.
@@ -1948,87 +1948,90 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 []\T1/lmss/bx/sl/10 Bladesinger: Ex-tra At-tack. \T1/lmss/m/n/10 (+20) You can 
 at-tack twice on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 []\T1/lmss/bx/sl/10 Hold Mon-ster. \T1/lmss/m/n/10 (+20) A crea-ture you can se
 e within 90 feet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 \T1/lmss/m/n/10 (+20) for 1 minute. Tar-get can make a wis-dom sav-ing throw
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 []\T1/lmss/bx/sl/10 Magic Jar Mas-ter. \T1/lmss/m/n/10 (+20) Al-lows Ar-ryn to 
 use Magic Jar on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 []\T1/lmss/m/n/10 (+20) Arryn is the first NPC most en-counter when en-ter-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 \T1/lmss/m/n/10 (+20) Au-rushire from sea. He is the watcher of the ports and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 \T1/lmss/m/n/10 (+20) lives on a small farm right at docks where all sea traf-f
 ic
  []
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 178. on input line 1
-78.
+Package pdftex.def Info: img/paper.jpg  used on input line 180. on input line 1
+80.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 178.
+e 180.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 178. on input line 1
-78.
+Package pdftex.def Info: img/paper.jpg  used on input line 180. on input line 1
+80.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 178.
+e 180.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 178. on input line 1
-78.
+Package pdftex.def Info: img/paper.jpg  used on input line 180. on input line 1
+80.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 178.
+e 180.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 178. on input
- line 178.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 180. on input
+ line 180.
 Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
- 178.
+ 180.
 [6
 
 ]
 LaTeX Font Info:    Font shape `T1/fosj/bx/n' in size <10> not available
-(Font)              Font shape `T1/fosj/b/n' tried instead on input line 183.
+(Font)              Font shape `T1/fosj/b/n' tried instead on input line 185.
 LaTeX Font Info:    Font shape `T1/fosj/bx/sc' in size <10> not available
-(Font)              Font shape `T1/fosj/b/sc' tried instead on input line 183.
+(Font)              Font shape `T1/fosj/b/sc' tried instead on input line 185.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 207.
+(hyperref)                be the same. Added a new anchor on input line 209.
 
-<img/RexxarArt.jpg, id=177, 614.295pt x 582.175pt>
+<img/RexxarArt.jpg, id=180, 614.295pt x 582.175pt>
 File: img/RexxarArt.jpg Graphic file (type jpg)
 <use img/RexxarArt.jpg>
-Package pdftex.def Info: img/RexxarArt.jpg  used on input line 210. on input li
-ne 210.
+Package pdftex.def Info: img/RexxarArt.jpg  used on input line 212. on input li
+ne 212.
 Package pdftex.def Info: Requested size: 237.14749pt x 224.74657pt on input lin
-e 210.
+e 212.
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
 ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN
@@ -2038,146 +2041,146 @@ e 210.
 ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-TRUNC ) ( FP-CLIP ) ) )
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
 []\T1/lmss/bx/sl/10 Legendary Re-sis-tance (3/day). \T1/lmss/m/n/10 (+20) If Re
 xxar fails a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
 []\T1/lmss/bx/sl/10 Multiattack. \T1/lmss/m/n/10 (+20) Rexxar can make three at
 -tacks, one with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--254
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
 []\T1/lmss/bx/sl/10 Axe knock. \T1/lmss/m/n/10 (+20) Melee Weapon At-tack: +15 
 to hit, reach
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--254
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
 \T1/lmss/m/n/10 (+20) 10ft., one tar-get. Hit: 15 (2d6 + 8) blud-geon-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--254
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
 \T1/lmss/m/n/10 (+20) dam-age. The tar-get must suc-ceed a DC 15 strength
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
 []\T1/lmss/bx/sl/10 Axe Slash. \T1/lmss/m/n/10 (+20) Melee Weapon At-tack: +15 
 to hit, reach
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--260
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
 []\T1/lmss/bx/sl/10 Axe Throw. \T1/lmss/m/n/10 (+20) Ranged Weapon At-tack: +15
  to hit,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--260
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
 \T1/lmss/m/n/10 (+20) reach 35 ft., one tar-get. Hit: 19 (2d10 + 8) pierc-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
 []\T1/lmss/bx/sl/10 Legendary Throw. \T1/lmss/m/n/10 (+20) Rexxar Drops one of 
 his large
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
 \T1/lmss/m/n/10 (+20) Axes and hurls the other through the air with all his
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
 \T1/lmss/m/n/10 (+20) strength. This at-tack con-sumes all three of Rexxars
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
 \T1/lmss/m/n/10 (+20) at-tacks. Ranged Weapon At-tack: +15 to hit, reach
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
 \T1/lmss/m/n/10 (+20) 45 ft., one tar-get. Hit: 60 (10d10+10) dam-age. This
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
 \T1/lmss/m/n/10 (+20) at-tack will deal triple dam-age to a tar-get that does n
 ot
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
 \T1/lmss/m/n/10 (+20) see it com-ing. Rexxar also gains 1 level of ex-haus-tion
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--268
+Underfull \hbox (badness 10000) in paragraph at lines 267--270
 \T1/lmss/bx/sl/10 Will.. \T1/lmss/m/n/10 (+20) Rexxar Can use his sheer strengt
 h to free him-self
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 []\T1/lmss/m/n/10 (+13) Rexxar has lived in Rem Silva his en-tire life. He gets
  his
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 \T1/lmss/m/n/10 (+20) strength from when he was a boy. Due to the ef-fects of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 \T1/lmss/m/n/10 (+20) the en-ergy stone on a foun-tain he drank out of, he is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 \T1/lmss/m/n/10 (+20) blessed with ex-traor-di-nary strength. Along with his li
 fe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 \T1/lmss/m/n/10 (+20) of suc-cess-ful hunts, Rexxar has leg-endary strength and
 
  []
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 271. on input line 2
-71.
+Package pdftex.def Info: img/paper.jpg  used on input line 273. on input line 2
+73.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 271.
+e 273.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 271. on input line 2
-71.
+Package pdftex.def Info: img/paper.jpg  used on input line 273. on input line 2
+73.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 271.
+e 273.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 271. on input line 2
-71.
+Package pdftex.def Info: img/paper.jpg  used on input line 273. on input line 2
+73.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 271.
+e 273.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 271. on input
- line 271.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 273. on input
+ line 273.
 Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
- 271.
+ 273.
 [7 <./img/RexxarArt.jpg>] ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
 ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN
 ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC )
@@ -2188,34 +2191,34 @@ Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB )
 ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS
 ) ( FP-CLIP ) ) )
-Underfull \hbox (badness 10000) in paragraph at lines 302--304
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
 []\T1/lmss/bx/sl/10 Keen Smell. \T1/lmss/m/n/10 (+20) The bear has ad-van-tage 
 on Wis-dom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
+Underfull \hbox (badness 10000) in paragraph at lines 315--317
 []\T1/lmss/bx/sl/10 Claws. \T1/lmss/m/n/10 (+20) Melee Weapon At-tack: +7 to hi
 t, reach 5 ft .,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 []\T1/lmss/m/n/10 (+20) Bella was saved as a cub by Rexxar. Her par-ents were
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 \T1/lmss/m/n/10 (+20) at-tacked by an an-cient di-nosaur that ap-peared due to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 \T1/lmss/m/n/10 (+20) the space stone. Rexxar raised Bella and trained her
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 \T1/lmss/m/n/10 (+20) to fol-low com-mands and she has stuck by his side ever
  []
 
@@ -2229,65 +2232,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 317--318
 ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
 ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP )
 ) )
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
+Underfull \hbox (badness 10000) in paragraph at lines 354--356
 []\T1/lmss/bx/sl/10 Avoidance. \T1/lmss/m/n/10 (+20) If the dis-placer beast is
  sub-jected to an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
+Underfull \hbox (badness 10000) in paragraph at lines 354--356
 \T1/lmss/m/n/10 (+20) half dam-age, it in-stead takes no dam-age if it suc-ceed
 s
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--357
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
 []\T1/lmss/bx/sl/10 Displacement. \T1/lmss/m/n/10 (+20) The dis-placer projects
  a mag-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--357
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
 \T1/lmss/m/n/10 (+20) il-lu-sion that makes it ap-pear to be stand-ing near its
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--357
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
 \T1/lmss/m/n/10 (+20) ac-tual lo-ca-tion, caus-ing at-tack tolls against it to 
 have
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--357
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
 \T1/lmss/m/n/10 (+20) dis-ad-van-tage. Due to the space stone ef-fect on this
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
+Underfull \hbox (badness 10000) in paragraph at lines 361--363
 []\T1/lmss/bx/sl/10 Multiattack. \T1/lmss/m/n/10 (+20) The dis-placer can make 
 two at-tacks with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--364
+Underfull \hbox (badness 10000) in paragraph at lines 364--366
 []\T1/lmss/bx/sl/10 Tentacle. \T1/lmss/m/n/10 (+20) Melee Weapon At-tack: +6 to
  hit, reach 10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--364
+Underfull \hbox (badness 10000) in paragraph at lines 364--366
 \T1/lmss/m/n/10 (+20) ft., one tar-get. Hit: 7 (1d6 +4) blud-geon-ing dam-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 []\T1/lmss/m/n/10 (+20) These crea-tures roam Rem Silva, but due to the ef-fect
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 \T1/lmss/m/n/10 (+20) of the space stones, they can fade in and out of re-al-it
 y
  []
@@ -2302,192 +2305,188 @@ y
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP ) ) )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP ) ) )
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 []\T1/lmss/bx/sl/10 Petrifying gaze. \T1/lmss/m/n/10 (+20) If a crea-ture start
 s its turn within 30
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 \T1/lmss/m/n/10 (+20) ft and they can see each other, the basilisk can force
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 \T1/lmss/m/n/10 (+20) a DC12 con-sti-tu-tion sav-ing throw (If the basilisk isn
 't
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 \T1/lmss/m/n/10 (+20) in-ca-pac-i-tated). One a fail, the grea-ture be-gins to 
 turn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 \T1/lmss/m/n/10 (+20) to stone and is re-strained. It must re-peat the sav-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 \T1/lmss/m/n/10 (+20) throw at the end of its next turn. On a suc-cess, the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 \T1/lmss/m/n/10 (+20) ef-fect ends. On a fail-ure, the crea-ture is pet-ri-fied
  un-til
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 []\T1/lmss/m/n/10 (+20) A crea-ture not sur-prised can avert its eyes to avoid 
 the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 \T1/lmss/m/n/10 (+20) see the basilisk un-til the start of its next turn, when 
 it
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
 []\T1/lmss/m/n/10 (+20) If the basilisk sees it's re-flec-tion in bright light,
  it
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
 []\T1/lmss/bx/sl/10 Irregular Stone Skin. \T1/lmss/m/n/10 (+20) As a byprod-uct
  of the en-ergy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
 \T1/lmss/m/n/10 (+20) stones ef-fect on the basilisk, en-e-mies must roll at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
 \T1/lmss/m/n/10 (+20) dis-ad-van-tage if the basilisk suc-ceeds a DC 12 strengt
 h
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
 \T1/lmss/m/n/10 (+20) save. Upon a failed at-tack agaisnt the basilisk, its ski
 n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--410
+Underfull \hbox (badness 10000) in paragraph at lines 410--412
 \T1/lmss/m/n/10 (+20) tar-get. Hit 10 (2d6+3) pierc-ing dam-age plus 7(2d6)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 []\T1/lmss/m/n/10 (+20) These crea-tures roam around Rem Silva. Due to the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 \T1/lmss/m/n/10 (+20) ef-fect of the en-ergy stone, these crea-tures can be sma
 ll
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 413. on input line 4
-13.
+Package pdftex.def Info: img/paper.jpg  used on input line 415. on input line 4
+15.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 413.
+e 415.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 413. on input line 4
-13.
+Package pdftex.def Info: img/paper.jpg  used on input line 415. on input line 4
+15.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 413.
+e 415.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 413. on input line 4
-13.
+Package pdftex.def Info: img/paper.jpg  used on input line 415. on input line 4
+15.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 413.
+e 415.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 413. on input
- line 413.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 415. on input
+ line 415.
 Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
- 413.
- [8]
-( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
-( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
-( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN
-( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC )
+ 415.
+[8] ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL
+( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV )
+) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL
+( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC )
 ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP ) ) )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
 ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP )
 ) )
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
+Underfull \hbox (badness 10000) in paragraph at lines 449--451
 []\T1/lmss/bx/sl/10 Swamp Cam-ou-flage. \T1/lmss/m/n/10 (+20) The bul-ly-wug ha
 s ad-van-tage
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
+Underfull \hbox (badness 10000) in paragraph at lines 449--451
 \T1/lmss/m/n/10 (+20) on Dex-ter-ity (stealth) checks made to hide in swampy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--452
+Underfull \hbox (badness 10000) in paragraph at lines 452--454
 []\T1/lmss/bx/sl/10 Standing Leap. \T1/lmss/m/n/10 (+20) The bul-ly-wug's long 
 jump is up to 20
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--457
+Underfull \hbox (badness 10000) in paragraph at lines 457--459
 []\T1/lmss/bx/sl/10 Multiattack. \T1/lmss/m/n/10 (+20) The bul-ly-wig makes two
  melee at-tacks:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--460
+Underfull \hbox (badness 10000) in paragraph at lines 460--462
 []\T1/lmss/bx/sl/10 Bite. \T1/lmss/m/n/10 (+20) Melee weapon at-tack: +3 to hit
 , reach 5 ft., one
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--463
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
 []\T1/lmss/bx/sl/10 Spear. \T1/lmss/m/n/10 (+20) Melee or ranged weapon at-tack
 : +3 to hit,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--463
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
 \T1/lmss/m/n/10 (+20) reach 5 ft. or range 20/60., one tar-get. Hit 4(1d6 +1)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--463
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
 \T1/lmss/m/n/10 (+15) pierc-ing dam-age or 5(1d8) pierc-ing dam-age if used wit
 h
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
 []\T1/lmss/m/n/10 (+20) These crea-tures in-habit the river run-ning through th
 e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
 \T1/lmss/m/n/10 (+15) cen-ter of Rem Silva. They have a camp at the south-ern
  []
 
@@ -2501,51 +2500,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 465--466
 ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
 ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP )
 ) )
-Underfull \hbox (badness 10000) in paragraph at lines 497--499
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
 []\T1/lmss/bx/sl/10 Tail. \T1/lmss/m/n/10 (+20) Melee Weapon At-tack: +7 to hit
 , reach 10 ft.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--499
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
 \T1/lmss/m/n/10 (+20) one tar-get. Hit: 18 (4d6 +4) blud-geon-ing dam-age.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--499
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
 \T1/lmss/m/n/10 (+20) If the tar-get is a crea-ture, it must suc-ceed a DC14
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
 []\T1/lmss/m/n/10 (+3) Because od the time stone, pre-his-toric crea-tures like
  this
  []
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 502. on input line 5
-02.
+Package pdftex.def Info: img/paper.jpg  used on input line 504. on input line 5
+04.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 502.
+e 504.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 502. on input line 5
-02.
+Package pdftex.def Info: img/paper.jpg  used on input line 504. on input line 5
+04.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 502.
+e 504.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 502. on input line 5
-02.
+Package pdftex.def Info: img/paper.jpg  used on input line 504. on input line 5
+04.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 502.
+e 504.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 502. on input
- line 502.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 504. on input
+ line 504.
 Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
- 502.
+ 504.
 [9] ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL
 ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV )
 ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL
@@ -2555,98 +2554,98 @@ Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-TRUNC ) ( FP-CLIP ) ) )
-Underfull \hbox (badness 10000) in paragraph at lines 535--537
+Underfull \hbox (badness 10000) in paragraph at lines 537--539
 []\T1/lmss/bx/sl/10 Fey An-ces-try. \T1/lmss/m/n/10 (+20) The elf has ad-van-ta
 ge on sav-ing throws
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--537
+Underfull \hbox (badness 10000) in paragraph at lines 537--539
 \T1/lmss/m/n/10 (+20) against be-ing charmed, and magic can't put the elf to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--541
+Underfull \hbox (badness 10000) in paragraph at lines 540--543
 []\T1/lmss/bx/sl/10 Innate Spell-cast-ing. \T1/lmss/m/n/10 (+20) The elfs spell
 -cast-ing abil-ity is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--541
+Underfull \hbox (badness 10000) in paragraph at lines 540--543
 \T1/lmss/m/n/10 (+20) Charisma (spell save DC 12). It can in-nately cast the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--547
+Underfull \hbox (badness 10000) in paragraph at lines 547--549
 []\T1/lmss/bx/sl/10 Sunlight Sen-si-tiv-ity. \T1/lmss/m/n/10 (+20) While in sun
 -light, the elf has
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--547
+Underfull \hbox (badness 10000) in paragraph at lines 547--549
 \T1/lmss/m/n/10 (+20) dis-ad-van-tage on at-tack rolls, as well as on Wis-dom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--555
+Underfull \hbox (badness 10000) in paragraph at lines 555--557
 []\T1/lmss/bx/sl/10 Shortsword. \T1/lmss/m/n/10 (+20) Melee Weapon At-tack: +7 
 to hit, reach
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--558
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
 []\T1/lmss/bx/sl/10 Hand Cross-bow. \T1/lmss/m/n/10 (+20) Ranged Weapon At-tack
 : +7 to hit,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--558
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
 \T1/lmss/m/n/10 (+20) range 30/120 ft ., one tar-get. Hit: 7 (ld6 + 4) pierc-in
 g
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--558
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
 \T1/lmss/m/n/10 (+20) dam-age, and the tar-get must suc-ceed on a DC 13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--558
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
 \T1/lmss/m/n/10 (+20) Con-sti-tu-tion sav-ing throw or be poi-soned for 1 hour.
  If
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--558
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
 \T1/lmss/m/n/10 (+20) the sav-ing throw fails by 5 or more, the tar-get is also
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--558
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
 \T1/lmss/m/n/10 (+20) un-con-scious while poi-soned in this way. The tar-get
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--558
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
 \T1/lmss/m/n/10 (+20) wakes up if it takes dam-age or if an-other crea-ture tak
 es
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--563
+Underfull \hbox (badness 10000) in paragraph at lines 562--565
 []\T1/lmss/bx/sl/10 Parry. \T1/lmss/m/n/10 (+20) the elf adds 3 to its AC again
 st one melee
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--563
+Underfull \hbox (badness 10000) in paragraph at lines 562--565
 \T1/lmss/m/n/10 (+20) at-tack that would hit it. To do so, the elf must see the
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--566
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 []\T1/lmss/m/n/10 (+20) The night elves roam Rem Silva hid-ing in plain sight.
  []
 
@@ -2659,124 +2658,124 @@ Underfull \hbox (badness 10000) in paragraph at lines 565--566
 ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-TRUNC ) ( FP-CLIP ) ) )
-Underfull \hbox (badness 10000) in paragraph at lines 599--601
+Underfull \hbox (badness 10000) in paragraph at lines 601--603
 []\T1/lmss/bx/sl/10 Fey An-ces-try. \T1/lmss/m/n/10 (+20) The elf has ad-van-ta
 ge on sav-ing throws
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--601
+Underfull \hbox (badness 10000) in paragraph at lines 601--603
 \T1/lmss/m/n/10 (+20) against be-ing charmed, and magic can't put the elf to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--605
+Underfull \hbox (badness 10000) in paragraph at lines 604--607
 []\T1/lmss/bx/sl/10 Innate Spell-cast-ing. \T1/lmss/m/n/10 (+20) The elfs spell
 -cast-ing abil-ity is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--605
+Underfull \hbox (badness 10000) in paragraph at lines 604--607
 \T1/lmss/m/n/10 (+20) Charisma (spell save DC 12). It can in-nately cast the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--611
+Underfull \hbox (badness 10000) in paragraph at lines 611--613
 []\T1/lmss/bx/sl/10 Sunlight Sen-si-tiv-ity. \T1/lmss/m/n/10 (+20) While in sun
 -light, the elf has
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--611
+Underfull \hbox (badness 10000) in paragraph at lines 611--613
 \T1/lmss/m/n/10 (+20) dis-ad-van-tage on at-tack rolls, as well as on Wis-dom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--619
+Underfull \hbox (badness 10000) in paragraph at lines 619--621
 []\T1/lmss/bx/sl/10 Shortsword. \T1/lmss/m/n/10 (+20) Melee Weapon At-tack: +7 
 to hit, reach
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--622
+Underfull \hbox (badness 10000) in paragraph at lines 622--624
 []\T1/lmss/bx/sl/10 Longbow. \T1/lmss/m/n/10 (+20) Ranged Weapon At-tack: +7 to
  hit, range
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--622
+Underfull \hbox (badness 10000) in paragraph at lines 622--624
 \T1/lmss/m/n/10 (+20) 30/120 ft ., one tar-get. Hit: 10 (2d6 + 4) pierc-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--622
+Underfull \hbox (badness 10000) in paragraph at lines 622--624
 \T1/lmss/m/n/10 (+20) dam-age, and the tar-get must suc-ceed on a DC 13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--622
+Underfull \hbox (badness 10000) in paragraph at lines 622--624
 \T1/lmss/m/n/10 (+20) Con-sti-tu-tion sav-ing throw or be poi-soned for 1 hour.
  If
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--622
+Underfull \hbox (badness 10000) in paragraph at lines 622--624
 \T1/lmss/m/n/10 (+20) the sav-ing throw fails by 5 or more, the tar-get is also
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--622
+Underfull \hbox (badness 10000) in paragraph at lines 622--624
 \T1/lmss/m/n/10 (+20) un-con-scious while poi-soned in this way. The tar-get
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--622
+Underfull \hbox (badness 10000) in paragraph at lines 622--624
 \T1/lmss/m/n/10 (+20) wakes up if it takes dam-age or if an-other crea-ture tak
 es
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 624--627
+Underfull \hbox (badness 10000) in paragraph at lines 626--629
 []\T1/lmss/bx/sl/10 Skillful Avoid-ance. \T1/lmss/m/n/10 (+20) the elf adds 3 t
 o its AC against
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 624--627
+Underfull \hbox (badness 10000) in paragraph at lines 626--629
 \T1/lmss/m/n/10 (+20) one at-tack that would hit it. To do so, the elf must see
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 629--630
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 []\T1/lmss/m/n/10 (+20) The night elves roam Rem Silva hid-ing in plain sight.
  []
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 630. on input line 6
-30.
+Package pdftex.def Info: img/paper.jpg  used on input line 632. on input line 6
+32.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 630.
+e 632.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 630. on input line 6
-30.
+Package pdftex.def Info: img/paper.jpg  used on input line 632. on input line 6
+32.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 630.
+e 632.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 630. on input line 6
-30.
+Package pdftex.def Info: img/paper.jpg  used on input line 632. on input line 6
+32.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 630.
+e 632.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 630. on input
- line 630.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 632. on input
+ line 632.
 Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
- 630.
+ 632.
 [10] ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL
 ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV )
 ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS )
@@ -2789,7 +2788,7 @@ Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP ) ) )
 
 Package dnd Warning: redefined hline is deprecated and will be removed in versi
-on 0.7. Use dndline for stat block rules. on input line 679.
+on 0.7. Use dndline for stat block rules. on input line 681.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2797,39 +2796,39 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Package dnd Warning: redefined hline is deprecated and will be removed in versi
-on 0.7. Use dndline for stat block rules. on input line 698.
+on 0.7. Use dndline for stat block rules. on input line 700.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 713. on input line 7
-13.
+Package pdftex.def Info: img/paper.jpg  used on input line 715. on input line 7
+15.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 713.
+e 715.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 713. on input line 7
-13.
+Package pdftex.def Info: img/paper.jpg  used on input line 715. on input line 7
+15.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 713.
+e 715.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 713. on input line 7
-13.
+Package pdftex.def Info: img/paper.jpg  used on input line 715. on input line 7
+15.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 713.
+e 715.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 713. on input
- line 713.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 715. on input
+ line 715.
 Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
- 713.
+ 715.
  [11]
 
 Package dnd Warning: redefined hline is deprecated and will be removed in versi
-on 0.7. Use dndline for stat block rules. on input line 717.
+on 0.7. Use dndline for stat block rules. on input line 719.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2837,65 +2836,40 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Package dnd Warning: redefined hline is deprecated and will be removed in versi
-on 0.7. Use dndline for stat block rules. on input line 738.
+on 0.7. Use dndline for stat block rules. on input line 740.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 750. on input line 7
-50.
+Package pdftex.def Info: img/paper.jpg  used on input line 752. on input line 7
+52.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 750.
+e 752.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 750. on input line 7
-50.
+Package pdftex.def Info: img/paper.jpg  used on input line 752. on input line 7
+52.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 750.
+e 752.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 750. on input line 7
-50.
+Package pdftex.def Info: img/paper.jpg  used on input line 752. on input line 7
+52.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 750.
+e 752.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 750. on input
- line 750.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 752. on input
+ line 752.
 Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
- 750.
+ 752.
  [12]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 763.
+(hyperref)                be the same. Added a new anchor on input line 765.
 
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 778. on input line 7
-78.
-Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 778.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 778. on input line 7
-78.
-Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 778.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 778. on input line 7
-78.
-Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 778.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 778. on input
- line 778.
-Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
- 778.
-[13]
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
 Package pdftex.def Info: img/paper.jpg  used on input line 784. on input line 7
@@ -2920,73 +2894,133 @@ Package pdftex.def Info: img/footerscroll.pdf  used on input line 784. on input
  line 784.
 Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
  784.
- [14
-
-
-]
+[13]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 786.
 
-<img/Aurushire.png, id=218, 893.58844pt x 650.43pt>
+<img/Aurushire.png, id=217, 893.58844pt x 650.43pt>
 File: img/Aurushire.png Graphic file (type png)
 <use img/Aurushire.png>
 Package pdftex.def Info: img/Aurushire.png  used on input line 788. on input li
 ne 788.
 Package pdftex.def Info: Requested size: 499.295pt x 363.4344pt on input line 7
 88.
+<img/RemSilva.png, id=218, 642.90187pt x 648.92438pt>
+File: img/RemSilva.png Graphic file (type png)
+<use img/RemSilva.png>
+Package pdftex.def Info: img/RemSilva.png  used on input line 795. on input lin
+e 795.
+Package pdftex.def Info: Requested size: 499.295pt x 503.9905pt on input line 7
+95.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 794. on input line 7
-94.
+Package pdftex.def Info: img/paper.jpg  used on input line 797. on input line 7
+97.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 794.
+e 797.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 794. on input line 7
-94.
+Package pdftex.def Info: img/paper.jpg  used on input line 797. on input line 7
+97.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 794.
+e 797.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 794. on input line 7
-94.
+Package pdftex.def Info: img/paper.jpg  used on input line 797. on input line 7
+97.
 Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
-e 794.
+e 797.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 794. on input
- line 794.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 797. on input
+ line 797.
 Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
- 794.
-[15
+ 797.
+ [14
 
 
  <./img/Aurushire.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 794.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 794.
+<img/Aethereu.png, id=224, 1029.09468pt x 873.2625pt>
+File: img/Aethereu.png Graphic file (type png)
+<use img/Aethereu.png>
+Package pdftex.def Info: img/Aethereu.png  used on input line 802. on input lin
+e 802.
+Package pdftex.def Info: Requested size: 499.295pt x 423.6917pt on input line 8
+02.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 804. on input line 8
+04.
+Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
+e 804.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 804. on input line 8
+04.
+Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
+e 804.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 804. on input line 8
+04.
+Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
+e 804.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 804. on input
+ line 804.
+Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
+ 804.
+ [15 <./img/RemSilva.png>]
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 808. on input line 8
+08.
+Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
+e 808.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 808. on input line 8
+08.
+Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
+e 808.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 808. on input line 8
+08.
+Package pdftex.def Info: Requested size: 614.33098pt x 794.99231pt on input lin
+e 808.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 808. on input
+ line 808.
+Package pdftex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
+ 808.
+ [16 <./img/Aethereu.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 808.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 808.
  ("Trinity Stones.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 794.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 794.
-
-
-Package rerunfilecheck Warning: File `"Trinity Stones".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Trinity Stones".out':
-(rerunfilecheck)             Before: C4F19EB1D844B5C780B699E7E6E31A83;1247
-(rerunfilecheck)             After:  FFA09809F54D35322D5BB36828C4D1E1;1247.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 794.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 808.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 808.
+Package rerunfilecheck Info: File `"Trinity Stones".out' has not changed.
+(rerunfilecheck)             Checksum: 62038F163FF1A04B6247658A0E1A5568;1334.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 808.
  ) 
 Here is how much of TeX's memory you used:
- 36741 strings out of 493312
- 722944 string characters out of 3138899
+ 36758 strings out of 493312
+ 723297 string characters out of 3138899
  1032352 words of memory out of 3000000
- 39509 multiletter control sequences out of 15000+200000
+ 39524 multiletter control sequences out of 15000+200000
  607737 words of font info for 140 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,17n,122p,10499b,1261s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,18n,122p,10499b,1261s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/opensans/opensans-
 04.enc}{C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/opensans/open
 sans-01.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Progr
@@ -3000,9 +3034,9 @@ mssbo10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/bookman/ubkl8a.pfb>
-Output written on "Trinity Stones.pdf" (15 pages, 4024572 bytes).
+Output written on "Trinity Stones.pdf" (16 pages, 6312630 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
+ 282 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
- 22873 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 22891 words of extra memory for PDF output out of 24883 (max. 10000000)
 

@@ -17,6 +17,7 @@
 \contentsline {subsection}{NPC's}{13}{section*.9}
 \contentsline {section}{Spati Aethereu Thalamun}{13}{section*.9}
 \contentsline {section}{Auru Convallis}{13}{section*.9}
-\contentsline {chapter}{Spells}{14}{chapter*.10}
-\contentsline {chapter}{Maps}{15}{chapter*.11}
-\contentsline {section}{Aurushire}{15}{section*.12}
+\contentsline {chapter}{Maps}{14}{chapter*.10}
+\contentsline {section}{Aurushire}{14}{section*.11}
+\contentsline {section}{Rem Silva}{15}{section*.11}
+\contentsline {section}{Spati Aethereu Thalamun}{16}{section*.11}
