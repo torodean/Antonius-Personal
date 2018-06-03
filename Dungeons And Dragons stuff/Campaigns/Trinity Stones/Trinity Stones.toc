@@ -1,5 +1,5 @@
 \select@language {english}
-\contentsline {chapter}{Chapter 1: The Trinity Stones}{3}{chapter*.2}
+\contentsline {chapter}{The Trinity Stones}{3}{chapter*.2}
 \contentsline {section}{Creation of a Trinity}{3}{section*.3}
 \contentsline {section}{Creation of the Stones}{3}{section*.3}
 \contentsline {section}{The Celestial Guard}{3}{section*.3}
