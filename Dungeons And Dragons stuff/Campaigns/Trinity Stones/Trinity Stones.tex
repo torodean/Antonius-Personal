@@ -42,6 +42,16 @@
 			\vfill
 }}}
 
+\newcommand\BackgroundPicAlt{%
+	\put(0,0){%
+		\parbox[b][\paperheight]{\paperwidth}{%
+			\vfill
+			\centering
+			\includegraphics[width=\paperwidth,height=\paperheight,%
+			keepaspectratio]{img/trinitypaper.png}%
+			\vfill
+}}}
+
 \title{Trinity Stones of Creation}
 \author{Antonius Torode}
 \date{Latest update: \today}
@@ -50,7 +60,7 @@
 % Start document
 \begin{document}
 
-\AddToShipoutPicture*{\BackgroundPic}
+\AddToShipoutPicture*{\BackgroundPicAlt}
 \maketitle
 \tableofcontents
 

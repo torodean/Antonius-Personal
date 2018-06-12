@@ -1,0 +1,495 @@
+\section{Rem Silva}
+
+Rem Silvia is the name of the Forest that is located to the West of Aurushire. This forest, along with The Pluvian Forest often experiences strange spacial phenomenon. Unlike The Pluvian Forest, temporal phenomenon have also commonly been reported as occurring in this region. The occurrences of these random phenomenon do not appear marginally as often or as strong as in The Pluvian Forest which makes this region of particular interest to experienced hunters.
+
+The same strange effects that can occur in the Pluvian forest can also occur here in Rem Silva only less frequently. As a DM, you can periodically roll a 1d20 to see if any of the irregular effects from The Pluvian Forest will also occur here. Subtract 5 from each DC throw to see if the effects occur in this region.
+
+This area is full of a large number of creatures, from large spiders, to night elfs. Due to the trinity stone effects, many creatures not belonging to this region also appear here. 
+
+\begin{commentbox}{Random Encounters}
+	At any time, a party traveling through this area could run into a creature. To determine a random encounter you can roll 1d100 and choose what the party will encounter. If the roll is odd, choose a miscellaneous creature from Appendix A of the monster manual (page 317-337 in monster manual, roll 1d20 to decide page of creature to choose), otherwise if the roll is even, choose from the table below. Similarly, Page 97 of Xanathars may be useful for creating random encounters.
+	\begin{description}
+		\item[1-10:] Displacer Beast
+		\item[11-20:] Basilisk
+		\item[21-25:] Dinosaur (page 79-80 of monster manual)
+		\item[26-30:] Unicorn (page 294 of monster manual)
+		\item[31-40:] Night elf(s)
+		\item[41-45:] Ettin (page 132 of monster manual)
+		\item[46-50:] troll (page 291 of monster manual)
+		\item[51-55:] Galeb Duhr (page 139 of monster manual)
+		\item[56-60:] Yeti (page 305 of monster manual)
+		\item[61-65:] Ghost (page 147 of monster manual)
+		\item[66-70:] Hook Horrer (page 189 of monster manual)
+		\item[71-75:] Griffon (page 174 of monster manual)
+		\item[76-80:] Hippogriff (page 184 of monster manual)
+		\item[81-85:] Hell Hound (page 182 of monster manual)
+		\item[86-90:] Jackalwere (page 193 of monster manual)
+		\item[91-95:] Homunculus (page 188 of monster manual)
+		\item[96-99:] Treant (page 289 of monster manual)
+		\item[100:] Mythical Beast
+	\end{description}
+\end{commentbox}
+
+\subsection{NPC's/Modified Creatures}
+
+\begin{center}
+	\includegraphics[width=\linewidth]{img/RexxarArt.jpg}
+\end{center}
+\begin{monsterbox}{Rexxar}
+	\begin{hangingpar}
+		\textit{Large humanoid, unaligned}
+	\end{hangingpar}
+	\dndline%
+	\basics[%
+	armorclass = 21,
+	hitpoints  = 457,
+	speed      = 50 ft
+	]
+	\dndline%
+	\stats[
+	STR = \stat{27}, % This stat command will autocomplete the modifier for you
+	DEX = \stat{14},
+	CON = \stat{25},
+	INT = \stat{16},
+	WIS = \stat{15},
+	CHA = \stat{19}
+	]
+	\dndline%
+	\details[%
+	% If you want to use commas in these sections, enclose the
+	% description in braces.
+	% I'm so sorry.
+	savingthrows = {Dex +9, Con +14, Wis +9, Char +11},
+	skills = {Perception +16, Stealth +9},
+	senses = {darkvision 90 ft., passive perception 26},
+	languages = {common, Dwarvish},
+	challenge = 21 (27500 XP)
+	]
+	\dndline%
+	\begin{monsteraction}[Legendary Resistance (3/day)]
+		If Rexxar fails a saving throw, he can choose to succeed instead.
+	\end{monsteraction}	
+
+	
+	\monstersection{Actions}
+	\begin{monsteraction}[Multiattack]
+		Rexxar can make three attacks, one with each Axe and one with another weapon he has.
+	\end{monsteraction}
+	\begin{monsteraction}[Axe knock]
+		Melee Weapon Attack: +15 to hit, reach 10ft., one target. Hit: 15 (2d6 + 8) bludgeoning damage. The target must succeed a DC 15 strength check or be knocked unconscious.
+	\end{monsteraction}
+	\begin{monsteraction}[Axe Slash]
+		Melee Weapon Attack: +15 to hit, reach 10ft., one target. Hit: 18 (3d6 + 8) slashing damage.
+	\end{monsteraction}
+	\begin{monsteraction}[Axe Throw]
+		Ranged Weapon Attack: +15 to hit, reach 35 ft., one target. Hit: 19 (2d10 + 8) piercing damage.
+	\end{monsteraction}
+	\begin{monsteraction}[Legendary Throw]
+		Rexxar Drops one of his large Axes and hurls the other through the air with all his strength. This attack consumes all three of Rexxars attacks. Ranged Weapon Attack: +15 to hit, reach 45 ft., one target. Hit: 60 (10d10+10) damage. This attack will deal triple damage to a target that does not see it coming. Rexxar also gains 1 level of exhaustion from this attack.
+	\end{monsteraction}
+	\monstersection{Legendary Action}
+	Rexxar can take 3 legendary actions per day.
+	\begin{monsteraction}[Unbroken Will.]
+		Rexxar Can use his sheer strength to free himself from any immobilizing effect or device.
+	\end{monsteraction}
+	\monstersection{Description/Information}
+	Rexxar has lived in Rem Silva his entire life. He gets his strength from when he was a boy. Due to the effects of the energy stone on a fountain he drank out of, he is blessed with extraordinary strength. Along with his life of successful hunts, Rexxar has legendary strength and wit.
+\end{monsterbox}
+
+\begin{monsterbox}{Bella (Rexxar's Pet)}
+	\begin{hangingpar}
+		\textit{Large Beast (Bear), unaligned}
+	\end{hangingpar}
+	\dndline%
+	\basics[%
+	armorclass = 14,
+	hitpoints  = 84,
+	speed      = 40 ft
+	]
+	\dndline%
+	\stats[
+	STR = \stat{22}, % This stat command will autocomplete the modifier for you
+	DEX = \stat{12},
+	CON = \stat{18},
+	INT = \stat{4},
+	WIS = \stat{15},
+	CHA = \stat{9}
+	]
+	\dndline%
+	\details[%
+	% If you want to use commas in these sections, enclose the
+	% description in braces.
+	% I'm so sorry.
+	skills = Perception +5,
+	senses = {passive perception 15},
+	challenge = 3 (700XP)
+	]
+	\dndline%
+	\begin{monsteraction}[Keen Smell]
+		The bear has advantage on Wisdom (Perception) checks that rely on smell.
+	\end{monsteraction}	
+	
+	\monstersection{Actions}
+	\begin{monsteraction}[Multiattack]
+		The bear makes two attacks: one with its bite and one with its claws.
+	\end{monsteraction}
+	\begin{monsteraction}[Bite]
+		Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (ld8 + 5) piercing damage.
+	\end{monsteraction}
+	\begin{monsteraction}[Claws]
+		Melee Weapon Attack: +7 to hit, reach 5 ft ., one target. Hit: 12 (2d6 + 5) slashing damage.
+	\end{monsteraction}
+	\monstersection{Description/Information}
+		Bella was saved as a cub by Rexxar. Her parents were attacked by an ancient dinosaur that appeared due to the space stone. Rexxar raised Bella and trained her to follow commands and she has stuck by his side ever since.
+\end{monsterbox}
+
+
+
+
+
+\begin{monsterbox}{Displacer Beast}
+	\begin{hangingpar}
+		\textit{Large Monstrosity, lawful evil}
+	\end{hangingpar}
+	\dndline%
+	\basics[%
+	armorclass = 13,
+	hitpoints  = 85,
+	speed      = 40 ft
+	]
+	\dndline%
+	\stats[
+	STR = \stat{18}, % This stat command will autocomplete the modifier for you
+	DEX = \stat{15},
+	CON = \stat{16},
+	INT = \stat{6},
+	WIS = \stat{12},
+	CHA = \stat{8}
+	]
+	\dndline%
+	\details[%
+	% If you want to use commas in these sections, enclose the
+	% description in braces.
+	% I'm so sorry.
+	senses = {darkvision 60 ft., passive perception 11},
+	challenge = 3 (700XP)
+	]
+	\dndline%
+	\begin{monsteraction}[Avoidance]
+		If the displacer beast is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails.
+	\end{monsteraction}	
+	\begin{monsteraction}[Displacement]
+		The displacer projects a magical illusion that makes it appear to be standing near its actual location, causing attack tolls against it to have disadvantage. Due to the space stone effect on this beast, this trait is always active.
+	\end{monsteraction}	
+	\monstersection{Actions}
+	\begin{monsteraction}[Multiattack]
+		The displacer can make two attacks with its tentacles. 
+	\end{monsteraction}
+	\begin{monsteraction}[Tentacle]
+		Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d6 +4) bludgeoning damage plus 3 (1s6) piercing damage.
+	\end{monsteraction}	
+	\monstersection{Description/Information}
+	These creatures roam Rem Silva, but due to the effect of the space stones, they can fade in and out of reality (at random but not at will).
+\end{monsterbox}
+
+\begin{monsterbox}{Basilisk}
+	\begin{hangingpar}
+		\textit{Medium Monstrosity, unaligned}
+	\end{hangingpar}
+	\dndline%
+	\basics[%
+	armorclass = 15,
+	hitpoints  = 52,
+	speed      = 20 ft
+	]
+	\dndline%
+	\stats[
+	STR = \stat{16}, % This stat command will autocomplete the modifier for you
+	DEX = \stat{8},
+	CON = \stat{15},
+	INT = \stat{2},
+	WIS = \stat{8},
+	CHA = \stat{7}
+	]
+	\dndline%
+	\details[%
+	% If you want to use commas in these sections, enclose the
+	% description in braces.
+	% I'm so sorry.
+	senses = {darkvision 60 ft., passive perception 9},
+	challenge = 3 (700XP)
+	]
+	\dndline%
+	\begin{monsteraction}[Petrifying gaze]
+		If a creature starts its turn within 30 ft and they can see each other, the basilisk can force a DC12 constitution saving throw (If the basilisk isn't incapacitated). One a fail, the greature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure,  the creature is petrified until freed by the greater restoration spell or other magic.
+		
+		A creature not surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does it cannot see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save.
+		
+		If the basilisk sees it's reflection in bright light, it targets itself with it's gaze. 
+	\end{monsteraction}	
+	\begin{monsteraction}[Irregular Stone Skin]
+		As a byproduct of the energy stones effect on the basilisk, enemies must roll at disadvantage if the basilisk succeeds a DC 12 strength save. Upon a failed attack agaisnt the basilisk, its skin hardens to absorb the impact of an attack.
+	\end{monsteraction}	
+	\monstersection{Actions}
+	\begin{monsteraction}[Bite]
+		Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 10 (2d6+3) piercing damage plus 7(2d6) poison damage.
+	\end{monsteraction}
+	\monstersection{Description/Information}
+	These creatures roam around Rem Silva. Due to the effect of the energy stone, these creatures can be small or large with their stats adjusted accordingly. 
+\end{monsterbox}
+
+\begin{monsterbox}{Bullywug}
+	\begin{hangingpar}
+		\textit{Medium humanoid, neutral evil}
+	\end{hangingpar}
+	\dndline%
+	\basics[%
+	armorclass = {15 (hide armor, shield)},
+	hitpoints  = 11 (2d8 +2),
+	speed      = {20 ft, swim 40 ft.}
+	]
+	\dndline%
+	\stats[
+	STR = \stat{12}, % This stat command will autocomplete the modifier for you
+	DEX = \stat{12},
+	CON = \stat{13},
+	INT = \stat{7},
+	WIS = \stat{10},
+	CHA = \stat{7}
+	]
+	\dndline%
+	\details[%
+	% If you want to use commas in these sections, enclose the
+	% description in braces.
+	% I'm so sorry.
+	skills = {stealth +3}
+	senses = {passive perception 10},
+	challenge = 1/4 (50 XP)
+	]
+	\dndline%
+	\begin{monsteraction}[Amphibious]
+		The bullywug can breathe air and water.
+	\end{monsteraction}	
+	\begin{monsteraction}[Swamp Camouflage]
+		The bullywug has advantage on Dexterity (stealth) checks made to hide in swampy terrain.
+	\end{monsteraction}	
+	\begin{monsteraction}[Standing Leap]
+		The bullywug's long jump is up to 20 ft. and its high jump is up to 10 ft.
+	\end{monsteraction}	
+
+	\monstersection{Actions}
+	\begin{monsteraction}[Multiattack]
+		The bullywig makes two melee attacks: one with it's bite and one with its spear.
+	\end{monsteraction}
+	\begin{monsteraction}[Bite]
+		Melee weapon attack: +3 to hit, reach 5 ft., one target. Hit: 3(1d4 +1) bludgeoning damage.
+	\end{monsteraction}
+	\begin{monsteraction}[Spear]
+		Melee or ranged weapon attack: +3 to hit, reach 5 ft. or range 20/60., one target. Hit 4(1d6 +1) piercing damage or 5(1d8) piercing damage if used with two hands to make a melee attack. 
+	\end{monsteraction}
+	\monstersection{Description/Information}
+		These creatures inhabit the river running through the center of Rem Silva. They have a camp at the southern end just before the opening to the sea.
+\end{monsterbox}
+
+\begin{monsterbox}{Ankylosaurus}
+	\begin{hangingpar}
+		\textit{Huges Beast, unaligned}
+	\end{hangingpar}
+	\dndline%
+	\basics[%
+	armorclass = 15,
+	hitpoints  = 68,
+	speed      = 30 ft
+	]
+	\dndline%
+	\stats[
+	STR = \stat{19}, % This stat command will autocomplete the modifier for you
+	DEX = \stat{11},
+	CON = \stat{15},
+	INT = \stat{2},
+	WIS = \stat{12},
+	CHA = \stat{5}
+	]
+	\dndline%
+	\details[%
+	% If you want to use commas in these sections, enclose the
+	% description in braces.
+	% I'm so sorry.
+	senses = {passive perception 11},
+	challenge = 3 (700XP)
+	]
+	\dndline%	
+	\monstersection{Actions}
+	\begin{monsteraction}[Tail]
+		Melee Weapon Attack: +7 to hit, reach 10 ft. one target. Hit: 18 (4d6 +4) bludgeoning damage. If the target is a creature, it must succeed a DC14 strength saving throw of be knocked prone.
+	\end{monsteraction}
+	\monstersection{Description/Information}
+		Because od the time stone, prehistoric creatures like this can appear throughout Rem Silva.
+\end{monsterbox}
+
+\begin{monsterbox}{Night Elf Elite Warrior}
+	\begin{hangingpar}
+		\textit{Medium humanoid (elf), unaligned}
+	\end{hangingpar}
+	\dndline%
+	\basics[%
+	armorclass = 18,
+	hitpoints  = 71,
+	speed      = 30 ft
+	]
+	\dndline%
+	\stats[
+	STR = \stat{13}, % This stat command will autocomplete the modifier for you
+	DEX = \stat{18},
+	CON = \stat{14},
+	INT = \stat{11},
+	WIS = \stat{13},
+	CHA = \stat{12}
+	]
+	\dndline%
+	\details[%
+	% If you want to use commas in these sections, enclose the
+	% description in braces.
+	% I'm so sorry.
+	savingthrows = {Dex +7, Con +5, Wis +4},
+	skills = {Perception +4, Stealth +10},
+	senses = {darkvision 120 ft., passive perception 14},
+	languages = {Elvish, undercommon, common},
+	challenge = 5 (1800 XP)
+	]
+	\dndline%
+	\begin{monsteraction}[Fey Ancestry]
+		The elf has advantage on saving throws against being charmed, and magic can't put the elf to sleep.
+	\end{monsteraction}	
+	\begin{monsteraction}[Innate Spellcasting]
+		The elfs spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:
+		\begin{enumerate}
+			\item At will: dancing lights
+			\item 1/day each: darkness ,faerie fire , levitate (self only)
+		\end{enumerate}
+	\end{monsteraction}	
+	\begin{monsteraction}[Sunlight Sensitivity]
+		While in sunlight, the elf has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+	\end{monsteraction}	
+	
+	\monstersection{Actions}
+	\begin{monsteraction}[Multiattack]
+		The elf can make two shortsword attacks.
+	\end{monsteraction}
+	\begin{monsteraction}[Shortsword]
+		Melee Weapon Attack: +7 to hit, reach 10ft., one target. Hit: 7 (ld6 + 4) piercing damage plus 10 (3d6) poison damage.
+	\end{monsteraction}
+	\begin{monsteraction}[Hand Crossbow]
+		Ranged Weapon Attack: +7 to hit, range 30/120 ft ., one target. Hit: 7 (ld6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or	be poisoned for 1 hour. If the saving throw fails by 5 or more,	the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
+	\end{monsteraction}
+	\monstersection{Reactions}
+	\begin{monsteraction}[Parry]
+		the elf adds 3 to its AC against one melee attack that would hit it. To do so, the elf must see the attacker and be
+		wielding a melee weapon.
+	\end{monsteraction}
+	\monstersection{Description/Information}
+		The night elves roam Rem Silva hiding in plain sight. They are the watchers of the forest. 
+\end{monsterbox}
+
+\begin{monsterbox}{Night Elf Elite Marksman}
+	\begin{hangingpar}
+		\textit{Medium humanoid (elf), unaligned}
+	\end{hangingpar}
+	\dndline%
+	\basics[%
+	armorclass = 18,
+	hitpoints  = 71,
+	speed      = 30 ft
+	]
+	\dndline%
+	\stats[
+	STR = \stat{12}, % This stat command will autocomplete the modifier for you
+	DEX = \stat{19},
+	CON = \stat{14},
+	INT = \stat{11},
+	WIS = \stat{13},
+	CHA = \stat{13}
+	]
+	\dndline%
+	\details[%
+	% If you want to use commas in these sections, enclose the
+	% description in braces.
+	% I'm so sorry.
+	savingthrows = {Dex +7, Con +5, Wis +4},
+	skills = {Perception +4, Stealth +10},
+	senses = {darkvision 120 ft., passive perception 14},
+	languages = {Elvish, undercommon, common},
+	challenge = 5 (1800 XP)
+	]
+	\dndline%
+	\begin{monsteraction}[Fey Ancestry]
+		The elf has advantage on saving throws against being charmed, and magic can't put the elf to sleep.
+	\end{monsteraction}	
+	\begin{monsteraction}[Innate Spellcasting]
+		The elfs spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:
+		\begin{enumerate}
+			\item At will: dancing lights
+			\item 1/day each: darkness ,faerie fire , levitate (self only)
+		\end{enumerate}
+	\end{monsteraction}	
+	\begin{monsteraction}[Sunlight Sensitivity]
+		While in sunlight, the elf has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+	\end{monsteraction}	
+	
+	\monstersection{Actions}
+	\begin{monsteraction}[Multiattack]
+		The elf can make two longbow attacks.
+	\end{monsteraction}
+	\begin{monsteraction}[Shortsword]
+		Melee Weapon Attack: +7 to hit, reach 10ft., one target. Hit: 7 (ld6 + 4) piercing damage plus 10 (3d6) poison damage.
+	\end{monsteraction}
+	\begin{monsteraction}[Longbow]
+		Ranged Weapon Attack: +7 to hit, range 30/120 ft ., one target. Hit: 10 (2d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or	be poisoned for 1 hour. If the saving throw fails by 5 or more,	the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
+	\end{monsteraction}
+	\monstersection{Reactions}
+	\begin{monsteraction}[Skillful Avoidance]
+		the elf adds 3 to its AC against one attack that would hit it. To do so, the elf must see the attacker and be
+		wielding a longbow.
+	\end{monsteraction}
+	\monstersection{Description/Information}
+	The night elves roam Rem Silva hiding in plain sight. They are the watchers of the forest. 
+\end{monsterbox}
+
+\begin{monsterbox}{Template}
+	\begin{hangingpar}
+		\textit{Medium Monstrosity, unaligned}
+	\end{hangingpar}
+	\dndline%
+	\basics[%
+	armorclass = 15,
+	hitpoints  = 52,
+	speed      = 20 ft
+	]
+	\dndline%
+	\stats[
+	STR = \stat{16}, % This stat command will autocomplete the modifier for you
+	DEX = \stat{8},
+	CON = \stat{15},
+	INT = \stat{2},
+	WIS = \stat{8},
+	CHA = \stat{7}
+	]
+	\dndline%
+	\details[%
+	% If you want to use commas in these sections, enclose the
+	% description in braces.
+	% I'm so sorry.
+	senses = {passive perception 9},
+	challenge = 3 (700XP)
+	]
+	\dndline%
+	\begin{monsteraction}[Petrifying gaze]
+		
+	\end{monsteraction}	
+	
+	\monstersection{Actions}
+	\begin{monsteraction}[Bite]
+		
+	\end{monsteraction}
+	\monstersection{Description/Information}
+\end{monsterbox}
