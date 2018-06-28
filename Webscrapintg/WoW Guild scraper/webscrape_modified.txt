@@ -1,0 +1,5233 @@
+lastModified: 1530191673000
+name: The Illuminati
+realm: Dalaran
+battlegroup: Rampage
+level: 25
+side: 0
+achievementPoints: 805
+members: [
+character: 
+name: Nekbone
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 110
+achievementPoints: 10910
+thumbnail: dalaran/247/131046135-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Sagee
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 34
+achievementPoints: 1010
+thumbnail: dalaran/84/138412372-avatar.jpg
+spec: 
+name: Balance
+role: DPS
+backgroundImage: bg-druid-balance
+icon: spell_nature_starfall
+description: Can take on the form of a powerful Moonkin balancing the power of Arcane and Nature magic to destroy enemies at a distance.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Calyxjolie
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 11
+gender: 1
+level: 110
+achievementPoints: 9010
+thumbnail: dalaran/58/141375034-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Tigerluck
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 4
+gender: 1
+level: 110
+achievementPoints: 6920
+thumbnail: dalaran/81/142090321-avatar.jpg
+spec: 
+name: Beast Mastery
+role: DPS
+backgroundImage: bg-hunter-beastmaster
+icon: ability_hunter_bestialdiscipline
+description: A master of the wild who can tame a wide variety of beasts to assist her in combat.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Iamhealingyo
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 1
+gender: 0
+level: 49
+achievementPoints: 5365
+thumbnail: dalaran/18/143195922-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-priest-holy
+icon: spell_holy_guardianspirit
+description: A versatile healer who can reverse damage on individuals or groups and even heal from beyond the grave.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Farewelt
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 1
+gender: 0
+level: 54
+achievementPoints: 5060
+thumbnail: dalaran/238/144741870-avatar.jpg
+spec: 
+name: Frost
+role: DPS
+backgroundImage: bg-mage-frost
+icon: spell_frost_frostbolt02
+description: Freezes enemies in their tracks and shatters them with Frost magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Spacé
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 1
+gender: 1
+level: 110
+achievementPoints: 4060
+thumbnail: dalaran/11/147296011-avatar.jpg
+spec: 
+name: Marksmanship
+role: DPS
+backgroundImage: bg-hunter-marksman
+icon: ability_hunter_focusedaim
+description: A master archer or sharpshooter who excels in bringing down enemies from afar.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Adwarfname
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 3
+gender: 0
+level: 104
+achievementPoints: 1065
+thumbnail: dalaran/228/148928996-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Vesely
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 7
+gender: 1
+level: 110
+achievementPoints: 3035
+thumbnail: dalaran/92/149707356-avatar.jpg
+spec: 
+name: Subtlety
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_stealth
+description: A dark stalker who leaps from the shadows to ambush his unsuspecting prey.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Madlocksx
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 3
+gender: 0
+level: 110
+achievementPoints: 18580
+thumbnail: dalaran/19/150460947-avatar.jpg
+spec: 
+name: Demonology
+role: DPS
+backgroundImage: bg-warlock-demonology
+icon: spell_shadow_metamorphosis
+description: A master of demons who compels demonic powers to aid him.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Hothunterx
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 1
+gender: 1
+level: 110
+achievementPoints: 18045
+thumbnail: dalaran/88/150462040-avatar.jpg
+spec: 
+name: Marksmanship
+role: DPS
+backgroundImage: bg-hunter-marksman
+icon: ability_hunter_focusedaim
+description: A master archer or sharpshooter who excels in bringing down enemies from afar.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Laultertim
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 1
+gender: 0
+level: 110
+achievementPoints: 7075
+thumbnail: dalaran/223/150530271-avatar.jpg
+spec: 
+name: Fury
+role: DPS
+backgroundImage: bg-warrior-fury
+icon: ability_warrior_innerrage
+description: A furious berserker wielding a weapon in each hand unleashing a flurry of attacks to carve her opponents to pieces.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Hotdruidzx
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 110
+achievementPoints: 18045
+thumbnail: dalaran/168/150688680-avatar.jpg
+spec: 
+name: Restoration
+role: HEALING
+backgroundImage: bg-druid-restoration
+icon: spell_nature_healingtouch
+description: Uses heal-over-time Nature spells to keep allies alive.
+order: 3
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Jedma
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 110
+achievementPoints: 3825
+thumbnail: dalaran/81/151138897-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Thegoldgirl
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 1
+level: 21
+achievementPoints: 7795
+thumbnail: dalaran/53/153362741-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Lømein
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 25
+gender: 0
+level: 39
+achievementPoints: 4705
+thumbnail: dalaran/106/153790058-avatar.jpg
+spec: 
+name: Windwalker
+role: DPS
+backgroundImage: bg-monk-battledancer
+icon: spell_monk_windwalker_spec
+description: A martial artist without peer who pummels foes with hands and fists.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Katannasan
+realm: Dalaran
+battlegroup: Rampage
+class: 7
+race: 11
+gender: 1
+level: 25
+achievementPoints: 2670
+thumbnail: dalaran/20/153856532-avatar.jpg
+spec: 
+name: Restoration
+role: HEALING
+backgroundImage: bg-shaman-restoration
+icon: spell_nature_magicimmunity
+description: A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Emostabbins
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 7
+gender: 1
+level: 58
+achievementPoints: 8910
+thumbnail: dalaran/116/156973940-avatar.jpg
+spec: 
+name: Assassination
+role: DPS
+backgroundImage: bg-rogue-assassination
+icon: ability_rogue_deadlybrew
+description: A deadly master of poisons who dispatches victims with vicious dagger strikes.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Nerfdodger
+realm: Dalaran
+battlegroup: Rampage
+class: 12
+race: 4
+gender: 1
+level: 100
+achievementPoints: 20860
+thumbnail: dalaran/95/157250655-avatar.jpg
+spec: 
+name: Havoc
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_demonhunter_specdps
+description: A brooding master of warglaives and the destructive power of Fel magic.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Moorigana
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 1
+gender: 1
+level: 110
+achievementPoints: 13040
+thumbnail: dalaran/216/157632728-avatar.jpg
+spec: 
+name: Demonology
+role: DPS
+backgroundImage: bg-warlock-demonology
+icon: spell_shadow_metamorphosis
+description: A master of demons who compels demonic powers to aid him.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Drkdruid
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 110
+achievementPoints: 4495
+thumbnail: dalaran/146/157707666-avatar.jpg
+spec: 
+name: Balance
+role: DPS
+backgroundImage: bg-druid-balance
+icon: spell_nature_starfall
+description: Can take on the form of a powerful Moonkin balancing the power of Arcane and Nature magic to destroy enemies at a distance.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Remitchert
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 110
+achievementPoints: 3090
+thumbnail: dalaran/166/158445990-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Chîraq
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 40
+achievementPoints: 1110
+thumbnail: dalaran/16/160191248-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Gnormie
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 7
+gender: 1
+level: 110
+achievementPoints: 6265
+thumbnail: dalaran/65/160696129-avatar.jpg
+spec: 
+name: Beast Mastery
+role: DPS
+backgroundImage: bg-hunter-beastmaster
+icon: ability_hunter_bestialdiscipline
+description: A master of the wild who can tame a wide variety of beasts to assist her in combat.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 5
+character: 
+name: Eyelicka
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 29
+gender: 1
+level: 110
+achievementPoints: 5325
+thumbnail: dalaran/44/160697644-avatar.jpg
+spec: 
+name: Fire
+role: DPS
+backgroundImage: bg-mage-fire
+icon: spell_fire_firebolt02
+description: Ignite enemies with balls of fire and combustive flames.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Oroeseb
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 1
+gender: 0
+level: 110
+achievementPoints: 4430
+thumbnail: dalaran/167/161018791-avatar.jpg
+spec: 
+name: Arms
+role: DPS
+backgroundImage: bg-warrior-arms
+icon: ability_warrior_savageblow
+description: A battle-hardened master of two-handed weapons using mobility and overpowering attacks to strike his opponents down.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Jovnoiir
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 11
+gender: 0
+level: 110
+achievementPoints: 1025
+thumbnail: dalaran/219/162726363-avatar.jpg
+spec: 
+name: Shadow
+role: DPS
+backgroundImage: bg-priest-shadow
+icon: spell_shadow_shadowwordpain
+description: Uses sinister Shadow magic especially damage-over-time spells to eradicate enemies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Sellapie
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 7
+gender: 1
+level: 96
+achievementPoints: 3615
+thumbnail: dalaran/182/164043446-avatar.jpg
+spec: 
+name: Affliction
+role: DPS
+backgroundImage: bg-warlock-affliction
+icon: spell_shadow_deathcoil
+description: A master of shadow magic who specializes in drains and damage-over-time spells.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Roginbalbim
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 3
+gender: 0
+level: 54
+achievementPoints: 2045
+thumbnail: dalaran/52/164096308-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-priest-holy
+icon: spell_holy_guardianspirit
+description: A versatile healer who can reverse damage on individuals or groups and even heal from beyond the grave.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Onedozen
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 11
+gender: 0
+level: 110
+achievementPoints: 5530
+thumbnail: dalaran/116/164146548-avatar.jpg
+spec: 
+name: Fire
+role: DPS
+backgroundImage: bg-mage-fire
+icon: spell_fire_firebolt02
+description: Ignite enemies with balls of fire and combustive flames.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 5
+character: 
+name: Raugia
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 22
+gender: 1
+level: 110
+achievementPoints: 2895
+thumbnail: dalaran/67/164179011-avatar.jpg
+spec: 
+name: Feral
+role: DPS
+backgroundImage: bg-druid-cat
+icon: ability_druid_catform
+description: Takes on the form of a great cat to deal damage with bleeds and bites.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Ertiro
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 1
+gender: 0
+level: 25
+achievementPoints: 1535
+thumbnail: dalaran/141/164243853-avatar.jpg
+spec: 
+name: Fury
+role: DPS
+backgroundImage: bg-warrior-fury
+icon: ability_warrior_innerrage
+description: A furious berserker wielding a weapon in each hand unleashing a flurry of attacks to carve her opponents to pieces.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Qiusrim
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 25
+gender: 0
+level: 110
+achievementPoints: 3500
+thumbnail: dalaran/16/165229840-avatar.jpg
+spec: 
+name: Fire
+role: DPS
+backgroundImage: bg-mage-fire
+icon: spell_fire_firebolt02
+description: Ignite enemies with balls of fire and combustive flames.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Nisharek
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 1
+gender: 0
+level: 47
+achievementPoints: 1035
+thumbnail: dalaran/102/166161510-avatar.jpg
+spec: 
+name: Outlaw
+role: DPS
+backgroundImage: bg-rogue-combat
+icon: inv_sword_30
+description: A ruthless fugitive who uses agility and guile to stand toe-to-toe with enemies.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Jorrum
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 22
+gender: 0
+level: 39
+achievementPoints: 1730
+thumbnail: dalaran/38/166581030-avatar.jpg
+spec: 
+name: Guardian
+role: TANK
+backgroundImage: bg-druid-bear
+icon: ability_racial_bearform
+description: Takes on the form of a mighty bear to absorb damage and protect allies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Zâlgo
+realm: Dalaran
+battlegroup: Rampage
+class: 12
+race: 4
+gender: 0
+level: 110
+achievementPoints: 8965
+thumbnail: dalaran/226/166727138-avatar.jpg
+spec: 
+name: Havoc
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_demonhunter_specdps
+description: A brooding master of warglaives and the destructive power of Fel magic.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Everwillow
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 110
+achievementPoints: 2750
+thumbnail: dalaran/66/167158338-avatar.jpg
+spec: 
+name: Balance
+role: DPS
+backgroundImage: bg-druid-balance
+icon: spell_nature_starfall
+description: Can take on the form of a powerful Moonkin balancing the power of Arcane and Nature magic to destroy enemies at a distance.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Monkbumm
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 1
+gender: 0
+level: 110
+achievementPoints: 9060
+thumbnail: dalaran/98/167221346-avatar.jpg
+spec: 
+name: Brewmaster
+role: TANK
+backgroundImage: bg-monk-brewmaster
+icon: spell_monk_brewmaster_spec
+description: A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Sondarran
+realm: Dalaran
+battlegroup: Rampage
+class: 12
+race: 4
+gender: 0
+level: 110
+achievementPoints: 7640
+thumbnail: dalaran/218/167810778-avatar.jpg
+spec: 
+name: Havoc
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_demonhunter_specdps
+description: A brooding master of warglaives and the destructive power of Fel magic.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Hebimetaru
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 4
+gender: 1
+level: 86
+achievementPoints: 8445
+thumbnail: dalaran/45/168377389-avatar.jpg
+spec: 
+name: Fury
+role: DPS
+backgroundImage: bg-warrior-fury
+icon: ability_warrior_innerrage
+description: A furious berserker wielding a weapon in each hand unleashing a flurry of attacks to carve her opponents to pieces.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Madawc
+realm: Dalaran
+battlegroup: Rampage
+class: 6
+race: 4
+gender: 1
+level: 110
+achievementPoints: 8745
+thumbnail: dalaran/96/168611936-avatar.jpg
+spec: 
+name: Frost
+role: DPS
+backgroundImage: bg-deathknight-frost
+icon: spell_deathknight_frostpresence
+description: An icy harbinger of doom channeling runic power and delivering vicious weapon strikes.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 2
+character: 
+name: Phatclouds
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 4
+gender: 0
+level: 93
+achievementPoints: 1480
+thumbnail: dalaran/189/168698045-avatar.jpg
+spec: 
+name: Marksmanship
+role: DPS
+backgroundImage: bg-hunter-marksman
+icon: ability_hunter_focusedaim
+description: A master archer or sharpshooter who excels in bringing down enemies from afar.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Faelìss
+realm: Dalaran
+battlegroup: Rampage
+class: 7
+race: 11
+gender: 1
+level: 64
+achievementPoints: 16080
+thumbnail: dalaran/49/169188401-avatar.jpg
+spec: 
+name: Elemental
+role: DPS
+backgroundImage: bg-shaman-elemental
+icon: spell_nature_lightning
+description: A spellcaster who harnesses the destructive forces of nature and the elements.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Schwanm
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 11
+gender: 1
+level: 73
+achievementPoints: 4475
+thumbnail: dalaran/175/169342639-avatar.jpg
+spec: 
+name: Beast Mastery
+role: DPS
+backgroundImage: bg-hunter-beastmaster
+icon: ability_hunter_bestialdiscipline
+description: A master of the wild who can tame a wide variety of beasts to assist her in combat.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Brunikore
+realm: Dalaran
+battlegroup: Rampage
+class: 12
+race: 4
+gender: 1
+level: 103
+achievementPoints: 8085
+thumbnail: dalaran/105/169582953-avatar.jpg
+spec: 
+name: Havoc
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_demonhunter_specdps
+description: A brooding master of warglaives and the destructive power of Fel magic.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Nailiohae
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 22
+gender: 0
+level: 110
+achievementPoints: 5160
+thumbnail: dalaran/75/169652555-avatar.jpg
+spec: 
+name: Restoration
+role: HEALING
+backgroundImage: bg-druid-restoration
+icon: spell_nature_healingtouch
+description: Uses heal-over-time Nature spells to keep allies alive.
+order: 3
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Klarendon
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 3
+gender: 1
+level: 97
+achievementPoints: 1400
+thumbnail: dalaran/110/169755758-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Liliwin
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 4
+gender: 1
+level: 20
+achievementPoints: 1770
+thumbnail: dalaran/18/170324754-avatar.jpg
+spec: 
+name: Beast Mastery
+role: DPS
+backgroundImage: bg-hunter-beastmaster
+icon: ability_hunter_bestialdiscipline
+description: A master of the wild who can tame a wide variety of beasts to assist her in combat.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Umbraah
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 1
+gender: 1
+level: 75
+achievementPoints: 6810
+thumbnail: dalaran/121/170348665-avatar.jpg
+spec: 
+name: Subtlety
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_stealth
+description: A dark stalker who leaps from the shadows to ambush his unsuspecting prey.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Steik
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 22
+gender: 0
+level: 110
+achievementPoints: 6265
+thumbnail: dalaran/147/170617491-avatar.jpg
+spec: 
+name: Feral
+role: DPS
+backgroundImage: bg-druid-cat
+icon: ability_druid_catform
+description: Takes on the form of a great cat to deal damage with bleeds and bites.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Camzillaa
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 3
+gender: 0
+level: 49
+achievementPoints: 390
+thumbnail: dalaran/165/170680229-avatar.jpg
+spec: 
+name: Marksmanship
+role: DPS
+backgroundImage: bg-hunter-marksman
+icon: ability_hunter_focusedaim
+description: A master archer or sharpshooter who excels in bringing down enemies from afar.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Rerollme
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 1
+gender: 1
+level: 43
+achievementPoints: 8980
+thumbnail: dalaran/156/170997148-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-warrior-protection
+icon: ability_warrior_defensivestance
+description: A stalwart protector who uses a shield to safeguard himself and his allies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Nåils
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 110
+achievementPoints: 5160
+thumbnail: dalaran/234/171345386-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-paladin-holy
+icon: spell_holy_holybolt
+description: Invokes the power of the Light to protect and to heal.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Arvh
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 11
+gender: 1
+level: 24
+achievementPoints: 2040
+thumbnail: dalaran/47/173165615-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Jaikenne
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 1
+gender: 1
+level: 110
+achievementPoints: 10050
+thumbnail: dalaran/232/173443304-avatar.jpg
+spec: 
+name: Fire
+role: DPS
+backgroundImage: bg-mage-fire
+icon: spell_fire_firebolt02
+description: Ignite enemies with balls of fire and combustive flames.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Zealtaser
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 110
+achievementPoints: 9000
+thumbnail: dalaran/193/173556417-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Lõla
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 4
+gender: 1
+level: 110
+achievementPoints: 3050
+thumbnail: dalaran/16/173792016-avatar.jpg
+spec: 
+name: Subtlety
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_stealth
+description: A dark stalker who leaps from the shadows to ambush his unsuspecting prey.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 0
+character: 
+name: Talrandus
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 0
+level: 20
+achievementPoints: 200
+thumbnail: dalaran/114/174773362-avatar.jpg
+spec: 
+name: Feral
+role: DPS
+backgroundImage: bg-druid-cat
+icon: ability_druid_catform
+description: Takes on the form of a great cat to deal damage with bleeds and bites.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Edjyassassin
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 1
+gender: 0
+level: 110
+achievementPoints: 3050
+thumbnail: dalaran/215/174944727-avatar.jpg
+spec: 
+name: Subtlety
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_stealth
+description: A dark stalker who leaps from the shadows to ambush his unsuspecting prey.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Rexini
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 11
+gender: 1
+level: 110
+achievementPoints: 9795
+thumbnail: dalaran/245/175327221-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Teussello
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 11
+gender: 0
+level: 110
+achievementPoints: 6210
+thumbnail: dalaran/125/175694205-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Jámanca
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 0
+level: 19
+achievementPoints: 11840
+thumbnail: dalaran/40/176156200-avatar.jpg
+spec: 
+name: Balance
+role: DPS
+backgroundImage: bg-druid-balance
+icon: spell_nature_starfall
+description: Can take on the form of a powerful Moonkin balancing the power of Arcane and Nature magic to destroy enemies at a distance.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Fiestypandas
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 0
+level: 110
+achievementPoints: 4655
+thumbnail: dalaran/69/176459845-avatar.jpg
+spec: 
+name: Feral
+role: DPS
+backgroundImage: bg-druid-cat
+icon: ability_druid_catform
+description: Takes on the form of a great cat to deal damage with bleeds and bites.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 2
+character: 
+name: Årcticus
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 1
+gender: 0
+level: 49
+achievementPoints: 4675
+thumbnail: dalaran/169/176515241-avatar.jpg
+spec: 
+name: Frost
+role: DPS
+backgroundImage: bg-mage-frost
+icon: spell_frost_frostbolt02
+description: Freezes enemies in their tracks and shatters them with Frost magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Clockwork
+realm: Dalaran
+battlegroup: Rampage
+class: 6
+race: 4
+gender: 1
+level: 110
+achievementPoints: 7270
+thumbnail: dalaran/153/176743065-avatar.jpg
+spec: 
+name: Blood
+role: TANK
+backgroundImage: bg-deathknight-blood
+icon: spell_deathknight_bloodpresence
+description: A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 5
+character: 
+name: Macaron
+realm: Dalaran
+battlegroup: Rampage
+class: 7
+race: 11
+gender: 1
+level: 110
+achievementPoints: 9475
+thumbnail: dalaran/134/176743302-avatar.jpg
+spec: 
+name: Restoration
+role: HEALING
+backgroundImage: bg-shaman-restoration
+icon: spell_nature_magicimmunity
+description: A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 2
+character: 
+name: Rennarlash
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 1
+gender: 0
+level: 110
+achievementPoints: 3970
+thumbnail: dalaran/0/176770560-avatar.jpg
+spec: 
+name: Arms
+role: DPS
+backgroundImage: bg-warrior-arms
+icon: ability_warrior_savageblow
+description: A battle-hardened master of two-handed weapons using mobility and overpowering attacks to strike his opponents down.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 5
+character: 
+name: Kibbo
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 3
+gender: 0
+level: 110
+achievementPoints: 19310
+thumbnail: dalaran/219/176826331-avatar.jpg
+spec: 
+name: Assassination
+role: DPS
+backgroundImage: bg-rogue-assassination
+icon: ability_rogue_deadlybrew
+description: A deadly master of poisons who dispatches victims with vicious dagger strikes.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Eaglefeet
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 22
+gender: 0
+level: 110
+achievementPoints: 6985
+thumbnail: dalaran/128/176896640-avatar.jpg
+spec: 
+name: Assassination
+role: DPS
+backgroundImage: bg-rogue-assassination
+icon: ability_rogue_deadlybrew
+description: A deadly master of poisons who dispatches victims with vicious dagger strikes.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 4
+character: 
+name: Zon
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 1
+gender: 0
+level: 110
+achievementPoints: 19310
+thumbnail: dalaran/170/176985258-avatar.jpg
+spec: 
+name: Fury
+role: DPS
+backgroundImage: bg-warrior-fury
+icon: ability_warrior_innerrage
+description: A furious berserker wielding a weapon in each hand unleashing a flurry of attacks to carve her opponents to pieces.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Spezzaa
+realm: Dalaran
+battlegroup: Rampage
+class: 12
+race: 4
+gender: 0
+level: 110
+achievementPoints: 7960
+thumbnail: dalaran/169/177023657-avatar.jpg
+spec: 
+name: Havoc
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_demonhunter_specdps
+description: A brooding master of warglaives and the destructive power of Fel magic.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Gustavom
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 48
+achievementPoints: 10210
+thumbnail: dalaran/127/177066623-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Lankle
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 22
+gender: 0
+level: 27
+achievementPoints: 1845
+thumbnail: dalaran/27/177422107-avatar.jpg
+spec: 
+name: Balance
+role: DPS
+backgroundImage: bg-druid-balance
+icon: spell_nature_starfall
+description: Can take on the form of a powerful Moonkin balancing the power of Arcane and Nature magic to destroy enemies at a distance.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Progamblor
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 1
+gender: 0
+level: 36
+achievementPoints: 575
+thumbnail: dalaran/57/177580857-avatar.jpg
+spec: 
+name: Arms
+role: DPS
+backgroundImage: bg-warrior-arms
+icon: ability_warrior_savageblow
+description: A battle-hardened master of two-handed weapons using mobility and overpowering attacks to strike his opponents down.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Lovenguts
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 11
+gender: 0
+level: 35
+achievementPoints: 680
+thumbnail: dalaran/60/177756732-avatar.jpg
+spec: 
+name: Survival
+role: DPS
+backgroundImage: bg-hunter-survival
+icon: ability_hunter_camouflage
+description: A rugged tracker who favors using animal venom explosives and traps as deadly weapons.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Izarienia
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 11
+gender: 1
+level: 34
+achievementPoints: 2610
+thumbnail: dalaran/200/177776072-avatar.jpg
+spec: 
+name: Windwalker
+role: DPS
+backgroundImage: bg-monk-battledancer
+icon: spell_monk_windwalker_spec
+description: A martial artist without peer who pummels foes with hands and fists.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Catracice
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 1
+gender: 1
+level: 27
+achievementPoints: 380
+thumbnail: dalaran/70/177779526-avatar.jpg
+spec: 
+name: Frost
+role: DPS
+backgroundImage: bg-mage-frost
+icon: spell_frost_frostbolt02
+description: Freezes enemies in their tracks and shatters them with Frost magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Daemoon
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 4
+gender: 1
+level: 70
+achievementPoints: 610
+thumbnail: dalaran/110/177845102-avatar.jpg
+spec: 
+name: Beast Mastery
+role: DPS
+backgroundImage: bg-hunter-beastmaster
+icon: ability_hunter_bestialdiscipline
+description: A master of the wild who can tame a wide variety of beasts to assist her in combat.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Orstavin
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 1
+gender: 0
+level: 30
+achievementPoints: 405
+thumbnail: dalaran/100/177852004-avatar.jpg
+spec: 
+name: Subtlety
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_stealth
+description: A dark stalker who leaps from the shadows to ambush his unsuspecting prey.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Galtonielm
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 1
+gender: 0
+level: 20
+achievementPoints: 250
+thumbnail: dalaran/196/177905860-avatar.jpg
+spec: 
+name: Arms
+role: DPS
+backgroundImage: bg-warrior-arms
+icon: ability_warrior_savageblow
+description: A battle-hardened master of two-handed weapons using mobility and overpowering attacks to strike his opponents down.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 5
+character: 
+name: Dumpymcdumps
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 3
+gender: 0
+level: 35
+achievementPoints: 150
+thumbnail: dalaran/189/178008253-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Lilpriccy
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 3
+gender: 0
+level: 27
+achievementPoints: 14020
+thumbnail: dalaran/111/178074479-avatar.jpg
+spec: 
+name: Outlaw
+role: DPS
+backgroundImage: bg-rogue-combat
+icon: inv_sword_30
+description: A ruthless fugitive who uses agility and guile to stand toe-to-toe with enemies.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Thorlaen
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 21
+achievementPoints: 10265
+thumbnail: dalaran/173/178117037-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-paladin-holy
+icon: spell_holy_holybolt
+description: Invokes the power of the Light to protect and to heal.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Shádai
+realm: Dalaran
+battlegroup: Rampage
+class: 12
+race: 4
+gender: 1
+level: 110
+achievementPoints: 5300
+thumbnail: dalaran/111/178119279-avatar.jpg
+spec: 
+name: Havoc
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_demonhunter_specdps
+description: A brooding master of warglaives and the destructive power of Fel magic.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Voks
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 1
+gender: 0
+level: 110
+achievementPoints: 19360
+thumbnail: dalaran/76/178131276-avatar.jpg
+spec: 
+name: Affliction
+role: DPS
+backgroundImage: bg-warlock-affliction
+icon: spell_shadow_deathcoil
+description: A master of shadow magic who specializes in drains and damage-over-time spells.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 3
+character: 
+name: Sales
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 1
+gender: 1
+level: 5
+achievementPoints: 0
+thumbnail: dalaran/28/178158876-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Gracassira
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 1
+gender: 1
+level: 21
+achievementPoints: 12685
+thumbnail: dalaran/173/178231981-avatar.jpg
+spec: 
+name: Assassination
+role: DPS
+backgroundImage: bg-rogue-assassination
+icon: ability_rogue_deadlybrew
+description: A deadly master of poisons who dispatches victims with vicious dagger strikes.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Galvinrad
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 110
+achievementPoints: 6500
+thumbnail: dalaran/122/178275450-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Silamar
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 1
+gender: 1
+level: 110
+achievementPoints: 4835
+thumbnail: dalaran/1/178331393-avatar.jpg
+spec: 
+name: Subtlety
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_stealth
+description: A dark stalker who leaps from the shadows to ambush his unsuspecting prey.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Benjamctommy
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 40
+achievementPoints: 1185
+thumbnail: dalaran/104/178335336-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Wispengrove
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 110
+achievementPoints: 1925
+thumbnail: dalaran/4/178341124-avatar.jpg
+spec: 
+name: Feral
+role: DPS
+backgroundImage: bg-druid-cat
+icon: ability_druid_catform
+description: Takes on the form of a great cat to deal damage with bleeds and bites.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Avrantha
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 11
+gender: 1
+level: 21
+achievementPoints: 0
+thumbnail: dalaran/160/178347424-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Bígð
+realm: Dalaran
+battlegroup: Rampage
+class: 6
+race: 7
+gender: 0
+level: 110
+achievementPoints: 3740
+thumbnail: dalaran/152/178364312-avatar.jpg
+spec: 
+name: Blood
+role: TANK
+backgroundImage: bg-deathknight-blood
+icon: spell_deathknight_bloodpresence
+description: A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Swagaragi
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 22
+gender: 1
+level: 32
+achievementPoints: 8575
+thumbnail: dalaran/121/178370937-avatar.jpg
+spec: 
+name: Discipline
+role: HEALING
+backgroundImage: bg-priest-discipline
+icon: spell_holy_powerwordshield
+description: Uses magic to shield allies from taking damage as well as heal their wounds.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 5
+character: 
+name: Plantish
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 4
+gender: 1
+level: 38
+achievementPoints: 0
+thumbnail: dalaran/179/178384307-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Drock
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 7
+gender: 0
+level: 24
+achievementPoints: 700
+thumbnail: dalaran/239/178387439-avatar.jpg
+spec: 
+name: Affliction
+role: DPS
+backgroundImage: bg-warlock-affliction
+icon: spell_shadow_deathcoil
+description: A master of shadow magic who specializes in drains and damage-over-time spells.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Ellemill
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 7
+gender: 1
+level: 82
+achievementPoints: 10905
+thumbnail: dalaran/30/178436126-avatar.jpg
+spec: 
+name: Marksmanship
+role: DPS
+backgroundImage: bg-hunter-marksman
+icon: ability_hunter_focusedaim
+description: A master archer or sharpshooter who excels in bringing down enemies from afar.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Grizdog
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 7
+gender: 0
+level: 33
+achievementPoints: 190
+thumbnail: dalaran/35/178436899-avatar.jpg
+spec: 
+name: Subtlety
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_stealth
+description: A dark stalker who leaps from the shadows to ambush his unsuspecting prey.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Bridgettela
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 7
+gender: 1
+level: 19
+achievementPoints: 0
+thumbnail: dalaran/136/178437000-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Corennes
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 1
+gender: 0
+level: 43
+achievementPoints: 0
+thumbnail: dalaran/145/178443409-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Eletrestaa
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 11
+gender: 1
+level: 110
+achievementPoints: 1700
+thumbnail: dalaran/140/178508684-avatar.jpg
+spec: 
+name: Beast Mastery
+role: DPS
+backgroundImage: bg-hunter-beastmaster
+icon: ability_hunter_bestialdiscipline
+description: A master of the wild who can tame a wide variety of beasts to assist her in combat.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Lamaendes
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 4
+gender: 1
+level: 110
+achievementPoints: 5800
+thumbnail: dalaran/30/178536734-avatar.jpg
+spec: 
+name: Windwalker
+role: DPS
+backgroundImage: bg-monk-battledancer
+icon: spell_monk_windwalker_spec
+description: A martial artist without peer who pummels foes with hands and fists.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Tredon
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 4
+gender: 0
+level: 23
+achievementPoints: 680
+thumbnail: dalaran/1/178669313-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-warrior-protection
+icon: ability_warrior_defensivestance
+description: A stalwart protector who uses a shield to safeguard himself and his allies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Devalles
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 1
+gender: 0
+level: 28
+achievementPoints: 785
+thumbnail: dalaran/171/178766763-avatar.jpg
+spec: 
+name: Shadow
+role: DPS
+backgroundImage: bg-priest-shadow
+icon: spell_shadow_shadowwordpain
+description: Uses sinister Shadow magic especially damage-over-time spells to eradicate enemies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Laandria
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 4
+gender: 1
+level: 19
+achievementPoints: 0
+thumbnail: dalaran/81/178779473-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Mesquishy
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 1
+level: 26
+achievementPoints: 2420
+thumbnail: dalaran/90/178889050-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Ticcticcboom
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 1
+gender: 0
+level: 32
+achievementPoints: 6065
+thumbnail: dalaran/104/178965864-avatar.jpg
+spec: 
+name: Affliction
+role: DPS
+backgroundImage: bg-warlock-affliction
+icon: spell_shadow_deathcoil
+description: A master of shadow magic who specializes in drains and damage-over-time spells.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Hamog
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 4
+gender: 0
+level: 110
+achievementPoints: 4025
+thumbnail: dalaran/209/178982865-avatar.jpg
+spec: 
+name: Frost
+role: DPS
+backgroundImage: bg-mage-frost
+icon: spell_frost_frostbolt02
+description: Freezes enemies in their tracks and shatters them with Frost magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Nutshot
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 1
+gender: 0
+level: 33
+achievementPoints: 1175
+thumbnail: dalaran/76/178995788-avatar.jpg
+spec: 
+name: Survival
+role: DPS
+backgroundImage: bg-hunter-survival
+icon: ability_hunter_camouflage
+description: A rugged tracker who favors using animal venom explosives and traps as deadly weapons.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Grizzlybeard
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 3
+gender: 0
+level: 35
+achievementPoints: 4655
+thumbnail: dalaran/111/179065967-avatar.jpg
+spec: 
+name: Beast Mastery
+role: DPS
+backgroundImage: bg-hunter-beastmaster
+icon: ability_hunter_bestialdiscipline
+description: A master of the wild who can tame a wide variety of beasts to assist her in combat.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Paylonas
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 1
+gender: 0
+level: 110
+achievementPoints: 3270
+thumbnail: dalaran/227/179090147-avatar.jpg
+spec: 
+name: Marksmanship
+role: DPS
+backgroundImage: bg-hunter-marksman
+icon: ability_hunter_focusedaim
+description: A master archer or sharpshooter who excels in bringing down enemies from afar.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Gatuck
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 7
+gender: 0
+level: 110
+achievementPoints: 3430
+thumbnail: dalaran/251/179115259-avatar.jpg
+spec: 
+name: Frost
+role: DPS
+backgroundImage: bg-mage-frost
+icon: spell_frost_frostbolt02
+description: Freezes enemies in their tracks and shatters them with Frost magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 5
+character: 
+name: Hanair
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 4
+gender: 0
+level: 44
+achievementPoints: 40
+thumbnail: dalaran/172/179164332-avatar.jpg
+spec: 
+name: Fire
+role: DPS
+backgroundImage: bg-mage-fire
+icon: spell_fire_firebolt02
+description: Ignite enemies with balls of fire and combustive flames.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Carrotcake
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 110
+achievementPoints: 9475
+thumbnail: dalaran/91/179207771-avatar.jpg
+spec: 
+name: Guardian
+role: TANK
+backgroundImage: bg-druid-bear
+icon: ability_racial_bearform
+description: Takes on the form of a mighty bear to absorb damage and protect allies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Dungonhuntor
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 11
+gender: 0
+level: 54
+achievementPoints: 2005
+thumbnail: dalaran/9/179265801-avatar.jpg
+spec: 
+name: Beast Mastery
+role: DPS
+backgroundImage: bg-hunter-beastmaster
+icon: ability_hunter_bestialdiscipline
+description: A master of the wild who can tame a wide variety of beasts to assist her in combat.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Billanu
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 30
+gender: 1
+level: 23
+achievementPoints: 7240
+thumbnail: dalaran/31/179331871-avatar.jpg
+spec: 
+name: Arms
+role: DPS
+backgroundImage: bg-warrior-arms
+icon: ability_warrior_savageblow
+description: A battle-hardened master of two-handed weapons using mobility and overpowering attacks to strike his opponents down.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Poacherboy
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 1
+gender: 0
+level: 20
+achievementPoints: 0
+thumbnail: dalaran/135/179377031-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Tipsycake
+realm: Dalaran
+battlegroup: Rampage
+class: 12
+race: 4
+gender: 1
+level: 110
+achievementPoints: 9465
+thumbnail: dalaran/153/179542937-avatar.jpg
+spec: 
+name: Havoc
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_demonhunter_specdps
+description: A brooding master of warglaives and the destructive power of Fel magic.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Demodrus
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 1
+gender: 0
+level: 51
+achievementPoints: 2100
+thumbnail: dalaran/72/179549000-avatar.jpg
+spec: 
+name: Affliction
+role: DPS
+backgroundImage: bg-warlock-affliction
+icon: spell_shadow_deathcoil
+description: A master of shadow magic who specializes in drains and damage-over-time spells.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Dungonhealz
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 22
+gender: 0
+level: 64
+achievementPoints: 1995
+thumbnail: dalaran/135/179570311-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-priest-holy
+icon: spell_holy_guardianspirit
+description: A versatile healer who can reverse damage on individuals or groups and even heal from beyond the grave.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Trerenas
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 0
+level: 37
+achievementPoints: 9030
+thumbnail: dalaran/57/179580985-avatar.jpg
+spec: 
+name: Restoration
+role: HEALING
+backgroundImage: bg-druid-restoration
+icon: spell_nature_healingtouch
+description: Uses heal-over-time Nature spells to keep allies alive.
+order: 3
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Strudel
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 30
+gender: 1
+level: 110
+achievementPoints: 9475
+thumbnail: dalaran/136/179625096-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Lom
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 29
+gender: 0
+level: 110
+achievementPoints: 19310
+thumbnail: dalaran/242/179629298-avatar.jpg
+spec: 
+name: Mistweaver
+role: HEALING
+backgroundImage: bg-monk-mistweaver
+icon: spell_monk_mistweaver_spec
+description: A healer who masters the mysterious art of manipulating life energies aided by the wisdom of the Jade Serpent and Pandaren medicinal techniques.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Grevoth
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 3
+gender: 0
+level: 36
+achievementPoints: 220
+thumbnail: dalaran/21/179638549-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-paladin-holy
+icon: spell_holy_holybolt
+description: Invokes the power of the Light to protect and to heal.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Sylfeon
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 26
+achievementPoints: 2280
+thumbnail: dalaran/176/179638704-avatar.jpg
+spec: 
+name: Feral
+role: DPS
+backgroundImage: bg-druid-cat
+icon: ability_druid_catform
+description: Takes on the form of a great cat to deal damage with bleeds and bites.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Shabhaldhiyb
+realm: Dalaran
+battlegroup: Rampage
+class: 7
+race: 11
+gender: 1
+level: 110
+achievementPoints: 8535
+thumbnail: dalaran/98/179645026-avatar.jpg
+spec: 
+name: Enhancement
+role: DPS
+backgroundImage: bg-shaman-enhancement
+icon: spell_shaman_improvedstormstrike
+description: A totemic warrior who strikes foes with weapons imbued with elemental power.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Chronocaster
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 29
+gender: 1
+level: 110
+achievementPoints: 7270
+thumbnail: dalaran/229/179664613-avatar.jpg
+spec: 
+name: Shadow
+role: DPS
+backgroundImage: bg-priest-shadow
+icon: spell_shadow_shadowwordpain
+description: Uses sinister Shadow magic especially damage-over-time spells to eradicate enemies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Chronohunter
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 1
+gender: 1
+level: 110
+achievementPoints: 7240
+thumbnail: dalaran/222/179672542-avatar.jpg
+spec: 
+name: Marksmanship
+role: DPS
+backgroundImage: bg-hunter-marksman
+icon: ability_hunter_focusedaim
+description: A master archer or sharpshooter who excels in bringing down enemies from afar.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Weskham
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 30
+gender: 0
+level: 100
+achievementPoints: 9135
+thumbnail: dalaran/20/179674644-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Anasyl
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 30
+gender: 1
+level: 23
+achievementPoints: 10620
+thumbnail: dalaran/102/179678054-avatar.jpg
+spec: 
+name: Discipline
+role: HEALING
+backgroundImage: bg-priest-discipline
+icon: spell_holy_powerwordshield
+description: Uses magic to shield allies from taking damage as well as heal their wounds.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Buk
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 30
+gender: 0
+level: 28
+achievementPoints: 19075
+thumbnail: dalaran/176/179678384-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Xîpe
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 30
+gender: 1
+level: 75
+achievementPoints: 8535
+thumbnail: dalaran/194/179678658-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-warrior-protection
+icon: ability_warrior_defensivestance
+description: A stalwart protector who uses a shield to safeguard himself and his allies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Johammer
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 3
+gender: 0
+level: 50
+achievementPoints: 895
+thumbnail: dalaran/209/179703761-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Callïope
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 1
+level: 17
+achievementPoints: 0
+thumbnail: dalaran/161/179718305-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Shadowarse
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 4
+gender: 0
+level: 13
+achievementPoints: 6870
+thumbnail: dalaran/69/179718981-avatar.jpg
+spec: 
+name: Subtlety
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_stealth
+description: A dark stalker who leaps from the shadows to ambush his unsuspecting prey.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Taminá
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 30
+gender: 1
+level: 110
+achievementPoints: 2550
+thumbnail: dalaran/130/179720834-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 1
+character: 
+name: Mistafrezze
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 7
+gender: 0
+level: 25
+achievementPoints: 2280
+thumbnail: dalaran/201/179725001-avatar.jpg
+spec: 
+name: Frost
+role: DPS
+backgroundImage: bg-mage-frost
+icon: spell_frost_frostbolt02
+description: Freezes enemies in their tracks and shatters them with Frost magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Keggrolls
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 29
+gender: 0
+level: 21
+achievementPoints: 8395
+thumbnail: dalaran/226/179738594-avatar.jpg
+spec: 
+name: Windwalker
+role: DPS
+backgroundImage: bg-monk-battledancer
+icon: spell_monk_windwalker_spec
+description: A martial artist without peer who pummels foes with hands and fists.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Piiza
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 29
+gender: 1
+level: 110
+achievementPoints: 12860
+thumbnail: dalaran/160/179767968-avatar.jpg
+spec: 
+name: Frost
+role: DPS
+backgroundImage: bg-mage-frost
+icon: spell_frost_frostbolt02
+description: Freezes enemies in their tracks and shatters them with Frost magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Mardrillor
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 58
+achievementPoints: 4045
+thumbnail: dalaran/186/179785914-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Zaltia
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 25
+gender: 1
+level: 13
+achievementPoints: 0
+thumbnail: dalaran/9/179852809-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Alakarany
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 25
+gender: 1
+level: 13
+achievementPoints: 0
+thumbnail: dalaran/22/179852822-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Anesai
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 1
+gender: 1
+level: 26
+achievementPoints: 2365
+thumbnail: dalaran/135/179858055-avatar.jpg
+spec: 
+name: Fire
+role: DPS
+backgroundImage: bg-mage-fire
+icon: spell_fire_firebolt02
+description: Ignite enemies with balls of fire and combustive flames.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Natashà
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 47
+achievementPoints: 250
+thumbnail: dalaran/4/179870468-avatar.jpg
+spec: 
+name: Balance
+role: DPS
+backgroundImage: bg-druid-balance
+icon: spell_nature_starfall
+description: Can take on the form of a powerful Moonkin balancing the power of Arcane and Nature magic to destroy enemies at a distance.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 1
+character: 
+name: Vesterwinne
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 4
+gender: 1
+level: 21
+achievementPoints: 3335
+thumbnail: dalaran/229/179971301-avatar.jpg
+spec: 
+name: Assassination
+role: DPS
+backgroundImage: bg-rogue-assassination
+icon: ability_rogue_deadlybrew
+description: A deadly master of poisons who dispatches victims with vicious dagger strikes.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Moonmo
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 0
+level: 110
+achievementPoints: 1400
+thumbnail: dalaran/241/180027377-avatar.jpg
+spec: 
+name: Restoration
+role: HEALING
+backgroundImage: bg-druid-restoration
+icon: spell_nature_healingtouch
+description: Uses heal-over-time Nature spells to keep allies alive.
+order: 3
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Praeventores
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 11
+gender: 0
+level: 110
+achievementPoints: 2640
+thumbnail: dalaran/240/180039664-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-paladin-holy
+icon: spell_holy_holybolt
+description: Invokes the power of the Light to protect and to heal.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Bruxism
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 3
+gender: 0
+level: 18
+achievementPoints: 0
+thumbnail: dalaran/180/180077236-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Sopharsii
+realm: Dalaran
+battlegroup: Rampage
+class: 7
+race: 11
+gender: 1
+level: 9
+achievementPoints: 0
+thumbnail: dalaran/175/180077999-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Iroxus
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 3
+gender: 0
+level: 80
+achievementPoints: 9610
+thumbnail: dalaran/16/180122640-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-warrior-protection
+icon: ability_warrior_defensivestance
+description: A stalwart protector who uses a shield to safeguard himself and his allies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Zäleos
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 30
+gender: 0
+level: 26
+achievementPoints: 3190
+thumbnail: dalaran/169/180124329-avatar.jpg
+spec: 
+name: Shadow
+role: DPS
+backgroundImage: bg-priest-shadow
+icon: spell_shadow_shadowwordpain
+description: Uses sinister Shadow magic especially damage-over-time spells to eradicate enemies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Sandraimarcy
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 1
+gender: 1
+level: 14
+achievementPoints: 270
+thumbnail: dalaran/116/180128628-avatar.jpg
+spec: 
+name: Affliction
+role: DPS
+backgroundImage: bg-warlock-affliction
+icon: spell_shadow_deathcoil
+description: A master of shadow magic who specializes in drains and damage-over-time spells.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Aeleristia
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 29
+gender: 1
+level: 37
+achievementPoints: 2820
+thumbnail: dalaran/32/180154400-avatar.jpg
+spec: 
+name: Destruction
+role: DPS
+backgroundImage: bg-warlock-destruction
+icon: spell_shadow_rainoffire
+description: A master of chaos who calls down fire to burn and demolish enemies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Voidburgh
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 29
+gender: 0
+level: 27
+achievementPoints: 18015
+thumbnail: dalaran/111/180201583-avatar.jpg
+spec: 
+name: Survival
+role: DPS
+backgroundImage: bg-hunter-survival
+icon: ability_hunter_camouflage
+description: A rugged tracker who favors using animal venom explosives and traps as deadly weapons.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Bushcamper
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 4
+gender: 1
+level: 23
+achievementPoints: 0
+thumbnail: dalaran/173/180206253-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Grimlliey
+realm: Dalaran
+battlegroup: Rampage
+class: 7
+race: 3
+gender: 0
+level: 64
+achievementPoints: 0
+thumbnail: dalaran/13/180217613-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Jãsmine
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 29
+gender: 1
+level: 110
+achievementPoints: 1840
+thumbnail: dalaran/52/180245812-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-priest-holy
+icon: spell_holy_guardianspirit
+description: A versatile healer who can reverse damage on individuals or groups and even heal from beyond the grave.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 1
+character: 
+name: Artêmisia
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 29
+gender: 1
+level: 69
+achievementPoints: 385
+thumbnail: dalaran/50/180248114-avatar.jpg
+spec: 
+name: Beast Mastery
+role: DPS
+backgroundImage: bg-hunter-beastmaster
+icon: ability_hunter_bestialdiscipline
+description: A master of the wild who can tame a wide variety of beasts to assist her in combat.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 1
+character: 
+name: Alareiellea
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 13
+achievementPoints: 15640
+thumbnail: dalaran/67/180302147-avatar.jpg
+spec: 
+name: Feral
+role: DPS
+backgroundImage: bg-druid-cat
+icon: ability_druid_catform
+description: Takes on the form of a great cat to deal damage with bleeds and bites.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Andertrenne
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 1
+gender: 0
+level: 39
+achievementPoints: 2555
+thumbnail: dalaran/194/180313282-avatar.jpg
+spec: 
+name: Outlaw
+role: DPS
+backgroundImage: bg-rogue-combat
+icon: inv_sword_30
+description: A ruthless fugitive who uses agility and guile to stand toe-to-toe with enemies.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Holypancakes
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 43
+achievementPoints: 800
+thumbnail: dalaran/101/180313701-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-paladin-holy
+icon: spell_holy_holybolt
+description: Invokes the power of the Light to protect and to heal.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Sandycheekz
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 1
+gender: 1
+level: 110
+achievementPoints: 1220
+thumbnail: dalaran/153/180389273-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-priest-holy
+icon: spell_holy_guardianspirit
+description: A versatile healer who can reverse damage on individuals or groups and even heal from beyond the grave.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Béàns
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 1
+gender: 0
+level: 19
+achievementPoints: 4145
+thumbnail: dalaran/35/180410659-avatar.jpg
+spec: 
+name: Beast Mastery
+role: DPS
+backgroundImage: bg-hunter-beastmaster
+icon: ability_hunter_bestialdiscipline
+description: A master of the wild who can tame a wide variety of beasts to assist her in combat.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Ricé
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 1
+gender: 1
+level: 38
+achievementPoints: 65
+thumbnail: dalaran/133/180410757-avatar.jpg
+spec: 
+name: Fire
+role: DPS
+backgroundImage: bg-mage-fire
+icon: spell_fire_firebolt02
+description: Ignite enemies with balls of fire and combustive flames.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Nylessia
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 4
+gender: 1
+level: 110
+achievementPoints: 1670
+thumbnail: dalaran/218/180429786-avatar.jpg
+spec: 
+name: Marksmanship
+role: DPS
+backgroundImage: bg-hunter-marksman
+icon: ability_hunter_focusedaim
+description: A master archer or sharpshooter who excels in bringing down enemies from afar.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Victõria
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 29
+gender: 1
+level: 60
+achievementPoints: 15395
+thumbnail: dalaran/61/180437821-avatar.jpg
+spec: 
+name: Fire
+role: DPS
+backgroundImage: bg-mage-fire
+icon: spell_fire_firebolt02
+description: Ignite enemies with balls of fire and combustive flames.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 1
+character: 
+name: Offsyde
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 7
+gender: 0
+level: 110
+achievementPoints: 8040
+thumbnail: dalaran/89/180661849-avatar.jpg
+spec: 
+name: Frost
+role: DPS
+backgroundImage: bg-mage-frost
+icon: spell_frost_frostbolt02
+description: Freezes enemies in their tracks and shatters them with Frost magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Störmwindpd
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 1
+gender: 1
+level: 29
+achievementPoints: 8040
+thumbnail: dalaran/203/180684491-avatar.jpg
+spec: 
+name: Survival
+role: DPS
+backgroundImage: bg-hunter-survival
+icon: ability_hunter_camouflage
+description: A rugged tracker who favors using animal venom explosives and traps as deadly weapons.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Musclestrong
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 30
+gender: 0
+level: 55
+achievementPoints: 6985
+thumbnail: dalaran/45/180699693-avatar.jpg
+spec: 
+name: Arms
+role: DPS
+backgroundImage: bg-warrior-arms
+icon: ability_warrior_savageblow
+description: A battle-hardened master of two-handed weapons using mobility and overpowering attacks to strike his opponents down.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Shadowyshado
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 29
+gender: 0
+level: 41
+achievementPoints: 9000
+thumbnail: dalaran/173/180717229-avatar.jpg
+spec: 
+name: Outlaw
+role: DPS
+backgroundImage: bg-rogue-combat
+icon: inv_sword_30
+description: A ruthless fugitive who uses agility and guile to stand toe-to-toe with enemies.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Velentha
+realm: Dalaran
+battlegroup: Rampage
+class: 12
+race: 4
+gender: 1
+level: 101
+achievementPoints: 0
+thumbnail: dalaran/13/180719885-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Medello
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 11
+gender: 0
+level: 33
+achievementPoints: 2680
+thumbnail: dalaran/135/180835207-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-priest-holy
+icon: spell_holy_guardianspirit
+description: A versatile healer who can reverse damage on individuals or groups and even heal from beyond the grave.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Eaglemeat
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 29
+gender: 1
+level: 110
+achievementPoints: 6465
+thumbnail: dalaran/221/180906717-avatar.jpg
+spec: 
+name: Marksmanship
+role: DPS
+backgroundImage: bg-hunter-marksman
+icon: ability_hunter_focusedaim
+description: A master archer or sharpshooter who excels in bringing down enemies from afar.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Dyxn
+realm: Dalaran
+battlegroup: Rampage
+class: 6
+race: 1
+gender: 0
+level: 58
+achievementPoints: 1120
+thumbnail: dalaran/45/180913197-avatar.jpg
+spec: 
+name: Unholy
+role: DPS
+backgroundImage: bg-deathknight-unholy
+icon: spell_deathknight_unholypresence
+description: A master of death and decay spreading infection and controlling undead minions to do her bidding.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Pathadiah
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 1
+gender: 0
+level: 7
+achievementPoints: 0
+thumbnail: dalaran/104/180983656-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Spiritflow
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 1
+gender: 1
+level: 6
+achievementPoints: 0
+thumbnail: dalaran/247/181015543-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Yourstepmom
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 7
+gender: 1
+level: 38
+achievementPoints: 2200
+thumbnail: dalaran/59/181022011-avatar.jpg
+spec: 
+name: Beast Mastery
+role: DPS
+backgroundImage: bg-hunter-beastmaster
+icon: ability_hunter_bestialdiscipline
+description: A master of the wild who can tame a wide variety of beasts to assist her in combat.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Yyana
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 25
+gender: 1
+level: 23
+achievementPoints: 115
+thumbnail: dalaran/73/181039177-avatar.jpg
+spec: 
+name: Windwalker
+role: DPS
+backgroundImage: bg-monk-battledancer
+icon: spell_monk_windwalker_spec
+description: A martial artist without peer who pummels foes with hands and fists.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Dindunutthin
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 1
+gender: 0
+level: 37
+achievementPoints: 1700
+thumbnail: dalaran/215/181052631-avatar.jpg
+spec: 
+name: Affliction
+role: DPS
+backgroundImage: bg-warlock-affliction
+icon: spell_shadow_deathcoil
+description: A master of shadow magic who specializes in drains and damage-over-time spells.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Maïwen
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 1
+gender: 1
+level: 110
+achievementPoints: 11505
+thumbnail: dalaran/88/181054040-avatar.jpg
+spec: 
+name: Subtlety
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_stealth
+description: A dark stalker who leaps from the shadows to ambush his unsuspecting prey.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Mongoloyde
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 1
+gender: 0
+level: 110
+achievementPoints: 11310
+thumbnail: dalaran/127/181058175-avatar.jpg
+spec: 
+name: Fury
+role: DPS
+backgroundImage: bg-warrior-fury
+icon: ability_warrior_innerrage
+description: A furious berserker wielding a weapon in each hand unleashing a flurry of attacks to carve her opponents to pieces.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Nolleh
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 44
+achievementPoints: 3595
+thumbnail: dalaran/185/181064633-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Kujack
+realm: Dalaran
+battlegroup: Rampage
+class: 6
+race: 7
+gender: 0
+level: 63
+achievementPoints: 10900
+thumbnail: dalaran/94/181070174-avatar.jpg
+spec: 
+name: Blood
+role: TANK
+backgroundImage: bg-deathknight-blood
+icon: spell_deathknight_bloodpresence
+description: A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Romewin
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 22
+gender: 0
+level: 26
+achievementPoints: 10465
+thumbnail: dalaran/218/181087706-avatar.jpg
+spec: 
+name: Fire
+role: DPS
+backgroundImage: bg-mage-fire
+icon: spell_fire_firebolt02
+description: Ignite enemies with balls of fire and combustive flames.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Nafkazora
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 1
+gender: 1
+level: 68
+achievementPoints: 1760
+thumbnail: dalaran/93/181096285-avatar.jpg
+spec: 
+name: Assassination
+role: DPS
+backgroundImage: bg-rogue-assassination
+icon: ability_rogue_deadlybrew
+description: A deadly master of poisons who dispatches victims with vicious dagger strikes.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Citheige
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 1
+gender: 1
+level: 110
+achievementPoints: 6970
+thumbnail: dalaran/136/181113224-avatar.jpg
+spec: 
+name: Marksmanship
+role: DPS
+backgroundImage: bg-hunter-marksman
+icon: ability_hunter_focusedaim
+description: A master archer or sharpshooter who excels in bringing down enemies from afar.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Mallta
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 30
+gender: 1
+level: 110
+achievementPoints: 11345
+thumbnail: dalaran/67/181153347-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-paladin-holy
+icon: spell_holy_holybolt
+description: Invokes the power of the Light to protect and to heal.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Saeanu
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 30
+gender: 1
+level: 110
+achievementPoints: 10020
+thumbnail: dalaran/225/181154017-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Onside
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 7
+gender: 0
+level: 110
+achievementPoints: 9310
+thumbnail: dalaran/166/181173414-avatar.jpg
+spec: 
+name: Windwalker
+role: DPS
+backgroundImage: bg-monk-battledancer
+icon: spell_monk_windwalker_spec
+description: A martial artist without peer who pummels foes with hands and fists.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Mirväna
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 4
+gender: 0
+level: 55
+achievementPoints: 4025
+thumbnail: dalaran/65/181218625-avatar.jpg
+spec: 
+name: Mistweaver
+role: HEALING
+backgroundImage: bg-monk-mistweaver
+icon: spell_monk_mistweaver_spec
+description: A healer who masters the mysterious art of manipulating life energies aided by the wisdom of the Jade Serpent and Pandaren medicinal techniques.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Threedozen
+realm: Dalaran
+battlegroup: Rampage
+class: 6
+race: 22
+gender: 1
+level: 110
+achievementPoints: 5530
+thumbnail: dalaran/198/181290182-avatar.jpg
+spec: 
+name: Blood
+role: TANK
+backgroundImage: bg-deathknight-blood
+icon: spell_deathknight_bloodpresence
+description: A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Gleamaizu
+realm: Dalaran
+battlegroup: Rampage
+class: 12
+race: 4
+gender: 0
+level: 110
+achievementPoints: 11215
+thumbnail: dalaran/24/181347096-avatar.jpg
+spec: 
+name: Havoc
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_demonhunter_specdps
+description: A brooding master of warglaives and the destructive power of Fel magic.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Royálteptep
+realm: Dalaran
+battlegroup: Rampage
+class: 7
+race: 11
+gender: 1
+level: 110
+achievementPoints: 9290
+thumbnail: dalaran/195/181349315-avatar.jpg
+spec: 
+name: Enhancement
+role: DPS
+backgroundImage: bg-shaman-enhancement
+icon: spell_shaman_improvedstormstrike
+description: A totemic warrior who strikes foes with weapons imbued with elemental power.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Fiestycamels
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 11
+gender: 0
+level: 8
+achievementPoints: 0
+thumbnail: dalaran/209/181353425-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Vernazza
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 29
+gender: 1
+level: 77
+achievementPoints: 11505
+thumbnail: dalaran/154/181357210-avatar.jpg
+spec: 
+name: Shadow
+role: DPS
+backgroundImage: bg-priest-shadow
+icon: spell_shadow_shadowwordpain
+description: Uses sinister Shadow magic especially damage-over-time spells to eradicate enemies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Noveelii
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 30
+gender: 1
+level: 110
+achievementPoints: 4860
+thumbnail: dalaran/206/181374926-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Àsad
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 0
+level: 28
+achievementPoints: 465
+thumbnail: dalaran/75/181382475-avatar.jpg
+spec: 
+name: Feral
+role: DPS
+backgroundImage: bg-druid-cat
+icon: ability_druid_catform
+description: Takes on the form of a great cat to deal damage with bleeds and bites.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Maiwouk
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 110
+achievementPoints: 11505
+thumbnail: dalaran/181/181404085-avatar.jpg
+spec: 
+name: Feral
+role: DPS
+backgroundImage: bg-druid-cat
+icon: ability_druid_catform
+description: Takes on the form of a great cat to deal damage with bleeds and bites.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 2
+character: 
+name: Shaqattaqq
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 7
+gender: 0
+level: 110
+achievementPoints: 8650
+thumbnail: dalaran/33/181411361-avatar.jpg
+spec: 
+name: Assassination
+role: DPS
+backgroundImage: bg-rogue-assassination
+icon: ability_rogue_deadlybrew
+description: A deadly master of poisons who dispatches victims with vicious dagger strikes.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Farmerroar
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 22
+gender: 0
+level: 110
+achievementPoints: 5530
+thumbnail: dalaran/125/181447293-avatar.jpg
+spec: 
+name: Guardian
+role: TANK
+backgroundImage: bg-druid-bear
+icon: ability_racial_bearform
+description: Takes on the form of a mighty bear to absorb damage and protect allies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Kyüri
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 25
+gender: 1
+level: 110
+achievementPoints: 1710
+thumbnail: dalaran/236/181463788-avatar.jpg
+spec: 
+name: Brewmaster
+role: TANK
+backgroundImage: bg-monk-brewmaster
+icon: spell_monk_brewmaster_spec
+description: A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Imstuck
+realm: Dalaran
+battlegroup: Rampage
+class: 7
+race: 11
+gender: 1
+level: 41
+achievementPoints: 4490
+thumbnail: dalaran/151/181536919-avatar.jpg
+spec: 
+name: Restoration
+role: HEALING
+backgroundImage: bg-shaman-restoration
+icon: spell_nature_magicimmunity
+description: A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Trinitÿ
+realm: Dalaran
+battlegroup: Rampage
+class: 6
+race: 4
+gender: 1
+level: 64
+achievementPoints: 180
+thumbnail: dalaran/216/181596888-avatar.jpg
+spec: 
+name: Blood
+role: TANK
+backgroundImage: bg-deathknight-blood
+icon: spell_deathknight_bloodpresence
+description: A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 1
+character: 
+name: Bobjambon
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 3
+gender: 0
+level: 41
+achievementPoints: 11505
+thumbnail: dalaran/221/181623005-avatar.jpg
+spec: 
+name: Marksmanship
+role: DPS
+backgroundImage: bg-hunter-marksman
+icon: ability_hunter_focusedaim
+description: A master archer or sharpshooter who excels in bringing down enemies from afar.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Valyium
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 30
+gender: 1
+level: 29
+achievementPoints: 8315
+thumbnail: dalaran/192/181693888-avatar.jpg
+spec: 
+name: Shadow
+role: DPS
+backgroundImage: bg-priest-shadow
+icon: spell_shadow_shadowwordpain
+description: Uses sinister Shadow magic especially damage-over-time spells to eradicate enemies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Tjena
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 1
+gender: 0
+level: 110
+achievementPoints: 9685
+thumbnail: dalaran/46/181833518-avatar.jpg
+spec: 
+name: Destruction
+role: DPS
+backgroundImage: bg-warlock-destruction
+icon: spell_shadow_rainoffire
+description: A master of chaos who calls down fire to burn and demolish enemies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Bashadord
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 1
+gender: 0
+level: 50
+achievementPoints: 4980
+thumbnail: dalaran/24/181852696-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-priest-holy
+icon: spell_holy_guardianspirit
+description: A versatile healer who can reverse damage on individuals or groups and even heal from beyond the grave.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Ridic
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 110
+achievementPoints: 5210
+thumbnail: dalaran/35/181964067-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Sevendozen
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 29
+gender: 0
+level: 63
+achievementPoints: 5520
+thumbnail: dalaran/35/181966115-avatar.jpg
+spec: 
+name: Windwalker
+role: DPS
+backgroundImage: bg-monk-battledancer
+icon: spell_monk_windwalker_spec
+description: A martial artist without peer who pummels foes with hands and fists.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Spasmchasm
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 11
+gender: 1
+level: 46
+achievementPoints: 2550
+thumbnail: dalaran/77/182028621-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-warrior-protection
+icon: ability_warrior_defensivestance
+description: A stalwart protector who uses a shield to safeguard himself and his allies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Sîf
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 22
+gender: 0
+level: 21
+achievementPoints: 4550
+thumbnail: dalaran/90/182068058-avatar.jpg
+spec: 
+name: Guardian
+role: TANK
+backgroundImage: bg-druid-bear
+icon: ability_racial_bearform
+description: Takes on the form of a mighty bear to absorb damage and protect allies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Rumincoke
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 30
+gender: 1
+level: 20
+achievementPoints: 12890
+thumbnail: dalaran/235/182073067-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Babycocoa
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 29
+gender: 1
+level: 30
+achievementPoints: 0
+thumbnail: dalaran/196/182102724-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 1
+character: 
+name: Eightdozen
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 29
+gender: 0
+level: 20
+achievementPoints: 0
+thumbnail: dalaran/96/182102880-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Petcocao
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 29
+gender: 0
+level: 20
+achievementPoints: 0
+thumbnail: dalaran/202/182102986-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Trifle
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 4
+gender: 1
+level: 23
+achievementPoints: 9250
+thumbnail: dalaran/189/182113725-avatar.jpg
+spec: 
+name: Assassination
+role: DPS
+backgroundImage: bg-rogue-assassination
+icon: ability_rogue_deadlybrew
+description: A deadly master of poisons who dispatches victims with vicious dagger strikes.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Wildberryjam
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 29
+gender: 1
+level: 36
+achievementPoints: 9475
+thumbnail: dalaran/213/182115541-avatar.jpg
+spec: 
+name: Affliction
+role: DPS
+backgroundImage: bg-warlock-affliction
+icon: spell_shadow_deathcoil
+description: A master of shadow magic who specializes in drains and damage-over-time spells.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Vyzrial
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 30
+gender: 0
+level: 30
+achievementPoints: 5830
+thumbnail: dalaran/208/182223312-avatar.jpg
+spec: 
+name: Holy
+role: HEALING
+backgroundImage: bg-paladin-holy
+icon: spell_holy_holybolt
+description: Invokes the power of the Light to protect and to heal.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Waldóo
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 1
+gender: 1
+level: 32
+achievementPoints: 0
+thumbnail: dalaran/68/182225476-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Raylocks
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 1
+gender: 0
+level: 44
+achievementPoints: 6015
+thumbnail: dalaran/158/182227614-avatar.jpg
+spec: 
+name: Affliction
+role: DPS
+backgroundImage: bg-warlock-affliction
+icon: spell_shadow_deathcoil
+description: A master of shadow magic who specializes in drains and damage-over-time spells.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Dirtmagera
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 1
+gender: 0
+level: 46
+achievementPoints: 4645
+thumbnail: dalaran/222/182239710-avatar.jpg
+spec: 
+name: Frost
+role: DPS
+backgroundImage: bg-mage-frost
+icon: spell_frost_frostbolt02
+description: Freezes enemies in their tracks and shatters them with Frost magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 9
+character: 
+name: Pheneax
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 11
+gender: 0
+level: 44
+achievementPoints: 465
+thumbnail: dalaran/65/182239809-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Doinyamom
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 3
+gender: 0
+level: 36
+achievementPoints: 220
+thumbnail: dalaran/88/182239832-avatar.jpg
+spec: 
+name: Arms
+role: DPS
+backgroundImage: bg-warrior-arms
+icon: ability_warrior_savageblow
+description: A battle-hardened master of two-handed weapons using mobility and overpowering attacks to strike his opponents down.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Treanx
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 0
+level: 27
+achievementPoints: 170
+thumbnail: dalaran/246/182284534-avatar.jpg
+spec: 
+name: Balance
+role: DPS
+backgroundImage: bg-druid-balance
+icon: spell_nature_starfall
+description: Can take on the form of a powerful Moonkin balancing the power of Arcane and Nature magic to destroy enemies at a distance.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Ghaina
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 3
+gender: 1
+level: 23
+achievementPoints: 4030
+thumbnail: dalaran/6/182384646-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-warrior-protection
+icon: ability_warrior_defensivestance
+description: A stalwart protector who uses a shield to safeguard himself and his allies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Hîrcine
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 22
+gender: 0
+level: 45
+achievementPoints: 465
+thumbnail: dalaran/253/182499069-avatar.jpg
+spec: 
+name: Subtlety
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_stealth
+description: A dark stalker who leaps from the shadows to ambush his unsuspecting prey.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 6
+character: 
+name: Malickia
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 30
+gender: 1
+level: 28
+achievementPoints: 0
+thumbnail: dalaran/232/182638312-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Littlecocoa
+realm: Dalaran
+battlegroup: Rampage
+class: 12
+race: 4
+gender: 1
+level: 110
+achievementPoints: 620
+thumbnail: dalaran/35/182666531-avatar.jpg
+spec: 
+name: Vengeance
+role: TANK
+backgroundImage: bg-warlock-demonology
+icon: ability_demonhunter_spectank
+description: Embraces the demon within to incinerate enemies and protect their allies.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 1
+character: 
+name: Carnagexx
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 22
+gender: 1
+level: 19
+achievementPoints: 9715
+thumbnail: dalaran/144/182728080-avatar.jpg
+spec: 
+name: Balance
+role: DPS
+backgroundImage: bg-druid-balance
+icon: spell_nature_starfall
+description: Can take on the form of a powerful Moonkin balancing the power of Arcane and Nature magic to destroy enemies at a distance.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Griefe
+realm: Dalaran
+battlegroup: Rampage
+class: 7
+race: 3
+gender: 0
+level: 110
+achievementPoints: 9510
+thumbnail: dalaran/127/182787711-avatar.jpg
+spec: 
+name: Enhancement
+role: DPS
+backgroundImage: bg-shaman-enhancement
+icon: spell_shaman_improvedstormstrike
+description: A totemic warrior who strikes foes with weapons imbued with elemental power.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Marilena
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 1
+gender: 1
+level: 110
+achievementPoints: 5280
+thumbnail: dalaran/17/182838033-avatar.jpg
+spec: 
+name: Frost
+role: DPS
+backgroundImage: bg-mage-frost
+icon: spell_frost_frostbolt02
+description: Freezes enemies in their tracks and shatters them with Frost magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Bønd
+realm: Dalaran
+battlegroup: Rampage
+class: 4
+race: 1
+gender: 0
+level: 14
+achievementPoints: 0
+thumbnail: dalaran/53/182893365-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Kynths
+realm: Dalaran
+battlegroup: Rampage
+class: 12
+race: 4
+gender: 1
+level: 110
+achievementPoints: 6325
+thumbnail: dalaran/65/182895425-avatar.jpg
+spec: 
+name: Havoc
+role: DPS
+backgroundImage: bg-rogue-subtlety
+icon: ability_demonhunter_specdps
+description: A brooding master of warglaives and the destructive power of Fel magic.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 5
+character: 
+name: Kickthepoly
+realm: Dalaran
+battlegroup: Rampage
+class: 8
+race: 1
+gender: 1
+level: 29
+achievementPoints: 0
+thumbnail: dalaran/7/182925831-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Tóffee
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 110
+achievementPoints: 1470
+thumbnail: dalaran/6/182939654-avatar.jpg
+spec: 
+name: Restoration
+role: HEALING
+backgroundImage: bg-druid-restoration
+icon: spell_nature_healingtouch
+description: Uses heal-over-time Nature spells to keep allies alive.
+order: 3
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Lilá
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 110
+achievementPoints: 930
+thumbnail: dalaran/180/182946228-avatar.jpg
+spec: 
+name: Feral
+role: DPS
+backgroundImage: bg-druid-cat
+icon: ability_druid_catform
+description: Takes on the form of a great cat to deal damage with bleeds and bites.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Butterscotch
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 29
+gender: 1
+level: 60
+achievementPoints: 9475
+thumbnail: dalaran/122/182948218-avatar.jpg
+spec: 
+name: Shadow
+role: DPS
+backgroundImage: bg-priest-shadow
+icon: spell_shadow_shadowwordpain
+description: Uses sinister Shadow magic especially damage-over-time spells to eradicate enemies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Shortcake
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 3
+gender: 1
+level: 5
+achievementPoints: 0
+thumbnail: dalaran/254/182971902-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Melodiaz
+realm: Dalaran
+battlegroup: Rampage
+class: 6
+race: 11
+gender: 0
+level: 56
+achievementPoints: 6325
+thumbnail: dalaran/116/183000180-avatar.jpg
+spec: 
+name: Unholy
+role: DPS
+backgroundImage: bg-deathknight-unholy
+icon: spell_deathknight_unholypresence
+description: A master of death and decay spreading infection and controlling undead minions to do her bidding.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Claudah
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 8
+achievementPoints: 0
+thumbnail: dalaran/20/183023892-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Alalama
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 25
+gender: 1
+level: 16
+achievementPoints: 12575
+thumbnail: dalaran/244/183049972-avatar.jpg
+spec: 
+name: Mistweaver
+role: HEALING
+backgroundImage: bg-monk-mistweaver
+icon: spell_monk_mistweaver_spec
+description: A healer who masters the mysterious art of manipulating life energies aided by the wisdom of the Jade Serpent and Pandaren medicinal techniques.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Renauld
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 30
+gender: 0
+level: 52
+achievementPoints: 2265
+thumbnail: dalaran/226/183055586-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Judessa
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 11
+gender: 1
+level: 36
+achievementPoints: 10050
+thumbnail: dalaran/47/183055663-avatar.jpg
+spec: 
+name: Fury
+role: DPS
+backgroundImage: bg-warrior-fury
+icon: ability_warrior_innerrage
+description: A furious berserker wielding a weapon in each hand unleashing a flurry of attacks to carve her opponents to pieces.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Wozk
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 22
+gender: 0
+level: 110
+achievementPoints: 535
+thumbnail: dalaran/162/183071394-avatar.jpg
+spec: 
+name: Marksmanship
+role: DPS
+backgroundImage: bg-hunter-marksman
+icon: ability_hunter_focusedaim
+description: A master archer or sharpshooter who excels in bringing down enemies from afar.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Alpezol
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 22
+gender: 0
+level: 110
+achievementPoints: 715
+thumbnail: dalaran/255/183100159-avatar.jpg
+spec: 
+name: Balance
+role: DPS
+backgroundImage: bg-druid-balance
+icon: spell_nature_starfall
+description: Can take on the form of a powerful Moonkin balancing the power of Arcane and Nature magic to destroy enemies at a distance.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Cherrysorbet
+realm: Dalaran
+battlegroup: Rampage
+class: 6
+race: 11
+gender: 1
+level: 56
+achievementPoints: 9475
+thumbnail: dalaran/75/183171403-avatar.jpg
+spec: 
+name: Unholy
+role: DPS
+backgroundImage: bg-deathknight-unholy
+icon: spell_deathknight_unholypresence
+description: A master of death and decay spreading infection and controlling undead minions to do her bidding.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Visaries
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 1
+gender: 0
+level: 20
+achievementPoints: 1425
+thumbnail: dalaran/93/183189853-avatar.jpg
+spec: 
+name: Protection
+role: TANK
+backgroundImage: bg-paladin-protection
+icon: ability_paladin_shieldofthetemplar
+description: Uses Holy magic to shield herself and defend allies from attackers.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Melais
+realm: Dalaran
+battlegroup: Rampage
+class: 11
+race: 4
+gender: 1
+level: 40
+achievementPoints: 10050
+thumbnail: dalaran/241/183215345-avatar.jpg
+spec: 
+name: Balance
+role: DPS
+backgroundImage: bg-druid-balance
+icon: spell_nature_starfall
+description: Can take on the form of a powerful Moonkin balancing the power of Arcane and Nature magic to destroy enemies at a distance.
+order: 0
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Gyatzin
+realm: Dalaran
+battlegroup: Rampage
+class: 10
+race: 1
+gender: 0
+level: 110
+achievementPoints: 11505
+thumbnail: dalaran/65/183217217-avatar.jpg
+spec: 
+name: Mistweaver
+role: HEALING
+backgroundImage: bg-monk-mistweaver
+icon: spell_monk_mistweaver_spec
+description: A healer who masters the mysterious art of manipulating life energies aided by the wisdom of the Jade Serpent and Pandaren medicinal techniques.
+order: 1
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 8
+character: 
+name: Myleni
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 1
+gender: 1
+level: 8
+achievementPoints: 0
+thumbnail: dalaran/9/183221257-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Steen
+realm: Dalaran
+battlegroup: Rampage
+class: 1
+race: 1
+gender: 0
+level: 31
+achievementPoints: 0
+thumbnail: dalaran/212/183256532-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 7
+character: 
+name: Hesnext
+realm: Dalaran
+battlegroup: Rampage
+class: 3
+race: 1
+gender: 1
+level: 7
+achievementPoints: 0
+thumbnail: dalaran/49/183287089-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 9
+character: 
+name: Starson
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 4
+gender: 1
+level: 110
+achievementPoints: 10050
+thumbnail: dalaran/29/169173277-avatar.jpg
+spec: 
+name: Shadow
+role: DPS
+backgroundImage: bg-priest-shadow
+icon: spell_shadow_shadowwordpain
+description: Uses sinister Shadow magic especially damage-over-time spells to eradicate enemies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 9
+character: 
+name: Kainesit
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 1
+gender: 1
+level: 7
+achievementPoints: 0
+thumbnail: dalaran/6/183314182-avatar.jpg
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 9
+character: 
+name: Cyran
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 11
+gender: 1
+level: 110
+achievementPoints: 10020
+thumbnail: dalaran/173/146737581-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 9
+character: 
+name: Picanteramen
+realm: Dalaran
+battlegroup: Rampage
+class: 9
+race: 7
+gender: 1
+level: 110
+achievementPoints: 9985
+thumbnail: dalaran/121/172764793-avatar.jpg
+spec: 
+name: Destruction
+role: DPS
+backgroundImage: bg-warlock-destruction
+icon: spell_shadow_rainoffire
+description: A master of chaos who calls down fire to burn and demolish enemies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 9
+character: 
+name: Gardevoír
+realm: Dalaran
+battlegroup: Rampage
+class: 2
+race: 30
+gender: 1
+level: 50
+achievementPoints: 4390
+thumbnail: dalaran/20/179090708-avatar.jpg
+spec: 
+name: Retribution
+role: DPS
+backgroundImage: bg-paladin-retribution
+icon: spell_holy_auraoflight
+description: A righteous crusader who judges and punishes opponents with weapons and Holy magic.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 9
+character: 
+name: Díscipline
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 4
+gender: 1
+level: 94
+achievementPoints: 10450
+thumbnail: dalaran/228/161239012-avatar.jpg
+spec: 
+name: Shadow
+role: DPS
+backgroundImage: bg-priest-shadow
+icon: spell_shadow_shadowwordpain
+description: Uses sinister Shadow magic especially damage-over-time spells to eradicate enemies.
+order: 2
+guild: The Illuminati
+guildRealm: Dalaran
+lastModified: 0
+rank: 9
+character: 
+name: Dáriáteptep
+realm: Dalaran
+battlegroup: Rampage
+class: 5
+race: 30
+gender: 1
+level: 80
+achievementPoints: 0
+thumbnail: dalaran/96/183300704-avatar.jpg
+guild: Vhendetta
+guildRealm: Dalaran
+lastModified: 0
+rank: 9
+]
+emblem: 
+icon: 8
+iconColor: ffdfa55a
+iconColorId: 16
+border: 1
+borderColor: fff9cc30
+borderColorId: 16
+backgroundColor: ff003582
+backgroundColorId: 32
