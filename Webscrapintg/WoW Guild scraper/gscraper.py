@@ -9,7 +9,31 @@ from __future__ import division
 file_orig = open('webscrape.txt', 'r')
 file_modified = open('webscrape_modified.txt','w')
 
+#information about guild
+guildName = ''
+guildRealm = ''
+battlegroup = ''
+achievementPoints = ''
+guildLevel = ''
+side = ''
+
+#information about guild members
+memberNames = []
+memberClasses = []
+memberRace = []
+memberLevel = []
+memberAchievementPoints = []
+
+def returnVar(input):
+	'''Takes a string of the form "var: val" and returns var.'''
+	return input.split(':')[0])
+	
+def returnVal(input)
+	'''Takes a string of the form "var: val" and returns val.'''
+	return input.split(':')[1].lstrip()
+
 def find_between( s, first, last ):
+	'''Finds the string between two strings that appear first in another string.'''
 	try:
 		start = s.index( first ) + len( first )
 		end = s.index( last, start )
@@ -18,6 +42,7 @@ def find_between( s, first, last ):
 		return ""
 		
 def find_between( s, first, last ):
+	'''Finds the string between two strings that appear first in another string.'''
 	try:
 		start = s.index( first ) + len( first )
 		end = s.rindex( last, start )
