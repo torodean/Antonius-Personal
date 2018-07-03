@@ -1,37 +1,12 @@
-{
-  "lastModified": 1530191673000,
+﻿{
+  "lastModified": 1530609323000,
   "name": "The Illuminati",
   "realm": "Dalaran",
   "battlegroup": "Rampage",
   "level": 25,
   "side": 0,
-  "achievementPoints": 805,
+  "achievementPoints": 825,
   "members": [
-    {
-      "character": {
-        "name": "Nekbone",
-        "realm": "Dalaran",
-        "battlegroup": "Rampage",
-        "class": 2,
-        "race": 1,
-        "gender": 0,
-        "level": 110,
-        "achievementPoints": 10910,
-        "thumbnail": "dalaran/247/131046135-avatar.jpg",
-        "spec": {
-          "name": "Retribution",
-          "role": "DPS",
-          "backgroundImage": "bg-paladin-retribution",
-          "icon": "spell_holy_auraoflight",
-          "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
-          "order": 2
-        },
-        "guild": "The Illuminati",
-        "guildRealm": "Dalaran",
-        "lastModified": 0
-      },
-      "rank": 7
-    },
     {
       "character": {
         "name": "Sagee",
@@ -198,7 +173,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -223,7 +198,7 @@
           "role": "DPS",
           "backgroundImage": "bg-rogue-subtlety",
           "icon": "ability_stealth",
-          "description": "A dark stalker who leaps from the shadows to ambush his unsuspecting prey.",
+          "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.",
           "order": 2
         },
         "guild": "The Illuminati",
@@ -298,7 +273,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-fury",
           "icon": "ability_warrior_innerrage",
-          "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve her opponents to pieces.",
+          "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -573,7 +548,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -648,7 +623,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-arms",
           "icon": "ability_warrior_savageblow",
-          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike his opponents down.",
+          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike her opponents down.",
           "order": 0
         },
         "guild": "The Illuminati",
@@ -690,7 +665,7 @@
         "class": 9,
         "race": 7,
         "gender": 1,
-        "level": 96,
+        "level": 97,
         "achievementPoints": 3615,
         "thumbnail": "dalaran/182/164043446-avatar.jpg",
         "spec": {
@@ -715,7 +690,7 @@
         "class": 5,
         "race": 3,
         "gender": 0,
-        "level": 54,
+        "level": 57,
         "achievementPoints": 2045,
         "thumbnail": "dalaran/52/164096308-avatar.jpg",
         "spec": {
@@ -798,7 +773,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-fury",
           "icon": "ability_warrior_innerrage",
-          "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve her opponents to pieces.",
+          "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -998,7 +973,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-fury",
           "icon": "ability_warrior_innerrage",
-          "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve her opponents to pieces.",
+          "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -1223,7 +1198,7 @@
           "role": "DPS",
           "backgroundImage": "bg-rogue-subtlety",
           "icon": "ability_stealth",
-          "description": "A dark stalker who leaps from the shadows to ambush his unsuspecting prey.",
+          "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.",
           "order": 2
         },
         "guild": "The Illuminati",
@@ -1259,38 +1234,13 @@
     },
     {
       "character": {
-        "name": "Camzillaa",
-        "realm": "Dalaran",
-        "battlegroup": "Rampage",
-        "class": 3,
-        "race": 3,
-        "gender": 0,
-        "level": 49,
-        "achievementPoints": 390,
-        "thumbnail": "dalaran/165/170680229-avatar.jpg",
-        "spec": {
-          "name": "Marksmanship",
-          "role": "DPS",
-          "backgroundImage": "bg-hunter-marksman",
-          "icon": "ability_hunter_focusedaim",
-          "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
-          "order": 1
-        },
-        "guild": "The Illuminati",
-        "guildRealm": "Dalaran",
-        "lastModified": 0
-      },
-      "rank": 7
-    },
-    {
-      "character": {
         "name": "Rerollme",
         "realm": "Dalaran",
         "battlegroup": "Rampage",
         "class": 1,
         "race": 1,
         "gender": 1,
-        "level": 43,
+        "level": 44,
         "achievementPoints": 8980,
         "thumbnail": "dalaran/156/170997148-avatar.jpg",
         "spec": {
@@ -1348,7 +1298,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -1423,7 +1373,7 @@
           "role": "DPS",
           "backgroundImage": "bg-rogue-subtlety",
           "icon": "ability_stealth",
-          "description": "A dark stalker who leaps from the shadows to ambush his unsuspecting prey.",
+          "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.",
           "order": 2
         },
         "guild": "The Illuminati",
@@ -1473,7 +1423,7 @@
           "role": "DPS",
           "backgroundImage": "bg-rogue-subtlety",
           "icon": "ability_stealth",
-          "description": "A dark stalker who leaps from the shadows to ambush his unsuspecting prey.",
+          "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.",
           "order": 2
         },
         "guild": "The Illuminati",
@@ -1498,7 +1448,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -1523,7 +1473,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -1623,7 +1573,7 @@
           "role": "TANK",
           "backgroundImage": "bg-deathknight-blood",
           "icon": "spell_deathknight_bloodpresence",
-          "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+          "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
           "order": 0
         },
         "guild": "The Illuminati",
@@ -1673,7 +1623,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-arms",
           "icon": "ability_warrior_savageblow",
-          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike his opponents down.",
+          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike her opponents down.",
           "order": 0
         },
         "guild": "The Illuminati",
@@ -1748,7 +1698,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-fury",
           "icon": "ability_warrior_innerrage",
-          "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve her opponents to pieces.",
+          "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -1798,7 +1748,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -1848,7 +1798,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-arms",
           "icon": "ability_warrior_savageblow",
-          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike his opponents down.",
+          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike her opponents down.",
           "order": 0
         },
         "guild": "The Illuminati",
@@ -1973,7 +1923,7 @@
           "role": "DPS",
           "backgroundImage": "bg-rogue-subtlety",
           "icon": "ability_stealth",
-          "description": "A dark stalker who leaps from the shadows to ambush his unsuspecting prey.",
+          "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.",
           "order": 2
         },
         "guild": "The Illuminati",
@@ -1998,7 +1948,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-arms",
           "icon": "ability_warrior_savageblow",
-          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike his opponents down.",
+          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike her opponents down.",
           "order": 0
         },
         "guild": "The Illuminati",
@@ -2215,7 +2165,7 @@
           "role": "DPS",
           "backgroundImage": "bg-rogue-subtlety",
           "icon": "ability_stealth",
-          "description": "A dark stalker who leaps from the shadows to ambush his unsuspecting prey.",
+          "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.",
           "order": 2
         },
         "guild": "The Illuminati",
@@ -2240,7 +2190,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -2307,7 +2257,7 @@
           "role": "TANK",
           "backgroundImage": "bg-deathknight-blood",
           "icon": "spell_deathknight_bloodpresence",
-          "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+          "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
           "order": 0
         },
         "guild": "The Illuminati",
@@ -2424,7 +2374,7 @@
           "role": "DPS",
           "backgroundImage": "bg-rogue-subtlety",
           "icon": "ability_stealth",
-          "description": "A dark stalker who leaps from the shadows to ambush his unsuspecting prey.",
+          "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.",
           "order": 2
         },
         "guild": "The Illuminati",
@@ -2692,7 +2642,7 @@
         "class": 3,
         "race": 3,
         "gender": 0,
-        "level": 35,
+        "level": 40,
         "achievementPoints": 4655,
         "thumbnail": "dalaran/111/179065967-avatar.jpg",
         "spec": {
@@ -2850,7 +2800,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-arms",
           "icon": "ability_warrior_savageblow",
-          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike his opponents down.",
+          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike her opponents down.",
           "order": 0
         },
         "guild": "The Illuminati",
@@ -2992,7 +2942,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -3217,7 +3167,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -3309,7 +3259,7 @@
           "role": "DPS",
           "backgroundImage": "bg-rogue-subtlety",
           "icon": "ability_stealth",
-          "description": "A dark stalker who leaps from the shadows to ambush his unsuspecting prey.",
+          "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.",
           "order": 2
         },
         "guild": "The Illuminati",
@@ -3334,7 +3284,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -3445,23 +3395,6 @@
     },
     {
       "character": {
-        "name": "Zaltia",
-        "realm": "Dalaran",
-        "battlegroup": "Rampage",
-        "class": 10,
-        "race": 25,
-        "gender": 1,
-        "level": 13,
-        "achievementPoints": 0,
-        "thumbnail": "dalaran/9/179852809-avatar.jpg",
-        "guild": "The Illuminati",
-        "guildRealm": "Dalaran",
-        "lastModified": 0
-      },
-      "rank": 7
-    },
-    {
-      "character": {
         "name": "Alakarany",
         "realm": "Dalaran",
         "battlegroup": "Rampage",
@@ -3510,7 +3443,7 @@
         "class": 11,
         "race": 4,
         "gender": 1,
-        "level": 47,
+        "level": 50,
         "achievementPoints": 250,
         "thumbnail": "dalaran/4/179870468-avatar.jpg",
         "spec": {
@@ -3828,7 +3761,7 @@
         "class": 3,
         "race": 29,
         "gender": 1,
-        "level": 69,
+        "level": 73,
         "achievementPoints": 385,
         "thumbnail": "dalaran/50/180248114-avatar.jpg",
         "spec": {
@@ -4028,7 +3961,7 @@
         "class": 8,
         "race": 29,
         "gender": 1,
-        "level": 60,
+        "level": 73,
         "achievementPoints": 15395,
         "thumbnail": "dalaran/61/180437821-avatar.jpg",
         "spec": {
@@ -4103,7 +4036,7 @@
         "class": 1,
         "race": 30,
         "gender": 0,
-        "level": 55,
+        "level": 70,
         "achievementPoints": 6985,
         "thumbnail": "dalaran/45/180699693-avatar.jpg",
         "spec": {
@@ -4111,7 +4044,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-arms",
           "icon": "ability_warrior_savageblow",
-          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike his opponents down.",
+          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike her opponents down.",
           "order": 0
         },
         "guild": "The Illuminati",
@@ -4228,7 +4161,7 @@
           "role": "DPS",
           "backgroundImage": "bg-deathknight-unholy",
           "icon": "spell_deathknight_unholypresence",
-          "description": "A master of death and decay, spreading infection and controlling undead minions to do her bidding.",
+          "description": "A master of death and decay, spreading infection and controlling undead minions to do his bidding.",
           "order": 2
         },
         "guild": "The Illuminati",
@@ -4362,7 +4295,7 @@
           "role": "DPS",
           "backgroundImage": "bg-rogue-subtlety",
           "icon": "ability_stealth",
-          "description": "A dark stalker who leaps from the shadows to ambush his unsuspecting prey.",
+          "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.",
           "order": 2
         },
         "guild": "The Illuminati",
@@ -4387,7 +4320,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-fury",
           "icon": "ability_warrior_innerrage",
-          "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve her opponents to pieces.",
+          "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -4412,7 +4345,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -4429,7 +4362,7 @@
         "class": 6,
         "race": 7,
         "gender": 0,
-        "level": 63,
+        "level": 68,
         "achievementPoints": 10900,
         "thumbnail": "dalaran/94/181070174-avatar.jpg",
         "spec": {
@@ -4437,7 +4370,7 @@
           "role": "TANK",
           "backgroundImage": "bg-deathknight-blood",
           "icon": "spell_deathknight_bloodpresence",
-          "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+          "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
           "order": 0
         },
         "guild": "The Illuminati",
@@ -4637,7 +4570,7 @@
           "role": "TANK",
           "backgroundImage": "bg-deathknight-blood",
           "icon": "spell_deathknight_bloodpresence",
-          "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+          "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
           "order": 0
         },
         "guild": "The Illuminati",
@@ -4721,7 +4654,7 @@
         "class": 5,
         "race": 29,
         "gender": 1,
-        "level": 77,
+        "level": 85,
         "achievementPoints": 11505,
         "thumbnail": "dalaran/154/181357210-avatar.jpg",
         "spec": {
@@ -4929,7 +4862,7 @@
           "role": "TANK",
           "backgroundImage": "bg-deathknight-blood",
           "icon": "spell_deathknight_bloodpresence",
-          "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+          "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
           "order": 0
         },
         "guild": "The Illuminati",
@@ -4946,7 +4879,7 @@
         "class": 3,
         "race": 3,
         "gender": 0,
-        "level": 41,
+        "level": 43,
         "achievementPoints": 11505,
         "thumbnail": "dalaran/221/181623005-avatar.jpg",
         "spec": {
@@ -5222,7 +5155,7 @@
         "class": 4,
         "race": 4,
         "gender": 1,
-        "level": 23,
+        "level": 30,
         "achievementPoints": 9250,
         "thumbnail": "dalaran/189/182113725-avatar.jpg",
         "spec": {
@@ -5372,7 +5305,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -5397,7 +5330,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-arms",
           "icon": "ability_warrior_savageblow",
-          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike his opponents down.",
+          "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike her opponents down.",
           "order": 0
         },
         "guild": "The Illuminati",
@@ -5472,7 +5405,7 @@
           "role": "DPS",
           "backgroundImage": "bg-rogue-subtlety",
           "icon": "ability_stealth",
-          "description": "A dark stalker who leaps from the shadows to ambush his unsuspecting prey.",
+          "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.",
           "order": 2
         },
         "guild": "The Illuminati",
@@ -5638,7 +5571,7 @@
         "guildRealm": "Dalaran",
         "lastModified": 0
       },
-      "rank": 5
+      "rank": 4
     },
     {
       "character": {
@@ -5715,7 +5648,7 @@
         "class": 5,
         "race": 29,
         "gender": 1,
-        "level": 60,
+        "level": 80,
         "achievementPoints": 9475,
         "thumbnail": "dalaran/122/182948218-avatar.jpg",
         "spec": {
@@ -5765,7 +5698,7 @@
           "role": "DPS",
           "backgroundImage": "bg-deathknight-unholy",
           "icon": "spell_deathknight_unholypresence",
-          "description": "A master of death and decay, spreading infection and controlling undead minions to do her bidding.",
+          "description": "A master of death and decay, spreading infection and controlling undead minions to do his bidding.",
           "order": 2
         },
         "guild": "The Illuminati",
@@ -5824,7 +5757,7 @@
         "class": 2,
         "race": 30,
         "gender": 0,
-        "level": 52,
+        "level": 53,
         "achievementPoints": 2265,
         "thumbnail": "dalaran/226/183055586-avatar.jpg",
         "spec": {
@@ -5857,7 +5790,7 @@
           "role": "DPS",
           "backgroundImage": "bg-warrior-fury",
           "icon": "ability_warrior_innerrage",
-          "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve her opponents to pieces.",
+          "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -5918,31 +5851,6 @@
     },
     {
       "character": {
-        "name": "Cherrysorbet",
-        "realm": "Dalaran",
-        "battlegroup": "Rampage",
-        "class": 6,
-        "race": 11,
-        "gender": 1,
-        "level": 56,
-        "achievementPoints": 9475,
-        "thumbnail": "dalaran/75/183171403-avatar.jpg",
-        "spec": {
-          "name": "Unholy",
-          "role": "DPS",
-          "backgroundImage": "bg-deathknight-unholy",
-          "icon": "spell_deathknight_unholypresence",
-          "description": "A master of death and decay, spreading infection and controlling undead minions to do her bidding.",
-          "order": 2
-        },
-        "guild": "The Illuminati",
-        "guildRealm": "Dalaran",
-        "lastModified": 0
-      },
-      "rank": 7
-    },
-    {
-      "character": {
         "name": "Visaries",
         "realm": "Dalaran",
         "battlegroup": "Rampage",
@@ -5957,7 +5865,7 @@
           "role": "TANK",
           "backgroundImage": "bg-paladin-protection",
           "icon": "ability_paladin_shieldofthetemplar",
-          "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+          "description": "Uses Holy magic to shield himself and defend allies from attackers.",
           "order": 1
         },
         "guild": "The Illuminati",
@@ -5974,7 +5882,7 @@
         "class": 11,
         "race": 4,
         "gender": 1,
-        "level": 40,
+        "level": 49,
         "achievementPoints": 10050,
         "thumbnail": "dalaran/241/183215345-avatar.jpg",
         "spec": {
@@ -6024,26 +5932,9 @@
         "class": 3,
         "race": 1,
         "gender": 1,
-        "level": 8,
+        "level": 9,
         "achievementPoints": 0,
         "thumbnail": "dalaran/9/183221257-avatar.jpg",
-        "guild": "The Illuminati",
-        "guildRealm": "Dalaran",
-        "lastModified": 0
-      },
-      "rank": 7
-    },
-    {
-      "character": {
-        "name": "Steen",
-        "realm": "Dalaran",
-        "battlegroup": "Rampage",
-        "class": 1,
-        "race": 1,
-        "gender": 0,
-        "level": 31,
-        "achievementPoints": 0,
-        "thumbnail": "dalaran/212/183256532-avatar.jpg",
         "guild": "The Illuminati",
         "guildRealm": "Dalaran",
         "lastModified": 0
@@ -6132,7 +6023,7 @@
         "guildRealm": "Dalaran",
         "lastModified": 0
       },
-      "rank": 9
+      "rank": 8
     },
     {
       "character": {
@@ -6167,9 +6058,278 @@
         "class": 2,
         "race": 30,
         "gender": 1,
-        "level": 50,
+        "level": 83,
         "achievementPoints": 4390,
         "thumbnail": "dalaran/20/179090708-avatar.jpg",
+        "spec": {
+          "name": "Retribution",
+          "role": "DPS",
+          "backgroundImage": "bg-paladin-retribution",
+          "icon": "spell_holy_auraoflight",
+          "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+          "order": 2
+        },
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 8
+    },
+    {
+      "character": {
+        "name": "Díscipline",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 5,
+        "race": 4,
+        "gender": 1,
+        "level": 98,
+        "achievementPoints": 10450,
+        "thumbnail": "dalaran/228/161239012-avatar.jpg",
+        "spec": {
+          "name": "Shadow",
+          "role": "DPS",
+          "backgroundImage": "bg-priest-shadow",
+          "icon": "spell_shadow_shadowwordpain",
+          "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.",
+          "order": 2
+        },
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 8
+    },
+    {
+      "character": {
+        "name": "Dáriáteptep",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 5,
+        "race": 30,
+        "gender": 1,
+        "level": 80,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/96/183300704-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 9
+    },
+    {
+      "character": {
+        "name": "Steen",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 1,
+        "race": 1,
+        "gender": 0,
+        "level": 44,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/212/183256532-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 7
+    },
+    {
+      "character": {
+        "name": "Laylleane",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 11,
+        "race": 4,
+        "gender": 1,
+        "level": 110,
+        "achievementPoints": 4845,
+        "thumbnail": "dalaran/217/179546329-avatar.jpg",
+        "spec": {
+          "name": "Balance",
+          "role": "DPS",
+          "backgroundImage": "bg-druid-balance",
+          "icon": "spell_nature_starfall",
+          "description": "Can take on the form of a powerful Moonkin, balancing the power of Arcane and Nature magic to destroy enemies at a distance.",
+          "order": 0
+        },
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 7
+    },
+    {
+      "character": {
+        "name": "Chowlauniam",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 1,
+        "race": 22,
+        "gender": 0,
+        "level": 77,
+        "achievementPoints": 480,
+        "thumbnail": "dalaran/14/183047694-avatar.jpg",
+        "spec": {
+          "name": "Protection",
+          "role": "TANK",
+          "backgroundImage": "bg-warrior-protection",
+          "icon": "ability_warrior_defensivestance",
+          "description": "A stalwart protector who uses a shield to safeguard himself and his allies.",
+          "order": 2
+        },
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 7
+    },
+    {
+      "character": {
+        "name": "Crèmecaramel",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 6,
+        "race": 1,
+        "gender": 1,
+        "level": 56,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/160/183341472-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 8
+    },
+    {
+      "character": {
+        "name": "Saraxis",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 12,
+        "race": 4,
+        "gender": 0,
+        "level": 110,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/34/183355170-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 9
+    },
+    {
+      "character": {
+        "name": "Imahandful",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 8,
+        "race": 1,
+        "gender": 1,
+        "level": 110,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/148/182563988-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 7
+    },
+    {
+      "character": {
+        "name": "Sibcoe",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 1,
+        "race": 1,
+        "gender": 0,
+        "level": 26,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/105/183355753-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 7
+    },
+    {
+      "character": {
+        "name": "Marabèth",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 10,
+        "race": 1,
+        "gender": 1,
+        "level": 6,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/134/183357062-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 9
+    },
+    {
+      "character": {
+        "name": "Legionlol",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 11,
+        "race": 4,
+        "gender": 1,
+        "level": 110,
+        "achievementPoints": 11670,
+        "thumbnail": "dalaran/205/143073229-avatar.jpg",
+        "spec": {
+          "name": "Feral",
+          "role": "DPS",
+          "backgroundImage": "bg-druid-cat",
+          "icon": "ability_druid_catform",
+          "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+          "order": 1
+        },
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 7
+    },
+    {
+      "character": {
+        "name": "Radorgal",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 4,
+        "race": 29,
+        "gender": 1,
+        "level": 63,
+        "achievementPoints": 5420,
+        "thumbnail": "dalaran/74/182364746-avatar.jpg",
+        "spec": {
+          "name": "Assassination",
+          "role": "DPS",
+          "backgroundImage": "bg-rogue-assassination",
+          "icon": "ability_rogue_deadlybrew",
+          "description": "A deadly master of poisons who dispatches victims with vicious dagger strikes.",
+          "order": 0
+        },
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 8
+    },
+    {
+      "character": {
+        "name": "Negasonic",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 2,
+        "race": 11,
+        "gender": 1,
+        "level": 110,
+        "achievementPoints": 15085,
+        "thumbnail": "dalaran/196/151369924-avatar.jpg",
         "spec": {
           "name": "Retribution",
           "role": "DPS",
@@ -6186,22 +6346,56 @@
     },
     {
       "character": {
-        "name": "Díscipline",
+        "name": "Vandriane",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 4,
+        "race": 1,
+        "gender": 1,
+        "level": 11,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/14/183417102-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 9
+    },
+    {
+      "character": {
+        "name": "Alelarran",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 10,
+        "race": 1,
+        "gender": 0,
+        "level": 43,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/93/183401565-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 9
+    },
+    {
+      "character": {
+        "name": "Banktwink",
         "realm": "Dalaran",
         "battlegroup": "Rampage",
         "class": 5,
-        "race": 4,
+        "race": 1,
         "gender": 1,
-        "level": 94,
-        "achievementPoints": 10450,
-        "thumbnail": "dalaran/228/161239012-avatar.jpg",
+        "level": 21,
+        "achievementPoints": 6480,
+        "thumbnail": "dalaran/144/178321808-avatar.jpg",
         "spec": {
-          "name": "Shadow",
-          "role": "DPS",
-          "backgroundImage": "bg-priest-shadow",
-          "icon": "spell_shadow_shadowwordpain",
-          "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.",
-          "order": 2
+          "name": "Discipline",
+          "role": "HEALING",
+          "backgroundImage": "bg-priest-discipline",
+          "icon": "spell_holy_powerwordshield",
+          "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+          "order": 0
         },
         "guild": "The Illuminati",
         "guildRealm": "Dalaran",
@@ -6211,16 +6405,185 @@
     },
     {
       "character": {
-        "name": "Dáriáteptep",
+        "name": "Kaylaan",
         "realm": "Dalaran",
         "battlegroup": "Rampage",
-        "class": 5,
-        "race": 30,
+        "class": 12,
+        "race": 4,
         "gender": 1,
-        "level": 80,
+        "level": 110,
+        "achievementPoints": 4390,
+        "thumbnail": "dalaran/44/157571372-avatar.jpg",
+        "spec": {
+          "name": "Vengeance",
+          "role": "TANK",
+          "backgroundImage": "bg-warlock-demonology",
+          "icon": "ability_demonhunter_spectank",
+          "description": "Embraces the demon within to incinerate enemies and protect their allies.",
+          "order": 1
+        },
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 7
+    },
+    {
+      "character": {
+        "name": "Feliiciity",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 6,
+        "race": 1,
+        "gender": 1,
+        "level": 110,
+        "achievementPoints": 10450,
+        "thumbnail": "dalaran/249/154405369-avatar.jpg",
+        "spec": {
+          "name": "Unholy",
+          "role": "DPS",
+          "backgroundImage": "bg-deathknight-unholy",
+          "icon": "spell_deathknight_unholypresence",
+          "description": "A master of death and decay, spreading infection and controlling undead minions to do his bidding.",
+          "order": 2
+        },
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 7
+    },
+    {
+      "character": {
+        "name": "Heilder",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 2,
+        "race": 1,
+        "gender": 0,
+        "level": 110,
         "achievementPoints": 0,
-        "thumbnail": "dalaran/96/183300704-avatar.jpg",
-        "guild": "Vhendetta",
+        "thumbnail": "dalaran/232/183369704-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 8
+    },
+    {
+      "character": {
+        "name": "Darthroden",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 2,
+        "race": 1,
+        "gender": 0,
+        "level": 3,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/90/183438682-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 9
+    },
+    {
+      "character": {
+        "name": "Aqmonora",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 8,
+        "race": 1,
+        "gender": 1,
+        "level": 110,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/238/183417070-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 9
+    },
+    {
+      "character": {
+        "name": "Giddyupgal",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 8,
+        "race": 1,
+        "gender": 1,
+        "level": 5,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/164/183443364-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 9
+    },
+    {
+      "character": {
+        "name": "Borgonto",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 9,
+        "race": 1,
+        "gender": 0,
+        "level": 13,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/218/183443418-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 7
+    },
+    {
+      "character": {
+        "name": "Morghause",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 8,
+        "race": 1,
+        "gender": 1,
+        "level": 2,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/136/183420040-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 9
+    },
+    {
+      "character": {
+        "name": "Hjalfnar",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 3,
+        "race": 1,
+        "gender": 0,
+        "level": 8,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/35/149617187-avatar.jpg",
+        "guild": "The Illuminati",
+        "guildRealm": "Dalaran",
+        "lastModified": 0
+      },
+      "rank": 9
+    },
+    {
+      "character": {
+        "name": "Starcrossed",
+        "realm": "Dalaran",
+        "battlegroup": "Rampage",
+        "class": 8,
+        "race": 1,
+        "gender": 1,
+        "level": 26,
+        "achievementPoints": 0,
+        "thumbnail": "dalaran/118/183393398-avatar.jpg",
+        "guild": "The Illuminati",
         "guildRealm": "Dalaran",
         "lastModified": 0
       },
