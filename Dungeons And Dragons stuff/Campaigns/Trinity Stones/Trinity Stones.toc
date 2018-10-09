@@ -5,21 +5,21 @@
 \contentsline {section}{The Celestial Guard}{3}{section*.3}
 \contentsline {section}{The Space Stone}{4}{section*.3}
 \contentsline {section}{The Matter Stone}{4}{section*.3}
-\contentsline {section}{The Time Stone}{4}{section*.3}
-\contentsline {chapter}{The Campaign}{5}{chapter*.4}
-\contentsline {subsection}{Baba}{5}{section*.5}
-\contentsline {chapter}{The Zones}{8}{chapter*.6}
-\contentsline {section}{The Statu Peninsula}{8}{section*.7}
-\contentsline {section}{Aurushire}{8}{section*.7}
-\contentsline {subsection}{NPC's}{8}{section*.8}
-\contentsline {section}{Rem Silva}{8}{section*.8}
-\contentsline {subsection}{NPC's/Modified Creatures}{9}{section*.9}
-\contentsline {section}{The Pluvian Forest}{13}{Item.4}
-\contentsline {subsection}{NPC's}{15}{section*.10}
-\contentsline {section}{Spati Aethereu Thalamun}{15}{section*.10}
-\contentsline {section}{Auru Convallis}{17}{section*.10}
-\contentsline {chapter}{Maps}{18}{chapter*.11}
-\contentsline {section}{Aurushire}{18}{section*.12}
-\contentsline {section}{Rem Silva}{19}{section*.12}
-\contentsline {section}{Spati Aethereu Thalamun}{20}{section*.12}
-\contentsline {section}{The Halls of No End}{21}{section*.12}
+\contentsline {section}{The Time Stone}{5}{section*.3}
+\contentsline {chapter}{The Campaign}{6}{chapter*.4}
+\contentsline {subsection}{Baba}{6}{section*.5}
+\contentsline {chapter}{The Zones}{11}{chapter*.6}
+\contentsline {section}{The Statu Peninsula}{11}{section*.7}
+\contentsline {section}{Aurushire}{11}{section*.7}
+\contentsline {subsection}{NPC's}{11}{section*.8}
+\contentsline {section}{Rem Silva}{12}{section*.8}
+\contentsline {subsection}{NPC's/Modified Creatures}{14}{section*.9}
+\contentsline {section}{The Pluvian Forest}{20}{Item.4}
+\contentsline {subsection}{NPC's}{23}{section*.10}
+\contentsline {section}{Spati Aethereu Thalamun}{23}{section*.10}
+\contentsline {section}{Auru Convallis}{28}{section*.10}
+\contentsline {chapter}{Maps}{29}{chapter*.11}
+\contentsline {section}{Aurushire}{29}{section*.12}
+\contentsline {section}{Rem Silva}{30}{section*.12}
+\contentsline {section}{Spati Aethereu Thalamun}{31}{section*.12}
+\contentsline {section}{The Halls of No End}{32}{section*.12}
