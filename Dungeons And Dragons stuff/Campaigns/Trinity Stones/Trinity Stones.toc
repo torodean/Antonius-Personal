@@ -12,18 +12,20 @@
 \contentsline {chapter}{The Campaign}{7}{chapter*.4}
 \contentsline {subsection}{Baba}{7}{section*.5}
 \contentsline {chapter}{The Zones}{11}{chapter*.6}
-\contentsline {section}{Tempestas}{11}{section*.7}
-\contentsline {section}{The Statu Peninsula}{11}{section*.7}
-\contentsline {section}{Aurushire}{11}{section*.7}
-\contentsline {subsection}{NPC's}{11}{section*.8}
-\contentsline {section}{Rem Silva}{12}{section*.8}
-\contentsline {subsection}{NPC's/Modified Creatures}{13}{section*.9}
-\contentsline {section}{The Pluvian Forest}{19}{Item.4}
-\contentsline {subsection}{NPC's}{21}{section*.10}
-\contentsline {section}{Spati Aethereu Thalamun}{21}{section*.10}
-\contentsline {section}{Auru Convallis}{25}{section*.10}
-\contentsline {chapter}{Maps}{26}{chapter*.11}
-\contentsline {section}{Aurushire}{26}{section*.12}
-\contentsline {section}{Rem Silva}{27}{section*.12}
-\contentsline {section}{Spati Aethereu Thalamun}{28}{section*.12}
-\contentsline {section}{The Halls of No End}{29}{section*.12}
+\contentsline {section}{Orilla}{11}{section*.7}
+\contentsline {section}{Tempestas}{12}{section*.7}
+\contentsline {section}{The Statu Peninsula}{14}{Item.60}
+\contentsline {section}{Aurushire}{14}{Item.60}
+\contentsline {subsection}{NPC's}{15}{section*.8}
+\contentsline {section}{Rem Silva}{15}{section*.8}
+\contentsline {subsection}{NPC's/Modified Creatures}{17}{section*.9}
+\contentsline {section}{The Pluvian Forest}{22}{Item.64}
+\contentsline {subsection}{NPC's}{25}{section*.10}
+\contentsline {section}{Spati Aethereu Thalamun}{25}{section*.10}
+\contentsline {section}{Auru Convallis}{29}{section*.10}
+\contentsline {chapter}{Maps}{30}{chapter*.11}
+\contentsline {section}{Tempestas}{30}{section*.12}
+\contentsline {section}{Aurushire}{31}{section*.12}
+\contentsline {section}{Rem Silva}{32}{section*.12}
+\contentsline {section}{Spati Aethereu Thalamun}{33}{section*.12}
+\contentsline {section}{The Halls of No End}{34}{section*.12}
