@@ -1,25 +1,29 @@
-\select@language {english}
+\babel@toc {english}{}
 \contentsline {chapter}{The Trinity Stones}{3}{chapter*.2}
 \contentsline {section}{Creation of a Trinity}{3}{section*.3}
 \contentsline {section}{Creation of the Stones}{3}{section*.3}
 \contentsline {section}{The Celestial Guard}{3}{section*.3}
 \contentsline {section}{The Space Stone}{4}{section*.3}
-\contentsline {section}{The Matter Stone}{4}{section*.3}
+\contentsline {section}{The Matter Stone}{5}{section*.3}
 \contentsline {section}{The Time Stone}{5}{section*.3}
-\contentsline {chapter}{The Campaign}{6}{chapter*.4}
-\contentsline {subsection}{Baba}{6}{section*.5}
+\contentsline {section}{The Celestials}{5}{section*.3}
+\contentsline {section}{Myrddin}{5}{section*.3}
+\contentsline {section}{Morgana}{6}{section*.3}
+\contentsline {chapter}{The Campaign}{7}{chapter*.4}
+\contentsline {subsection}{Baba}{7}{section*.5}
 \contentsline {chapter}{The Zones}{11}{chapter*.6}
+\contentsline {section}{Tempestas}{11}{section*.7}
 \contentsline {section}{The Statu Peninsula}{11}{section*.7}
 \contentsline {section}{Aurushire}{11}{section*.7}
 \contentsline {subsection}{NPC's}{11}{section*.8}
 \contentsline {section}{Rem Silva}{12}{section*.8}
-\contentsline {subsection}{NPC's/Modified Creatures}{14}{section*.9}
-\contentsline {section}{The Pluvian Forest}{20}{Item.4}
-\contentsline {subsection}{NPC's}{23}{section*.10}
-\contentsline {section}{Spati Aethereu Thalamun}{23}{section*.10}
-\contentsline {section}{Auru Convallis}{28}{section*.10}
-\contentsline {chapter}{Maps}{29}{chapter*.11}
-\contentsline {section}{Aurushire}{29}{section*.12}
-\contentsline {section}{Rem Silva}{30}{section*.12}
-\contentsline {section}{Spati Aethereu Thalamun}{31}{section*.12}
-\contentsline {section}{The Halls of No End}{32}{section*.12}
+\contentsline {subsection}{NPC's/Modified Creatures}{13}{section*.9}
+\contentsline {section}{The Pluvian Forest}{19}{Item.4}
+\contentsline {subsection}{NPC's}{21}{section*.10}
+\contentsline {section}{Spati Aethereu Thalamun}{21}{section*.10}
+\contentsline {section}{Auru Convallis}{25}{section*.10}
+\contentsline {chapter}{Maps}{26}{chapter*.11}
+\contentsline {section}{Aurushire}{26}{section*.12}
+\contentsline {section}{Rem Silva}{27}{section*.12}
+\contentsline {section}{Spati Aethereu Thalamun}{28}{section*.12}
+\contentsline {section}{The Halls of No End}{29}{section*.12}
