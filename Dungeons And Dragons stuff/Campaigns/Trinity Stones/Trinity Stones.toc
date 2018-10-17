@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\select@language {english}
 \contentsline {chapter}{The Trinity Stones}{3}{chapter*.2}
 \contentsline {section}{Creation of a Trinity}{3}{section*.3}
 \contentsline {section}{Creation of the Stones}{3}{section*.3}
