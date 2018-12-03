@@ -1,0 +1,20 @@
+Inn of the prancing pony.
+He's one of them ranger folk. Dangerous folk otu here wondering the wilds. His name is strider.
+
+Base
+172 227 250
+
+Teracotta
+-653 89 1922
+
+obelisk
+-777 102 1503
+
+zombie spawner
+110 21 345
+
+Nether portal in nether
+342 85 381
+
+Mine
+560 11 113
