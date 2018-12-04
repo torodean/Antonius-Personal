@@ -9,7 +9,7 @@
 \contentsline {section}{The Celestials}{5}{section*.3}
 \contentsline {section}{Myrddin}{6}{Item.5}
 \contentsline {section}{Morgana}{6}{Item.5}
-\contentsline {subsection}{Morgana Lore in the Campaign}{7}{section*.4}
+\contentsline {subsection}{Morgana Lore in the Campaign}{6}{section*.4}
 \contentsline {chapter}{The Campaign}{8}{chapter*.5}
 \contentsline {subsection}{Tempestas}{8}{section*.6}
 \contentsline {subsection}{Journey to Aurushire}{8}{section*.6}
@@ -20,41 +20,42 @@
 \contentsline {subsection}{Tempestas Hierarchy}{15}{Item.65}
 \contentsline {subsection}{Brawlers Guild}{16}{Item.87}
 \contentsline {section}{The Statu Peninsula}{16}{Item.87}
-\contentsline {section}{Aurushire}{17}{Item.87}
-\contentsline {subsection}{NPC's}{17}{section*.9}
-\contentsline {section}{Rem Silva}{18}{section*.9}
-\contentsline {subsection}{NPC's/Modified Creatures}{19}{section*.10}
+\contentsline {section}{Aurushire}{16}{Item.87}
+\contentsline {subsection}{NPC's}{16}{section*.9}
+\contentsline {section}{Rem Silva}{17}{section*.9}
+\contentsline {subsection}{NPC's/Modified Creatures}{18}{section*.10}
 \contentsline {section}{The Pluvian Forest}{24}{Item.91}
-\contentsline {subsection}{NPC's}{27}{section*.11}
-\contentsline {section}{Spati Aethereu Thalamun}{27}{section*.11}
-\contentsline {section}{Auru Convallis}{31}{section*.11}
+\contentsline {subsection}{NPC's}{26}{section*.11}
+\contentsline {section}{Spati Aethereu Thalamun}{26}{section*.11}
+\contentsline {section}{Auru Convallis}{30}{section*.11}
 \contentsline {section}{Endor (Moon)}{31}{section*.11}
 \contentsline {chapter}{Campaign Quests and Side Stories}{32}{chapter*.12}
 \contentsline {section}{The 'Escape' of Dastan}{32}{section*.13}
-\contentsline {chapter}{Campaign Items and Resources}{35}{chapter*.14}
-\contentsline {section}{Book of Celestas}{35}{section*.15}
-\contentsline {subsection}{Origin}{35}{section*.15}
-\contentsline {subsection}{Celestial decree}{35}{section*.15}
-\contentsline {subsection}{Aroden}{35}{section*.15}
-\contentsline {subsection}{Divine Instructions}{36}{section*.15}
-\contentsline {subsection}{Ether}{36}{section*.15}
-\contentsline {subsection}{Toldath of Gigikei}{36}{section*.15}
-\contentsline {subsection}{Markon}{37}{section*.15}
-\contentsline {subsection}{Petrias}{37}{section*.15}
-\contentsline {subsection}{Amica}{37}{section*.15}
-\contentsline {subsection}{Aphorisms}{37}{section*.15}
-\contentsline {subsection}{Toldath of Andras}{38}{section*.15}
-\contentsline {subsection}{Tyolus}{38}{section*.15}
-\contentsline {subsection}{Beltachadzer}{38}{section*.15}
-\contentsline {subsection}{Ascension}{39}{section*.15}
-\contentsline {subsection}{Avernakis}{39}{section*.15}
-\contentsline {subsection}{Infinite Pathway}{39}{section*.15}
-\contentsline {subsection}{Revelation}{39}{section*.15}
-\contentsline {subsection}{Unique Items}{40}{section*.15}
-\contentsline {subsection}{Weapons}{40}{section*.15}
-\contentsline {chapter}{Maps}{41}{chapter*.16}
-\contentsline {section}{Tempestas}{41}{section*.17}
-\contentsline {section}{Aurushire}{42}{section*.17}
-\contentsline {section}{Rem Silva}{43}{section*.17}
-\contentsline {section}{Spati Aethereu Thalamun}{44}{section*.17}
-\contentsline {section}{The Halls of No End}{45}{section*.17}
+\contentsline {section}{Avalon}{34}{Item.95}
+\contentsline {chapter}{Campaign Items and Resources}{37}{chapter*.14}
+\contentsline {section}{Book of Celestas}{37}{section*.15}
+\contentsline {subsection}{Origin}{37}{section*.15}
+\contentsline {subsection}{Celestial decree}{37}{section*.15}
+\contentsline {subsection}{Aroden}{37}{section*.15}
+\contentsline {subsection}{Divine Instructions}{38}{section*.15}
+\contentsline {subsection}{Ether}{38}{section*.15}
+\contentsline {subsection}{Toldath of Gigikei}{38}{section*.15}
+\contentsline {subsection}{Markon}{39}{section*.15}
+\contentsline {subsection}{Petrias}{39}{section*.15}
+\contentsline {subsection}{Amica}{39}{section*.15}
+\contentsline {subsection}{Aphorisms}{39}{section*.15}
+\contentsline {subsection}{Toldath of Andras}{40}{section*.15}
+\contentsline {subsection}{Tyolus}{40}{section*.15}
+\contentsline {subsection}{Beltachadzer}{40}{section*.15}
+\contentsline {subsection}{Ascension}{41}{section*.15}
+\contentsline {subsection}{Avernakis}{41}{section*.15}
+\contentsline {subsection}{Infinite Pathway}{41}{section*.15}
+\contentsline {subsection}{Revelation}{41}{section*.15}
+\contentsline {subsection}{Unique Items}{42}{section*.15}
+\contentsline {subsection}{Weapons}{42}{section*.15}
+\contentsline {chapter}{Maps}{43}{chapter*.16}
+\contentsline {section}{Tempestas}{43}{section*.17}
+\contentsline {section}{Aurushire}{44}{section*.17}
+\contentsline {section}{Rem Silva}{45}{section*.17}
+\contentsline {section}{Spati Aethereu Thalamun}{46}{section*.17}
+\contentsline {section}{The Halls of No End}{47}{section*.17}
