@@ -1,32 +1,64 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  7 SEP 2018 17:46
-entering extended mode
-**./resume.tex
-(resume.tex
+This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  18 DEC 2018 10:32
+ restricted system commands enabled.
+**resume.tex
+(./resume.tex
 LaTeX2e <2017-04-15>
-Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
-(moderncv.cls
-Document Class: moderncv 2012/10/31 v1.2.0 modern curriculum vitae and letter d
-ocument class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using cache: C:/Users/awtor/AppData/Local/MiKTeX/2.9/luatex-cache/gene
+ric)
+luaotfload | conf : Root cache directory is C:/Users/awtor/AppData/Local/MiKTeX/
+2.9/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “C:/Program Files/MiKTeX 2.9/tex/luatex/luaotfload/fontloader-2
+017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is C:/Users/awtor/AppData/Local/MiKTeX/
+2.9/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.602 seconds
+Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
+(./moderncv.cls
+Document Class: moderncv 2012/10/31 v1.2.0 modern curriculum vitae and letter do
+cument class
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+luaotfload | db : Font names database loaded from C:/Users/awtor/AppData/Local/M
+iKTeX/2.9/luatex-cache/generic/names/luaotfload-names.luc(load luc: C:/Users/awt
+or/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmroman10-regular.luc
+)) (C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/11/22 v2.5 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count79
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+) ("C:/Program Files/MiKTeX 2.9/tex/latex/base/ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: luatex.def on input line 225.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/luatex.def"
+File: luatex.def 2017/06/24 v1.0f Graphics/color driver for luatex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -38,14 +70,19 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -80,34 +117,34 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: luatex.def on input line 99.
 )
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip41
 \f@nch@O@elh=\skip42
 \f@nch@O@erh=\skip43
@@ -118,7 +155,7 @@ s
 \f@nch@O@olf=\skip48
 \f@nch@O@orf=\skip49
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/tools/calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count80
 \calc@Bcount=\count81
@@ -131,14 +168,14 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count82
 \calc@Cskip=\skip52
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\xargs\xargs.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/xargs/xargs.sty
 Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+("C:/Program Files/MiKTeX 2.9/tex/generic/xkeyval/xkeyval.tex"
+("C:/Program Files/MiKTeX 2.9/tex/generic/xkeyval/xkvutils.tex"
 \XKV@toks=\toks15
 \XKV@tempa@toks=\toks16
 )
@@ -149,7 +186,7 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \xargs@toksa=\toks17
 \xargs@toksb=\toks18
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks19
 \MT@count=\count85
@@ -158,34 +195,34 @@ LaTeX Info: Redefining \textls on input line 793.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
 \MT@listname@count=\count86
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype-pdftex
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/microtype-luatex
 .def
-File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 913.
-LaTeX Info: Redefining \lslig on input line 913.
+File: microtype-luatex.def 2018/01/14 v2.7a Definitions specific to luatex (RS)
+Lua module: microtype 2018/01/14 2.7a microtype module.
+LaTeX Info: Redefining \lsstyle on input line 679.
+LaTeX Info: Redefining \lslig on input line 679.
 \MT@outer@space=\skip53
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.cfg
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
-(moderncvcompatibility.sty
-Package: moderncvcompatibility 2012/10/31 v1.2.0 modern curriculum vitae and le
-tter compatibility patches
+(./moderncvcompatibility.sty
+Package: moderncvcompatibility 2012/10/31 v1.2.0 modern curriculum vitae and let
+ter compatibility patches
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\bigfoot\suffix.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
 \bibindent=\skip54
 
-(tweaklist.sty)) (moderncvstylecasual.sty
-Package: moderncvstylecasual 2012/10/31 v1.2.0 modern curriculum vitae and lett
-er style scheme: casual
- (moderncvstyleclassic.sty
-Package: moderncvstyleclassic 2012/10/31 v1.2.0 modern curriculum vitae and let
-ter style scheme: classic
+(./tweaklist.sty)) (./moderncvstylecasual.sty
+Package: moderncvstylecasual 2012/10/31 v1.2.0 modern curriculum vitae and lette
+r style scheme: casual
+ (./moderncvstyleclassic.sty
+Package: moderncvstyleclassic 2012/10/31 v1.2.0 modern curriculum vitae and lett
+er style scheme: classic
 \quotewidth=\skip55
 \hintscolumnwidth=\skip56
 \separatorcolumnwidth=\skip57
@@ -194,7 +231,7 @@ ter style scheme: classic
 \listitemsymbolwidth=\skip60
 LaTeX Font Info:    Try loading font information for U+mvs on input line 78.
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\marvosym\umvs.fd)
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/marvosym/umvs.fd)
 \listitemmaincolumnwidth=\skip61
 \listdoubleitemmaincolumnwidth=\skip62
 \makecvtitlenamewidth=\skip63
@@ -208,21 +245,21 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 78.
 \footerwidth=\skip67
 \footerboxwidth=\skip68
 )
-(moderncvcolorblue.sty
-Package: moderncvcolorblue 2012/10/31 v1.2.0 modern curriculum vitae and letter
- color scheme: blue
+(./moderncvcolorblue.sty
+Package: moderncvcolorblue 2012/10/31 v1.2.0 modern curriculum vitae and letter 
+color scheme: blue
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count87
@@ -238,47 +275,47 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen114
 \Gm@dimlist=\toks20
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\background\background.sty
+("C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg"))
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/background/background.sty
 Package: background 2014/03/04 v2.1 background material
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.sty
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/frontendlayer/tikz.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/basiclayer/pgf.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgfrcs.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfutil-co
 mmon.tex
 \pgfutil@everybye=\toks21
 \pgfutil@tempdima=\dimen115
 \pgfutil@tempdimb=\dimen116
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfutil-co
 mmon-lists.tex))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-la
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfutil-la
 tex.def
 \pgfutil@abb=\box29
- (C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+ (C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.cod
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfrcs.cod
 e.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/basiclayer/pgfcore.sty
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/systemlayer/pgfsys.sty
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.c
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys.c
 ode.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.co
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfkeys.co
 de.tex
 \pgfkeys@pathtoks=\toks22
 \pgfkeys@temptoks=\toks23
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfil
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfkeysfil
 tered.code.tex
 \pgfkeys@tmptoks=\toks24
 ))
@@ -300,40 +337,40 @@ tered.code.tex
 \t@pgf@tokb=\toks26
 \t@pgf@tokc=\toks27
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-luatex.def
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-p
-dftex.def
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys-l
+uatex.def
+File: pgfsys-luatex.def 2014/10/11  (rcs-revision 1.35)
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-c
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys-c
 ommon-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysso
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsysso
 ftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count94
 \pgfsyssoftpath@bigbuffer@items=\count95
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyspr
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsyspr
 otocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.c
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcore.c
 ode.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmath.code.te
 x
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.cod
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathcalc.cod
 e.tex
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.cod
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathutil.cod
 e.tex)
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.c
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathparser.c
 ode.tex
 \pgfmath@dimen=\dimen125
 \pgfmath@count=\count96
@@ -342,29 +379,29 @@ ode.tex
 \pgfmath@stack@operand=\toks29
 \pgfmath@stack@operation=\toks30
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunction
 s.code.tex
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunction
 s.basic.code.tex)
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunction
 s.trigonometric.code.tex)
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunction
 s.random.code.tex)
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunction
 s.comparison.code.tex)
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunction
 s.base.code.tex)
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunction
 s.round.code.tex)
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunction
 s.misc.code.tex)
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunction
 s.integerarithmetics.code.tex)))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.co
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfloat.co
 de.tex
 \c@pgfmathroundto@lastzeros=\count97
 ))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepo
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepo
 ints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen126
@@ -382,19 +419,19 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen138
 \pgf@zy=\dimen139
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepa
 thconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen140
 \pgf@path@lasty=\dimen141
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepa
 thusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen142
 \pgf@shorten@start@additional=\dimen143
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresc
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoresc
 opes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box31
@@ -402,104 +439,104 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgf@layerbox@main=\box33
 \pgf@picture@serial@count=\count98
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoregr
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoregr
 aphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen144
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretr
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoretr
 ansformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen145
 \pgf@pt@y=\dimen146
 \pgf@pt@temp=\dimen147
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorequ
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorequ
 ick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreob
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoreob
 jects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepa
 thprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorear
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorear
 rows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen148
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresh
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoresh
 ade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen149
 \pgf@sys@shading@range@num=\count99
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreim
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoreim
 age.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreex
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoreex
 ternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box34
 ))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorela
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorela
 yers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretr
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoretr
 ansparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepa
 tterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulesha
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/modules/pgfmodulesha
 pes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box35
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmoduleplo
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/modules/pgfmoduleplo
 t.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/compatibility/pgfcomp-
 version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen150
 \pgf@nodesepend=\dimen151
 )
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/compatibility/pgfcomp-
 version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 ))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.co
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgffor.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgfkeys.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfkeys.co
 de.tex))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/math/pgfmath.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmath.code.te
 x))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.cod
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgffor.cod
 e.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmath.code.te
 x)
 \pgffor@iter=\dimen152
 \pgffor@skip=\dimen153
 \pgffor@stack=\toks31
 \pgffor@toks=\toks32
 ))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\t
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/frontendlayer/tikz/t
 ikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrary
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/libraries/pgflibrary
 plothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count100
@@ -520,7 +557,7 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count103
 \tikz@fig@count=\count104
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulemat
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/modules/pgfmodulemat
 rix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count105
@@ -529,52 +566,50 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count108
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\l
-ibraries\tikzlibrarytopaths.code.tex
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\everypage\everypage.sty
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/everypage/everypage.sty
 Package: everypage 2007/06/20 1.1 Hooks to run on every page
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/tools/afterpage.sty"
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks33
 \AP@partial=\box40
 \AP@footins=\box41
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package ifluatex Info: LuaTeX detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(C:/Program Files/MiKTeX 2.9/scripts/oberdiek/oberdiek.luatex.lua)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks34
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -587,27 +622,27 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen161
 \Hy@linkcounter=\count109
 \Hy@pagecounter=\count110
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count111
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4374.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
+("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/puenc.def"
 File: puenc.def 2017/03/14 v6.85a Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Hyper figures OFF on input line 4498.
@@ -637,25 +672,25 @@ LaTeX Info: Redefining \pageref on input line 6432.
 \c@Hfootnote=\count116
 )
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Message: Driver (autodetected): hluatex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hluatex.def"
+File: hluatex.def 2017/03/14 v6.85a Hyperref driver for luaTeX
 \Fld@listcount=\count117
 \c@bookmark@seq@number=\count118
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
 )
 \Hy@SectionHShift=\skip69
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 64.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 64.
 
-(resume.aux)
-\openout1 = `resume.aux'.
+(./resume.aux)
+\openout1 = resume.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
@@ -665,6 +700,8 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
@@ -673,34 +710,31 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 64.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count119
 \scratchdimen=\dimen165
 \scratchbox=\box42
 \nofMPsegments=\count120
 \nofMParguments=\count121
-\everyMPshowfont=\toks34
+\everyMPshowfont=\toks35
 \MPscratchCnt=\count122
 \MPscratchDim=\dimen166
 \MPnumerator=\count123
 \makeMPintoPDFobject=\count124
-\everyMPtoPDFconversion=\toks35
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+\everyMPtoPDFconversion=\toks36
+) ("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2 ,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 LaTeX Info: Redefining \microtypecontext on input line 64.
@@ -711,16 +745,16 @@ Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
 
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
+RS)
 )
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 64.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -766,10 +800,10 @@ ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box43
 Package hyperref Info: Link coloring OFF on input line 64.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count125
@@ -778,10 +812,10 @@ LaTeX Info: Redefining \ref on input line 64.
 LaTeX Info: Redefining \pageref on input line 64.
 LaTeX Info: Redefining \nameref on input line 64.
 
-(resume.out) (resume.out)
+(./resume.out) (./resume.out)
 \@outlinefile=\write4
-\openout4 = `resume.out'.
 
+\openout4 = resume.out
 \makecvtitlepicturebox=\box44
 \makecvtitlepicturewidth=\skip70
 
@@ -790,24 +824,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--66
  []
 
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 74.
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 74.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 74.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 74.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -826,20 +858,19 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-(C:\Users\awtor\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-mvs.cfg
+(C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-<pictures/BG5.jpg, id=34, 1084.05pt x 1799.72375pt>
+<pictures/BG5.jpg, id=34, pagebox=cropbox, 1084.05pt x 1799.72375pt>
 File: pictures/BG5.jpg Graphic file (type jpg)
 <use pictures/BG5.jpg>
-Package pdftex.def Info: pictures/BG5.jpg  used on input line 117. on input lin
-e 117.
-Package pdftex.def Info: Requested size: 597.51956pt x 845.04561pt on input lin
-e 117.
+Package luatex.def Info: pictures/BG5.jpg  used on input line 117. on input line
+ 117.
+Package luatex.def Info: Requested size: 597.51956pt x 845.04561pt on input line
+ 117.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 117.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
@@ -853,14 +884,14 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 
 [1
 
-{C:/Users/awtor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./pictures/
-BG5.jpg>]
+{C:/Users/awtor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}<./pictures/BG
+5.jpg>]
 File: pictures/BG5.jpg Graphic file (type jpg)
 <use pictures/BG5.jpg>
-Package pdftex.def Info: pictures/BG5.jpg  used on input line 170. on input lin
-e 170.
-Package pdftex.def Info: Requested size: 597.51956pt x 845.04561pt on input lin
-e 170.
+Package luatex.def Info: pictures/BG5.jpg  used on input line 170. on input line
+ 170.
+Package luatex.def Info: Requested size: 597.51956pt x 845.04561pt on input line
+ 170.
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -871,10 +902,10 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 [2]
 File: pictures/BG5.jpg Graphic file (type jpg)
 <use pictures/BG5.jpg>
-Package pdftex.def Info: pictures/BG5.jpg  used on input line 259. on input lin
-e 259.
-Package pdftex.def Info: Requested size: 597.51956pt x 845.04561pt on input lin
-e 259.
+Package luatex.def Info: pictures/BG5.jpg  used on input line 260. on input line
+ 260.
+Package luatex.def Info: Requested size: 597.51956pt x 845.04561pt on input line
+ 260.
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -883,36 +914,39 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
- (resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
+ (./resume.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 4F158BB10FEF681EE3F6889336D665E3;1028.
- ) 
-Here is how much of TeX's memory you used:
- 21530 strings out of 493312
- 386257 string characters out of 3138899
- 472385 words of memory out of 3000000
- 24644 multiletter control sequences out of 15000+200000
- 60414 words of font info for 75 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 62i,12n,67p,774b,761s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-mss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/fo
-nts/type1/public/marvosym/marvosym.pfb>
-Output written on resume.pdf (3 pages, 467064 bytes).
-PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 19018 words of extra memory for PDF output out of 20736 (max. 10000000)
+(rerunfilecheck)             Checksum: 2DCB727AADD0AE7721BD83977CE83C8D;1028.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 22009 strings out of 494456
+ 100000,552014 words of node,token memory allocated
+ 469 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 7 attribute, 60 glue_spec, 7 attribute_list
+, 3 write, 2 pdf_colorstack nodes
+   avail lists: 2:898,3:212,4:150,5:208,6:67,7:3613,8:71,9:325,10:14,11:291
+ 25312 multiletter control sequences out of 65536+200000
+ 42 fonts using 2813695 bytes
+ 62i,12n,67p,771b,789s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKT
+eX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmsy8.pfb><C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/fonts/type1/pu
+blic/marvosym/marvosym.pfb>
+Output written on resume.pdf (3 pages, 465097 bytes).
+
+PDF statistics: 113 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 131072)
+ 72 words of extra memory for PDF output out of 10000 (max. 100000000)
 
