@@ -80,6 +80,8 @@
 \contentsline {subsubsection}{What was given to the DM}{54}{section*.20}
 \contentsline {subsubsection}{What was given to the player}{54}{section*.20}
 \contentsline {subsection}{Ferrous Apollos}{54}{section*.20}
+\contentsline {subsubsection}{What was given to the DM}{54}{section*.20}
+\contentsline {subsubsection}{What was given to the Player}{54}{section*.20}
 \contentsline {subsection}{Darris McStickle}{55}{section*.20}
 \contentsline {subsubsection}{What was given to the DM}{55}{section*.20}
 \contentsline {subsubsection}{What was given to the player}{55}{section*.20}
@@ -90,26 +92,27 @@
 \contentsline {subsection}{Session 01 Summary: Chaos in Tempestas Part 1}{55}{section*.21}
 \contentsline {subsubsection}{Securing Passage to Tempestas}{55}{section*.21}
 \contentsline {subsubsection}{Arrival in Tempestas}{56}{section*.21}
-\contentsline {subsubsection}{Exploring Tempestas and the Church Incident}{56}{section*.21}
+\contentsline {subsubsection}{Exploring Tempestas and the Church Incident}{57}{section*.21}
 \contentsline {subsubsection}{The Prison Break and Escape of Dastan}{57}{section*.21}
 \contentsline {subsection}{Session 02 Summary: Chaos in Tempestas Part 2}{58}{section*.21}
 \contentsline {subsubsection}{The Fortune Teller and Shady Figure}{58}{section*.21}
 \contentsline {subsubsection}{Traveling to the Graveyard}{58}{section*.21}
-\contentsline {subsubsection}{Apprehension of Ferrous}{58}{section*.21}
-\contentsline {subsubsection}{the Streaking Tiefling}{58}{section*.21}
-\contentsline {subsection}{Session 03 Summary: The Party Coalesces}{59}{section*.21}
+\contentsline {subsubsection}{Apprehension of Ferrous}{59}{section*.21}
+\contentsline {subsubsection}{the Streaking Tiefling}{59}{section*.21}
+\contentsline {subsection}{Session 03 Summary: The Coalescence of Unexpected Fates}{59}{section*.21}
 \contentsline {subsubsection}{The Mysterious Prior of Celestas}{59}{section*.21}
 \contentsline {subsubsection}{The Blue Recluse Inn}{59}{section*.21}
-\contentsline {subsection}{Session 04 Summary: The Meeting of Dastan}{59}{section*.21}
+\contentsline {subsection}{Session 04 Summary: The Mysterious Dastan}{59}{section*.21}
 \contentsline {subsubsection}{The Meeting of Dastan}{59}{section*.21}
 \contentsline {subsubsection}{The Royal Library Drop-off}{59}{section*.21}
 \contentsline {subsubsection}{The Brawlers Guild}{59}{section*.21}
 \contentsline {subsubsection}{Harassing the Enchanter}{59}{section*.21}
-\contentsline {subsection}{Session 05 Summary: Leaving Tempestas}{59}{section*.21}
+\contentsline {subsection}{Session 05 Summary: Leaving Tempestas Behind}{59}{section*.21}
 \contentsline {subsubsection}{The Battle of Tempestas Harbor}{59}{section*.21}
 \contentsline {subsubsection}{The Great Storm}{59}{section*.21}
-\contentsline {subsection}{Session 06 Summary: Awakening on The Coast}{59}{section*.21}
-\contentsline {subsubsection}{Visions of Dreaded Meanings}{59}{section*.21}
+\contentsline {subsection}{Session 06 Summary: Awakening on Jungle The Coast}{59}{section*.21}
+\contentsline {subsubsection}{`Visions' of Dreaded Meanings}{59}{section*.21}
 \contentsline {subsubsection}{Treading into The Unknown Forest}{60}{section*.21}
-\contentsline {subsection}{Session 07 Summary: }{61}{section*.21}
-\contentsline {subsubsection}{The Binding of Flesh and Eternity}{61}{section*.21}
+\contentsline {subsection}{Session 07 Summary: The Eternal Marsh}{62}{section*.21}
+\contentsline {subsubsection}{The Binding of Flesh and Eternity}{62}{section*.21}
+\contentsline {subsubsection}{Drifting Down The Beach}{62}{section*.21}

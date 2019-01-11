@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  11 JAN 2019 09:49
+This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  11 JAN 2019 10:55
  restricted system commands enabled.
 **"Trinity Stones.tex"
 ("./Trinity Stones.tex"
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.833 seconds
+luaotfload | main : initialization completed in 0.592 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 ("C:/Program Files/MiKTeX 2.9/tex/latex/base/book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
@@ -1881,34 +1881,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
  [][] []\T1/pbk/m/n/10 Ses-sion 01 Sum-mary: Chaos in 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
  [][] []\T1/pbk/m/n/10 Ses-sion 02 Sum-mary: Chaos in 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
- [][] []\T1/pbk/m/n/10 Ses-sion 03 Sum-mary: The Party 
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+ [][] []\T1/pbk/m/n/10 Ses-sion 03 Sum-mary: The Co-a-les- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
- [][] []\T1/pbk/m/n/10 Ses-sion 04 Sum-mary: The Meet-ing 
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+ [][] []\T1/pbk/m/n/10 Ses-sion 04 Sum-mary: The Mys-te-ri- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
  [][] []\T1/pbk/m/n/10 Ses-sion 06 Sum-mary: Awak-en-ing 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+ [][] []\T1/pbk/m/n/10 Ses-sion 07 Sum-mary: The Eter-nal 
  []
 
 )
 \tf@toc=\write8
 
 \openout8 = Trinity Stones.toc
+
+Overfull \vbox (10.43364pt too high) has occurred while \output is active []
+
 
 Overfull \vbox (4.0335pt too high) has occurred while \output is active []
 
@@ -2293,7 +2301,7 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 
 Package hyperref Warning: Suppressing empty link on input line 26.
 
-<img/baba.jpg, id=462, pagebox=cropbox, 689.57625pt x 789.95125pt>
+<img/baba.jpg, id=463, pagebox=cropbox, 689.57625pt x 789.95125pt>
 File: img/baba.jpg Graphic file (type jpg)
 <use img/baba.jpg>
 Package luatex.def Info: img/baba.jpg  used on input line 29. on input line 29.
@@ -2385,7 +2393,7 @@ Overfull \hbox (0.17352pt too wide) in paragraph at lines 80--82
 ted the Trin-ity stones and was able to ma-nip-u-late and 
  []
 
-<img/nevar.jpg, id=472, pagebox=cropbox, 359.84438pt x 453.94594pt>
+<img/nevar.jpg, id=473, pagebox=cropbox, 359.84438pt x 453.94594pt>
 File: img/nevar.jpg Graphic file (type jpg)
 <use img/nevar.jpg>
 Package luatex.def Info: img/nevar.jpg  used on input line 87. on input line 87.
@@ -2464,13 +2472,13 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 1.
 
-<img/Orilla.jpg, id=484, pagebox=cropbox, 3700.224pt x 2081.376pt>
+<img/Orilla.jpg, id=485, pagebox=cropbox, 3700.224pt x 2081.376pt>
 File: img/Orilla.jpg Graphic file (type jpg)
 <use img/Orilla.jpg>
 Package luatex.def Info: img/Orilla.jpg  used on input line 6. on input line 6.
 Package luatex.def Info: Requested size: 499.295pt x 280.8466pt on input line 6.
 
-<img/Orilla_SE.jpg, id=485, pagebox=cropbox, 1297.0056pt x 974.1996pt>
+<img/Orilla_SE.jpg, id=486, pagebox=cropbox, 1297.0056pt x 974.1996pt>
 File: img/Orilla_SE.jpg Graphic file (type jpg)
 <use img/Orilla_SE.jpg>
 Package luatex.def Info: img/Orilla_SE.jpg  used on input line 12. on input line
@@ -2509,7 +2517,7 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 
 
 <./img/Orilla.jpg>]) (./Chapters/Zone_Tempestas.tex
-<img/1200px-StormwindPanorama.jpg, id=490, pagebox=cropbox, 1204.5pt x 677.53125
+<img/1200px-StormwindPanorama.jpg, id=491, pagebox=cropbox, 1204.5pt x 677.53125
 pt>
 File: img/1200px-StormwindPanorama.jpg Graphic file (type jpg)
 <use img/1200px-StormwindPanorama.jpg>
@@ -2517,7 +2525,7 @@ Package luatex.def Info: img/1200px-StormwindPanorama.jpg  used on input line 6.
  on input line 6.
 Package luatex.def Info: Requested size: 499.295pt x 280.84973pt on input line 6
 .
-<img/Tempestas_labeled.jpg, id=491, pagebox=cropbox, 1492.57625pt x 1000.73875pt
+<img/Tempestas_labeled.jpg, id=492, pagebox=cropbox, 1492.57625pt x 1000.73875pt
 >
 File: img/Tempestas_labeled.jpg Graphic file (type jpg)
 <use img/Tempestas_labeled.jpg>
@@ -2732,7 +2740,7 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 33.
 
-<img/RexxarArt.jpg, id=592, pagebox=cropbox, 614.295pt x 582.175pt>
+<img/RexxarArt.jpg, id=593, pagebox=cropbox, 614.295pt x 582.175pt>
 File: img/RexxarArt.jpg Graphic file (type jpg)
 <use img/RexxarArt.jpg>
 Package luatex.def Info: img/RexxarArt.jpg  used on input line 36. on input line
@@ -3284,7 +3292,7 @@ ne 8.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 8.
 [26]
-<img/Aethereu/U.png, id=633, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/U.png, id=634, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/U.png Graphic file (type png)
 <use img/Aethereu/U.png>
 Package luatex.def Info: img/Aethereu/U.png  used on input line 10. on input lin
@@ -3297,21 +3305,21 @@ Package luatex.def Info: img/Aethereu/U.png  used on input line 16. on input lin
 e 16.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  16.
-<img/Aethereu/D.png, id=634, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/D.png, id=635, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/D.png Graphic file (type png)
 <use img/Aethereu/D.png>
 Package luatex.def Info: img/Aethereu/D.png  used on input line 17. on input lin
 e 17.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  17.
-<img/Aethereu/UT.png, id=635, pagebox=cropbox, 353.4003pt x 347.6187pt>
+<img/Aethereu/UT.png, id=636, pagebox=cropbox, 353.4003pt x 347.6187pt>
 File: img/Aethereu/UT.png Graphic file (type png)
 <use img/Aethereu/UT.png>
 Package luatex.def Info: img/Aethereu/UT.png  used on input line 21. on input li
 ne 21.
 Package luatex.def Info: Requested size: 224.68121pt x 221.00594pt on input line
  21.
-<img/Aethereu/DB.png, id=636, pagebox=cropbox, 353.4003pt x 347.6187pt>
+<img/Aethereu/DB.png, id=637, pagebox=cropbox, 353.4003pt x 347.6187pt>
 File: img/Aethereu/DB.png Graphic file (type png)
 <use img/Aethereu/DB.png>
 Package luatex.def Info: img/Aethereu/DB.png  used on input line 22. on input li
@@ -3346,42 +3354,42 @@ ine 24.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 24.
  [27<./img/Aethereu/U.png><./img/Aethereu/D.png>]
-<img/Aethereu/UR.png, id=643, pagebox=cropbox, 352.6776pt x 346.1733pt>
+<img/Aethereu/UR.png, id=644, pagebox=cropbox, 352.6776pt x 346.1733pt>
 File: img/Aethereu/UR.png Graphic file (type png)
 <use img/Aethereu/UR.png>
 Package luatex.def Info: img/Aethereu/UR.png  used on input line 26. on input li
 ne 26.
 Package luatex.def Info: Requested size: 224.68121pt x 220.53596pt on input line
  26.
-<img/Aethereu/DR.png, id=644, pagebox=cropbox, 352.6776pt x 346.1733pt>
+<img/Aethereu/DR.png, id=645, pagebox=cropbox, 352.6776pt x 346.1733pt>
 File: img/Aethereu/DR.png Graphic file (type png)
 <use img/Aethereu/DR.png>
 Package luatex.def Info: img/Aethereu/DR.png  used on input line 27. on input li
 ne 27.
 Package luatex.def Info: Requested size: 224.68121pt x 220.53596pt on input line
  27.
-<img/Aethereu/UL.png, id=645, pagebox=cropbox, 351.9549pt x 346.1733pt>
+<img/Aethereu/UL.png, id=646, pagebox=cropbox, 351.9549pt x 346.1733pt>
 File: img/Aethereu/UL.png Graphic file (type png)
 <use img/Aethereu/UL.png>
 Package luatex.def Info: img/Aethereu/UL.png  used on input line 31. on input li
 ne 31.
 Package luatex.def Info: Requested size: 224.68121pt x 220.99023pt on input line
  31.
-<img/Aethereu/DL.png, id=646, pagebox=cropbox, 351.9549pt x 346.1733pt>
+<img/Aethereu/DL.png, id=647, pagebox=cropbox, 351.9549pt x 346.1733pt>
 File: img/Aethereu/DL.png Graphic file (type png)
 <use img/Aethereu/DL.png>
 Package luatex.def Info: img/Aethereu/DL.png  used on input line 32. on input li
 ne 32.
 Package luatex.def Info: Requested size: 224.68121pt x 220.99023pt on input line
  32.
-<img/Aethereu/ULR.png, id=647, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/ULR.png, id=648, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/ULR.png Graphic file (type png)
 <use img/Aethereu/ULR.png>
 Package luatex.def Info: img/Aethereu/ULR.png  used on input line 36. on input l
 ine 36.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  36.
-<img/Aethereu/DLR.png, id=648, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/DLR.png, id=649, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/DLR.png Graphic file (type png)
 <use img/Aethereu/DLR.png>
 Package luatex.def Info: img/Aethereu/DLR.png  used on input line 37. on input l
@@ -3417,42 +3425,42 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 39.
  [28<./img/Aethereu/UT.png><./img/Aethereu/DB.png><./img/Aethereu/UR.png><./img/
 Aethereu/DR.png><./img/Aethereu/UL.png><./img/Aethereu/DL.png>]
-<img/Aethereu/UTL.png, id=659, pagebox=cropbox, 354.123pt x 313.6518pt>
+<img/Aethereu/UTL.png, id=660, pagebox=cropbox, 354.123pt x 313.6518pt>
 File: img/Aethereu/UTL.png Graphic file (type png)
 <use img/Aethereu/UTL.png>
 Package luatex.def Info: img/Aethereu/UTL.png  used on input line 41. on input l
 ine 41.
 Package luatex.def Info: Requested size: 224.68121pt x 199.00873pt on input line
  41.
-<img/Aethereu/DBL.png, id=660, pagebox=cropbox, 354.123pt x 346.896pt>
+<img/Aethereu/DBL.png, id=661, pagebox=cropbox, 354.123pt x 346.896pt>
 File: img/Aethereu/DBL.png Graphic file (type png)
 <use img/Aethereu/DBL.png>
 Package luatex.def Info: img/Aethereu/DBL.png  used on input line 42. on input l
 ine 42.
 Package luatex.def Info: Requested size: 224.68121pt x 220.10182pt on input line
  42.
-<img/Aethereu/UTR.png, id=661, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/UTR.png, id=662, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/UTR.png Graphic file (type png)
 <use img/Aethereu/UTR.png>
 Package luatex.def Info: img/Aethereu/UTR.png  used on input line 46. on input l
 ine 46.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  46.
-<img/Aethereu/DBR.png, id=662, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/DBR.png, id=663, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/DBR.png Graphic file (type png)
 <use img/Aethereu/DBR.png>
 Package luatex.def Info: img/Aethereu/DBR.png  used on input line 47. on input l
 ine 47.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  47.
-<img/Aethereu/UTLR.png, id=663, pagebox=cropbox, 355.5684pt x 346.1733pt>
+<img/Aethereu/UTLR.png, id=664, pagebox=cropbox, 355.5684pt x 346.1733pt>
 File: img/Aethereu/UTLR.png Graphic file (type png)
 <use img/Aethereu/UTLR.png>
 Package luatex.def Info: img/Aethereu/UTLR.png  used on input line 51. on input 
 line 51.
 Package luatex.def Info: Requested size: 224.68121pt x 218.74532pt on input line
  51.
-<img/Aethereu/DBLR.png, id=664, pagebox=cropbox, 355.5684pt x 346.1733pt>
+<img/Aethereu/DBLR.png, id=665, pagebox=cropbox, 355.5684pt x 346.1733pt>
 File: img/Aethereu/DBLR.png Graphic file (type png)
 <use img/Aethereu/DBLR.png>
 Package luatex.def Info: img/Aethereu/DBLR.png  used on input line 52. on input 
@@ -4565,7 +4573,7 @@ Overfull \hbox (0.11414pt too wide) in paragraph at lines 11--12
  Fires a blue beam of en-ergy do-ing 
  []
 
-<img/ColorChart.png, id=748, pagebox=cropbox, 462.528pt x 462.528pt>
+<img/ColorChart.png, id=749, pagebox=cropbox, 462.528pt x 462.528pt>
 File: img/ColorChart.png Graphic file (type png)
 <use img/ColorChart.png>
 Package luatex.def Info: img/ColorChart.png  used on input line 34. on input lin
@@ -4632,14 +4640,14 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
 
-<img/Tempestas.jpg, id=758, pagebox=cropbox, 1492.57625pt x 1000.73875pt>
+<img/Tempestas.jpg, id=759, pagebox=cropbox, 1492.57625pt x 1000.73875pt>
 File: img/Tempestas.jpg Graphic file (type jpg)
 <use img/Tempestas.jpg>
 Package luatex.def Info: img/Tempestas.jpg  used on input line 6. on input line 
 6.
 Package luatex.def Info: Requested size: 499.295pt x 334.76474pt on input line 6
 .
-<img/Aurushire.png, id=759, pagebox=cropbox, 893.58844pt x 650.43pt>
+<img/Aurushire.png, id=760, pagebox=cropbox, 893.58844pt x 650.43pt>
 File: img/Aurushire.png Graphic file (type png)
 <use img/Aurushire.png>
 Package luatex.def Info: img/Aurushire.png  used on input line 13. on input line
@@ -4684,7 +4692,7 @@ Overfull \hbox (0.10535pt too wide) in paragraph at lines 15--16
 . In the north-west is a se-cluded area where Baba Lives. To 
  []
 
-<img/RemSilva.png, id=764, pagebox=cropbox, 642.90187pt x 648.92438pt>
+<img/RemSilva.png, id=765, pagebox=cropbox, 642.90187pt x 648.92438pt>
 File: img/RemSilva.png Graphic file (type png)
 <use img/RemSilva.png>
 Package luatex.def Info: img/RemSilva.png  used on input line 20. on input line 
@@ -4719,7 +4727,7 @@ ine 22.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 22.
  [48<./img/Aurushire.png>]
-<img/Aethereu.png, id=770, pagebox=cropbox, 992.95969pt x 834.86906pt>
+<img/Aethereu.png, id=771, pagebox=cropbox, 992.95969pt x 834.86906pt>
 File: img/Aethereu.png Graphic file (type png)
 <use img/Aethereu.png>
 Package luatex.def Info: img/Aethereu.png  used on input line 27. on input line 
@@ -4754,7 +4762,7 @@ ine 29.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 29.
  [49<./img/RemSilva.png>]
-<img/HONE.png, id=776, pagebox=cropbox, 3276.24pt x 2457.18pt>
+<img/HONE.png, id=777, pagebox=cropbox, 3276.24pt x 2457.18pt>
 File: img/HONE.png Graphic file (type png)
 <use img/HONE.png>
 Package luatex.def Info: img/HONE.png  used on input line 34. on input line 34.
@@ -4955,6 +4963,31 @@ Overfull \hbox (0.1028pt too wide) in paragraph at lines 58--59
 The evening went great but un-for-tu-nately 
  []
 
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 88. on input line 88.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 88.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 88. on input line 88.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 88.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 88. on input line 88.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 88.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 88. on input l
+ine 88.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+88.
+[54]
 luaotfload | aux : font no 146 (nil) defines no feature for script latn
 luaotfload | aux : no font with id 146
 .................................................
@@ -5038,43 +5071,19 @@ Package microtype Info: Character `textbraceright ' is missing
 (microtype)             in font `TU/D3FZ(0)/m/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Overfull \hbox (0.11366pt too wide) in paragraph at lines 86--87
+Overfull \hbox (0.11366pt too wide) in paragraph at lines 96--97
 \T1/pbk/m/n/10 nearer to Apollo. It just so hap-pens that the rich trade cul-tu
 re and wide spread of knowl-edge found in 
  []
 
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 95. on input line 95.
 
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 95.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 95. on input line 95.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 95.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 95. on input line 95.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 95.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 95. on input l
-ine 95.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-95.
-[54]
-Overfull \hbox (0.18678pt too wide) in paragraph at lines 102--103
+Overfull \hbox (0.18678pt too wide) in paragraph at lines 112--113
 \T1/pbk/m/n/10 You were raised in an or-phan-age in the city of Tem-pes-tas. A 
 vastly wealthy city where you learned the 
  []
 
 
-Overfull \hbox (0.17345pt too wide) in paragraph at lines 102--103
+Overfull \hbox (0.17345pt too wide) in paragraph at lines 112--113
 \T1/pbk/m/n/10 of the ma-jor trade cities (Tem-pes-tas, Dalaran, Nar'Shadaa, Co
 rinth, Jeri-cho, etc...) to re-form a ru-mored 
  []
@@ -5102,7 +5111,28 @@ Overfull \hbox (0.19696pt too wide) in paragraph at lines 7--8
  which is when she learned one of the 
  []
 
-
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 8. on input line 8.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 8.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 8. on input line 8.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 8.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 8. on input line 8.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 8.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 8. on input li
+ne 8.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+8.
+[55]
 Overfull \hbox (0.17636pt too wide) in paragraph at lines 9--10
 \T1/pbk/m/n/10 en-clo-sure of the spice ship. Candy seemed to show her nosy and
  loud na-ture dur-ing this ship, where 
@@ -5114,31 +5144,7 @@ Overfull \hbox (0.1251pt too wide) in paragraph at lines 9--10
 -rous and for the most part re-mained si-lence 
  []
 
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 10. on input line 10.
 
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 10.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 10. on input line 10.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 10.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 10. on input line 10.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 10.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 10. on input l
-ine 10.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-10.
-[55]
 Overfull \hbox (0.13136pt too wide) in paragraph at lines 13--14
 \T1/pbk/m/n/10 dis-cus-sion with the guards, Vic-tor learned that the city was 
 on lock-down and high alert due to events 
@@ -5169,6 +5175,33 @@ he guard that Das-tan was his fa-ther
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 22. on input line 22.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 22.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 22. on input line 22.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 22.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 22. on input line 22.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 22.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 22. on input l
+ine 22.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+22.
+ [56]
 Overfull \hbox (0.13034pt too wide) in paragraph at lines 23--24
 \T1/pbk/m/n/10 flung right into her stom-ach. Her shirt start-ing to turn red w
 ith the stain of blood. Fer-rous was frozen 
@@ -5180,31 +5213,7 @@ Overfull \hbox (0.19032pt too wide) in paragraph at lines 23--24
  panic, Fer-rous at-tempted to heal the woman, 
  []
 
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 24. on input line 24.
 
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 24.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 24. on input line 24.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 24.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 24. on input line 24.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 24.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 24. on input l
-ine 24.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-24.
-[56]
 Overfull \hbox (0.16245pt too wide) in paragraph at lines 27--28
 \T1/pbk/m/n/10 Clime, Dar-ris Mc-Stickle, and Das-tan were all in the Tem-pes-t
 as prison in nearby cells. Clime en-tered 
@@ -5240,7 +5249,31 @@ Overfull \hbox (0.23193pt too wide) in paragraph at lines 31--32
 arted blow-ing and guards started leav-ing 
  []
 
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 32. on input line 32.
 
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 32.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 32. on input line 32.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 32.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 32. on input line 32.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 32.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 32. on input l
+ine 32.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+32.
+[57]
 Overfull \hbox (0.18869pt too wide) in paragraph at lines 33--34
 \T1/pbk/m/n/10 scribe store, ran off to a se-cluded area and be-gan sum-mon-ing
  a fa-mil-iar. Yzom and Clime met up while 
@@ -5265,83 +5298,13 @@ Overfull \hbox (0.12729pt too wide) in paragraph at lines 5--6
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 6. on input line 6.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 6.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 6. on input line 6.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 6.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 6. on input line 6.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 6.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 6. on input li
-ne 6.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-6.
- [57]
 Overfull \hbox (0.10194pt too wide) in paragraph at lines 19--20
 \T1/pbk/m/n/10 On his way, he man-aged to no-tice Yzom and Clime poorly hid-den
  be-tween some bushes along on of the 
  []
 
-) (./Chapters/Sessions/Session03.tex
-Overfull \hbox (0.12306pt too wide) in paragraph at lines 27--1
-\T1/pbk/m/n/10 items and then pro-ceeded to sneak-ily steal back his rent pay-m
-ent from his room-mates be-long-ings. He 
- []
 
-) (./Chapters/Sessions/Session04.tex) (./Chapters/Sessions/Session05.tex)
-(./Chapters/Sessions/Session06.tex
-Overfull \hbox (0.13867pt too wide) in paragraph at lines 5--6
-\T1/pbk/m/n/10 The ship ap-proaches slowly as Gash-tai wakes from the daze of t
-he storm. He does not see any-one else 
- []
-
-
-Overfull \hbox (0.20395pt too wide) in paragraph at lines 5--6
-\T1/pbk/m/n/10 pre-pares him-self for what could be com-ing. The ship ap-proach
-es right to his lo-ca-tion and the fig-ure on 
- []
-
-
-Underfull \vbox (badness 1533) has occurred while \output is active []
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 6. on input line 6.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 6.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 6. on input line 6.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 6.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 6. on input line 6.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 6.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 6. on input li
-ne 6.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-6.
- [58]
-Overfull \hbox (0.1329pt too wide) in paragraph at lines 7--8
-\T1/pbk/m/n/10 lids of his eye, he sees a light, and when open-ing his eyes, an
- an-gelic be-ing de-scends from the sky in 
- []
+Underfull \vbox (badness 1997) has occurred while \output is active []
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
@@ -5367,6 +5330,53 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 25. on input l
 ine 25.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 25.
+ [58])
+(./Chapters/Sessions/Session03.tex
+Overfull \hbox (0.12306pt too wide) in paragraph at lines 27--1
+\T1/pbk/m/n/10 items and then pro-ceeded to sneak-ily steal back his rent pay-m
+ent from his room-mates be-long-ings. He 
+ []
+
+) (./Chapters/Sessions/Session04.tex) (./Chapters/Sessions/Session05.tex)
+(./Chapters/Sessions/Session06.tex
+Overfull \hbox (0.13867pt too wide) in paragraph at lines 5--6
+\T1/pbk/m/n/10 The ship ap-proaches slowly as Gash-tai wakes from the daze of t
+he storm. He does not see any-one else 
+ []
+
+
+Overfull \hbox (0.20395pt too wide) in paragraph at lines 5--6
+\T1/pbk/m/n/10 pre-pares him-self for what could be com-ing. The ship ap-proach
+es right to his lo-ca-tion and the fig-ure on 
+ []
+
+
+Overfull \hbox (0.1329pt too wide) in paragraph at lines 7--8
+\T1/pbk/m/n/10 lids of his eye, he sees a light, and when open-ing his eyes, an
+ an-gelic be-ing de-scends from the sky in 
+ []
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 9. on input line 9.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 9.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 9. on input line 9.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 9.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 9. on input line 9.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 9.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 9. on input li
+ne 9.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+9.
 [59]
 Overfull \hbox (0.15176pt too wide) in paragraph at lines 29--30
 \T1/pbk/m/n/10 the man who ran the or-phan-age he grew up in. As Yzom wakes int
@@ -5421,37 +5431,37 @@ Overfull \hbox (0.22119pt too wide) in paragraph at lines 41--42
 ch area, large cliffs and moun-tain-ous 
  []
 
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 42. on input line 42.
 
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 42.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 42. on input line 42.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 42.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 42. on input line 42.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 42.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 42. on input l
+ine 42.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+42.
+[60]
 Overfull \hbox (0.18542pt too wide) in paragraph at lines 43--44
 \T1/pbk/m/n/10 if starved. The first, leaps out to-wards Vic-tor, but catches i
 ts claw right be-tween two thick branches, 
  []
 
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 45. on input line 45.
 
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 45.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 45. on input line 45.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 45.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 45. on input line 45.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 45.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 45. on input l
-ine 45.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-45.
-[60]
 Overfull \hbox (0.10152pt too wide) in paragraph at lines 47--48
 \T1/pbk/m/n/10 off, Yzom tripped on a low vine and fell face first into a thorn
  bush, cov-er-ing his face with thorns. Af-ter 
@@ -5476,6 +5486,30 @@ all de-cide it's as good of a time as any to
  []
 
 ) (./Chapters/Sessions/Session07.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 1. on input line 1.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 1.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 1. on input line 1.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 1.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 1. on input line 1.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 1.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 1. on input li
+ne 1.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+1.
+ [61]
 Overfull \hbox (0.20674pt too wide) in paragraph at lines 5--6
 \T1/pbk/m/n/10 Dar-ris never ar-rived on shore with the rest of the party. Sim-
 i-lar to the vi-sions of the rest of the party, 
@@ -5505,31 +5539,7 @@ Overfull \hbox (0.12361pt too wide) in paragraph at lines 9--10
 o shift your-self and see what is hap-pen-ing, 
  []
 
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 10. on input line 10.
 
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 10.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 10. on input line 10.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 10.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 10. on input line 10.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 10.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 10. on input l
-ine 10.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-10.
-[61]
 Overfull \hbox (0.15616pt too wide) in paragraph at lines 15--16
 \T1/pbk/m/n/10 the air is made of warm va-por. A deep rum-ble ap-proaches again
 , and from feet in front of him a voice 
@@ -5591,13 +5601,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
 
 Here is how much of LuaTeX's memory you used:
  42853 strings out of 494456
- 125200,1373583 words of node,token memory allocated
- 6216 words of node memory still in use:
-   19 hlist, 2 vlist, 14 rule, 3 glue, 724 kern, 450 attribute, 116 glue_spec, 2
-56 attribute_list, 2 write, 24 pdf_literal, 7 pdf_action, 24 pdf_colorstack node
+ 156502,1373583 words of node,token memory allocated
+ 6260 words of node memory still in use:
+   19 hlist, 2 vlist, 14 rule, 3 glue, 728 kern, 456 attribute, 116 glue_spec, 2
+59 attribute_list, 2 write, 24 pdf_literal, 8 pdf_action, 24 pdf_colorstack node
 s
-   avail lists: 1:4,2:3204,3:1534,4:83,5:169,6:374,7:9356,8:300,9:1804,10:30,11:
-466
+   avail lists: 1:8,2:3195,3:1741,4:92,5:245,6:413,7:10900,8:340,9:2055,10:30,11
+:561
  41946 multiletter control sequences out of 65536+200000
  146 fonts using 14827831 bytes
  70i,18n,122p,1714b,1315s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -5617,9 +5627,9 @@ m/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/bookman/ubkli8a.pfb>
-Output written on Trinity Stones.pdf (62 pages, 38892147 bytes).
+Output written on Trinity Stones.pdf (62 pages, 38893251 bytes).
 
-PDF statistics: 910 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 911 PDF objects out of 1000 (max. 8388607)
  180 named destinations out of 1000 (max. 131072)
  928 words of extra memory for PDF output out of 10000 (max. 100000000)
 
