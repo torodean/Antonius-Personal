@@ -1,0 +1,96 @@
+﻿STRING 1
+{
+Player 1
+}
+
+STRING 2
+{
+Force 1
+}
+
+STRING 3
+// Units: n000 (High Elf), Name (Name)
+{
+High Elf
+}
+
+STRING 4
+// Units: h000 (Dalaran Citadel), Name (Name)
+{
+Dalaran Citadel
+}
+
+STRING 5
+// Units: O000 (Healer), Name (Name)
+{
+Healer
+}
+
+STRING 6
+// Units: H002 (Wizard), Name (Name)
+{
+Wizard
+}
+
+STRING 7
+// Units: H003 (Warrior), Name (Name)
+{
+Warrior
+}
+
+STRING 8
+{
+Template
+}
+
+STRING 9
+{
+Any
+}
+
+STRING 10
+{
+Nondescript
+}
+
+STRING 11
+{
+Antonius
+}
+
+STRING 12
+// Units: n001 (Summoning stone), Name (Name)
+{
+Summoning stone
+}
+
+STRING 13
+// Units: n002 (Hero Emporium), Name (Name)
+{
+Hero Emporium
+}
+
+STRING 14
+// Units: n001 (Summoning stone), Description (Description)
+{
+Hero resurrection stone.
+}
+
+STRING 15
+// Units: n001 (Summoning stone), Ubertip (Tooltip - Extended)
+{
+Used for resurrection dead heroes.
+}
+
+STRING 16
+// Units: U000 (Ranger), Name (Name)
+{
+Ranger
+}
+
+STRING 17
+// Units: O001 (Beast Master), Name (Name)
+{
+Beast Master
+}
+
