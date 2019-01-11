@@ -107,3 +107,8 @@
 \contentsline {subsection}{Session 05 Summary: Leaving Tempestas}{58}{section*.21}
 \contentsline {subsubsection}{The Battle of Tempestas Harbor}{58}{section*.21}
 \contentsline {subsubsection}{The Great Storm}{58}{section*.21}
+\contentsline {subsection}{Session 06 Summary: Awakening on The Coast}{58}{section*.21}
+\contentsline {subsubsection}{Visions of Dreaded Meanings}{58}{section*.21}
+\contentsline {subsubsection}{Treading into The Unknown Forest}{59}{section*.21}
+\contentsline {subsection}{Session 07 Summary: }{60}{section*.21}
+\contentsline {subsubsection}{The Binding of Flesh and Eternity}{60}{section*.21}
