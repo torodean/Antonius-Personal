@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  9 JAN 2019 15:52
+This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  11 JAN 2019 09:25
  restricted system commands enabled.
 **Session07.tex
 (./Session07.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.595 seconds
+luaotfload | main : initialization completed in 0.717 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 ! Undefined control sequence.
 l.1 \subsection
@@ -182,13 +182,30 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 12--14
  []
 
 
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 A
+    s the slow and deep voice fades, Darris' vision turns black and fades to...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--16
+[]As
+ []
+
+
 ! LaTeX Error: Environment quote undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 \begin{quote}
+l.17 \begin{quote}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -201,8 +218,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 	`
-     `''
+l.18 	`
+     `You are but flesh and faith, and your mind has been deluded. There is ...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -213,7 +230,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \end{quote}
+l.19 \end{quote}
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -229,10 +246,10 @@ or  <return>  to continue without it.
 
 Here is how much of LuaTeX's memory you used:
  10 strings out of 494456
- 100000,89155 words of node,token memory allocated 10255 words of node memory still in use:
-   19 hlist, 7 local_par, 1 dir, 275 glue, 12 penalty, 1111 glyph, 14 attribute,
- 35 glue_spec, 14 attribute_list, 1 temp nodes
-   avail lists: 3:1,4:122,5:1,7:7,10:121
+ 100000,89155 words of node,token memory allocated 14575 words of node memory still in use:
+   22 hlist, 8 local_par, 1 dir, 392 glue, 14 penalty, 1605 glyph, 15 attribute,
+ 35 glue_spec, 15 attribute_list, 1 temp nodes
+   avail lists: 3:1,4:122,5:1,10:121
  4264 multiletter control sequences out of 65536+200000
  14 fonts using 591559 bytes
  6i,0n,6p,704b,19s stack positions out of 5000i,500n,10000p,200000b,50000s
