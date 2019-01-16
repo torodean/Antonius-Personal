@@ -144,7 +144,56 @@ This area is full of a large number of creatures, from large spiders, to night e
 \end{monsterbox}
 
 
-
+\begin{monsterbox}{Ancient Displacer Beast}
+	\begin{hangingpar}
+		\textit{Large Monstrosity, lawful evil}
+	\end{hangingpar}
+	\dndline%
+	\basics[%
+	armorclass = 16,
+	hitpoints  = 170,
+	speed      = 40 ft
+	]
+	\dndline%
+	\stats[
+	STR = \stat{19}, % This stat command will autocomplete the modifier for you
+	DEX = \stat{16},
+	CON = \stat{17},
+	INT = \stat{7},
+	WIS = \stat{13},
+	CHA = \stat{9}
+	]
+	\dndline%
+	\details[%
+	% If you want to use commas in these sections, enclose the
+	% description in braces.
+	% I'm so sorry.
+	senses = {darkvision 70 ft., passive perception 12},
+	challenge = 6 (700XP)
+	]
+	\dndline%
+	\begin{monsteraction}[Avoidance]
+		If the displacer beast is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails.
+	\end{monsteraction}	
+	\begin{monsteraction}[Dark Stealth]
+		The beast can succeed any stealth check against a creature that is not aware of it's existence/location.
+	\end{monsteraction}	
+	\begin{monsteraction}[Displacement]
+		The displacer projects a magical illusion that makes it appear to be standing near its actual location, causing attack tolls against it to have disadvantage. Due to the space stone effect on this beast, this trait is always active.
+	\end{monsteraction}	
+	\monstersection{Actions}
+	\begin{monsteraction}[Multiattack]
+		The displacer can make two attacks with its tentacles. 
+	\end{monsteraction}
+	\begin{monsteraction}[Tentacle]
+		Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 10 (2d6 +4) bludgeoning damage plus 6 (2d6) piercing damage.
+	\end{monsteraction}
+	\begin{monsteraction}[Shear of Space]
+		Melee Weapon Attack: +6 to hit, reach 100 ft., one target. Hit: 10 (2d6 +4) bludgeoning damage plus 3 (1d6) piercing damage. The creature reaches it's claw through space and attacks a target at range (It can only do this because of the space stone existence in a nearby region).
+	\end{monsteraction}	
+	\monstersection{Description/Information}
+	These creatures roam Rem Silva, but due to the effect of the space stones, they can fade in and out of reality. As opposed to the normal displacer beasts of the region, the Ancient displacer beast can voluntarily phade out of reality at will when under 40 hp.
+\end{monsterbox}
 
 
 \begin{monsterbox}{Displacer Beast}
