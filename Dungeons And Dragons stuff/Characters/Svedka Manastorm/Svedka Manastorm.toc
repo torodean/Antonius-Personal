@@ -1,0 +1,25 @@
+\select@language {english}
+\contentsline {chapter}{Svedka `Nemo' Manastorm Backstory}{3}{chapter*.2}
+\contentsline {subsection}{The Research of Xavius}{3}{section*.3}
+\contentsline {subsection}{A Love Extending Time and Space}{3}{section*.3}
+\contentsline {subsection}{Seeking an Unreachable Goal}{3}{section*.3}
+\contentsline {subsection}{Binding of Power and Soul}{4}{section*.3}
+\contentsline {subsection}{Awakening Near Deaths Touch}{5}{section*.3}
+\contentsline {subsection}{A New Hope}{5}{section*.3}
+\contentsline {subsection}{The Lone Spot of Civilization}{6}{section*.3}
+\contentsline {subsection}{Journey To A Barbarian Mind}{6}{section*.3}
+\contentsline {subsection}{A Decision of Remembrance}{7}{section*.3}
+\contentsline {chapter}{Skills and Features}{8}{chapter*.4}
+\contentsline {section}{Class Features}{8}{section*.5}
+\contentsline {subsection}{Ability Scores (level 15)}{8}{section*.5}
+\contentsline {subsection}{Traits}{8}{section*.5}
+\contentsline {subsection}{Barbarian Hit Points}{8}{section*.5}
+\contentsline {subsection}{Sorcerer Hit Points}{8}{section*.5}
+\contentsline {subsection}{Proficiencies}{8}{section*.5}
+\contentsline {subsection}{Equipment}{8}{section*.5}
+\contentsline {subsection}{Cantrips}{8}{section*.5}
+\contentsline {subsection}{Spells}{8}{section*.5}
+\contentsline {subsection}{Spellcasting Ability}{8}{section*.5}
+\contentsline {subsection}{Flexible Casting}{9}{section*.5}
+\contentsline {subsection}{Personality}{9}{section*.5}
+\contentsline {subsection}{Quotes}{9}{section*.5}
