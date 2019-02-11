@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  31 JAN 2019 17:50
+This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  11 FEB 2019 12:17
  restricted system commands enabled.
 **"Trinity Stones.tex"
 ("./Trinity Stones.tex"
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.969 seconds
+luaotfload | main : initialization completed in 0.590 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 ("C:/Program Files/MiKTeX 2.9/tex/latex/base/book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
@@ -1849,7 +1849,7 @@ RS)
 )(load luc: C:/Users/awtor/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/o
 tl/lmroman7-regular.luc)(load luc: C:/Users/awtor/AppData/Local/MiKTeX/2.9/luate
 x-cache/generic/fonts/otl/lmroman5-regular.luc)
-<img/trinitypaper2.png, id=361, pagebox=cropbox, 614.295pt x 794.97pt>
+<img/trinitypaper2.png, id=364, pagebox=cropbox, 614.295pt x 794.97pt>
 File: img/trinitypaper2.png Graphic file (type png)
 <use img/trinitypaper2.png>
 Package luatex.def Info: img/trinitypaper2.png  used on input line 69. on input 
@@ -1876,70 +1876,70 @@ LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <10> not available
 (Font)              Font shape `T1/pbk/db/n' tried instead on input line 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
  [][] []\T1/pbk/m/n/10 Ses-sion 01 Sum-mary: Chaos in 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
  [][] []\T1/pbk/m/n/10 Ses-sion 02 Sum-mary: Chaos in 
  []
 
-<img/paper.jpg, id=459, pagebox=cropbox, 614.295pt x 794.97pt>
+<img/paper.jpg, id=462, pagebox=cropbox, 614.295pt x 794.97pt>
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 141. on input line 14
-1.
+Package luatex.def Info: img/paper.jpg  used on input line 142. on input line 14
+2.
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 141.
+ 142.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 141. on input line 14
-1.
+Package luatex.def Info: img/paper.jpg  used on input line 142. on input line 14
+2.
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 141.
+ 142.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 141. on input line 14
-1.
+Package luatex.def Info: img/paper.jpg  used on input line 142. on input line 14
+2.
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 141.
-<img/footerscroll.pdf, id=460, pagebox=cropbox, 596.2275pt x 42.15584pt>
+ 142.
+<img/footerscroll.pdf, id=463, pagebox=cropbox, 596.2275pt x 42.15584pt>
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 141. on input 
-line 141.
+Package luatex.def Info: img/footerscroll.pdf  used on input line 142. on input 
+line 142.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-141.
+142.
 [2
 
 <./img/paper.jpg><./img/footerscroll.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
  [][] []\T1/pbk/m/n/10 Ses-sion 03 Sum-mary: The Co-a-les- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
  [][] []\T1/pbk/m/n/10 Ses-sion 04 Sum-mary: The Mys-te-ri- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
  [][] []\T1/pbk/m/n/10 Ses-sion 06 Sum-mary: Awak-en-ing 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
  [][] []\T1/pbk/m/n/10 Ses-sion 07 Sum-mary: The Eter-nal 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
  [][] []\T1/pbk/m/n/10 Ses-sion 08 Sum-mary: The Eter-nal 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
  [][] []\T1/pbk/m/n/10 Ses-sion 09 Sum-mary: Dis-cov-er-ing 
  []
 
@@ -1974,7 +1974,7 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
  [3]
 \openout2 = Chapters/Stones.aux
  (./Chapters/Stones.tex
-<img/TS.jpg, id=491, pagebox=cropbox, 2509.375pt x 1084.05pt>
+<img/TS.jpg, id=496, pagebox=cropbox, 2509.375pt x 1084.05pt>
 File: img/TS.jpg Graphic file (type jpg)
 <use img/TS.jpg>
 Package luatex.def Info: img/TS.jpg  used on input line 4. on input line 4.
@@ -2324,7 +2324,7 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 
 Package hyperref Warning: Suppressing empty link on input line 27.
 
-<img/baba.jpg, id=526, pagebox=cropbox, 689.57625pt x 789.95125pt>
+<img/baba.jpg, id=531, pagebox=cropbox, 689.57625pt x 789.95125pt>
 File: img/baba.jpg Graphic file (type jpg)
 <use img/baba.jpg>
 Package luatex.def Info: img/baba.jpg  used on input line 30. on input line 30.
@@ -2464,7 +2464,7 @@ Overfull \hbox (0.15997pt too wide) in paragraph at lines 107--108
 needed to main-tain the time line con-ti-nu-ity. Thsi sec-ond 
  []
 
-<img/Yaga.jpg, id=544, pagebox=cropbox, 359.84438pt x 453.94594pt>
+<img/Yaga.jpg, id=549, pagebox=cropbox, 359.84438pt x 453.94594pt>
 File: img/Yaga.jpg Graphic file (type jpg)
 <use img/Yaga.jpg>
 Package luatex.def Info: img/Yaga.jpg  used on input line 119. on input line 119
@@ -2535,7 +2535,7 @@ line 160.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 160.
  [13<./img/Yaga.jpg>]
-<img/samilah.jpg, id=553, pagebox=cropbox, 501.875pt x 282.05376pt>
+<img/samilah.jpg, id=558, pagebox=cropbox, 501.875pt x 282.05376pt>
 File: img/samilah.jpg Graphic file (type jpg)
 <use img/samilah.jpg>
 Package luatex.def Info: img/samilah.jpg  used on input line 167. on input line 
@@ -2560,7 +2560,7 @@ Overfull \hbox (0.12785pt too wide) in paragraph at lines 176--177
 g-ends and sto-ries have arose from it such as that of 
  []
 
-<img/gravemind.jpg, id=554, pagebox=cropbox, 1027.84pt x 578.16pt>
+<img/gravemind.jpg, id=559, pagebox=cropbox, 1027.84pt x 578.16pt>
 File: img/gravemind.jpg Graphic file (type jpg)
 <use img/gravemind.jpg>
 Package luatex.def Info: img/gravemind.jpg  used on input line 179. on input lin
@@ -2674,14 +2674,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--251
 ros off-spring, thus pro-vok-ing re-venge. This crea-ture is
  []
 
-<img/gravemind-battle.jpg, id=559, pagebox=cropbox, 963.6pt x 521.95pt>
+<img/gravemind-battle.jpg, id=564, pagebox=cropbox, 963.6pt x 521.95pt>
 File: img/gravemind-battle.jpg Graphic file (type jpg)
 <use img/gravemind-battle.jpg>
 Package luatex.def Info: img/gravemind-battle.jpg  used on input line 253. on in
 put line 253.
 Package luatex.def Info: Requested size: 237.16817pt x 128.46423pt on input line
  253.
-<img/gravemind-face.jpg, id=560, pagebox=cropbox, 301.125pt x 168.63pt>
+<img/gravemind-face.jpg, id=565, pagebox=cropbox, 301.125pt x 168.63pt>
 File: img/gravemind-face.jpg Graphic file (type jpg)
 <use img/gravemind-face.jpg>
 Package luatex.def Info: img/gravemind-face.jpg  used on input line 253. on inpu
@@ -2849,14 +2849,14 @@ Overfull \hbox (0.12111pt too wide) in paragraph at lines 5--6
 a-ble. Storms on the planet can be much 
  []
 
-<img/Orilla.jpg, id=574, pagebox=cropbox, 3700.224pt x 2081.376pt>
+<img/Orilla.jpg, id=579, pagebox=cropbox, 3700.224pt x 2081.376pt>
 File: img/Orilla.jpg Graphic file (type jpg)
 <use img/Orilla.jpg>
 Package luatex.def Info: img/Orilla.jpg  used on input line 10. on input line 10
 .
 Package luatex.def Info: Requested size: 499.295pt x 280.8466pt on input line 10
 .
-<img/Orilla_SE.jpg, id=575, pagebox=cropbox, 1297.0056pt x 974.1996pt>
+<img/Orilla_SE.jpg, id=580, pagebox=cropbox, 1297.0056pt x 974.1996pt>
 File: img/Orilla_SE.jpg Graphic file (type jpg)
 <use img/Orilla_SE.jpg>
 Package luatex.def Info: img/Orilla_SE.jpg  used on input line 16. on input line
@@ -2942,7 +2942,7 @@ ins. The jun-gle re-gions of Kashyyyk are
  []
 
 ) (./Chapters/Zone_Tempestas.tex
-<img/1200px-StormwindPanorama.jpg, id=584, pagebox=cropbox, 1204.5pt x 677.53125
+<img/1200px-StormwindPanorama.jpg, id=589, pagebox=cropbox, 1204.5pt x 677.53125
 pt>
 File: img/1200px-StormwindPanorama.jpg Graphic file (type jpg)
 <use img/1200px-StormwindPanorama.jpg>
@@ -2975,7 +2975,7 @@ ne 8.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 8.
  [20]
-<img/Tempestas_labeled.jpg, id=589, pagebox=cropbox, 1492.57625pt x 1000.73875pt
+<img/Tempestas_labeled.jpg, id=594, pagebox=cropbox, 1492.57625pt x 1000.73875pt
 >
 File: img/Tempestas_labeled.jpg Graphic file (type jpg)
 <use img/Tempestas_labeled.jpg>
@@ -3162,7 +3162,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 shire from sea. He is the watcher of the ports and lives on a
  []
 
-<img/chen.jpg, id=687, pagebox=cropbox, 530.98375pt x 770.88pt>
+<img/chen.jpg, id=692, pagebox=cropbox, 530.98375pt x 770.88pt>
 File: img/chen.jpg Graphic file (type jpg)
 <use img/chen.jpg>
 Package luatex.def Info: img/chen.jpg  used on input line 61. on input line 61.
@@ -3261,7 +3261,7 @@ line 127.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 127.
 [26<./img/chen.jpg>]
-<img/ekron.jpg, id=696, pagebox=cropbox, 702.625pt x 562.1pt>
+<img/ekron.jpg, id=701, pagebox=cropbox, 702.625pt x 562.1pt>
 File: img/ekron.jpg Graphic file (type jpg)
 <use img/ekron.jpg>
 Package luatex.def Info: img/ekron.jpg  used on input line 130. on input line 13
@@ -3328,7 +3328,7 @@ line 176.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 176.
  [27<./img/ekron.jpg>]
-<img/mishnah.jpg, id=701, pagebox=cropbox, 263.7855pt x 175.857pt>
+<img/mishnah.jpg, id=706, pagebox=cropbox, 263.7855pt x 175.857pt>
 File: img/mishnah.jpg Graphic file (type jpg)
 <use img/mishnah.jpg>
 Package luatex.def Info: img/mishnah.jpg  used on input line 179. on input line 
@@ -3386,7 +3386,7 @@ line 225.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 225.
 [28<./img/mishnah.jpg>]
-<img/bob.jpg, id=706, pagebox=cropbox, 1003.75pt x 565.11125pt>
+<img/bob.jpg, id=711, pagebox=cropbox, 1003.75pt x 565.11125pt>
 File: img/bob.jpg Graphic file (type jpg)
 <use img/bob.jpg>
 Package luatex.def Info: img/bob.jpg  used on input line 228. on input line 228.
@@ -3461,50 +3461,74 @@ Overfull \hbox (0.12915pt too wide) in paragraph at lines 294--295
 -stout broth-ers (Mish-nah). The black-smith 
  []
 
-
-Overfull \hbox (0.1876pt too wide) in paragraph at lines 298--299
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 303. on input line 30
+3.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 303.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 303. on input line 30
+3.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 303.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 303. on input line 30
+3.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 303.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 303. on input 
+line 303.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+303.
+[30]
+Overfull \hbox (0.1876pt too wide) in paragraph at lines 307--308
 \T1/pbk/m/n/10 This is the vil-lage brew-ery which is un-like any brew-ery any-
 where else. The brew-ery is run by one of the 
  []
 
 
-Overfull \hbox (0.16667pt too wide) in paragraph at lines 298--299
+Overfull \hbox (0.16667pt too wide) in paragraph at lines 307--308
 \T1/pbk/m/n/10 is pri-mar-ily due to the in-gre-di-ents and herbs that he has f
 ound through-out the nearby forests. Chen is 
  []
 
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 300. on input line 30
-0.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 300.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 300. on input line 30
-0.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 300.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 300. on input line 30
-0.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 300.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 300. on input 
-line 300.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-300.
-[30]
-Overfull \hbox (0.2126pt too wide) in paragraph at lines 302--303
+
+Overfull \hbox (0.2126pt too wide) in paragraph at lines 320--321
 \T1/pbk/m/n/10 The quar-ries will pay any will-ing work-ers with a part of thei
 r earn-ings. Ekron is one of the watch-ers of 
  []
 
-)
-Overfull \hbox (0.18924pt too wide) in paragraph at lines 306--12
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 339. on input line 33
+9.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 339.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 339. on input line 33
+9.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 339.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 339. on input line 33
+9.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 339.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 339. on input 
+line 339.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+339.
+[31])
+Overfull \hbox (0.18924pt too wide) in paragraph at lines 343--12
 \T1/pbk/m/n/10 The vil-lage has a li-brary that is open to all. There are a num
 -ber of peo-ple who spend a lot of time here 
  []
@@ -3539,12 +3563,12 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 31. on input l
 ine 31.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 31.
-[31]
+[32]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 33.
 
-<img/RexxarArt.jpg, id=720, pagebox=cropbox, 614.295pt x 582.175pt>
+<img/RexxarArt.jpg, id=729, pagebox=cropbox, 614.295pt x 582.175pt>
 File: img/RexxarArt.jpg Graphic file (type jpg)
 <use img/RexxarArt.jpg>
 Package luatex.def Info: img/RexxarArt.jpg  used on input line 36. on input line
@@ -3589,6 +3613,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 h ex-traor-di-nary strength. Along with his life of suc-cess-ful
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
 Package luatex.def Info: img/paper.jpg  used on input line 97. on input line 97.
@@ -3613,25 +3640,50 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 97. on input l
 ine 97.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 97.
-[32<./img/RexxarArt.jpg>] ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
-( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN
-( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC )
-( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? )
+ [33<./img/RexxarArt.jpg>] ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-PO
+S? )
 ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB )
-( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS
-) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? )
-( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB )
-( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS
-) ( FP-CLIP ) ) )
+( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) )
+( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
+( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
+( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP )
+) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL
+( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV )
+) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS )
+( FP-CLIP ) ) )
 Underfull \hbox (badness 10000) in paragraph at lines 143--144
 []\T1/lmss/m/n/10 Bella was saved as a cub by Rexxar. Her par-ents were at-tack
 ed by an an-cient di-nosaur that ap-peared due to the space
  []
 
-( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
-( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
-( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN
-( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC )
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 144. on input line 14
+4.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 144.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 144. on input line 14
+4.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 144.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 144. on input line 14
+4.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 144.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 144. on input 
+line 144.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+144.
+[34] ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL
+( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV )
+) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL
+( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC )
 ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP ) ) )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
@@ -3680,34 +3732,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--196
 n-cient dis-placer beast can vol-un-tar-ily phade out of re-al-ity at
  []
 
-
-Underfull \vbox (badness 6412) has occurred while \output is active []
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 196. on input line 19
-6.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 196.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 196. on input line 19
-6.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 196.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 196. on input line 19
-6.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 196.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 196. on input 
-line 196.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-196.
- [33]
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
 ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN
@@ -3749,6 +3773,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--242
 e space stones, they can fade in and out of re-al-ity (at
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
 Package luatex.def Info: img/paper.jpg  used on input line 242. on input line 24
@@ -3773,13 +3800,14 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 242. on input
 line 242.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 242.
-[34] ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL
+ [35]
+( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
+( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
+( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP )
+) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL
 ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV )
 ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS )
 ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? )
-( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB )
-( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS
-) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP ) ) )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP ) ) )
@@ -3826,6 +3854,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--288
  the en-ergy stone, these crea-tures can be small or large
  []
 
+
+Underfull \vbox (badness 3942) has occurred while \output is active []
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 288. on input line 28
+8.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 288.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 288. on input line 28
+8.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 288.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 288. on input line 28
+8.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 288.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 288. on input 
+line 288.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+288.
+ [36]
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
 ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN
@@ -3841,40 +3897,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 336--338
 o hit, reach 5 ft. or range 20/60., one tar-get. Hit 4(1d6 +1) pierc-ing
  []
 
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 341. on input line 34
-1.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 341.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 341. on input line 34
-1.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 341.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 341. on input line 34
-1.
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 341.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 341. on input 
-line 341.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-341.
-[35] ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL
-( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV )
-) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL
-( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC )
+( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
+( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
+( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN
+( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC )
 ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP ) ) )
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
 ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-TRUNC ) ( FP-ABS ) ( FP-CLIP )
-) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL
+) )
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 377. on input line 37
+7.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 377.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 377. on input line 37
+7.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 377.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 377. on input line 37
+7.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 377.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 377. on input 
+line 377.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+377.
+ [37] ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL
 ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV )
 ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL
 ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC )
@@ -3914,9 +3971,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 435--438
  melee at-tack that would hit it. To do so, the elf must see the at-tacker and
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
 Package luatex.def Info: img/paper.jpg  used on input line 441. on input line 44
@@ -3941,11 +3995,10 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 441. on input
 line 441.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 441.
- [36]
-( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
-( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
-( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN
-( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC )
+[38] ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL
+( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV )
+) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL
+( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC )
 ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? )
 ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB )
 ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) )
@@ -3976,35 +4029,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 499--502
  AC against one at-tack that would hit it. To do so, the elf must see the
  []
 
-
+) (./Chapters/Zone_PluvianForest.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 505. on input line 50
-5.
+Package luatex.def Info: img/paper.jpg  used on input line 6. on input line 6.
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 505.
+ 6.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 505. on input line 50
-5.
+Package luatex.def Info: img/paper.jpg  used on input line 6. on input line 6.
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 505.
+ 6.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 505. on input line 50
-5.
+Package luatex.def Info: img/paper.jpg  used on input line 6. on input line 6.
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 505.
+ 6.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 505. on input 
-line 505.
+Package luatex.def Info: img/footerscroll.pdf  used on input line 6. on input li
+ne 6.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-505.
- [37])
-(./Chapters/Zone_PluvianForest.tex
+6.
+ [39]
 Overfull \hbox (0.11528pt too wide) in paragraph at lines 9--10
 \T1/pbk/m/n/10 The Plu-vian For-est is largely ef-fected by the con-tents of th
 e Spati Aethereu Tha-la-mun (Aethereu). It is a 
@@ -4031,31 +4080,6 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 11--13
 []  
  []
 
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 28. on input line 28.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 28.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 28. on input line 28.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 28.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 28. on input line 28.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 28.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 28. on input l
-ine 28.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-28.
-[38]
 
 Package dnd Warning: redefined hline is deprecated and will be removed in versio
 n 0.7. Use dndline for stat block rules. on input line 32.
@@ -4065,6 +4089,31 @@ Overfull \hbox (48.06406pt too wide) in paragraph at lines 30--32
 \T1/lmss/m/n/10 the party.  []  
  []
 
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 47. on input line 47.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 47.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 47. on input line 47.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 47.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 47. on input line 47.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 47.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 47. on input l
+ine 47.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+47.
+[40]
 
 Package dnd Warning: redefined hline is deprecated and will be removed in versio
 n 0.7. Use dndline for stat block rules. on input line 51.
@@ -4075,34 +4124,6 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 49--51
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 68. on input line 68.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 68.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 68. on input line 68.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 68.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 68. on input line 68.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 68.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 68. on input l
-ine 68.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-68.
- [39]
-
 Package dnd Warning: redefined hline is deprecated and will be removed in versio
 n 0.7. Use dndline for stat block rules. on input line 72.
 
@@ -4110,6 +4131,9 @@ n 0.7. Use dndline for stat block rules. on input line 72.
 Overfull \hbox (0.4pt too wide) in paragraph at lines 70--72
 []  
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
@@ -4135,12 +4159,39 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 84. on input l
 ine 84.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 84.
-[40]
+ [41]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 99.
 
 
+Underfull \vbox (badness 2521) has occurred while \output is active []
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 111. on input line 11
+1.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 111.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 111. on input line 11
+1.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 111.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 111. on input line 11
+1.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 111.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 111. on input 
+line 111.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+111.
+ [42]
 Overfull \hbox (0.13483pt too wide) in paragraph at lines 114--116
 \T1/lmss/m/n/10 The scroll of Myrd has a sweet aroma. The scroll it-self con-ta
 ins an in-de-ci-pher-able lan-guage that ap-pears to have a 
@@ -4152,37 +4203,163 @@ Overfull \hbox (0.16125pt too wide) in paragraph at lines 114--116
 by any sense. The key to un-der-stand-ing the scroll is to eat the 
  []
 
+<img/deathwing.jpg, id=774, pagebox=cropbox, 1686.3pt x 1025.8325pt>
+File: img/deathwing.jpg Graphic file (type jpg)
+<use img/deathwing.jpg>
+Package luatex.def Info: img/deathwing.jpg  used on input line 147. on input lin
+e 147.
+Package luatex.def Info: Requested size: 384.70148pt x 234.02686pt on input line
+ 147.
+<img/infernalous.jpg, id=775, pagebox=cropbox, 1694.58093pt x 1694.58093pt>
+File: img/infernalous.jpg Graphic file (type jpg)
+<use img/infernalous.jpg>
+Package luatex.def Info: img/infernalous.jpg  used on input line 149. on input l
+ine 149.
+Package luatex.def Info: Requested size: 384.70148pt x 384.70326pt on input line
+ 149.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 138. on input line 13
-8.
+Package luatex.def Info: img/paper.jpg  used on input line 151. on input line 15
+1.
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 138.
+ 151.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 138. on input line 13
-8.
+Package luatex.def Info: img/paper.jpg  used on input line 151. on input line 15
+1.
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 138.
+ 151.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 138. on input line 13
-8.
+Package luatex.def Info: img/paper.jpg  used on input line 151. on input line 15
+1.
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 138.
+ 151.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 138. on input 
-line 138.
+Package luatex.def Info: img/footerscroll.pdf  used on input line 151. on input 
+line 151.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-138.
-[41]) (./Chapters/Zone_Aethereu.tex
+151.
+ [43]
+<img/waterdragon.jpg, id=780, pagebox=cropbox, 770.88pt x 433.62pt>
+File: img/waterdragon.jpg Graphic file (type jpg)
+<use img/waterdragon.jpg>
+Package luatex.def Info: img/waterdragon.jpg  used on input line 155. on input l
+ine 155.
+Package luatex.def Info: Requested size: 384.70148pt x 216.39262pt on input line
+ 155.
+<img/aquaeleous.jpg, id=781, pagebox=cropbox, 1694.58093pt x 1694.58093pt>
+File: img/aquaeleous.jpg Graphic file (type jpg)
+<use img/aquaeleous.jpg>
+Package luatex.def Info: img/aquaeleous.jpg  used on input line 157. on input li
+ne 157.
+Package luatex.def Info: Requested size: 384.70148pt x 384.70326pt on input line
+ 157.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 159. on input line 15
+9.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 159.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 159. on input line 15
+9.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 159.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 159. on input line 15
+9.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 159.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 159. on input 
+line 159.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+159.
+ [44<./img/deathwing.jpg><./img/infernalous.jpg>]
+<img/crystaldragon.jpg, id=786, pagebox=cropbox, 1927.2pt x 1084.05pt>
+File: img/crystaldragon.jpg Graphic file (type jpg)
+<use img/crystaldragon.jpg>
+Package luatex.def Info: img/crystaldragon.jpg  used on input line 164. on input
+ line 164.
+Package luatex.def Info: Requested size: 384.70148pt x 216.39262pt on input line
+ 164.
+<img/crystalleous.jpg, id=787, pagebox=cropbox, 1694.58093pt x 1694.58093pt>
+File: img/crystalleous.jpg Graphic file (type jpg)
+<use img/crystalleous.jpg>
+Package luatex.def Info: img/crystalleous.jpg  used on input line 166. on input 
+line 166.
+Package luatex.def Info: Requested size: 384.70148pt x 384.70326pt on input line
+ 166.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 168. on input line 16
+8.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 168.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 168. on input line 16
+8.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 168.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 168. on input line 16
+8.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 168.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 168. on input 
+line 168.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+168.
+ [45<./img/waterdragon.jpg><./img/aquaeleous.jpg>]) (./Chapters/Zone_Aethereu.t
+ex
 Overfull \hbox (0.22913pt too wide) in paragraph at lines 3--4
 \T1/pbk/m/n/10 only way to reach Spati Aethereu Tha-la-mun is to suc-cess-fully
  travel through The Plu-vian For-est. The 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 4. on input line 4.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 4.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 4. on input line 4.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 4.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 4. on input line 4.
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 4.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 4. on input li
+ne 4.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+4.
+ [46<./img/crystaldragon.jpg><./img/crystalleous.jpg>]
 Overfull \hbox (0.10123pt too wide) in paragraph at lines 5--6
 \T1/pbk/m/n/10 nav-i-ga-tions will lead to neg-a-tive con-se-quences. Each ston
 e has an ef-fect on the cham-ber which needs 
@@ -4200,200 +4377,204 @@ Overfull \hbox (0.14111pt too wide) in paragraph at lines 7--8
 n be rep-re-sented by a hexag-o-nal di-a-gram 
  []
 
-<img/Aethereu/U.png, id=765, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/U.png, id=796, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/U.png Graphic file (type png)
 <use img/Aethereu/U.png>
 Package luatex.def Info: img/Aethereu/U.png  used on input line 10. on input lin
 e 10.
 Package luatex.def Info: Requested size: 249.64749pt x 245.0659pt on input line 
 10.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 14. on input line 14.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 14.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 14. on input line 14.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 14.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 14. on input line 14.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 14.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 14. on input l
-ine 14.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-14.
-[42<./img/Aethereu/U.png>]
 File: img/Aethereu/U.png Graphic file (type png)
 <use img/Aethereu/U.png>
 Package luatex.def Info: img/Aethereu/U.png  used on input line 16. on input lin
 e 16.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  16.
-<img/Aethereu/D.png, id=771, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/D.png, id=797, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/D.png Graphic file (type png)
 <use img/Aethereu/D.png>
 Package luatex.def Info: img/Aethereu/D.png  used on input line 17. on input lin
 e 17.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  17.
-<img/Aethereu/UT.png, id=772, pagebox=cropbox, 353.4003pt x 347.6187pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 19. on input line 19.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 19.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 19. on input line 19.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 19.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 19. on input line 19.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 19.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 19. on input l
+ine 19.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+19.
+ [47<./img/Aethereu/U.png>]
+<img/Aethereu/UT.png, id=803, pagebox=cropbox, 353.4003pt x 347.6187pt>
 File: img/Aethereu/UT.png Graphic file (type png)
 <use img/Aethereu/UT.png>
 Package luatex.def Info: img/Aethereu/UT.png  used on input line 21. on input li
 ne 21.
 Package luatex.def Info: Requested size: 224.68121pt x 221.00594pt on input line
  21.
-<img/Aethereu/DB.png, id=773, pagebox=cropbox, 353.4003pt x 347.6187pt>
+<img/Aethereu/DB.png, id=804, pagebox=cropbox, 353.4003pt x 347.6187pt>
 File: img/Aethereu/DB.png Graphic file (type png)
 <use img/Aethereu/DB.png>
 Package luatex.def Info: img/Aethereu/DB.png  used on input line 22. on input li
 ne 22.
 Package luatex.def Info: Requested size: 224.68121pt x 221.00594pt on input line
  22.
-<img/Aethereu/UR.png, id=774, pagebox=cropbox, 352.6776pt x 346.1733pt>
+<img/Aethereu/UR.png, id=805, pagebox=cropbox, 352.6776pt x 346.1733pt>
 File: img/Aethereu/UR.png Graphic file (type png)
 <use img/Aethereu/UR.png>
 Package luatex.def Info: img/Aethereu/UR.png  used on input line 26. on input li
 ne 26.
 Package luatex.def Info: Requested size: 224.68121pt x 220.53596pt on input line
  26.
-<img/Aethereu/DR.png, id=775, pagebox=cropbox, 352.6776pt x 346.1733pt>
+<img/Aethereu/DR.png, id=806, pagebox=cropbox, 352.6776pt x 346.1733pt>
 File: img/Aethereu/DR.png Graphic file (type png)
 <use img/Aethereu/DR.png>
 Package luatex.def Info: img/Aethereu/DR.png  used on input line 27. on input li
 ne 27.
 Package luatex.def Info: Requested size: 224.68121pt x 220.53596pt on input line
  27.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 29. on input line 29.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 29.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 29. on input line 29.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 29.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 29. on input line 29.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 29.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 29. on input l
-ine 29.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-29.
- [43<./img/Aethereu/D.png><./img/Aethereu/UT.png><./img/Aethereu/DB.png>]
-<img/Aethereu/UL.png, id=783, pagebox=cropbox, 351.9549pt x 346.1733pt>
+<img/Aethereu/UL.png, id=807, pagebox=cropbox, 351.9549pt x 346.1733pt>
 File: img/Aethereu/UL.png Graphic file (type png)
 <use img/Aethereu/UL.png>
 Package luatex.def Info: img/Aethereu/UL.png  used on input line 31. on input li
 ne 31.
 Package luatex.def Info: Requested size: 224.68121pt x 220.99023pt on input line
  31.
-<img/Aethereu/DL.png, id=784, pagebox=cropbox, 351.9549pt x 346.1733pt>
+<img/Aethereu/DL.png, id=808, pagebox=cropbox, 351.9549pt x 346.1733pt>
 File: img/Aethereu/DL.png Graphic file (type png)
 <use img/Aethereu/DL.png>
 Package luatex.def Info: img/Aethereu/DL.png  used on input line 32. on input li
 ne 32.
 Package luatex.def Info: Requested size: 224.68121pt x 220.99023pt on input line
  32.
-<img/Aethereu/ULR.png, id=785, pagebox=cropbox, 354.123pt x 347.6187pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 34. on input line 34.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 34.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 34. on input line 34.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 34.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 34. on input line 34.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 34.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 34. on input l
+ine 34.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+34.
+ [48<./img/Aethereu/D.png><./img/Aethereu/UT.png><./img/Aethereu/DB.png><./img/A
+ethereu/UR.png><./img/Aethereu/DR.png>]
+<img/Aethereu/ULR.png, id=818, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/ULR.png Graphic file (type png)
 <use img/Aethereu/ULR.png>
 Package luatex.def Info: img/Aethereu/ULR.png  used on input line 36. on input l
 ine 36.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  36.
-<img/Aethereu/DLR.png, id=786, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/DLR.png, id=819, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/DLR.png Graphic file (type png)
 <use img/Aethereu/DLR.png>
 Package luatex.def Info: img/Aethereu/DLR.png  used on input line 37. on input l
 ine 37.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  37.
-<img/Aethereu/UTL.png, id=787, pagebox=cropbox, 354.123pt x 313.6518pt>
+<img/Aethereu/UTL.png, id=820, pagebox=cropbox, 354.123pt x 313.6518pt>
 File: img/Aethereu/UTL.png Graphic file (type png)
 <use img/Aethereu/UTL.png>
 Package luatex.def Info: img/Aethereu/UTL.png  used on input line 41. on input l
 ine 41.
 Package luatex.def Info: Requested size: 224.68121pt x 199.00873pt on input line
  41.
-<img/Aethereu/DBL.png, id=788, pagebox=cropbox, 354.123pt x 346.896pt>
+<img/Aethereu/DBL.png, id=821, pagebox=cropbox, 354.123pt x 346.896pt>
 File: img/Aethereu/DBL.png Graphic file (type png)
 <use img/Aethereu/DBL.png>
 Package luatex.def Info: img/Aethereu/DBL.png  used on input line 42. on input l
 ine 42.
 Package luatex.def Info: Requested size: 224.68121pt x 220.10182pt on input line
  42.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 44. on input line 44.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 44.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 44. on input line 44.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 44.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 44. on input line 44.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 44.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 44. on input l
-ine 44.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-44.
- [44<./img/Aethereu/UR.png><./img/Aethereu/DR.png><./img/Aethereu/UL.png><./img/
-Aethereu/DL.png><./img/Aethereu/ULR.png><./img/Aethereu/DLR.png>]
-<img/Aethereu/UTR.png, id=799, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/UTR.png, id=822, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/UTR.png Graphic file (type png)
 <use img/Aethereu/UTR.png>
 Package luatex.def Info: img/Aethereu/UTR.png  used on input line 46. on input l
 ine 46.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  46.
-<img/Aethereu/DBR.png, id=800, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/DBR.png, id=823, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/DBR.png Graphic file (type png)
 <use img/Aethereu/DBR.png>
 Package luatex.def Info: img/Aethereu/DBR.png  used on input line 47. on input l
 ine 47.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  47.
-<img/Aethereu/UTLR.png, id=801, pagebox=cropbox, 355.5684pt x 346.1733pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 49. on input line 49.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 49.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 49. on input line 49.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 49.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 49. on input line 49.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 49.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 49. on input l
+ine 49.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+49.
+ [49<./img/Aethereu/UL.png><./img/Aethereu/DL.png><./img/Aethereu/ULR.png><./img
+/Aethereu/DLR.png><./img/Aethereu/UTL.png><./img/Aethereu/DBL.png>]
+<img/Aethereu/UTLR.png, id=834, pagebox=cropbox, 355.5684pt x 346.1733pt>
 File: img/Aethereu/UTLR.png Graphic file (type png)
 <use img/Aethereu/UTLR.png>
 Package luatex.def Info: img/Aethereu/UTLR.png  used on input line 51. on input 
 line 51.
 Package luatex.def Info: Requested size: 224.68121pt x 218.74532pt on input line
  51.
-<img/Aethereu/DBLR.png, id=802, pagebox=cropbox, 355.5684pt x 346.1733pt>
+<img/Aethereu/DBLR.png, id=835, pagebox=cropbox, 355.5684pt x 346.1733pt>
 File: img/Aethereu/DBLR.png Graphic file (type png)
 <use img/Aethereu/DBLR.png>
 Package luatex.def Info: img/Aethereu/DBLR.png  used on input line 52. on input 
@@ -4401,34 +4582,6 @@ line 52.
 Package luatex.def Info: Requested size: 224.68121pt x 218.74532pt on input line
  52.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 58. on input line 58.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 58.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 58. on input line 58.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 58.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 58. on input line 58.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 58.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 58. on input l
-ine 58.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-58.
- [45<./img/Aethereu/UTL.png><./img/Aethereu/DBL.png><./img/Aethereu/UTR.png><./i
-mg/Aethereu/DBR.png><./img/Aethereu/UTLR.png><./img/Aethereu/DBLR.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 58--67
  
  []
@@ -4451,7 +4604,32 @@ Overfull \hbox (0.17601pt too wide) in paragraph at lines 70--71
 ergy stone, a great de-mon lord will have 
  []
 
-)
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 71. on input line 71.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 71.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 71. on input line 71.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 71.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 71. on input line 71.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 71.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 71. on input l
+ine 71.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+71.
+[50<./img/Aethereu/UTR.png><./img/Aethereu/DBR.png><./img/Aethereu/UTLR.png><./i
+mg/Aethereu/DBLR.png>])
 Overfull \hbox (0.10092pt too wide) in paragraph at lines 72--18
 \T1/pbk/m/n/10 left of the first, form-ing sort of half a tri-force. This sec-o
 nd pedestal will con-tain the time stone. If the 
@@ -4473,34 +4651,11 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 8--8
 []  
  []
 
+)
+Underfull \hbox (badness 10000) in paragraph at lines 33--20
+ 
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 33. on input line 33.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 33.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 33. on input line 33.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 33.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 33. on input line 33.
-
-Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 33.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 33. on input l
-ine 33.
-Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-33.
- [46])
 (./Chapters/Zone_Endor.tex))
 Overfull \hbox (0.15523pt too wide) in paragraph at lines 3--75
 \T1/pbk/m/n/10 re-gion with some small moun-tains and a few open plains. There 
@@ -4531,7 +4686,32 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 75. on input l
 ine 75.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 75.
-[47]
+[51]
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 75. on input line 75.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 75.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 75. on input line 75.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 75.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package luatex.def Info: img/paper.jpg  used on input line 75. on input line 75.
+
+Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
+ 75.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package luatex.def Info: img/footerscroll.pdf  used on input line 75. on input l
+ine 75.
+Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
+75.
+ [52]
 \openout2 = Chapters/Quests.aux
  (./Chapters/Quests.tex (./Chapters/Dastan.tex
 
@@ -4589,7 +4769,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 59. on input l
 ine 59.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 59.
- [48
+ [53
 
 
 
@@ -4647,7 +4827,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 111. on input
 line 111.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 111.
- [49]
+ [54]
 ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) ) ( FP-POS? ) ( FP-EVAL ( FP-UPN
 ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ( FP-DIV ) ) )
 ( FP-POS? ) ( FP-EVAL ( FP-UPN ( FP-TRUNC ) ( FP-CLIP ) ) ) ( FP-EVAL ( FP-UPN
@@ -4700,7 +4880,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 6. on input li
 ne 6.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 6.
-[50]
+[55]
 luaotfload | cache : Lookup cache loaded from C:/Users/awtor/AppData/Local/MiKTe
 X/2.9/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: C:/Users
 /awtor/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/d3fz.luc)
@@ -4848,7 +5028,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 98. on input l
 ine 98.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 98.
-[51
+[56
 Missing character: There is no . (U+002E) in font D3FZ!
 Missing character: There is no , (U+002C) in font D3FZ!
 Missing character: There is no . (U+002E) in font D3FZ!
@@ -4999,7 +5179,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 13. on input l
 ine 13.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 13.
- [52]
+ [57]
 Overfull \hbox (0.11769pt too wide) in paragraph at lines 17--18
 \T1/pbk/m/n/10 sec-ond is a bar-rier that closes the party in with a chest in t
 he mid-dle. Within the bar-rier, they will find 
@@ -5085,7 +5265,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 18. on input l
 ine 18.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 18.
- [53
+ [58
 Missing character: There is no ’ (U+2019) in font pbkl8t!
 ]
 luaotfload | aux : font no 136 (nil) defines no feature for script latn
@@ -5165,7 +5345,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 24. on input l
 ine 24.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 24.
- [54
+ [59
 Missing character: There is no ’ (U+2019) in font pbkl8t!
 ]))
 File: img/paper.jpg Graphic file (type jpg)
@@ -5192,7 +5372,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 77. on input l
 ine 77.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 77.
- [55]
+ [60]
 \openout2 = Chapters/Resources.aux
  (./Chapters/Resources.tex
 (./Chapters/BookofCelestas.tex
@@ -5248,7 +5428,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 25. on input l
 ine 25.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 25.
-[56
+[61
 
 
 
@@ -5306,7 +5486,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 52. on input l
 ine 52.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 52.
-[57
+[62
 Missing character: There is no “ (U+201C) in font pbkl8t!
 Missing character: There is no ” (U+201D) in font pbkl8t!
 ]
@@ -5359,7 +5539,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 77. on input l
 ine 77.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 77.
-[58
+[63
 Missing character: There is no “ (U+201C) in font pbkl8t!
 Missing character: There is no ” (U+201D) in font pbkl8t!
 ]
@@ -5428,7 +5608,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 106. on input
 line 106.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 106.
-[59
+[64
 Missing character: There is no ’ (U+2019) in font pbkl8t!
 Missing character: There is no “ (U+201C) in font pbkl8t!
 Missing character: There is no ” (U+201D) in font pbkl8t!
@@ -5492,7 +5672,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 133. on input
 line 133.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 133.
-[60])
+[65])
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <5> not available
 (Font)              Font shape `T1/pbk/l/n' tried instead on input line 8.
 
@@ -5507,7 +5687,7 @@ Overfull \hbox (0.11414pt too wide) in paragraph at lines 11--12
  Fires a blue beam of en-ergy do-ing 
  []
 
-<img/ColorChart.png, id=882, pagebox=cropbox, 462.528pt x 462.528pt>
+<img/ColorChart.png, id=914, pagebox=cropbox, 462.528pt x 462.528pt>
 File: img/ColorChart.png Graphic file (type png)
 <use img/ColorChart.png>
 Package luatex.def Info: img/ColorChart.png  used on input line 34. on input lin
@@ -5541,7 +5721,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 36. on input l
 ine 36.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 36.
- [61])
+ [66])
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
 Package luatex.def Info: img/paper.jpg  used on input line 79. on input line 79.
@@ -5567,21 +5747,21 @@ ine 79.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 79.
 
-[62<./img/ColorChart.png>]
+[67<./img/ColorChart.png>]
 \openout2 = Chapters/Maps.aux
  (./Chapters/Maps.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
 
-<img/Tempestas.jpg, id=893, pagebox=cropbox, 1492.57625pt x 1000.73875pt>
+<img/Tempestas.jpg, id=924, pagebox=cropbox, 1492.57625pt x 1000.73875pt>
 File: img/Tempestas.jpg Graphic file (type jpg)
 <use img/Tempestas.jpg>
 Package luatex.def Info: img/Tempestas.jpg  used on input line 6. on input line 
 6.
 Package luatex.def Info: Requested size: 499.295pt x 334.76474pt on input line 6
 .
-<img/Aurushire.png, id=894, pagebox=cropbox, 893.58844pt x 650.43pt>
+<img/Aurushire.png, id=925, pagebox=cropbox, 893.58844pt x 650.43pt>
 File: img/Aurushire.png Graphic file (type png)
 <use img/Aurushire.png>
 Package luatex.def Info: img/Aurushire.png  used on input line 13. on input line
@@ -5615,7 +5795,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 15. on input l
 ine 15.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 15.
- [63
+ [68
 
 
 
@@ -5626,7 +5806,7 @@ Overfull \hbox (0.10535pt too wide) in paragraph at lines 15--16
 . In the north-west is a se-cluded area where Baba Lives. To 
  []
 
-<img/RemSilva.png, id=899, pagebox=cropbox, 642.90187pt x 648.92438pt>
+<img/RemSilva.png, id=930, pagebox=cropbox, 642.90187pt x 648.92438pt>
 File: img/RemSilva.png Graphic file (type png)
 <use img/RemSilva.png>
 Package luatex.def Info: img/RemSilva.png  used on input line 20. on input line 
@@ -5660,8 +5840,8 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 22. on input l
 ine 22.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 22.
- [64<./img/Aurushire.png>]
-<img/Aethereu.png, id=905, pagebox=cropbox, 992.95969pt x 834.86906pt>
+ [69<./img/Aurushire.png>]
+<img/Aethereu.png, id=936, pagebox=cropbox, 992.95969pt x 834.86906pt>
 File: img/Aethereu.png Graphic file (type png)
 <use img/Aethereu.png>
 Package luatex.def Info: img/Aethereu.png  used on input line 27. on input line 
@@ -5695,8 +5875,8 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 29. on input l
 ine 29.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 29.
- [65<./img/RemSilva.png>]
-<img/HONE.png, id=911, pagebox=cropbox, 3276.24pt x 2457.18pt>
+ [70<./img/RemSilva.png>]
+<img/HONE.png, id=942, pagebox=cropbox, 3276.24pt x 2457.18pt>
 File: img/HONE.png Graphic file (type png)
 <use img/HONE.png>
 Package luatex.def Info: img/HONE.png  used on input line 34. on input line 34.
@@ -5726,7 +5906,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 37. on input l
 ine 37.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 37.
- [66<./img/Aethereu.png><./img/HONE.png>])
+ [71<./img/Aethereu.png><./img/HONE.png>])
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
 Package luatex.def Info: img/paper.jpg  used on input line 81. on input line 81.
@@ -5751,7 +5931,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 81. on input l
 ine 81.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 81.
- [67]
+ [72]
 \openout2 = Chapters/ABCPlayers.aux
 
 (./Chapters/ABCPlayers.tex
@@ -5808,7 +5988,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 28. on input l
 ine 28.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 28.
- [68
+ [73
 
 
 
@@ -5870,7 +6050,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 52. on input l
 ine 52.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 52.
-[69]
+[74]
 Overfull \hbox (0.1683pt too wide) in paragraph at lines 52--53
 []\T1/pbk/m/n/10 As a goal of find-ing your lost daugh-ter, you've be-came ob-s
 essed with the un-der-world and death. 
@@ -5906,7 +6086,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 88. on input l
 ine 88.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 88.
-[70]
+[75]
 luaotfload | aux : font no 146 (nil) defines no feature for script latn
 luaotfload | aux : no font with id 146
 .................................................
@@ -6031,7 +6211,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 127. on input
 line 127.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 127.
-[71
+[76
 Missing character: There is no . (U+002E) in font D3FZ!
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 128--128
@@ -6107,7 +6287,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 8. on input li
 ne 8.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 8.
-[72
+[77
 Missing character: There is no ’ (U+2019) in font pbkl8t!
 Missing character: There is no “ (U+201C) in font pbkl8t!
 Missing character: There is no ” (U+201D) in font pbkl8t!
@@ -6177,7 +6357,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 22. on input l
 ine 22.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 22.
-[73]
+[78]
 Overfull \hbox (0.13034pt too wide) in paragraph at lines 23--24
 \T1/pbk/m/n/10 flung right into her stom-ach. Her shirt start-ing to turn red w
 ith the stain of blood. Fer-rous was frozen 
@@ -6270,7 +6450,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 34. on input l
 ine 34.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 34.
- [74])
+ [79])
 (./Chapters/Sessions/Session02.tex
 Overfull \hbox (0.12729pt too wide) in paragraph at lines 5--6
 \T1/pbk/m/n/10 The teller knew about Candy's past and what had hap-pened to her
@@ -6313,7 +6493,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 28. on input l
 ine 28.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 28.
-[75]) (./Chapters/Sessions/Session03.tex) (./Chapters/Sessions/Session04.tex)
+[80]) (./Chapters/Sessions/Session03.tex) (./Chapters/Sessions/Session04.tex)
 (./Chapters/Sessions/Session05.tex
 Overfull \hbox (0.14528pt too wide) in paragraph at lines 9--10
 \T1/pbk/m/n/10 should wake the oth-ers, but af-ter hear-ing some dis-tinc-tive 
@@ -6353,7 +6533,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 6. on input li
 ne 6.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 6.
-[76]
+[81]
 Overfull \hbox (0.1329pt too wide) in paragraph at lines 7--8
 \T1/pbk/m/n/10 lids of his eye, he sees a light, and when open-ing his eyes, an
  an-gelic be-ing de-scends from the sky in 
@@ -6425,7 +6605,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 38. on input l
 ine 38.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 38.
-[77]
+[82]
 Overfull \hbox (0.15353pt too wide) in paragraph at lines 41--42
 \T1/pbk/m/n/10 ship scat-tered along a large area of shore that they are on. Th
 e party mem-bers are all spread out and a 
@@ -6494,7 +6674,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 52. on input l
 ine 52.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 52.
- [78])
+ [83])
 (./Chapters/Sessions/Session07.tex
 Overfull \hbox (0.20674pt too wide) in paragraph at lines 5--6
 \T1/pbk/m/n/10 Dar-ris never ar-rived on shore with the rest of the party. Sim-
@@ -6567,7 +6747,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 31. on input l
 ine 31.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 31.
-[79]
+[84]
 Overfull \hbox (0.13338pt too wide) in paragraph at lines 37--38
 \T1/pbk/m/n/10 Af-ter about three lines, he dozed off due to be-ing very tired 
 from the ear-lier bat-tles. Gash-tai was able to 
@@ -6615,7 +6795,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 48. on input l
 ine 48.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 48.
-[80]
+[85]
 Overfull \hbox (0.13356pt too wide) in paragraph at lines 49--50
 \T1/pbk/m/n/10 who dis-like Dar-ris use this as an ex-cuse to jus-tify that the
  par-a-site needs to be taken out. They at-tack 
@@ -6669,7 +6849,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 64. on input l
 ine 64.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 64.
-[81]) (./Chapters/Sessions/Session08.tex
+[86]) (./Chapters/Sessions/Session08.tex
 Overfull \hbox (0.18765pt too wide) in paragraph at lines 7--8
 \T1/pbk/m/n/10 away from his eyes to have some sight back. He can tell there is
  blood all over the mud be-neath him. 
@@ -6726,7 +6906,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 16. on input l
 ine 16.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 16.
- [82]
+ [87]
 Overfull \hbox (0.1473pt too wide) in paragraph at lines 17--18
 \T1/pbk/m/n/10 arms, it bites at Dar-ris. The crea-tures teeth sink deep into D
 ar-ris' shoul-der and bites his en-tire arm 
@@ -6768,7 +6948,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 30. on input l
 ine 30.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 30.
-[83]) (./Chapters/Sessions/Session09.tex
+[88]) (./Chapters/Sessions/Session09.tex
 Overfull \hbox (0.17737pt too wide) in paragraph at lines 5--6
 \T1/pbk/m/n/10 and shad-ows formed a men-ac-ing look-ing face. The crea-ture ap
 -peared as close to the party as it could 
@@ -6810,7 +6990,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 16. on input l
 ine 16.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 16.
-[84]
+[89]
 Overfull \hbox (0.17577pt too wide) in paragraph at lines 19--20
 \T1/pbk/m/n/10 back-ground. When asleep, a dream came upon him. In this dream, 
 an an-gelic light ap-proached him 
@@ -6870,7 +7050,7 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 53. on input l
 ine 53.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 53.
-[85]
+[90]
 Overfull \hbox (0.19034pt too wide) in paragraph at lines 61--62
 \T1/pbk/m/n/10 the top, farm-land can be seen over the re-gion and a man there 
 work-ing to greet them. ``Hello vis-i-tors!'' 
@@ -6894,7 +7074,7 @@ Overfull \hbox (0.18759pt too wide) in paragraph at lines 63--64
 rs head to the town li-brary look-ing for 
  []
 
-))
+) (./Chapters/Sessions/Session10.tex))
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
 Package luatex.def Info: img/paper.jpg  used on input line 83. on input line 83.
@@ -6919,12 +7099,13 @@ Package luatex.def Info: img/footerscroll.pdf  used on input line 83. on input l
 ine 83.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 83.
- [86]
+ [91]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
- ("./Trinity Stones.aux" (./Chapters/Stones.aux)
-(./Chapters/Campaign.aux) (./Chapters/Zones.aux) (./Chapters/Quests.aux)
-(./Chapters/Resources.aux) (./Chapters/Maps.aux) (./Chapters/ABCPlayers.aux))
+ ("./Trinity Stones.aux"
+(./Chapters/Stones.aux) (./Chapters/Campaign.aux) (./Chapters/Zones.aux)
+(./Chapters/Quests.aux) (./Chapters/Resources.aux) (./Chapters/Maps.aux)
+(./Chapters/ABCPlayers.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `"Trinity Stones".out' has not changed.
@@ -6937,15 +7118,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44219 strings out of 494456
+ 44549 strings out of 494456
  125200,1373583 words of node,token memory allocated
- 8171 words of node memory still in use:
-   19 hlist, 2 vlist, 14 rule, 4 glue, 1026 kern, 592 attribute, 116 glue_spec, 
-327 attribute_list, 2 write, 24 pdf_literal, 9 pdf_action, 24 pdf_colorstack nod
-es
-   avail lists: 1:4,2:3221,3:714,4:80,5:164,6:184,7:6371,8:144,9:692,10:30,11:33
+ 8222 words of node memory still in use:
+   19 hlist, 2 vlist, 14 rule, 4 glue, 1029 kern, 602 attribute, 116 glue_spec, 
+332 attribute_list, 2 write, 24 pdf_literal, 10 pdf_action, 24 pdf_colorstack no
+des
+   avail lists: 1:3,2:3206,3:714,4:78,5:163,6:183,7:6373,8:144,9:692,10:30,11:33
 2
- 42201 multiletter control sequences out of 65536+200000
+ 42272 multiletter control sequences out of 65536+200000
  146 fonts using 14827831 bytes
  70i,18n,122p,1714b,1326s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/WINDOWS/Fonts/rella
@@ -6965,9 +7146,9 @@ ic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/bookman/ubkli8a.pfb>
-Output written on Trinity Stones.pdf (86 pages, 41419793 bytes).
+Output written on Trinity Stones.pdf (91 pages, 46421866 bytes).
 
-PDF statistics: 1083 PDF objects out of 1200 (max. 8388607)
- 205 named destinations out of 1000 (max. 131072)
- 1040 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1115 PDF objects out of 1200 (max. 8388607)
+ 210 named destinations out of 1000 (max. 131072)
+ 1048 words of extra memory for PDF output out of 10000 (max. 100000000)
 
