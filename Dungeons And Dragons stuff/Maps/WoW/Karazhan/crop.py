@@ -13,6 +13,6 @@ def crop(image_path, coords, saved_location):
  
  
 if __name__ == '__main__':
-    for imgnumber in range(1,17):
+    for imgnumber in range(1,50):
         image = '3457-{0}.jpg'.format(imgnumber)
         crop(image, (0, 0, 752, 506), 'cropped-3457-{0}.jpg'.format(imgnumber))
