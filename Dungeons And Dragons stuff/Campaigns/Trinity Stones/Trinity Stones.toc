@@ -2,185 +2,190 @@
 \contentsline {chapter}{The Trinity Stones: History}{5}{chapter*.2}
 \contentsline {section}{Creation of a Trinity}{5}{section*.3}
 \contentsline {section}{Creation of the Stones}{5}{section*.3}
-\contentsline {section}{The Celestial Guard}{6}{section*.3}
-\contentsline {section}{The Space Stone}{7}{section*.3}
-\contentsline {section}{The Matter Stone}{7}{section*.3}
-\contentsline {section}{The Time Stone}{7}{section*.3}
-\contentsline {section}{The Celestials}{7}{section*.3}
-\contentsline {section}{Myrddin}{9}{Item.5}
-\contentsline {section}{Morgana}{9}{Item.5}
-\contentsline {subsection}{Morgana Lore in the Campaign}{10}{section*.4}
-\contentsline {chapter}{The Campaign}{11}{chapter*.5}
-\contentsline {subsection}{Tempestas}{11}{section*.6}
-\contentsline {subsection}{Journey to Aurushire}{11}{section*.6}
-\contentsline {subsection}{Baba}{12}{section*.6}
-\contentsline {subsection}{Yaga}{14}{section*.6}
-\contentsline {subsection}{The Eternal Neokoros}{16}{section*.6}
-\contentsline {chapter}{The Zones}{20}{chapter*.7}
-\contentsline {section}{Orilla}{20}{section*.8}
-\contentsline {subsection}{Regions}{21}{section*.8}
-\contentsline {subsubsection}{Azeroth}{21}{section*.9}
-\contentsline {subsubsection}{Degobah}{21}{section*.9}
-\contentsline {subsubsection}{Kalimdor}{21}{section*.9}
-\contentsline {subsubsection}{Tel'Drassil}{21}{section*.9}
-\contentsline {subsubsection}{Abydos}{22}{section*.9}
-\contentsline {subsubsection}{Vulcan}{22}{section*.9}
-\contentsline {subsubsection}{Tatooine}{22}{section*.9}
-\contentsline {subsubsection}{Korriban}{22}{section*.9}
-\contentsline {subsubsection}{Krypton}{22}{section*.9}
-\contentsline {subsubsection}{Sahal}{22}{section*.9}
-\contentsline {subsubsection}{Tuchanka}{22}{section*.9}
-\contentsline {subsubsection}{Pandora}{22}{section*.9}
-\contentsline {subsubsection}{Babylonia}{22}{section*.9}
-\contentsline {subsubsection}{Vagonbrei}{22}{section*.9}
-\contentsline {subsubsection}{Statu}{22}{section*.9}
-\contentsline {subsubsection}{Telos}{22}{section*.9}
-\contentsline {subsubsection}{Nibiru}{22}{section*.9}
-\contentsline {subsubsection}{Kashyyyk}{22}{section*.9}
-\contentsline {subsubsection}{Castiana}{22}{section*.9}
-\contentsline {subsubsection}{Zebes}{22}{section*.9}
-\contentsline {section}{Tempestas}{22}{section*.9}
-\contentsline {subsection}{Tempestas Hierarchy}{24}{Item.65}
-\contentsline {subsection}{Brawlers Guild}{25}{Item.87}
-\contentsline {section}{The Statu Peninsula}{25}{Item.87}
-\contentsline {section}{The Eternal Marsh}{26}{Item.87}
-\contentsline {section}{Aurushire}{27}{Item.87}
-\contentsline {subsection}{NPC's}{27}{section*.10}
-\contentsline {subsection}{The Inn of the Prancing Pony}{32}{section*.10}
-\contentsline {subsection}{Tracey's Armory}{32}{section*.10}
-\contentsline {subsection}{Bob's Guns}{32}{section*.10}
-\contentsline {subsection}{Stormstout Blacksmith}{32}{section*.10}
-\contentsline {subsection}{Stormstout Pub}{33}{section*.10}
-\contentsline {subsection}{Stormstout Quarries}{33}{section*.10}
-\contentsline {subsection}{Library of Lysanias}{34}{section*.10}
-\contentsline {section}{Rem Silva}{34}{section*.10}
-\contentsline {subsection}{NPC's/Modified Creatures}{35}{section*.11}
+\contentsline {chapter}{The Celestials and Ancient History}{7}{chapter*.4}
+\contentsline {section}{The Celestial Guard}{7}{section*.5}
+\contentsline {section}{The Space Stone}{8}{section*.5}
+\contentsline {section}{The Matter Stone}{8}{section*.5}
+\contentsline {section}{The Time Stone}{8}{section*.5}
+\contentsline {section}{The Celestials}{8}{section*.5}
+\contentsline {section}{Myrddin}{10}{Item.5}
+\contentsline {section}{Morgana}{11}{Item.5}
+\contentsline {subsection}{Morgana Lore in the Campaign}{11}{section*.6}
+\contentsline {chapter}{The Campaign}{12}{chapter*.7}
+\contentsline {subsection}{Tempestas}{12}{section*.8}
+\contentsline {subsection}{Journey to Aurushire}{12}{section*.8}
+\contentsline {subsection}{Baba}{13}{section*.8}
+\contentsline {subsection}{Yaga}{15}{section*.8}
+\contentsline {subsection}{The Eternal Neokoros}{17}{section*.8}
+\contentsline {chapter}{The Zones}{21}{chapter*.9}
+\contentsline {section}{Orilla}{21}{section*.10}
+\contentsline {subsection}{Regions}{22}{section*.10}
+\contentsline {subsubsection}{Azeroth}{22}{section*.11}
+\contentsline {subsubsection}{Degobah}{22}{section*.11}
+\contentsline {subsubsection}{Kalimdor}{22}{section*.11}
+\contentsline {subsubsection}{Tel'Drassil}{22}{section*.11}
+\contentsline {subsubsection}{Abydos}{23}{section*.11}
+\contentsline {subsubsection}{Vulcan}{23}{section*.11}
+\contentsline {subsubsection}{Tatooine}{23}{section*.11}
+\contentsline {subsubsection}{Korriban}{23}{section*.11}
+\contentsline {subsubsection}{Krypton}{23}{section*.11}
+\contentsline {subsubsection}{Sahal}{23}{section*.11}
+\contentsline {subsubsection}{Tuchanka}{23}{section*.11}
+\contentsline {subsubsection}{Pandora}{23}{section*.11}
+\contentsline {subsubsection}{Babylonia}{23}{section*.11}
+\contentsline {subsubsection}{Vagonbrei}{23}{section*.11}
+\contentsline {subsubsection}{Statu}{23}{section*.11}
+\contentsline {subsubsection}{Telos}{23}{section*.11}
+\contentsline {subsubsection}{Nibiru}{23}{section*.11}
+\contentsline {subsubsection}{Kashyyyk}{23}{section*.11}
+\contentsline {subsubsection}{Castiana}{23}{section*.11}
+\contentsline {subsubsection}{Zebes}{23}{section*.11}
+\contentsline {section}{Tempestas}{23}{section*.11}
+\contentsline {subsection}{Tempestas Hierarchy}{25}{Item.65}
+\contentsline {subsection}{Brawlers Guild}{26}{Item.87}
+\contentsline {section}{The Statu Peninsula}{26}{Item.87}
+\contentsline {section}{The Eternal Marsh}{27}{Item.87}
+\contentsline {section}{Aurushire}{28}{Item.87}
+\contentsline {subsection}{NPC's}{28}{section*.12}
+\contentsline {subsection}{The Inn of the Prancing Pony}{32}{section*.12}
+\contentsline {subsection}{Tracey's Armory}{33}{section*.12}
+\contentsline {subsection}{Bob's Guns}{33}{section*.12}
+\contentsline {subsection}{Stormstout Blacksmith}{33}{section*.12}
+\contentsline {subsection}{Stormstout Pub}{33}{section*.12}
+\contentsline {subsection}{Stormstout Quarries}{34}{section*.12}
+\contentsline {subsection}{Library of Lysanias}{35}{section*.12}
+\contentsline {section}{Rem Silva}{35}{section*.12}
+\contentsline {subsection}{NPC's/Modified Creatures}{36}{section*.13}
 \contentsline {section}{The Pluvian Forest}{42}{Item.91}
-\contentsline {subsubsection}{About the Region}{42}{section*.12}
-\contentsline {subsubsection}{Unique Forest Dynamics}{42}{section*.12}
-\contentsline {subsubsection}{Navigating The Pluvian Forest}{44}{section*.12}
-\contentsline {subsection}{NPC's}{44}{section*.12}
-\contentsline {subsubsection}{Encounters and Discoveries}{44}{section*.13}
-\contentsline {subsubsection}{Trinity Dragons}{45}{section*.13}
-\contentsline {section}{Karazhan}{49}{section*.13}
-\contentsline {subsubsection}{About the zone}{49}{section*.14}
-\contentsline {subsubsection}{Entrance and Livery Stables}{49}{section*.14}
-\contentsline {subsubsection}{The Royal Ballroom and Opera Hall}{50}{section*.14}
-\contentsline {subsubsection}{The Broken Stairs}{51}{section*.14}
-\contentsline {subsubsection}{The Menagerie and The Guardians Library}{52}{section*.14}
-\contentsline {subsubsection}{The Observatory}{54}{section*.14}
-\contentsline {subsubsection}{The Chaotic Chess Chamber (Sorcerer's Chess)}{54}{section*.14}
-\contentsline {subsubsection}{Medivh's Chambers}{55}{section*.14}
-\contentsline {subsubsection}{Netherspace}{55}{section*.14}
-\contentsline {section}{Spati Aethereu Thalamun}{56}{section*.14}
-\contentsline {section}{Auru Convallis}{60}{section*.14}
-\contentsline {section}{Endor (Moon)}{61}{section*.14}
-\contentsline {chapter}{Campaign Quests and Side Stories}{62}{chapter*.15}
-\contentsline {section}{The 'Escape' of Dastan}{62}{section*.16}
+\contentsline {subsubsection}{About the Region}{42}{section*.14}
+\contentsline {subsubsection}{Unique Forest Dynamics}{42}{section*.14}
+\contentsline {subsubsection}{Navigating The Pluvian Forest}{44}{section*.14}
+\contentsline {subsection}{NPC's}{44}{section*.14}
+\contentsline {subsubsection}{Encounters and Discoveries}{45}{section*.15}
+\contentsline {subsubsection}{Trinity Dragons}{45}{section*.15}
+\contentsline {section}{Karazhan}{49}{section*.15}
+\contentsline {subsubsection}{About the zone}{49}{section*.16}
+\contentsline {subsubsection}{Entrance and Livery Stables}{49}{section*.16}
+\contentsline {subsubsection}{The Royal Ballroom and Opera Hall}{50}{section*.16}
+\contentsline {subsubsection}{The Broken Stairs}{51}{section*.16}
+\contentsline {subsubsection}{The Menagerie and The Guardians Library}{52}{section*.16}
+\contentsline {subsubsection}{The Observatory}{54}{section*.16}
+\contentsline {subsubsection}{The Chaotic Chess Chamber (Sorcerer's Chess)}{54}{section*.16}
+\contentsline {subsubsection}{Medivh's Chambers}{55}{section*.16}
+\contentsline {subsubsection}{Netherspace}{55}{section*.16}
+\contentsline {section}{Spati Aethereu Thalamun}{56}{section*.16}
+\contentsline {section}{Auru Convallis}{60}{section*.16}
+\contentsline {section}{Endor (Moon)}{61}{section*.16}
+\contentsline {chapter}{Campaign Quests and Side Stories}{62}{chapter*.17}
+\contentsline {section}{The 'Escape' of Dastan}{62}{section*.18}
 \contentsline {section}{Avalon}{64}{Item.95}
 \contentsline {section}{Camelot and the San'graal}{66}{Item.95}
 \contentsline {section}{Emporium of Grotto}{67}{Item.95}
 \contentsline {section}{Distress of Tel'Drassil}{68}{Item.95}
-\contentsline {chapter}{Campaign Items and Resources}{70}{chapter*.17}
-\contentsline {section}{Book of Celestas}{70}{section*.18}
-\contentsline {subsection}{Introduction}{70}{section*.18}
-\contentsline {subsection}{Origin}{70}{section*.18}
-\contentsline {subsection}{Celestial decree}{70}{section*.18}
-\contentsline {subsection}{Aroden}{70}{section*.18}
-\contentsline {subsection}{Divine Instructions}{71}{section*.18}
-\contentsline {subsection}{Ether}{71}{section*.18}
-\contentsline {subsection}{Toldath of Gigikei}{71}{section*.18}
-\contentsline {subsection}{Markon}{72}{section*.18}
-\contentsline {subsection}{Petrias}{72}{section*.18}
-\contentsline {subsection}{Amica}{72}{section*.18}
-\contentsline {subsection}{Aphorisms}{72}{section*.18}
-\contentsline {subsection}{Toldath of Andras}{73}{section*.18}
-\contentsline {subsection}{Tyolus}{73}{section*.18}
-\contentsline {subsection}{Beltachadzer}{73}{section*.18}
-\contentsline {subsection}{Ascension}{74}{section*.18}
-\contentsline {subsection}{Avernakis}{74}{section*.18}
-\contentsline {subsection}{Infinite Pathway}{74}{section*.18}
-\contentsline {subsection}{Revelation}{74}{section*.18}
-\contentsline {subsection}{Unique Items}{75}{section*.18}
-\contentsline {subsection}{Weapons}{75}{section*.18}
-\contentsline {subsection}{Color Chart}{76}{section*.18}
-\contentsline {subsection}{Campaign Names For NPCs}{76}{section*.18}
-\contentsline {chapter}{Maps}{77}{chapter*.19}
-\contentsline {section}{Tempestas}{77}{section*.20}
-\contentsline {section}{Aurushire}{78}{section*.20}
-\contentsline {section}{Rem Silva}{79}{section*.20}
-\contentsline {section}{Spati Aethereu Thalamun}{80}{section*.20}
-\contentsline {section}{The Halls of No End}{80}{section*.20}
-\contentsline {chapter}{ABC Players and Storyline}{81}{chapter*.21}
-\contentsline {section}{Introduction}{81}{section*.22}
-\contentsline {section}{Characters}{81}{section*.22}
-\contentsline {subsection}{Gashtai}{81}{section*.23}
-\contentsline {subsubsection}{What was given to the DM}{81}{section*.23}
-\contentsline {subsubsection}{What was given to the player}{82}{section*.23}
-\contentsline {subsection}{Victor Anderson}{82}{section*.23}
-\contentsline {subsubsection}{What was given to the DM}{82}{section*.24}
-\contentsline {subsubsection}{DM additions to backstory}{82}{section*.24}
-\contentsline {subsubsection}{What was given to the player}{82}{section*.24}
-\contentsline {subsection}{Candy Barr}{83}{section*.24}
-\contentsline {subsection}{Clime}{83}{section*.24}
-\contentsline {subsubsection}{What was given to the DM}{83}{section*.25}
-\contentsline {subsubsection}{What was given to the player}{83}{section*.25}
-\contentsline {subsection}{Ferrous Apollos}{83}{section*.25}
-\contentsline {subsubsection}{What was given to the DM}{83}{section*.26}
-\contentsline {subsubsection}{What was given to the Player}{83}{section*.26}
-\contentsline {subsection}{Darris McStickle}{84}{section*.26}
-\contentsline {subsubsection}{What was given to the DM}{84}{section*.27}
-\contentsline {subsubsection}{What was given to the player}{84}{section*.27}
-\contentsline {subsection}{Yzom}{84}{section*.27}
+\contentsline {section}{The Great Journey}{69}{Item.95}
+\contentsline {subsubsection}{The Eternal Neokoros Future Warning}{70}{section*.19}
+\contentsline {subsubsection}{Future events}{70}{section*.19}
+\contentsline {subsubsection}{Past events}{70}{section*.19}
+\contentsline {chapter}{Campaign Items and Resources}{71}{chapter*.20}
+\contentsline {section}{Book of Celestas}{71}{section*.21}
+\contentsline {subsection}{Introduction}{71}{section*.21}
+\contentsline {subsection}{Origin}{71}{section*.21}
+\contentsline {subsection}{Celestial decree}{71}{section*.21}
+\contentsline {subsection}{Aroden}{71}{section*.21}
+\contentsline {subsection}{Divine Instructions}{72}{section*.21}
+\contentsline {subsection}{Ether}{72}{section*.21}
+\contentsline {subsection}{Toldath of Gigikei}{72}{section*.21}
+\contentsline {subsection}{Markon}{73}{section*.21}
+\contentsline {subsection}{Petrias}{73}{section*.21}
+\contentsline {subsection}{Amica}{73}{section*.21}
+\contentsline {subsection}{Aphorisms}{73}{section*.21}
+\contentsline {subsection}{Toldath of Andras}{74}{section*.21}
+\contentsline {subsection}{Tyolus}{74}{section*.21}
+\contentsline {subsection}{Beltachadzer}{74}{section*.21}
+\contentsline {subsection}{Ascension}{75}{section*.21}
+\contentsline {subsection}{Avernakis}{75}{section*.21}
+\contentsline {subsection}{Infinite Pathway}{75}{section*.21}
+\contentsline {subsection}{Revelation}{75}{section*.21}
+\contentsline {subsection}{Unique Items}{76}{section*.21}
+\contentsline {subsection}{Weapons}{76}{section*.21}
+\contentsline {subsection}{Color Chart}{77}{section*.21}
+\contentsline {subsection}{Campaign Names For NPCs}{77}{section*.21}
+\contentsline {chapter}{Maps}{78}{chapter*.22}
+\contentsline {section}{Tempestas}{78}{section*.23}
+\contentsline {section}{Aurushire}{79}{section*.23}
+\contentsline {section}{Rem Silva}{80}{section*.23}
+\contentsline {section}{Spati Aethereu Thalamun}{81}{section*.23}
+\contentsline {section}{The Halls of No End}{81}{section*.23}
+\contentsline {chapter}{ABC Players and Storyline}{82}{chapter*.24}
+\contentsline {section}{Introduction}{82}{section*.25}
+\contentsline {section}{Characters}{82}{section*.25}
+\contentsline {subsection}{Gashtai}{82}{section*.26}
+\contentsline {subsubsection}{What was given to the DM}{82}{section*.26}
+\contentsline {subsubsection}{What was given to the player}{83}{section*.26}
+\contentsline {subsection}{Victor Anderson}{83}{section*.26}
+\contentsline {subsubsection}{What was given to the DM}{83}{section*.27}
+\contentsline {subsubsection}{DM additions to backstory}{83}{section*.27}
+\contentsline {subsubsection}{What was given to the player}{83}{section*.27}
+\contentsline {subsection}{Candy Barr}{84}{section*.27}
+\contentsline {subsection}{Clime}{84}{section*.27}
 \contentsline {subsubsection}{What was given to the DM}{84}{section*.28}
 \contentsline {subsubsection}{What was given to the player}{84}{section*.28}
-\contentsline {subsection}{Vinia Kobas}{84}{section*.28}
+\contentsline {subsection}{Ferrous Apollos}{84}{section*.28}
 \contentsline {subsubsection}{What was given to the DM}{84}{section*.29}
-\contentsline {subsubsection}{What was given to the player}{85}{section*.29}
-\contentsline {section}{The Adventures}{85}{section*.29}
-\contentsline {subsection}{Session 01 Summary: Chaos in Tempestas Part 1}{85}{section*.30}
-\contentsline {subsubsection}{Securing Passage to Tempestas}{85}{section*.30}
-\contentsline {subsubsection}{Arrival in Tempestas}{86}{section*.30}
-\contentsline {subsubsection}{Exploring Tempestas and the Church Incident}{86}{section*.30}
-\contentsline {subsubsection}{The Prison Break and Escape of Dastan}{87}{section*.30}
-\contentsline {subsection}{Session 02 Summary: Chaos in Tempestas Part 2}{88}{section*.30}
-\contentsline {subsubsection}{The Fortune Teller and Shady Figure}{88}{section*.31}
-\contentsline {subsubsection}{Traveling to the Graveyard}{88}{section*.31}
-\contentsline {subsubsection}{Apprehension of Ferrous}{88}{section*.31}
-\contentsline {subsubsection}{the Streaking Tiefling}{88}{section*.31}
-\contentsline {subsubsection}{Disturbing the Graves}{89}{section*.31}
-\contentsline {subsection}{Session 03 Summary: The Coalescence of Unexpected Fates}{89}{section*.31}
-\contentsline {subsubsection}{The Mysterious Prior of Celestas}{89}{section*.32}
-\contentsline {subsubsection}{The Blue Recluse Inn}{89}{section*.32}
-\contentsline {subsection}{Session 04 Summary: The Mysterious Dastan}{89}{section*.32}
-\contentsline {subsubsection}{The Meeting of Dastan}{89}{section*.33}
-\contentsline {subsubsection}{The Royal Library Drop-off}{89}{section*.33}
-\contentsline {subsubsection}{The Brawlers Guild}{89}{section*.33}
-\contentsline {subsubsection}{Harassing the Enchanter}{89}{section*.33}
-\contentsline {subsection}{Session 05 Summary: Leaving Tempestas Behind}{89}{section*.33}
-\contentsline {subsubsection}{The Quest of Dastan and his Companions}{89}{section*.34}
-\contentsline {subsubsection}{The Battle of Tempestas Harbor}{89}{section*.34}
-\contentsline {subsubsection}{The Great Storm}{89}{section*.34}
-\contentsline {subsection}{Session 06 Summary: Awakening on Jungle The Coast}{89}{section*.34}
-\contentsline {subsubsection}{`Visions' of Dreaded Meanings}{89}{section*.35}
-\contentsline {subsubsection}{Treading into The Unknown Forest}{91}{section*.35}
-\contentsline {subsection}{Session 07 Summary: The Eternal Marsh Part 1}{92}{section*.35}
-\contentsline {subsubsection}{The Binding of Flesh and Eternity}{92}{section*.36}
-\contentsline {subsubsection}{Drifting Down The Beach}{93}{section*.36}
-\contentsline {subsubsection}{An Unexpected Change}{93}{section*.36}
-\contentsline {subsubsection}{A Change in Terrain}{94}{section*.36}
-\contentsline {subsubsection}{Dangers Lurking Within the Fog}{94}{section*.36}
-\contentsline {subsection}{Session 08 Summary: The Eternal Marsh Part 2}{95}{section*.36}
-\contentsline {subsubsection}{Darris Verses the Marsh}{95}{section*.37}
-\contentsline {subsubsection}{The Elf and a Xorn}{96}{section*.37}
-\contentsline {subsubsection}{The Bonding of Classes}{96}{section*.37}
-\contentsline {subsubsection}{The Shimmering Flats}{96}{section*.37}
-\contentsline {subsection}{Session 09 Summary: Discovering Aurushire}{97}{section*.37}
-\contentsline {subsubsection}{The Awakening Water}{97}{section*.38}
-\contentsline {subsubsection}{The Demise of Darris}{97}{section*.38}
-\contentsline {subsubsection}{An Eternal Warning of Retribution}{98}{section*.38}
-\contentsline {subsubsection}{The Friendly Greeting of Aurushire}{99}{section*.38}
-\contentsline {subsection}{Session 10 Summary: The Brewery of Chen Stormstout}{99}{section*.38}
-\contentsline {subsubsection}{The Delicate Elixir of Chen}{99}{section*.39}
-\contentsline {subsubsection}{An Unexpected Find}{99}{section*.39}
-\contentsline {subsubsection}{The Battle of Likely Friends}{99}{section*.39}
+\contentsline {subsubsection}{What was given to the Player}{84}{section*.29}
+\contentsline {subsection}{Darris McStickle}{85}{section*.29}
+\contentsline {subsubsection}{What was given to the DM}{85}{section*.30}
+\contentsline {subsubsection}{What was given to the player}{85}{section*.30}
+\contentsline {subsection}{Yzom}{85}{section*.30}
+\contentsline {subsubsection}{What was given to the DM}{85}{section*.31}
+\contentsline {subsubsection}{What was given to the player}{85}{section*.31}
+\contentsline {subsection}{Vinia Kobas}{85}{section*.31}
+\contentsline {subsubsection}{What was given to the DM}{85}{section*.32}
+\contentsline {subsubsection}{What was given to the player}{86}{section*.32}
+\contentsline {section}{The Adventures}{86}{section*.32}
+\contentsline {subsection}{Session 01 Summary: Chaos in Tempestas Part 1}{86}{section*.33}
+\contentsline {subsubsection}{Securing Passage to Tempestas}{86}{section*.33}
+\contentsline {subsubsection}{Arrival in Tempestas}{87}{section*.33}
+\contentsline {subsubsection}{Exploring Tempestas and the Church Incident}{87}{section*.33}
+\contentsline {subsubsection}{The Prison Break and Escape of Dastan}{88}{section*.33}
+\contentsline {subsection}{Session 02 Summary: Chaos in Tempestas Part 2}{89}{section*.33}
+\contentsline {subsubsection}{The Fortune Teller and Shady Figure}{89}{section*.34}
+\contentsline {subsubsection}{Traveling to the Graveyard}{89}{section*.34}
+\contentsline {subsubsection}{Apprehension of Ferrous}{89}{section*.34}
+\contentsline {subsubsection}{the Streaking Tiefling}{89}{section*.34}
+\contentsline {subsubsection}{Disturbing the Graves}{90}{section*.34}
+\contentsline {subsection}{Session 03 Summary: The Coalescence of Unexpected Fates}{90}{section*.34}
+\contentsline {subsubsection}{The Mysterious Prior of Celestas}{90}{section*.35}
+\contentsline {subsubsection}{The Blue Recluse Inn}{90}{section*.35}
+\contentsline {subsection}{Session 04 Summary: The Mysterious Dastan}{90}{section*.35}
+\contentsline {subsubsection}{The Meeting of Dastan}{90}{section*.36}
+\contentsline {subsubsection}{The Royal Library Drop-off}{90}{section*.36}
+\contentsline {subsubsection}{The Brawlers Guild}{90}{section*.36}
+\contentsline {subsubsection}{Harassing the Enchanter}{90}{section*.36}
+\contentsline {subsection}{Session 05 Summary: Leaving Tempestas Behind}{90}{section*.36}
+\contentsline {subsubsection}{The Quest of Dastan and his Companions}{90}{section*.37}
+\contentsline {subsubsection}{The Battle of Tempestas Harbor}{90}{section*.37}
+\contentsline {subsubsection}{The Great Storm}{90}{section*.37}
+\contentsline {subsection}{Session 06 Summary: Awakening on Jungle The Coast}{90}{section*.37}
+\contentsline {subsubsection}{`Visions' of Dreaded Meanings}{90}{section*.38}
+\contentsline {subsubsection}{Treading into The Unknown Forest}{92}{section*.38}
+\contentsline {subsection}{Session 07 Summary: The Eternal Marsh Part 1}{93}{section*.38}
+\contentsline {subsubsection}{The Binding of Flesh and Eternity}{93}{section*.39}
+\contentsline {subsubsection}{Drifting Down The Beach}{94}{section*.39}
+\contentsline {subsubsection}{An Unexpected Change}{94}{section*.39}
+\contentsline {subsubsection}{A Change in Terrain}{95}{section*.39}
+\contentsline {subsubsection}{Dangers Lurking Within the Fog}{95}{section*.39}
+\contentsline {subsection}{Session 08 Summary: The Eternal Marsh Part 2}{96}{section*.39}
+\contentsline {subsubsection}{Darris Verses the Marsh}{96}{section*.40}
+\contentsline {subsubsection}{The Elf and a Xorn}{97}{section*.40}
+\contentsline {subsubsection}{The Bonding of Classes}{97}{section*.40}
+\contentsline {subsubsection}{The Shimmering Flats}{97}{section*.40}
+\contentsline {subsection}{Session 09 Summary: Discovering Aurushire}{98}{section*.40}
+\contentsline {subsubsection}{The Awakening Water}{98}{section*.41}
+\contentsline {subsubsection}{The Demise of Darris}{98}{section*.41}
+\contentsline {subsubsection}{An Eternal Warning of Retribution}{99}{section*.41}
+\contentsline {subsubsection}{The Friendly Greeting of Aurushire}{100}{section*.41}
+\contentsline {subsection}{Session 10 Summary: The Brewery of Chen Stormstout}{100}{section*.41}
+\contentsline {subsubsection}{The Delicate Elixir of Chen}{100}{section*.42}
+\contentsline {subsubsection}{An Unexpected Find}{100}{section*.42}
+\contentsline {subsubsection}{The Battle of Likely Friends}{100}{section*.42}
