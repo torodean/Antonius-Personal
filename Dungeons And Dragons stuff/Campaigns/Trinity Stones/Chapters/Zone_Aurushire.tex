@@ -63,6 +63,61 @@ Aurushire is full of NPC characters. Many of them are just normal workers or vil
 	Arryn is the first NPC most encounter when entering Aurushire from sea. He is the watcher of the ports and lives on a small farm right at docks where all sea traffic enters from.
 \end{monsterbox}
 
+\begin{monsterbox}{Tamina}
+	\begin{hangingpar}
+		\textit{Human Ranger, Neutral Good}
+	\end{hangingpar}
+	\dndline%
+	\basics[%
+	armorclass = 18,
+	hitpoints  = 154,
+	speed      = 40 ft
+	]
+	\dndline%
+	\stats[
+	STR = \stat{18}, % This stat command will autocomplete the modifier for you
+	DEX = \stat{18},
+	CON = \stat{12},
+	INT = \stat{14},
+	WIS = \stat{13},
+	CHA = \stat{11}
+	]
+	\dndline%
+	\details[%
+	% If you want to use commas in these sections, enclose the
+	% description in braces.
+	% I'm so sorry.
+	languages = {Common, Elvish, Pandaren},
+	challenge = 10
+	]
+	\dndline%
+	\begin{monsteraction}[Mystical Senses]
+		If a target tries to deceive you, it must make a DC19 deception saving throw.
+	\end{monsteraction}	
+	\begin{monsteraction}[Water sight]
+		You can see clearly up to two miles over water.
+	\end{monsteraction}
+	\begin{monsteraction}[Bladesinger: Extra Attack]
+		You can attack twice on your turn.
+	\end{monsteraction}
+	\monstersection{Actions}
+	\begin{monsteraction}[Paralytic Dart]
+		Hit: +3. A creature you can see within 90 feet must succeed on a wisdom saving throw or be paralyzed for 1 minute.
+	\end{monsteraction}
+	\begin{monsteraction}[Aimed Shot]
+		Hit: +6. Damage: 3d6 + 4 piercing damage. You pull our your longbow and fire a single arrow aimed precisely where you choose. 
+	\end{monsteraction}
+	\begin{monsteraction}[Scatter Shot]
+		Hit: +6. Damage 1d6 + 2 piercing damage per arrow. You grasp up to 4 arrows and mount them in your bow. You must roll hit for each arrow you attempt to fire and can choose up to 4 targets for the various arrows.
+	\end{monsteraction}
+	\begin{monsteraction}[Blade Slash]
+		Hit: +5. Damage 2d6 + 3 slashing damage per arrow. You pull our your silvered short sword and make a melee attack against the target.
+	\end{monsteraction}
+
+	\monstersection{Description/Information}
+	Tamina is a watcher of Aurushire. She trains under Arryn and the Stormstout brothers and spends the majority of her time roaming the outskirts of the town keeping watch for dangers or new occurrences in the area.
+\end{monsterbox}
+
 \begin{center}
 	\includegraphics[width=0.39\linewidth]{img/WoW/chen.jpg} \includegraphics[width=0.575\linewidth]{img/WoW/153930.jpg}
 \end{center}
