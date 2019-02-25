@@ -2,9 +2,14 @@
 echo "...Loading."
 echo "...Created by Antonius Torode."
 echo "...Please make sure you are connected to the Internet."
-echo "...If this script isn't working, make sure EOL Conversion is set to Unix"
-
+echo "...If this script isn't working, make sure EOL Conversion is set to Unix."
+echo "..."
 git status
+echo "..."
 git add -A
+echo "..."
 git commit -m "$1"
+echo "..."
 git push
+echo "..."
+echo "...Finished."
