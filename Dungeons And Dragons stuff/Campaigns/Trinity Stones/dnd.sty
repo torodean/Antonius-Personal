@@ -55,7 +55,7 @@
   \XKV@cc*+[\val\index]{#1}{full,none,print}{%
     \ifcase\index\relax
     % full
-    %\toggletrue{bool-bg}
+    \toggletrue{bool-bg} %COMMENT THIS LINE OUT TO REMOVE BACKGROUND TEXTURE.
     \toggletrue{bool-footer-scroll}
     \or
     % none
@@ -74,7 +74,7 @@
 % Legacy bg option variants.
 \DeclareOptionX{bg-full}{%
   \dnd@deprecate{bg-full}{0.7}[Use bg=full instead.]
-  %\toggletrue{bool-bg}
+  \toggletrue{bool-bg}
   \toggletrue{bool-footer-scroll}
 }
 \DeclareOptionX{bg-none}{%
