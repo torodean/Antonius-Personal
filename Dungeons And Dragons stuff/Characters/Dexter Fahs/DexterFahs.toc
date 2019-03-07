@@ -1,0 +1,25 @@
+\select@language {english}
+\contentsline {section}{Backstory}{3}{chapter*.1}
+\contentsline {section}{Class Features}{4}{chapter*.1}
+\contentsline {subsection}{Ability Scores (level 5)}{4}{section*.2}
+\contentsline {subsection}{Traits}{4}{section*.2}
+\contentsline {subsection}{Cleric Hit Points}{4}{section*.2}
+\contentsline {subsection}{Proficiencies}{4}{section*.2}
+\contentsline {subsection}{Equipment}{5}{section*.2}
+\contentsline {subsection}{Spell Casting}{5}{section*.2}
+\contentsline {subsubsection}{Cantrips}{5}{section*.2}
+\contentsline {subsubsection}{Preparing and Casting Spells}{5}{section*.2}
+\contentsline {subsubsection}{Ritual Casting}{6}{section*.2}
+\contentsline {subsection}{Divine Domain}{6}{section*.2}
+\contentsline {subsubsection}{Domain Spells}{6}{section*.2}
+\contentsline {subsection}{Channel Divinity}{6}{section*.2}
+\contentsline {subsubsection}{Channel Divinity: Turn Undead}{6}{section*.2}
+\contentsline {subsection}{Destroy Undead}{6}{section*.2}
+\contentsline {subsection}{Knowledge Domain}{7}{section*.2}
+\contentsline {subsubsection}{Blessing of Knowledge}{7}{section*.2}
+\contentsline {subsubsection}{Channel Divinity: Knowledge of the Ages}{7}{section*.2}
+\contentsline {subsubsection}{Channel Divinity: Read Thoughts}{7}{section*.2}
+\contentsline {subsection}{Spell casting Ability}{7}{section*.2}
+\contentsline {section}{Background: Folk Hero}{7}{section*.2}
+\contentsline {subsubsection}{Rustic Hospitality}{8}{section*.2}
+\contentsline {subsection}{Quotes}{8}{section*.3}
