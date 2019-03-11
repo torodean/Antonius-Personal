@@ -10,6 +10,8 @@ git add -A
 echo "..."
 git commit -m "$1"
 echo "..."
+git status
+echo "..."
 git push
 echo "..."
 echo "...Finished."
