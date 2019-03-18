@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  12 MAR 2019 16:06
+This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  12 MAR 2019 16:56
  restricted system commands enabled.
 **"Trinity Stones.tex"
 ("./Trinity Stones.tex"
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.794 seconds
+luaotfload | main : initialization completed in 0.594 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 ("C:/Program Files/MiKTeX 2.9/tex/latex/base/book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
@@ -1849,7 +1849,7 @@ RS)
 )(load luc: C:/Users/awtor/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/o
 tl/lmroman7-regular.luc)(load luc: C:/Users/awtor/AppData/Local/MiKTeX/2.9/luate
 x-cache/generic/fonts/otl/lmroman5-regular.luc)
-<img/trinitypaper1.jpg, id=861, pagebox=cropbox, 614.295pt x 794.97pt>
+<img/trinitypaper1.jpg, id=837, pagebox=cropbox, 614.295pt x 794.97pt>
 File: img/trinitypaper1.jpg Graphic file (type jpg)
 <use img/trinitypaper1.jpg>
 Package luatex.def Info: img/trinitypaper1.jpg  used on input line 62. on input 
@@ -1876,66 +1876,71 @@ LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <10> not available
 (Font)              Font shape `T1/pbk/db/n' tried instead on input line 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
  [][] []\T1/pbk/m/n/10 The Royal Ball-room and 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
  [][] []\T1/pbk/m/n/10 The Menagerie and The 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
  [][] []\T1/pbk/m/n/10 The Chaotic Chess Cham-ber 
  []
 
-<img/paper.jpg, id=959, pagebox=cropbox, 614.295pt x 794.97pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+ [][] []\T1/pbk/m/n/10 Find-ing the Spine of the Con- 
+ []
+
+<img/paper.jpg, id=934, pagebox=cropbox, 614.295pt x 794.97pt>
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 93. on input line 93.
+Package luatex.def Info: img/paper.jpg  used on input line 92. on input line 92.
 
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 93.
+ 92.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 93. on input line 93.
+Package luatex.def Info: img/paper.jpg  used on input line 92. on input line 92.
 
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 93.
+ 92.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 93. on input line 93.
+Package luatex.def Info: img/paper.jpg  used on input line 92. on input line 92.
 
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 93.
-<img/footerscroll.pdf, id=960, pagebox=cropbox, 596.2275pt x 42.15584pt>
+ 92.
+<img/footerscroll.pdf, id=935, pagebox=cropbox, 596.2275pt x 42.15584pt>
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 93. on input l
-ine 93.
+Package luatex.def Info: img/footerscroll.pdf  used on input line 92. on input l
+ine 92.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-93.
+92.
 [2
 
 <./img/paper.jpg><./img/footerscroll.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 97--97
- [][] []\T1/pbk/m/n/10 Find-ing the Spine of the Con- 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
  [][] []\T1/pbk/m/n/10 Find-ing Strom'kar the War- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
  [][] []\T1/pbk/m/n/10 Find-ing the Scythe of the 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
  [][] []\T1/pbk/m/n/10 The Eter-nal Neoko-ros Fu-ture 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+ [][] []\T1/pbk/m/n/10 Ses-sion 01 Sum-mary: Chaos in 
  []
 
 File: img/paper.jpg Graphic file (type jpg)
@@ -1963,102 +1968,97 @@ line 193.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 193.
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
- [][] []\T1/pbk/m/n/10 Ses-sion 01 Sum-mary: Chaos in 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
  [][] []\T1/pbk/m/n/10 The Prison Break and Es-cape 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
  [][] []\T1/pbk/m/n/10 Ses-sion 02 Sum-mary: Chaos in 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
  [][] []\T1/pbk/m/n/10 The For-tune Teller and 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
  [][] []\T1/pbk/m/n/10 Ses-sion 03 Sum-mary: The Co-a-les- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
  [][] []\T1/pbk/m/n/10 The Mys-te-ri-ous Prior of Ce- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
  [][] []\T1/pbk/m/n/10 Ses-sion 04 Sum-mary: The Mys-te-ri- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
  [][] []\T1/pbk/m/n/10 The Quest of Das-tan and his 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
  [][] []\T1/pbk/m/n/10 Ses-sion 06 Sum-mary: Awak-en-ing 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
  [][] []\T1/pbk/m/n/10 Tread-ing into The Un-known 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
  [][] []\T1/pbk/m/n/10 Ses-sion 07 Sum-mary: The Eter-nal 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
  [][] []\T1/pbk/m/n/10 The Bind-ing of Flesh and 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--232
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
  [][] []\T1/pbk/m/n/10 Dan-gers Lurk-ing Within the 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
  [][] []\T1/pbk/m/n/10 Ses-sion 08 Sum-mary: The Eter-nal 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
  [][] []\T1/pbk/m/n/10 Ses-sion 09 Sum-mary: Dis-cov-er-ing 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
  [][] []\T1/pbk/m/n/10 An Eter-nal Warn-ing of Ret-ri- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
  [][] []\T1/pbk/m/n/10 The Friendly Greet-ing of Au- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--247
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
  [][] []\T1/pbk/m/n/10 Ses-sion 11 Sum-mary: The Train-ing 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
  [][] []\T1/pbk/m/n/10 The Storm-stout Train-ing 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
  [][] []\T1/pbk/m/n/10 Ses-sion 12 Sum-mary: The Eter-nal 
  []
 
@@ -2093,7 +2093,7 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
  [4]
 \openout2 = Chapters/Stones.aux
  (./Chapters/Stones.tex
-<img/TS.jpg, id=1172, pagebox=cropbox, 2509.375pt x 1084.05pt>
+<img/TS.jpg, id=1140, pagebox=cropbox, 2509.375pt x 1084.05pt>
 File: img/TS.jpg Graphic file (type jpg)
 <use img/TS.jpg>
 Package luatex.def Info: img/TS.jpg  used on input line 4. on input line 4.
@@ -2410,7 +2410,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 erve the pur-pose of the Ce-les-tials. The Ce-les-tials send them to
  []
 
-<img/CelestialConquest/OrillaCrusade.jpg, id=1197, pagebox=cropbox, 3700.224pt x
+<img/CelestialConquest/OrillaCrusade.jpg, id=1165, pagebox=cropbox, 3700.224pt x
  2081.376pt>
 File: img/CelestialConquest/OrillaCrusade.jpg Graphic file (type jpg)
 <use img/CelestialConquest/OrillaCrusade.jpg>
@@ -2418,7 +2418,7 @@ Package luatex.def Info: img/CelestialConquest/OrillaCrusade.jpg  used on input
 line 82. on input line 82.
 Package luatex.def Info: Requested size: 239.65945pt x 134.78604pt on input line
  82.
-<img/CelestialConquest/CelestusConquest00.jpg, id=1198, pagebox=cropbox, 3700.22
+<img/CelestialConquest/CelestusConquest00.jpg, id=1166, pagebox=cropbox, 3700.22
 4pt x 2081.376pt>
 File: img/CelestialConquest/CelestusConquest00.jpg Graphic file (type jpg)
 <use img/CelestialConquest/CelestusConquest00.jpg>
@@ -2454,7 +2454,7 @@ ine 84.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 84.
  [9]
-<img/CelestialConquest/CelestusConquest01.jpg, id=1214, pagebox=cropbox, 3700.22
+<img/CelestialConquest/CelestusConquest01.jpg, id=1182, pagebox=cropbox, 3700.22
 4pt x 2081.376pt>
 File: img/CelestialConquest/CelestusConquest01.jpg Graphic file (type jpg)
 <use img/CelestialConquest/CelestusConquest01.jpg>
@@ -2462,7 +2462,7 @@ Package luatex.def Info: img/CelestialConquest/CelestusConquest01.jpg  used on i
 nput line 84. on input line 84.
 Package luatex.def Info: Requested size: 239.65945pt x 134.78604pt on input line
  84.
-<img/CelestialConquest/CelestusConquest02.jpg, id=1215, pagebox=cropbox, 3700.22
+<img/CelestialConquest/CelestusConquest02.jpg, id=1183, pagebox=cropbox, 3700.22
 4pt x 2081.376pt>
 File: img/CelestialConquest/CelestusConquest02.jpg Graphic file (type jpg)
 <use img/CelestialConquest/CelestusConquest02.jpg>
@@ -2470,7 +2470,7 @@ Package luatex.def Info: img/CelestialConquest/CelestusConquest02.jpg  used on i
 nput line 84. on input line 84.
 Package luatex.def Info: Requested size: 239.65945pt x 134.78604pt on input line
  84.
-<img/CelestialConquest/CelestusConquest03.jpg, id=1216, pagebox=cropbox, 3700.22
+<img/CelestialConquest/CelestusConquest03.jpg, id=1184, pagebox=cropbox, 3700.22
 4pt x 2081.376pt>
 File: img/CelestialConquest/CelestusConquest03.jpg Graphic file (type jpg)
 <use img/CelestialConquest/CelestusConquest03.jpg>
@@ -2478,7 +2478,7 @@ Package luatex.def Info: img/CelestialConquest/CelestusConquest03.jpg  used on i
 nput line 86. on input line 86.
 Package luatex.def Info: Requested size: 239.65945pt x 134.78604pt on input line
  86.
-<img/CelestialConquest/CelestusConquest04.jpg, id=1217, pagebox=cropbox, 3700.22
+<img/CelestialConquest/CelestusConquest04.jpg, id=1185, pagebox=cropbox, 3700.22
 4pt x 2081.376pt>
 File: img/CelestialConquest/CelestusConquest04.jpg Graphic file (type jpg)
 <use img/CelestialConquest/CelestusConquest04.jpg>
@@ -2486,7 +2486,7 @@ Package luatex.def Info: img/CelestialConquest/CelestusConquest04.jpg  used on i
 nput line 86. on input line 86.
 Package luatex.def Info: Requested size: 239.65945pt x 134.78604pt on input line
  86.
-<img/CelestialConquest/CelestusConquest05.jpg, id=1218, pagebox=cropbox, 3700.22
+<img/CelestialConquest/CelestusConquest05.jpg, id=1186, pagebox=cropbox, 3700.22
 4pt x 2081.376pt>
 File: img/CelestialConquest/CelestusConquest05.jpg Graphic file (type jpg)
 <use img/CelestialConquest/CelestusConquest05.jpg>
@@ -2494,7 +2494,7 @@ Package luatex.def Info: img/CelestialConquest/CelestusConquest05.jpg  used on i
 nput line 88. on input line 88.
 Package luatex.def Info: Requested size: 239.65945pt x 134.78604pt on input line
  88.
-<img/CelestialConquest/CelestusConquest06.jpg, id=1219, pagebox=cropbox, 3700.22
+<img/CelestialConquest/CelestusConquest06.jpg, id=1187, pagebox=cropbox, 3700.22
 4pt x 2081.376pt>
 File: img/CelestialConquest/CelestusConquest06.jpg Graphic file (type jpg)
 <use img/CelestialConquest/CelestusConquest06.jpg>
@@ -2560,14 +2560,14 @@ Overfull \hbox (0.1442pt too wide) in paragraph at lines 101--102
 he Plu-vian For-est. One of such places is 
  []
 
-<img/WoW/LightMother-5.png, id=1225, pagebox=cropbox, 1155.31625pt x 931.48pt>
+<img/WoW/LightMother-5.png, id=1193, pagebox=cropbox, 1155.31625pt x 931.48pt>
 File: img/WoW/LightMother-5.png Graphic file (type png)
 <use img/WoW/LightMother-5.png>
 Package luatex.def Info: img/WoW/LightMother-5.png  used on input line 108. on i
 nput line 108.
 Package luatex.def Info: Requested size: 244.65729pt x 197.25108pt on input line
  108.
-<img/WoW/LightMother-4.png, id=1226, pagebox=cropbox, 1155.31625pt x 931.48pt>
+<img/WoW/LightMother-4.png, id=1194, pagebox=cropbox, 1155.31625pt x 931.48pt>
 File: img/WoW/LightMother-4.png Graphic file (type png)
 <use img/WoW/LightMother-4.png>
 Package luatex.def Info: img/WoW/LightMother-4.png  used on input line 108. on i
@@ -2723,14 +2723,14 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 
 LaTeX Warning: Reference `maps' on page 14 undefined on input line 26.
 
-<img/WoW/baba.jpg, id=1246, pagebox=cropbox, 689.57625pt x 789.95125pt>
+<img/WoW/baba.jpg, id=1214, pagebox=cropbox, 689.57625pt x 789.95125pt>
 File: img/WoW/baba.jpg Graphic file (type jpg)
 <use img/WoW/baba.jpg>
 Package luatex.def Info: img/WoW/baba.jpg  used on input line 30. on input line 
 30.
 Package luatex.def Info: Requested size: 227.18013pt x 260.25078pt on input line
  30.
-<img/WoW/S46KEIUDZE1U1446614218885.jpg, id=1247, pagebox=cropbox, 489.83pt x 481
+<img/WoW/S46KEIUDZE1U1446614218885.jpg, id=1215, pagebox=cropbox, 489.83pt x 481
 .8pt>
 File: img/WoW/S46KEIUDZE1U1446614218885.jpg Graphic file (type jpg)
 <use img/WoW/S46KEIUDZE1U1446614218885.jpg>
@@ -2870,7 +2870,7 @@ LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <12> not available
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 110.
 
-<img/maps/HONE.png, id=1257, pagebox=cropbox, 3276.24pt x 2457.18pt>
+<img/maps/HONE.png, id=1225, pagebox=cropbox, 3276.24pt x 2457.18pt>
 File: img/maps/HONE.png Graphic file (type png)
 <use img/maps/HONE.png>
 Package luatex.def Info: img/maps/HONE.png  used on input line 112. on input lin
@@ -2902,14 +2902,14 @@ line 123.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 123.
 [16<./img/maps/HONE.png>]
-<img/Yaga.jpg, id=1263, pagebox=cropbox, 359.84438pt x 453.94594pt>
+<img/Yaga.jpg, id=1231, pagebox=cropbox, 359.84438pt x 453.94594pt>
 File: img/Yaga.jpg Graphic file (type jpg)
 <use img/Yaga.jpg>
 Package luatex.def Info: img/Yaga.jpg  used on input line 126. on input line 126
 .
 Package luatex.def Info: Requested size: 249.64749pt x 314.94084pt on input line
  126.
-<img/ed94712ddd2dfc1bcc41918c9bda155e.jpg, id=1264, pagebox=cropbox, 642.4pt x 9
+<img/ed94712ddd2dfc1bcc41918c9bda155e.jpg, id=1232, pagebox=cropbox, 642.4pt x 9
 68.61874pt>
 File: img/ed94712ddd2dfc1bcc41918c9bda155e.jpg Graphic file (type jpg)
 <use img/ed94712ddd2dfc1bcc41918c9bda155e.jpg>
@@ -2953,14 +2953,14 @@ line 167.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 167.
  [17<./img/Yaga.jpg><./img/ed94712ddd2dfc1bcc41918c9bda155e.jpg>]
-<img/samilah.jpg, id=1269, pagebox=cropbox, 477.785pt x 282.05376pt>
+<img/samilah.jpg, id=1237, pagebox=cropbox, 477.785pt x 282.05376pt>
 File: img/samilah.jpg Graphic file (type jpg)
 <use img/samilah.jpg>
 Package luatex.def Info: img/samilah.jpg  used on input line 174. on input line 
 174.
 Package luatex.def Info: Requested size: 324.5921pt x 191.61755pt on input line 
 174.
-<img/Adria_Ark_of_Truth.jpg, id=1270, pagebox=cropbox, 433.62pt x 594.0594pt>
+<img/Adria_Ark_of_Truth.jpg, id=1238, pagebox=cropbox, 433.62pt x 594.0594pt>
 File: img/Adria_Ark_of_Truth.jpg Graphic file (type jpg)
 <use img/Adria_Ark_of_Truth.jpg>
 Package luatex.def Info: img/Adria_Ark_of_Truth.jpg  used on input line 174. on 
@@ -2985,7 +2985,7 @@ Overfull \hbox (0.12785pt too wide) in paragraph at lines 183--184
 g-ends and sto-ries have arose from it such as that of 
  []
 
-<img/Halo/gravemind.jpg, id=1271, pagebox=cropbox, 1027.84pt x 578.16pt>
+<img/Halo/gravemind.jpg, id=1239, pagebox=cropbox, 1027.84pt x 578.16pt>
 File: img/Halo/gravemind.jpg Graphic file (type jpg)
 <use img/Halo/gravemind.jpg>
 Package luatex.def Info: img/Halo/gravemind.jpg  used on input line 186. on inpu
@@ -3096,14 +3096,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--258
 ros off-spring, thus pro-vok-ing re-venge. This crea-ture is
  []
 
-<img/Halo/gravemind-battle.jpg, id=1276, pagebox=cropbox, 963.6pt x 521.95pt>
+<img/Halo/gravemind-battle.jpg, id=1244, pagebox=cropbox, 963.6pt x 521.95pt>
 File: img/Halo/gravemind-battle.jpg Graphic file (type jpg)
 <use img/Halo/gravemind-battle.jpg>
 Package luatex.def Info: img/Halo/gravemind-battle.jpg  used on input line 260. 
 on input line 260.
 Package luatex.def Info: Requested size: 249.64749pt x 135.22594pt on input line
  260.
-<img/Halo/gravemind-face.jpg, id=1277, pagebox=cropbox, 301.125pt x 168.63pt>
+<img/Halo/gravemind-face.jpg, id=1245, pagebox=cropbox, 301.125pt x 168.63pt>
 File: img/Halo/gravemind-face.jpg Graphic file (type jpg)
 <use img/Halo/gravemind-face.jpg>
 Package luatex.def Info: img/Halo/gravemind-face.jpg  used on input line 260. on
@@ -3311,7 +3311,7 @@ Overfull \hbox (0.19989pt too wide) in paragraph at lines 9--10
 n-flu-ence and be-came ser-vants em-body-ing 
  []
 
-<img/WoW/yogg-saron.jpg, id=1297, pagebox=cropbox, 2055.68pt x 1140.26pt>
+<img/WoW/yogg-saron.jpg, id=1265, pagebox=cropbox, 2055.68pt x 1140.26pt>
 File: img/WoW/yogg-saron.jpg Graphic file (type jpg)
 <use img/WoW/yogg-saron.jpg>
 Package luatex.def Info: img/WoW/yogg-saron.jpg  used on input line 14. on input
@@ -3397,14 +3397,14 @@ Overfull \hbox (0.12111pt too wide) in paragraph at lines 5--6
 a-ble. Storms on the planet can be much 
  []
 
-<img/maps/Orilla.jpg, id=1313, pagebox=cropbox, 3700.224pt x 2081.376pt>
+<img/maps/Orilla.jpg, id=1281, pagebox=cropbox, 3700.224pt x 2081.376pt>
 File: img/maps/Orilla.jpg Graphic file (type jpg)
 <use img/maps/Orilla.jpg>
 Package luatex.def Info: img/maps/Orilla.jpg  used on input line 10. on input li
 ne 10.
 Package luatex.def Info: Requested size: 499.295pt x 280.8466pt on input line 10
 .
-<img/maps/Orilla_SE.jpg, id=1314, pagebox=cropbox, 1297.0056pt x 974.1996pt>
+<img/maps/Orilla_SE.jpg, id=1282, pagebox=cropbox, 1297.0056pt x 974.1996pt>
 File: img/maps/Orilla_SE.jpg Graphic file (type jpg)
 <use img/maps/Orilla_SE.jpg>
 Package luatex.def Info: img/maps/Orilla_SE.jpg  used on input line 16. on input
@@ -3459,40 +3459,49 @@ that can-not be found any-where else on
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (0.22311pt too wide) in paragraph at lines 39--40
+\T1/pbk/m/n/10 Tel'dras-sil con-tains a world tree which en-com-passes the ma-j
+or-ity of its land mass. The tree is home to 
+ []
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 49. on input line 49.
+Package luatex.def Info: img/paper.jpg  used on input line 45. on input line 45.
 
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 49.
+ 45.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 49. on input line 49.
+Package luatex.def Info: img/paper.jpg  used on input line 45. on input line 45.
 
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 49.
+ 45.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package luatex.def Info: img/paper.jpg  used on input line 49. on input line 49.
+Package luatex.def Info: img/paper.jpg  used on input line 45. on input line 45.
 
 Package luatex.def Info: Requested size: 614.33098pt x 794.99231pt on input line
- 49.
+ 45.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package luatex.def Info: img/footerscroll.pdf  used on input line 49. on input l
-ine 49.
+Package luatex.def Info: img/footerscroll.pdf  used on input line 45. on input l
+ine 45.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
-49.
- [26<./img/maps/Orilla_SE.jpg>]
-Overfull \hbox (0.21448pt too wide) in paragraph at lines 77--78
+45.
+[26<./img/maps/Orilla_SE.jpg>]
+Overfull \hbox (0.17778pt too wide) in paragraph at lines 55--56
+\T1/pbk/m/n/10 Ko-r-riban is mostly dessert and buried his-tory. The re-gion is
+ ex-tremely windy and moun-tain-ous. There 
+ []
+
+
+Overfull \hbox (0.21448pt too wide) in paragraph at lines 83--84
 \T1/pbk/m/n/10 This area is a mix of moun-tain-ous re-gion, beaches and moun-ta
 ins. The jun-gle re-gions of Kashyyyk are 
  []
 
 ) (./Chapters/Zone_Tempestas.tex
-<img/WoW/1200px-StormwindPanorama.jpg, id=1323, pagebox=cropbox, 1204.5pt x 677.
+<img/WoW/1200px-StormwindPanorama.jpg, id=1291, pagebox=cropbox, 1204.5pt x 677.
 53125pt>
 File: img/WoW/1200px-StormwindPanorama.jpg Graphic file (type jpg)
 <use img/WoW/1200px-StormwindPanorama.jpg>
@@ -3500,6 +3509,9 @@ Package luatex.def Info: img/WoW/1200px-StormwindPanorama.jpg  used on input lin
 e 6. on input line 6.
 Package luatex.def Info: Requested size: 499.295pt x 280.84973pt on input line 6
 .
+
+Underfull \vbox (badness 1668) has occurred while \output is active []
+
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
 Package luatex.def Info: img/paper.jpg  used on input line 8. on input line 8.
@@ -3522,7 +3534,7 @@ ne 8.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 8.
  [27]
-<img/maps/Tempestas.jpg, id=1328, pagebox=cropbox, 1492.57625pt x 1000.73875pt>
+<img/maps/Tempestas.jpg, id=1296, pagebox=cropbox, 1492.57625pt x 1000.73875pt>
 File: img/maps/Tempestas.jpg Graphic file (type jpg)
 <use img/maps/Tempestas.jpg>
 Package luatex.def Info: img/maps/Tempestas.jpg  used on input line 13. on input
@@ -3557,7 +3569,7 @@ ine 16.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 16.
  [28<./img/WoW/1200px-StormwindPanorama.jpg><./img/maps/Tempestas.jpg>]
-<img/maps/Tempestas_labeled.jpg, id=1333, pagebox=cropbox, 1492.57625pt x 1000.7
+<img/maps/Tempestas_labeled.jpg, id=1301, pagebox=cropbox, 1492.57625pt x 1000.7
 3875pt>
 File: img/maps/Tempestas_labeled.jpg Graphic file (type jpg)
 <use img/maps/Tempestas_labeled.jpg>
@@ -3694,7 +3706,7 @@ Overfull \hbox (0.15736pt too wide) in paragraph at lines 3--4
  from and is thought to be re-lated to the 
  []
 
-<img/maps/Aurushire.png, id=1427, pagebox=cropbox, 893.58844pt x 650.43pt>
+<img/maps/Aurushire.png, id=1395, pagebox=cropbox, 893.58844pt x 650.43pt>
 File: img/maps/Aurushire.png Graphic file (type png)
 <use img/maps/Aurushire.png>
 Package luatex.def Info: img/maps/Aurushire.png  used on input line 6. on input 
@@ -3780,21 +3792,21 @@ ine 64.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 64.
 [33<./img/maps/Aurushire.png>]
-<img/NPCs/Tamina.jpg, id=1437, pagebox=cropbox, 640.3925pt x 963.6pt>
+<img/NPCs/Tamina.jpg, id=1405, pagebox=cropbox, 640.3925pt x 963.6pt>
 File: img/NPCs/Tamina.jpg Graphic file (type jpg)
 <use img/NPCs/Tamina.jpg>
 Package luatex.def Info: img/NPCs/Tamina.jpg  used on input line 67. on input li
 ne 67.
 Package luatex.def Info: Requested size: 134.81177pt x 202.84718pt on input line
  67.
-<img/NPCs/Tamina2.jpg, id=1438, pagebox=cropbox, 1003.75pt x 1406.25375pt>
+<img/NPCs/Tamina2.jpg, id=1406, pagebox=cropbox, 1003.75pt x 1406.25375pt>
 File: img/NPCs/Tamina2.jpg Graphic file (type jpg)
 <use img/NPCs/Tamina2.jpg>
 Package luatex.def Info: img/NPCs/Tamina2.jpg  used on input line 67. on input l
 ine 67.
 Package luatex.def Info: Requested size: 144.79219pt x 202.83942pt on input line
  67.
-<img/NPCs/Tamina3.jpg, id=1439, pagebox=cropbox, 882.29625pt x 909.3975pt>
+<img/NPCs/Tamina3.jpg, id=1407, pagebox=cropbox, 882.29625pt x 909.3975pt>
 File: img/NPCs/Tamina3.jpg Graphic file (type jpg)
 <use img/NPCs/Tamina3.jpg>
 Package luatex.def Info: img/NPCs/Tamina3.jpg  used on input line 67. on input l
@@ -3870,14 +3882,14 @@ line 123.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 123.
 [34<./img/NPCs/Tamina.jpg><./img/NPCs/Tamina2.jpg><./img/NPCs/Tamina3.jpg>]
-<img/WoW/chen.jpg, id=1444, pagebox=cropbox, 530.98375pt x 605.26125pt>
+<img/WoW/chen.jpg, id=1412, pagebox=cropbox, 530.98375pt x 605.26125pt>
 File: img/WoW/chen.jpg Graphic file (type jpg)
 <use img/WoW/chen.jpg>
 Package luatex.def Info: img/WoW/chen.jpg  used on input line 126. on input line
  126.
 Package luatex.def Info: Requested size: 194.72473pt x 221.96674pt on input line
  126.
-<img/WoW/153930.jpg, id=1445, pagebox=cropbox, 693.59125pt x 534.99875pt>
+<img/WoW/153930.jpg, id=1413, pagebox=cropbox, 693.59125pt x 534.99875pt>
 File: img/WoW/153930.jpg Graphic file (type jpg)
 <use img/WoW/153930.jpg>
 Package luatex.def Info: img/WoW/153930.jpg  used on input line 126. on input li
@@ -3954,14 +3966,14 @@ line 192.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 192.
 [35<./img/WoW/chen.jpg><./img/WoW/153930.jpg>]
-<img/WoW/ekron.jpg, id=1450, pagebox=cropbox, 702.625pt x 562.1pt>
+<img/WoW/ekron.jpg, id=1418, pagebox=cropbox, 702.625pt x 562.1pt>
 File: img/WoW/ekron.jpg Graphic file (type jpg)
 <use img/WoW/ekron.jpg>
 Package luatex.def Info: img/WoW/ekron.jpg  used on input line 195. on input lin
 e 195.
 Package luatex.def Info: Requested size: 299.58003pt x 239.66556pt on input line
  195.
-<img/WoW/twopandare.jpg, id=1451, pagebox=cropbox, 83.8332pt x 107.6823pt>
+<img/WoW/twopandare.jpg, id=1419, pagebox=cropbox, 83.8332pt x 107.6823pt>
 File: img/WoW/twopandare.jpg Graphic file (type jpg)
 <use img/WoW/twopandare.jpg>
 Package luatex.def Info: img/WoW/twopandare.jpg  used on input line 195. on inpu
@@ -4025,14 +4037,14 @@ line 241.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 241.
 [36<./img/WoW/ekron.jpg><./img/WoW/twopandare.jpg>]
-<img/WoW/mishnah.jpg, id=1456, pagebox=cropbox, 263.7855pt x 175.857pt>
+<img/WoW/mishnah.jpg, id=1424, pagebox=cropbox, 263.7855pt x 175.857pt>
 File: img/WoW/mishnah.jpg Graphic file (type jpg)
 <use img/WoW/mishnah.jpg>
 Package luatex.def Info: img/WoW/mishnah.jpg  used on input line 244. on input l
 ine 244.
 Package luatex.def Info: Requested size: 239.65945pt x 159.7725pt on input line 
 244.
-<img/WoW/mishna.jpg, id=1457, pagebox=cropbox, 653.44125pt x 433.62pt>
+<img/WoW/mishna.jpg, id=1425, pagebox=cropbox, 653.44125pt x 433.62pt>
 File: img/WoW/mishna.jpg Graphic file (type jpg)
 <use img/WoW/mishna.jpg>
 Package luatex.def Info: img/WoW/mishna.jpg  used on input line 244. on input li
@@ -4091,7 +4103,7 @@ line 290.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 290.
 [37<./img/WoW/mishnah.jpg><./img/WoW/mishna.jpg>]
-<img/WoW/bob.jpg, id=1462, pagebox=cropbox, 1003.75pt x 565.11125pt>
+<img/WoW/bob.jpg, id=1430, pagebox=cropbox, 1003.75pt x 565.11125pt>
 File: img/WoW/bob.jpg Graphic file (type jpg)
 <use img/WoW/bob.jpg>
 Package luatex.def Info: img/WoW/bob.jpg  used on input line 293. on input line 
@@ -4259,7 +4271,7 @@ Overfull \hbox (0.19254pt too wide) in paragraph at lines 3--4
  this re-gion. The oc-cur-rences of these 
  []
 
-<img/maps/RemSilva.png, id=1475, pagebox=cropbox, 642.90187pt x 648.92438pt>
+<img/maps/RemSilva.png, id=1443, pagebox=cropbox, 642.90187pt x 648.92438pt>
 File: img/maps/RemSilva.png Graphic file (type png)
 <use img/maps/RemSilva.png>
 Package luatex.def Info: img/maps/RemSilva.png  used on input line 10. on input 
@@ -4324,14 +4336,14 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 39.
 
-<img/WoW/Rexxar2.png, id=1486, pagebox=cropbox, 134.6631pt x 131.7723pt>
+<img/WoW/Rexxar2.png, id=1454, pagebox=cropbox, 134.6631pt x 131.7723pt>
 File: img/WoW/Rexxar2.png Graphic file (type png)
 <use img/WoW/Rexxar2.png>
 Package luatex.def Info: img/WoW/Rexxar2.png  used on input line 42. on input li
 ne 42.
 Package luatex.def Info: Requested size: 189.73453pt x 185.67026pt on input line
  42.
-<img/WoW/Rex.jpg, id=1487, pagebox=cropbox, 1606.0pt x 1003.75pt>
+<img/WoW/Rex.jpg, id=1455, pagebox=cropbox, 1606.0pt x 1003.75pt>
 File: img/WoW/Rex.jpg Graphic file (type jpg)
 <use img/WoW/Rex.jpg>
 Package luatex.def Info: img/WoW/Rex.jpg  used on input line 43. on input line 4
@@ -4968,14 +4980,14 @@ line 138.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 138.
 [52]
-<img/WoW/deathwing.jpg, id=1533, pagebox=cropbox, 1686.3pt x 1025.8325pt>
+<img/WoW/deathwing.jpg, id=1501, pagebox=cropbox, 1686.3pt x 1025.8325pt>
 File: img/WoW/deathwing.jpg Graphic file (type jpg)
 <use img/WoW/deathwing.jpg>
 Package luatex.def Info: img/WoW/deathwing.jpg  used on input line 149. on input
  line 149.
 Package luatex.def Info: Requested size: 336.61104pt x 204.77155pt on input line
  149.
-<img/maps/infernalous.jpg, id=1534, pagebox=cropbox, 1694.58093pt x 1694.58093pt
+<img/maps/infernalous.jpg, id=1502, pagebox=cropbox, 1694.58093pt x 1694.58093pt
 >
 File: img/maps/infernalous.jpg Graphic file (type jpg)
 <use img/maps/infernalous.jpg>
@@ -5011,7 +5023,7 @@ line 157.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 157.
  [53<./img/WoW/deathwing.jpg>]
-<img/waterdragon.jpg, id=1539, pagebox=cropbox, 770.88pt x 433.62pt>
+<img/waterdragon.jpg, id=1507, pagebox=cropbox, 770.88pt x 433.62pt>
 File: img/waterdragon.jpg Graphic file (type jpg)
 <use img/waterdragon.jpg>
 Package luatex.def Info: img/waterdragon.jpg  used on input line 163. on input l
@@ -5024,7 +5036,7 @@ Overfull \hbox (0.11694pt too wide) in paragraph at lines 166--167
 -cal rings cre-ated by Myrd-din, a yellow-gemmed ring. 
  []
 
-<img/maps/aquaeleous.jpg, id=1540, pagebox=cropbox, 1694.58093pt x 1694.58093pt>
+<img/maps/aquaeleous.jpg, id=1508, pagebox=cropbox, 1694.58093pt x 1694.58093pt>
 
 File: img/maps/aquaeleous.jpg Graphic file (type jpg)
 <use img/maps/aquaeleous.jpg>
@@ -5065,7 +5077,7 @@ Overfull \hbox (0.12302pt too wide) in paragraph at lines 174--176
 in ac-cor-dance with such. This dragon has poor hear-ing and 
  []
 
-<img/WoW/crystaldragon.jpg, id=1545, pagebox=cropbox, 1927.2pt x 1084.05pt>
+<img/WoW/crystaldragon.jpg, id=1513, pagebox=cropbox, 1927.2pt x 1084.05pt>
 File: img/WoW/crystaldragon.jpg Graphic file (type jpg)
 <use img/WoW/crystaldragon.jpg>
 Package luatex.def Info: img/WoW/crystaldragon.jpg  used on input line 178. on i
@@ -5078,7 +5090,7 @@ Overfull \hbox (0.18854pt too wide) in paragraph at lines 181--182
 g-i-cal rings cre-ated by Myrd-din, a blue-gemmed ring. 
  []
 
-<img/maps/crystalleous.jpg, id=1546, pagebox=cropbox, 1694.58093pt x 1694.58093p
+<img/maps/crystalleous.jpg, id=1514, pagebox=cropbox, 1694.58093pt x 1694.58093p
 t>
 File: img/maps/crystalleous.jpg Graphic file (type jpg)
 <use img/maps/crystalleous.jpg>
@@ -5129,7 +5141,7 @@ Overfull \hbox (0.11748pt too wide) in paragraph at lines 5--6
  home to yaga. The cas-tle is huge and con-tains 
  []
 
-<img/Karazhan/9bI9O27.jpg, id=1552, pagebox=cropbox, 1927.2pt x 800.9925pt>
+<img/Karazhan/9bI9O27.jpg, id=1520, pagebox=cropbox, 1927.2pt x 800.9925pt>
 File: img/Karazhan/9bI9O27.jpg Graphic file (type jpg)
 <use img/Karazhan/9bI9O27.jpg>
 Package luatex.def Info: img/Karazhan/9bI9O27.jpg  used on input line 8. on inpu
@@ -5161,7 +5173,7 @@ ne 9.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 9.
  [56<./img/maps/crystalleous.jpg>]
-<img/Karazhan/175259-karazhan.jpg, id=1559, pagebox=cropbox, 1686.3pt x 1053.937
+<img/Karazhan/175259-karazhan.jpg, id=1527, pagebox=cropbox, 1686.3pt x 1053.937
 5pt>
 File: img/Karazhan/175259-karazhan.jpg Graphic file (type jpg)
 <use img/Karazhan/175259-karazhan.jpg>
@@ -5169,7 +5181,7 @@ Package luatex.def Info: img/Karazhan/175259-karazhan.jpg  used on input line 12
 . on input line 12.
 Package luatex.def Info: Requested size: 204.71277pt x 127.94656pt on input line
  12.
-<img/Karazhan/karazhan.jpg, id=1560, pagebox=cropbox, 504.98662pt x 225.84375pt>
+<img/Karazhan/karazhan.jpg, id=1528, pagebox=cropbox, 504.98662pt x 225.84375pt>
 
 File: img/Karazhan/karazhan.jpg Graphic file (type jpg)
 <use img/Karazhan/karazhan.jpg>
@@ -5178,7 +5190,7 @@ put line 12.
 Package luatex.def Info: Requested size: 284.60179pt x 127.2849pt on input line 
 12.
 <img/Karazhan/21972-karazhan-the-livery-stables-this-is-where-you-fight-attumen-
-the-huntsman.jpg, id=1561, pagebox=cropbox, 1027.84pt x 770.88pt>
+the-huntsman.jpg, id=1529, pagebox=cropbox, 1027.84pt x 770.88pt>
 File: img/Karazhan/21972-karazhan-the-livery-stables-this-is-where-you-fight-att
 umen-the-huntsman.jpg Graphic file (type jpg)
 <use img/Karazhan/21972-karazhan-the-livery-stables-this-is-where-you-fight-attu
@@ -5188,7 +5200,7 @@ where-you-fight-attumen-the-huntsman.jpg  used on input line 24. on input line 2
 4.
 Package luatex.def Info: Requested size: 184.73671pt x 138.55244pt on input line
  24.
-<img/Karazhan/karazhansteps.jpg, id=1562, pagebox=cropbox, 156.585pt x 78.2925pt
+<img/Karazhan/karazhansteps.jpg, id=1530, pagebox=cropbox, 156.585pt x 78.2925pt
 >
 File: img/Karazhan/karazhansteps.jpg Graphic file (type jpg)
 <use img/Karazhan/karazhansteps.jpg>
@@ -5196,7 +5208,7 @@ Package luatex.def Info: img/Karazhan/karazhansteps.jpg  used on input line 24.
 on input line 24.
 Package luatex.def Info: Requested size: 279.60397pt x 139.82132pt on input line
  24.
-<img/Karazhan/cropped-3457-1.jpg, id=1563, pagebox=cropbox, 754.82pt x 507.8975p
+<img/Karazhan/cropped-3457-1.jpg, id=1531, pagebox=cropbox, 754.82pt x 507.8975p
 t>
 File: img/Karazhan/cropped-3457-1.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-1.jpg>
@@ -5204,7 +5216,7 @@ Package luatex.def Info: img/Karazhan/cropped-3457-1.jpg  used on input line 26.
  on input line 26.
 Package luatex.def Info: Requested size: 229.67905pt x 154.54039pt on input line
  26.
-<img/Karazhan/cropped-3457-2.jpg, id=1564, pagebox=cropbox, 754.82pt x 507.8975p
+<img/Karazhan/cropped-3457-2.jpg, id=1532, pagebox=cropbox, 754.82pt x 507.8975p
 t>
 File: img/Karazhan/cropped-3457-2.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-2.jpg>
@@ -5239,7 +5251,7 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
  [57<./img/Karazhan/9bI9O27.jpg><./img/Karazhan/175259-karazhan.jpg><./img/Karaz
 han/karazhan.jpg><./img/Karazhan/21972-karazhan-the-livery-stables-this-is-where
 -you-fight-attumen-the-huntsman.jpg><./img/Karazhan/karazhansteps.jpg>]
-<img/Karazhan/cropped-3457-6.jpg, id=1569, pagebox=cropbox, 754.82pt x 507.8975p
+<img/Karazhan/cropped-3457-6.jpg, id=1537, pagebox=cropbox, 754.82pt x 507.8975p
 t>
 File: img/Karazhan/cropped-3457-6.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-6.jpg>
@@ -5248,7 +5260,7 @@ Package luatex.def Info: img/Karazhan/cropped-3457-6.jpg  used on input line 32.
 Package luatex.def Info: Requested size: 239.65945pt x 161.25954pt on input line
  32.
 <img/Karazhan/21983-karazhan-the-back-entrance-if-youve-cleared-the-opera-you-ca
-n-enter-the-instance.jpg, id=1570, pagebox=cropbox, 1027.84pt x 770.88pt>
+n-enter-the-instance.jpg, id=1538, pagebox=cropbox, 1027.84pt x 770.88pt>
 File: img/Karazhan/21983-karazhan-the-back-entrance-if-youve-cleared-the-opera-y
 ou-can-enter-the-instance.jpg Graphic file (type jpg)
 <use img/Karazhan/21983-karazhan-the-back-entrance-if-youve-cleared-the-opera-yo
@@ -5264,7 +5276,7 @@ Overfull \hbox (0.22649pt too wide) in paragraph at lines 38--39
 ll en-ter the royal ball-room. This ball-room is 
  []
 
-<img/Karazhan/cropped-3457-3.jpg, id=1571, pagebox=cropbox, 754.82pt x 507.8975p
+<img/Karazhan/cropped-3457-3.jpg, id=1539, pagebox=cropbox, 754.82pt x 507.8975p
 t>
 File: img/Karazhan/cropped-3457-3.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-3.jpg>
@@ -5272,7 +5284,7 @@ Package luatex.def Info: img/Karazhan/cropped-3457-3.jpg  used on input line 41.
  on input line 41.
 Package luatex.def Info: Requested size: 224.68121pt x 151.17694pt on input line
  41.
-<img/Karazhan/cropped-3457-5.jpg, id=1572, pagebox=cropbox, 754.82pt x 507.8975p
+<img/Karazhan/cropped-3457-5.jpg, id=1540, pagebox=cropbox, 754.82pt x 507.8975p
 t>
 File: img/Karazhan/cropped-3457-5.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-5.jpg>
@@ -5280,7 +5292,7 @@ Package luatex.def Info: img/Karazhan/cropped-3457-5.jpg  used on input line 41.
  on input line 41.
 Package luatex.def Info: Requested size: 224.68121pt x 151.17694pt on input line
  41.
-<img/Karazhan/cropped-3457-4.jpg, id=1573, pagebox=cropbox, 754.82pt x 507.8975p
+<img/Karazhan/cropped-3457-4.jpg, id=1541, pagebox=cropbox, 754.82pt x 507.8975p
 t>
 File: img/Karazhan/cropped-3457-4.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-4.jpg>
@@ -5324,7 +5336,7 @@ Overfull \hbox (0.11247pt too wide) in paragraph at lines 48--49
 e Menagerie. Is is a bro-ken area with stairs 
  []
 
-<img/Karazhan/cropped-3457-7.jpg, id=1578, pagebox=cropbox, 754.82pt x 507.8975p
+<img/Karazhan/cropped-3457-7.jpg, id=1546, pagebox=cropbox, 754.82pt x 507.8975p
 t>
 File: img/Karazhan/cropped-3457-7.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-7.jpg>
@@ -5332,7 +5344,7 @@ Package luatex.def Info: img/Karazhan/cropped-3457-7.jpg  used on input line 51.
  on input line 51.
 Package luatex.def Info: Requested size: 224.68121pt x 151.17694pt on input line
  51.
-<img/Karazhan/cropped-3457-8.jpg, id=1579, pagebox=cropbox, 754.82pt x 507.8975p
+<img/Karazhan/cropped-3457-8.jpg, id=1547, pagebox=cropbox, 754.82pt x 507.8975p
 t>
 File: img/Karazhan/cropped-3457-8.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-8.jpg>
@@ -5346,7 +5358,7 @@ Overfull \hbox (0.21936pt too wide) in paragraph at lines 56--57
 s it is at-tacked or it has to pro-tect Karazhan 
  []
 
-<img/Karazhan/400px-The_Curator_full.jpg, id=1580, pagebox=cropbox, 96.36pt x 13
+<img/Karazhan/400px-The_Curator_full.jpg, id=1548, pagebox=cropbox, 96.36pt x 13
 5.6267pt>
 File: img/Karazhan/400px-The_Curator_full.jpg Graphic file (type jpg)
 <use img/Karazhan/400px-The_Curator_full.jpg>
@@ -5354,7 +5366,7 @@ Package luatex.def Info: img/Karazhan/400px-The_Curator_full.jpg  used on input
 line 62. on input line 62.
 Package luatex.def Info: Requested size: 81.74786pt x 115.05972pt on input line 
 62.
-<img/Karazhan/featured-thecurator.jpg, id=1581, pagebox=cropbox, 782.925pt x 250
+<img/Karazhan/featured-thecurator.jpg, id=1549, pagebox=cropbox, 782.925pt x 250
 .9375pt>
 File: img/Karazhan/featured-thecurator.jpg Graphic file (type jpg)
 <use img/Karazhan/featured-thecurator.jpg>
@@ -5408,7 +5420,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--102
 ins surg-ing elec-tri-cal flow. When you are struck by a melee at-tack the
  []
 
-<img/Karazhan/ss26-hires.jpg, id=1586, pagebox=cropbox, 1606.0pt x 1956.30875pt>
+<img/Karazhan/ss26-hires.jpg, id=1554, pagebox=cropbox, 1606.0pt x 1956.30875pt>
 
 File: img/Karazhan/ss26-hires.jpg Graphic file (type jpg)
 <use img/Karazhan/ss26-hires.jpg>
@@ -5416,7 +5428,7 @@ Package luatex.def Info: img/Karazhan/ss26-hires.jpg  used on input line 116. on
  input line 116.
 Package luatex.def Info: Requested size: 182.73485pt x 222.56778pt on input line
  116.
-<img/Karazhan/9640b2f687a27a1a4cdab9704599e266.jpg, id=1587, pagebox=cropbox, 96
+<img/Karazhan/9640b2f687a27a1a4cdab9704599e266.jpg, id=1555, pagebox=cropbox, 96
 3.6pt x 722.7pt>
 File: img/Karazhan/9640b2f687a27a1a4cdab9704599e266.jpg Graphic file (type jpg)
 <use img/Karazhan/9640b2f687a27a1a4cdab9704599e266.jpg>
@@ -5453,7 +5465,7 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 118.
  [60<./img/Karazhan/400px-The_Curator_full.jpg><./img/Karazhan/featured-thecurat
 or.jpg>]
-<img/Karazhan/cropped-3457-9.jpg, id=1592, pagebox=cropbox, 754.82pt x 507.8975p
+<img/Karazhan/cropped-3457-9.jpg, id=1560, pagebox=cropbox, 754.82pt x 507.8975p
 t>
 File: img/Karazhan/cropped-3457-9.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-9.jpg>
@@ -5461,7 +5473,7 @@ Package luatex.def Info: img/Karazhan/cropped-3457-9.jpg  used on input line 121
 . on input line 121.
 Package luatex.def Info: Requested size: 424.4038pt x 285.56764pt on input line 
 121.
-<img/Karazhan/cropped-3457-10.jpg, id=1593, pagebox=cropbox, 754.82pt x 507.8975
+<img/Karazhan/cropped-3457-10.jpg, id=1561, pagebox=cropbox, 754.82pt x 507.8975
 pt>
 File: img/Karazhan/cropped-3457-10.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-10.jpg>
@@ -5469,7 +5481,7 @@ Package luatex.def Info: img/Karazhan/cropped-3457-10.jpg  used on input line 12
 7. on input line 127.
 Package luatex.def Info: Requested size: 239.65945pt x 161.25954pt on input line
  127.
-<img/Karazhan/cropped-3457-11.jpg, id=1594, pagebox=cropbox, 754.82pt x 507.8975
+<img/Karazhan/cropped-3457-11.jpg, id=1562, pagebox=cropbox, 754.82pt x 507.8975
 pt>
 File: img/Karazhan/cropped-3457-11.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-11.jpg>
@@ -5506,7 +5518,7 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 129.
  [61<./img/Karazhan/ss26-hires.jpg><./img/Karazhan/9640b2f687a27a1a4cdab9704599e
 266.jpg><./img/Karazhan/cropped-3457-9.jpg>]
-<img/Karazhan/cropped-3457-12.jpg, id=1600, pagebox=cropbox, 754.82pt x 507.8975
+<img/Karazhan/cropped-3457-12.jpg, id=1568, pagebox=cropbox, 754.82pt x 507.8975
 pt>
 File: img/Karazhan/cropped-3457-12.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-12.jpg>
@@ -5514,7 +5526,7 @@ Package luatex.def Info: img/Karazhan/cropped-3457-12.jpg  used on input line 13
 6. on input line 136.
 Package luatex.def Info: Requested size: 239.65945pt x 161.25954pt on input line
  136.
-<img/Karazhan/cropped-3457-13.jpg, id=1601, pagebox=cropbox, 754.82pt x 507.8975
+<img/Karazhan/cropped-3457-13.jpg, id=1569, pagebox=cropbox, 754.82pt x 507.8975
 pt>
 File: img/Karazhan/cropped-3457-13.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-13.jpg>
@@ -5528,14 +5540,14 @@ Overfull \hbox (0.16782pt too wide) in paragraph at lines 140--141
 ar-ti-facts that can be found in that room. 
  []
 
-<img/Karazhan/s-l300.jpg, id=1602, pagebox=cropbox, 72.27pt x 72.27pt>
+<img/Karazhan/s-l300.jpg, id=1570, pagebox=cropbox, 72.27pt x 72.27pt>
 File: img/Karazhan/s-l300.jpg Graphic file (type jpg)
 <use img/Karazhan/s-l300.jpg>
 Package luatex.def Info: img/Karazhan/s-l300.jpg  used on input line 143. on inp
 ut line 143.
 Package luatex.def Info: Requested size: 197.22365pt x 197.2345pt on input line 
 143.
-<img/Karazhan/Cloud_dragon.jpg, id=1603, pagebox=cropbox, 108.8868pt x 75.4017pt
+<img/Karazhan/Cloud_dragon.jpg, id=1571, pagebox=cropbox, 108.8868pt x 75.4017pt
 >
 File: img/Karazhan/Cloud_dragon.jpg Graphic file (type jpg)
 <use img/Karazhan/Cloud_dragon.jpg>
@@ -5570,7 +5582,7 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 [62<./img/Karazhan/cropped-3457-10.jpg><./img/Karazhan/cropped-3457-11.jpg><./im
 g/Karazhan/cropped-3457-12.jpg><./img/Karazhan/cropped-3457-13.jpg><./img/Karazh
 an/s-l300.jpg><./img/Karazhan/Cloud_dragon.jpg>]
-<img/Karazhan/cropped-3457-14.jpg, id=1608, pagebox=cropbox, 754.82pt x 507.8975
+<img/Karazhan/cropped-3457-14.jpg, id=1576, pagebox=cropbox, 754.82pt x 507.8975
 pt>
 File: img/Karazhan/cropped-3457-14.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-14.jpg>
@@ -5579,7 +5591,7 @@ Package luatex.def Info: img/Karazhan/cropped-3457-14.jpg  used on input line 15
 Package luatex.def Info: Requested size: 239.65945pt x 161.25954pt on input line
  152.
 <img/Karazhan/22268-karazhan-gamesmans-hall-this-is-where-you-do-the-chess-event
--after-beating-the-e.jpg, id=1609, pagebox=cropbox, 1027.84pt x 770.88pt>
+-after-beating-the-e.jpg, id=1577, pagebox=cropbox, 1027.84pt x 770.88pt>
 File: img/Karazhan/22268-karazhan-gamesmans-hall-this-is-where-you-do-the-chess-
 event-after-beating-the-e.jpg Graphic file (type jpg)
 <use img/Karazhan/22268-karazhan-gamesmans-hall-this-is-where-you-do-the-chess-e
@@ -5589,7 +5601,7 @@ e-you-do-the-chess-event-after-beating-the-e.jpg  used on input line 152. on inp
 ut line 152.
 Package luatex.def Info: Requested size: 214.69319pt x 161.01913pt on input line
  152.
-<img/Karazhan/cropped-3457-15.jpg, id=1610, pagebox=cropbox, 754.82pt x 507.8975
+<img/Karazhan/cropped-3457-15.jpg, id=1578, pagebox=cropbox, 754.82pt x 507.8975
 pt>
 File: img/Karazhan/cropped-3457-15.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-15.jpg>
@@ -5597,7 +5609,7 @@ Package luatex.def Info: img/Karazhan/cropped-3457-15.jpg  used on input line 16
 2. on input line 162.
 Package luatex.def Info: Requested size: 239.65945pt x 161.25954pt on input line
  162.
-<img/Karazhan/cropped-3457-16.jpg, id=1611, pagebox=cropbox, 754.82pt x 507.8975
+<img/Karazhan/cropped-3457-16.jpg, id=1579, pagebox=cropbox, 754.82pt x 507.8975
 pt>
 File: img/Karazhan/cropped-3457-16.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-16.jpg>
@@ -5605,7 +5617,7 @@ Package luatex.def Info: img/Karazhan/cropped-3457-16.jpg  used on input line 16
 3. on input line 163.
 Package luatex.def Info: Requested size: 239.65945pt x 161.25954pt on input line
  163.
-<img/Karazhan/WoW-History-Burning-08.jpg, id=1612, pagebox=cropbox, 578.16pt x 4
+<img/Karazhan/WoW-History-Burning-08.jpg, id=1580, pagebox=cropbox, 578.16pt x 4
 04.712pt>
 File: img/Karazhan/WoW-History-Burning-08.jpg Graphic file (type jpg)
 <use img/Karazhan/WoW-History-Burning-08.jpg>
@@ -5613,7 +5625,7 @@ Package luatex.def Info: img/Karazhan/WoW-History-Burning-08.jpg  used on input
 line 171. on input line 171.
 Package luatex.def Info: Requested size: 234.66925pt x 164.26563pt on input line
  171.
-<img/Karazhan/cropped-3457-17.jpg, id=1613, pagebox=cropbox, 754.82pt x 507.8975
+<img/Karazhan/cropped-3457-17.jpg, id=1581, pagebox=cropbox, 754.82pt x 507.8975
 pt>
 File: img/Karazhan/cropped-3457-17.jpg Graphic file (type jpg)
 <use img/Karazhan/cropped-3457-17.jpg>
@@ -5652,7 +5664,7 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 -hall-this-is-where-you-do-the-chess-event-after-beating-the-e.jpg><./img/Karazh
 an/cropped-3457-15.jpg><./img/Karazhan/cropped-3457-16.jpg>])
 (./Chapters/Zone_Aethereu.tex
-<img/maps/Aethereu.png, id=1618, pagebox=cropbox, 992.95969pt x 834.86906pt>
+<img/maps/Aethereu.png, id=1586, pagebox=cropbox, 992.95969pt x 834.86906pt>
 File: img/maps/Aethereu.png Graphic file (type png)
 <use img/maps/Aethereu.png>
 Package luatex.def Info: img/maps/Aethereu.png  used on input line 4. on input l
@@ -5683,7 +5695,7 @@ Overfull \hbox (0.14111pt too wide) in paragraph at lines 13--14
 n be rep-re-sented by a hexag-o-nal di-a-gram 
  []
 
-<img/Aethereu/U.png, id=1619, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/U.png, id=1587, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/U.png Graphic file (type png)
 <use img/Aethereu/U.png>
 Package luatex.def Info: img/Aethereu/U.png  used on input line 16. on input lin
@@ -5725,21 +5737,21 @@ Package luatex.def Info: img/Aethereu/U.png  used on input line 22. on input lin
 e 22.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  22.
-<img/Aethereu/D.png, id=1625, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/D.png, id=1593, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/D.png Graphic file (type png)
 <use img/Aethereu/D.png>
 Package luatex.def Info: img/Aethereu/D.png  used on input line 23. on input lin
 e 23.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  23.
-<img/Aethereu/UT.png, id=1626, pagebox=cropbox, 353.4003pt x 347.6187pt>
+<img/Aethereu/UT.png, id=1594, pagebox=cropbox, 353.4003pt x 347.6187pt>
 File: img/Aethereu/UT.png Graphic file (type png)
 <use img/Aethereu/UT.png>
 Package luatex.def Info: img/Aethereu/UT.png  used on input line 27. on input li
 ne 27.
 Package luatex.def Info: Requested size: 224.68121pt x 221.00594pt on input line
  27.
-<img/Aethereu/DB.png, id=1627, pagebox=cropbox, 353.4003pt x 347.6187pt>
+<img/Aethereu/DB.png, id=1595, pagebox=cropbox, 353.4003pt x 347.6187pt>
 File: img/Aethereu/DB.png Graphic file (type png)
 <use img/Aethereu/DB.png>
 Package luatex.def Info: img/Aethereu/DB.png  used on input line 28. on input li
@@ -5774,42 +5786,42 @@ ine 30.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 30.
  [65<./img/Aethereu/U.png><./img/Aethereu/D.png>]
-<img/Aethereu/UR.png, id=1634, pagebox=cropbox, 352.6776pt x 346.1733pt>
+<img/Aethereu/UR.png, id=1602, pagebox=cropbox, 352.6776pt x 346.1733pt>
 File: img/Aethereu/UR.png Graphic file (type png)
 <use img/Aethereu/UR.png>
 Package luatex.def Info: img/Aethereu/UR.png  used on input line 32. on input li
 ne 32.
 Package luatex.def Info: Requested size: 224.68121pt x 220.53596pt on input line
  32.
-<img/Aethereu/DR.png, id=1635, pagebox=cropbox, 352.6776pt x 346.1733pt>
+<img/Aethereu/DR.png, id=1603, pagebox=cropbox, 352.6776pt x 346.1733pt>
 File: img/Aethereu/DR.png Graphic file (type png)
 <use img/Aethereu/DR.png>
 Package luatex.def Info: img/Aethereu/DR.png  used on input line 33. on input li
 ne 33.
 Package luatex.def Info: Requested size: 224.68121pt x 220.53596pt on input line
  33.
-<img/Aethereu/UL.png, id=1636, pagebox=cropbox, 351.9549pt x 346.1733pt>
+<img/Aethereu/UL.png, id=1604, pagebox=cropbox, 351.9549pt x 346.1733pt>
 File: img/Aethereu/UL.png Graphic file (type png)
 <use img/Aethereu/UL.png>
 Package luatex.def Info: img/Aethereu/UL.png  used on input line 37. on input li
 ne 37.
 Package luatex.def Info: Requested size: 224.68121pt x 220.99023pt on input line
  37.
-<img/Aethereu/DL.png, id=1637, pagebox=cropbox, 351.9549pt x 346.1733pt>
+<img/Aethereu/DL.png, id=1605, pagebox=cropbox, 351.9549pt x 346.1733pt>
 File: img/Aethereu/DL.png Graphic file (type png)
 <use img/Aethereu/DL.png>
 Package luatex.def Info: img/Aethereu/DL.png  used on input line 38. on input li
 ne 38.
 Package luatex.def Info: Requested size: 224.68121pt x 220.99023pt on input line
  38.
-<img/Aethereu/ULR.png, id=1638, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/ULR.png, id=1606, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/ULR.png Graphic file (type png)
 <use img/Aethereu/ULR.png>
 Package luatex.def Info: img/Aethereu/ULR.png  used on input line 42. on input l
 ine 42.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  42.
-<img/Aethereu/DLR.png, id=1639, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/DLR.png, id=1607, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/DLR.png Graphic file (type png)
 <use img/Aethereu/DLR.png>
 Package luatex.def Info: img/Aethereu/DLR.png  used on input line 43. on input l
@@ -5845,42 +5857,42 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
 45.
  [66<./img/Aethereu/UT.png><./img/Aethereu/DB.png><./img/Aethereu/UR.png><./img/
 Aethereu/DR.png><./img/Aethereu/UL.png><./img/Aethereu/DL.png>]
-<img/Aethereu/UTL.png, id=1650, pagebox=cropbox, 354.123pt x 313.6518pt>
+<img/Aethereu/UTL.png, id=1618, pagebox=cropbox, 354.123pt x 313.6518pt>
 File: img/Aethereu/UTL.png Graphic file (type png)
 <use img/Aethereu/UTL.png>
 Package luatex.def Info: img/Aethereu/UTL.png  used on input line 47. on input l
 ine 47.
 Package luatex.def Info: Requested size: 224.68121pt x 199.00873pt on input line
  47.
-<img/Aethereu/DBL.png, id=1651, pagebox=cropbox, 354.123pt x 346.896pt>
+<img/Aethereu/DBL.png, id=1619, pagebox=cropbox, 354.123pt x 346.896pt>
 File: img/Aethereu/DBL.png Graphic file (type png)
 <use img/Aethereu/DBL.png>
 Package luatex.def Info: img/Aethereu/DBL.png  used on input line 48. on input l
 ine 48.
 Package luatex.def Info: Requested size: 224.68121pt x 220.10182pt on input line
  48.
-<img/Aethereu/UTR.png, id=1652, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/UTR.png, id=1620, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/UTR.png Graphic file (type png)
 <use img/Aethereu/UTR.png>
 Package luatex.def Info: img/Aethereu/UTR.png  used on input line 52. on input l
 ine 52.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  52.
-<img/Aethereu/DBR.png, id=1653, pagebox=cropbox, 354.123pt x 347.6187pt>
+<img/Aethereu/DBR.png, id=1621, pagebox=cropbox, 354.123pt x 347.6187pt>
 File: img/Aethereu/DBR.png Graphic file (type png)
 <use img/Aethereu/DBR.png>
 Package luatex.def Info: img/Aethereu/DBR.png  used on input line 53. on input l
 ine 53.
 Package luatex.def Info: Requested size: 224.68121pt x 220.56038pt on input line
  53.
-<img/Aethereu/UTLR.png, id=1654, pagebox=cropbox, 355.5684pt x 346.1733pt>
+<img/Aethereu/UTLR.png, id=1622, pagebox=cropbox, 355.5684pt x 346.1733pt>
 File: img/Aethereu/UTLR.png Graphic file (type png)
 <use img/Aethereu/UTLR.png>
 Package luatex.def Info: img/Aethereu/UTLR.png  used on input line 57. on input 
 line 57.
 Package luatex.def Info: Requested size: 224.68121pt x 218.74532pt on input line
  57.
-<img/Aethereu/DBLR.png, id=1655, pagebox=cropbox, 355.5684pt x 346.1733pt>
+<img/Aethereu/DBLR.png, id=1623, pagebox=cropbox, 355.5684pt x 346.1733pt>
 File: img/Aethereu/DBLR.png Graphic file (type png)
 <use img/Aethereu/DBLR.png>
 Package luatex.def Info: img/Aethereu/DBLR.png  used on input line 58. on input 
@@ -6058,7 +6070,7 @@ Overfull \hbox (0.1254pt too wide) in paragraph at lines 5--6
 sas-sins. The cult was fo-cused on re-mov-ing 
  []
 
-<img/weapons/kingslayer-green.jpg, id=1676, pagebox=cropbox, 1304.875pt x 345.29
+<img/weapons/kingslayer-green.jpg, id=1644, pagebox=cropbox, 1304.875pt x 345.29
 pt>
 File: img/weapons/kingslayer-green.jpg Graphic file (type jpg)
 <use img/weapons/kingslayer-green.jpg>
@@ -6066,7 +6078,7 @@ Package luatex.def Info: img/weapons/kingslayer-green.jpg  used on input line 8.
  on input line 8.
 Package luatex.def Info: Requested size: 499.295pt x 132.12303pt on input line 8
 .
-<img/weapons/kingslayer-blue.jpg, id=1677, pagebox=cropbox, 1304.875pt x 335.252
+<img/weapons/kingslayer-blue.jpg, id=1645, pagebox=cropbox, 1304.875pt x 335.252
 5pt>
 File: img/weapons/kingslayer-blue.jpg Graphic file (type jpg)
 <use img/weapons/kingslayer-blue.jpg>
@@ -6112,7 +6124,7 @@ g-gers are frozen within the hull of the ship
  []
 
 <img/terrain/winter-frozen-lake-reflection-blue-ice-green-trees-wallpaper-quotes
-.jpg, id=1683, pagebox=cropbox, 1284.8pt x 803.0pt>
+.jpg, id=1651, pagebox=cropbox, 1284.8pt x 803.0pt>
 File: img/terrain/winter-frozen-lake-reflection-blue-ice-green-trees-wallpaper-q
 uotes.jpg Graphic file (type jpg)
 <use img/terrain/winter-frozen-lake-reflection-blue-ice-green-trees-wallpaper-qu
@@ -6121,7 +6133,7 @@ Package luatex.def Info: img/terrain/winter-frozen-lake-reflection-blue-ice-gree
 n-trees-wallpaper-quotes.jpg  used on input line 38. on input line 38.
 Package luatex.def Info: Requested size: 242.15837pt x 151.3463pt on input line 
 38.
-<img/ice_pirate_ship_by_pollychong_da47p92-fullview.jpg, id=1684, pagebox=cropbo
+<img/ice_pirate_ship_by_pollychong_da47p92-fullview.jpg, id=1652, pagebox=cropbo
 x, 1027.84pt x 626.34pt>
 File: img/ice_pirate_ship_by_pollychong_da47p92-fullview.jpg Graphic file (type 
 jpg)
@@ -6162,7 +6174,7 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 41--41
  [] 
  []
 
-<img/WoW/edwinvancleef.jpg, id=1692, pagebox=cropbox, 1215.54124pt x 484.81125pt
+<img/WoW/edwinvancleef.jpg, id=1660, pagebox=cropbox, 1215.54124pt x 484.81125pt
 >
 File: img/WoW/edwinvancleef.jpg Graphic file (type jpg)
 <use img/WoW/edwinvancleef.jpg>
@@ -6270,7 +6282,7 @@ Overfull \hbox (0.2152pt too wide) in paragraph at lines 5--6
 he great Wiz-ard Xav-ius is leg-end to have 
  []
 
-<img/weapons/532325-ebonchill-fire-mage-artifact.jpg, id=1697, pagebox=cropbox, 
+<img/weapons/532325-ebonchill-fire-mage-artifact.jpg, id=1665, pagebox=cropbox, 
 1927.2pt x 501.875pt>
 File: img/weapons/532325-ebonchill-fire-mage-artifact.jpg Graphic file (type jpg
 )
@@ -6279,14 +6291,14 @@ Package luatex.def Info: img/weapons/532325-ebonchill-fire-mage-artifact.jpg  us
 ed on input line 8. on input line 8.
 Package luatex.def Info: Requested size: 499.295pt x 130.02493pt on input line 8
 .
-<img/WoW/ImpHS.jpg, id=1699, pagebox=cropbox, 1027.84pt x 959.585pt>
+<img/WoW/ImpHS.jpg, id=1667, pagebox=cropbox, 1027.84pt x 959.585pt>
 File: img/WoW/ImpHS.jpg Graphic file (type jpg)
 <use img/WoW/ImpHS.jpg>
 Package luatex.def Info: img/WoW/ImpHS.jpg  used on input line 36. on input line
  36.
 Package luatex.def Info: Requested size: 170.70857pt x 159.36427pt on input line
  36.
-<img/WoW/400px-Voidwalker(art).jpg, id=1700, pagebox=cropbox, 401.5pt x 501.875p
+<img/WoW/400px-Voidwalker(art).jpg, id=1668, pagebox=cropbox, 401.5pt x 501.875p
 t>
 File: img/WoW/400px-Voidwalker(art).jpg Graphic file (type jpg)
 <use img/WoW/400px-Voidwalker(art).jpg>
@@ -6294,21 +6306,21 @@ Package luatex.def Info: img/WoW/400px-Voidwalker(art).jpg  used on input line 3
 6. on input line 36.
 Package luatex.def Info: Requested size: 127.43158pt x 159.2861pt on input line 
 36.
-<img/WoW/felhunterart.jpg, id=1701, pagebox=cropbox, 746.79pt x 677.53125pt>
+<img/WoW/felhunterart.jpg, id=1669, pagebox=cropbox, 746.79pt x 677.53125pt>
 File: img/WoW/felhunterart.jpg Graphic file (type jpg)
 <use img/WoW/felhunterart.jpg>
 Package luatex.def Info: img/WoW/felhunterart.jpg  used on input line 38. on inp
 ut line 38.
 Package luatex.def Info: Requested size: 175.52202pt x 159.24054pt on input line
  38.
-<img/WoW/516px-Felguard-art.jpg, id=1702, pagebox=cropbox, 517.935pt x 401.5pt>
+<img/WoW/516px-Felguard-art.jpg, id=1670, pagebox=cropbox, 517.935pt x 401.5pt>
 File: img/WoW/516px-Felguard-art.jpg Graphic file (type jpg)
 <use img/WoW/516px-Felguard-art.jpg>
 Package luatex.def Info: img/WoW/516px-Felguard-art.jpg  used on input line 43. 
 on input line 43.
 Package luatex.def Info: Requested size: 250.05705pt x 193.84506pt on input line
  43.
-<img/WoW/Warcraft-III-Reforged-Cinematic-Trailer.jpg, id=1703, pagebox=cropbox, 
+<img/WoW/Warcraft-III-Reforged-Cinematic-Trailer.jpg, id=1671, pagebox=cropbox, 
 933.4875pt x 803.0pt>
 File: img/WoW/Warcraft-III-Reforged-Cinematic-Trailer.jpg Graphic file (type jpg
 )
@@ -6603,7 +6615,7 @@ ne 7.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 7.
 [77]
-<img/weapons/554329.jpg, id=1727, pagebox=cropbox, 1927.2pt x 963.6pt>
+<img/weapons/554329.jpg, id=1695, pagebox=cropbox, 1927.2pt x 963.6pt>
 File: img/weapons/554329.jpg Graphic file (type jpg)
 <use img/weapons/554329.jpg>
 Package luatex.def Info: img/weapons/554329.jpg  used on input line 8. on input 
@@ -6653,14 +6665,14 @@ ne 6.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 6.
 [78<./img/weapons/554329.jpg>]
-<img/weapons/stromkar.jpg, id=1735, pagebox=cropbox, 1015.795pt x 443.6575pt>
+<img/weapons/stromkar.jpg, id=1703, pagebox=cropbox, 1015.795pt x 443.6575pt>
 File: img/weapons/stromkar.jpg Graphic file (type jpg)
 <use img/weapons/stromkar.jpg>
 Package luatex.def Info: img/weapons/stromkar.jpg  used on input line 8. on inpu
 t line 8.
 Package luatex.def Info: Requested size: 499.295pt x 218.07103pt on input line 8
 .
-<img/weapons/2c4b402131fbd1a0bc1da845d64002ed.jpg, id=1736, pagebox=cropbox, 144
+<img/weapons/2c4b402131fbd1a0bc1da845d64002ed.jpg, id=1704, pagebox=cropbox, 144
 5.4pt x 556.0775pt>
 File: img/weapons/2c4b402131fbd1a0bc1da845d64002ed.jpg Graphic file (type jpg)
 <use img/weapons/2c4b402131fbd1a0bc1da845d64002ed.jpg>
@@ -6723,7 +6735,7 @@ Overfull \hbox (0.12457pt too wide) in paragraph at lines 40--41
 they will be-gin to hate those around them and those 
  []
 
-<img/WoW/CallofYogg-Saron.jpg, id=1744, pagebox=cropbox, 683.6742pt x 936.6192pt
+<img/WoW/CallofYogg-Saron.jpg, id=1712, pagebox=cropbox, 683.6742pt x 936.6192pt
 >
 File: img/WoW/CallofYogg-Saron.jpg Graphic file (type jpg)
 <use img/WoW/CallofYogg-Saron.jpg>
@@ -6731,7 +6743,7 @@ Package luatex.def Info: img/WoW/CallofYogg-Saron.jpg  used on input line 46. on
  input line 46.
 Package luatex.def Info: Requested size: 149.07007pt x 204.21324pt on input line
  46.
-<img/WoW/yoggsarond210alw-fullview.jpg, id=1745, pagebox=cropbox, 1027.84pt x 64
+<img/WoW/yoggsarond210alw-fullview.jpg, id=1713, pagebox=cropbox, 1027.84pt x 64
 6.415pt>
 File: img/WoW/yoggsarond210alw-fullview.jpg Graphic file (type jpg)
 <use img/WoW/yoggsarond210alw-fullview.jpg>
@@ -6785,7 +6797,7 @@ Overfull \hbox (0.19252pt too wide) in paragraph at lines 5--6
  di-men-sions. It is be-lieved that he was 
  []
 
-<img/weapons/wowl-ashbringer.jpg, id=1750, pagebox=cropbox, 1264.725pt x 732.737
+<img/weapons/wowl-ashbringer.jpg, id=1718, pagebox=cropbox, 1264.725pt x 732.737
 5pt>
 File: img/weapons/wowl-ashbringer.jpg Graphic file (type jpg)
 <use img/weapons/wowl-ashbringer.jpg>
@@ -6851,7 +6863,7 @@ ine 29.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 29.
  [81<./img/weapons/wowl-ashbringer.jpg>]
-<img/WoW/1200px-Ironforge_-_Classic_cinematic.jpg, id=1758, pagebox=cropbox, 120
+<img/WoW/1200px-Ironforge_-_Classic_cinematic.jpg, id=1726, pagebox=cropbox, 120
 4.5pt x 588.1975pt>
 File: img/WoW/1200px-Ironforge_-_Classic_cinematic.jpg Graphic file (type jpg)
 <use img/WoW/1200px-Ironforge_-_Classic_cinematic.jpg>
@@ -6887,7 +6899,7 @@ ine 37.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 37.
  [82]
-<img/WoW/ragnaros-1920x1200-heroes-of-the-storm-5781.jpg, id=1766, pagebox=cropb
+<img/WoW/ragnaros-1920x1200-heroes-of-the-storm-5781.jpg, id=1734, pagebox=cropb
 ox, 1713.40125pt x 1204.5pt>
 File: img/WoW/ragnaros-1920x1200-heroes-of-the-storm-5781.jpg Graphic file (type
  jpg)
@@ -6896,7 +6908,7 @@ Package luatex.def Info: img/WoW/ragnaros-1920x1200-heroes-of-the-storm-5781.jpg
   used on input line 42. on input line 42.
 Package luatex.def Info: Requested size: 257.13661pt x 180.7591pt on input line 
 42.
-<img/WoW/b9e0808495e9cf3dcbbecedf3e4d5e32.jpg, id=1767, pagebox=cropbox, 749.801
+<img/WoW/b9e0808495e9cf3dcbbecedf3e4d5e32.jpg, id=1735, pagebox=cropbox, 749.801
 25pt x 602.25pt>
 File: img/WoW/b9e0808495e9cf3dcbbecedf3e4d5e32.jpg Graphic file (type jpg)
 <use img/WoW/b9e0808495e9cf3dcbbecedf3e4d5e32.jpg>
@@ -7052,7 +7064,7 @@ Overfull \hbox (0.14613pt too wide) in paragraph at lines 5--6
 se slain by it. This is where the power of 
  []
 
-<img/weapons/1213012.png, id=1776, pagebox=cropbox, 3854.4pt x 1746.525pt>
+<img/weapons/1213012.png, id=1744, pagebox=cropbox, 3854.4pt x 1746.525pt>
 File: img/weapons/1213012.png Graphic file (type png)
 <use img/weapons/1213012.png>
 Package luatex.def Info: img/weapons/1213012.png  used on input line 8. on input
@@ -7203,14 +7215,14 @@ ne 6.
 Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line 
 6.
 [87]
-<img/weapons/Wow-Hammer.jpg, id=1795, pagebox=cropbox, 240.9pt x 198.2607pt>
+<img/weapons/Wow-Hammer.jpg, id=1763, pagebox=cropbox, 240.9pt x 198.2607pt>
 File: img/weapons/Wow-Hammer.jpg Graphic file (type jpg)
 <use img/weapons/Wow-Hammer.jpg>
 Package luatex.def Info: img/weapons/Wow-Hammer.jpg  used on input line 8. on in
 put line 8.
 Package luatex.def Info: Requested size: 204.71277pt x 168.48305pt on input line
  8.
-<img/weapons/shatteredhand.jpg, id=1796, pagebox=cropbox, 1003.75pt x 590.205pt>
+<img/weapons/shatteredhand.jpg, id=1764, pagebox=cropbox, 1003.75pt x 590.205pt>
 
 File: img/weapons/shatteredhand.jpg Graphic file (type jpg)
 <use img/weapons/shatteredhand.jpg>
@@ -7914,7 +7926,7 @@ Package luatex.def Info: Requested size: 614.33043pt x 43.00287pt on input line
  [96
 Missing character: There is no ’ (U+2019) in font pbkl8t!
 ]
-<img/WoW/teldrassil.png, id=1844, pagebox=cropbox, 460.3599pt x 191.9973pt>
+<img/WoW/teldrassil.png, id=1812, pagebox=cropbox, 460.3599pt x 191.9973pt>
 File: img/WoW/teldrassil.png Graphic file (type png)
 <use img/WoW/teldrassil.png>
 Package luatex.def Info: img/WoW/teldrassil.png  used on input line 29. on input
@@ -7927,7 +7939,7 @@ Overfull \hbox (0.13696pt too wide) in paragraph at lines 3--4
 ti-ple ways and/or for mul-ti-ple pur-poses. 
  []
 
-<img/Halo/H2A_Mission_TheGreatJourney.jpg, id=1845, pagebox=cropbox, 462.528pt x
+<img/Halo/H2A_Mission_TheGreatJourney.jpg, id=1813, pagebox=cropbox, 462.528pt x
  231.0231pt>
 File: img/Halo/H2A_Mission_TheGreatJourney.jpg Graphic file (type jpg)
 <use img/Halo/H2A_Mission_TheGreatJourney.jpg>
@@ -8313,7 +8325,7 @@ Overfull \hbox (0.11414pt too wide) in paragraph at lines 11--12
  Fires a blue beam of en-ergy do-ing 
  []
 
-<img/ColorChart.png, id=1876, pagebox=cropbox, 462.528pt x 462.528pt>
+<img/ColorChart.png, id=1844, pagebox=cropbox, 462.528pt x 462.528pt>
 File: img/ColorChart.png Graphic file (type png)
 <use img/ColorChart.png>
 Package luatex.def Info: img/ColorChart.png  used on input line 34. on input lin
@@ -9961,12 +9973,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
 Here is how much of LuaTeX's memory you used:
  47659 strings out of 494456
  125200,1648299 words of node,token memory allocated
- 11036 words of node memory still in use:
-   19 hlist, 2 vlist, 14 rule, 15 glue, 1376 kern, 894 attribute, 116 glue_spec,
- 478 attribute_list, 2 write, 24 pdf_literal, 31 pdf_action, 24 pdf_colorstack n
+ 11073 words of node memory still in use:
+   19 hlist, 2 vlist, 14 rule, 15 glue, 1381 kern, 898 attribute, 116 glue_spec,
+ 480 attribute_list, 2 write, 24 pdf_literal, 31 pdf_action, 24 pdf_colorstack n
 odes
-   avail lists: 1:3,2:3272,3:1227,4:156,5:163,6:270,7:10584,8:229,9:1461,10:34,1
-1:515
+   avail lists: 1:3,2:3269,3:1083,4:156,5:163,6:233,7:10552,8:200,9:1288,10:34,1
+1:518
  42979 multiletter control sequences out of 65536+200000
  150 fonts using 15150167 bytes
  70i,18n,122p,1714b,1326s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -9988,9 +10000,9 @@ sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/bookman/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/bookman/ubkli8a.pfb>
-Output written on Trinity Stones.pdf (130 pages, 97755301 bytes).
+Output written on Trinity Stones.pdf (130 pages, 97752313 bytes).
 
-PDF statistics: 2096 PDF objects out of 2487 (max. 8388607)
+PDF statistics: 2064 PDF objects out of 2073 (max. 8388607)
  313 named destinations out of 1000 (max. 131072)
- 2272 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 2208 words of extra memory for PDF output out of 10000 (max. 100000000)
 

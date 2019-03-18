@@ -34,18 +34,10 @@
 \contentsline {subsubsection}{Vulcan}{27}{section*.15}
 \contentsline {subsubsection}{Tatooine}{27}{section*.15}
 \contentsline {subsubsection}{Korriban}{27}{section*.15}
-\contentsline {subsubsection}{Krypton}{27}{section*.15}
-\contentsline {subsubsection}{Sahal}{27}{section*.15}
-\contentsline {subsubsection}{Tuchanka}{27}{section*.15}
 \contentsline {subsubsection}{Pandora}{27}{section*.15}
-\contentsline {subsubsection}{Babylonia}{27}{section*.15}
 \contentsline {subsubsection}{Vagonbrei}{27}{section*.15}
 \contentsline {subsubsection}{Statu}{27}{section*.15}
-\contentsline {subsubsection}{Telos}{27}{section*.15}
-\contentsline {subsubsection}{Nibiru}{27}{section*.15}
 \contentsline {subsubsection}{Kashyyyk}{27}{section*.15}
-\contentsline {subsubsection}{Castiana}{27}{section*.15}
-\contentsline {subsubsection}{Zebes}{27}{section*.15}
 \contentsline {section}{Tempestas}{27}{section*.15}
 \contentsline {section}{Tempestas}{28}{section*.15}
 \contentsline {subsection}{Tempestas Hierarchy}{30}{Item.65}
