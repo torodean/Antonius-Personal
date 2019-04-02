@@ -6,9 +6,15 @@
 ##################################################################################
 
 from pytube import YouTube
+import argparse
 import moviepy.editor as mp
 
-urlinput = "https://www.youtube.com/watch?v=MoHCpa4rG7I&t=9s"
+parser = argparse.ArgumentParser()
+parser.add_argument('-u', '--URL', help = 'Youtube URL', type = str, required = True)
+
+args = parser.parse_args()
+
+urlinput = args.URL
 
 print('...Processing Youtube download for {0}'.format(urlinput))
 yt = YouTube(urlinput)

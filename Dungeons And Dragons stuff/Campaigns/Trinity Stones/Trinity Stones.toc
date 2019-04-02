@@ -185,53 +185,53 @@
 \contentsline {subsection}{Vinia Kobas}{114}{section*.43}
 \contentsline {subsubsection}{What was given to the DM}{114}{section*.44}
 \contentsline {subsubsection}{What was given to the player}{114}{section*.44}
-\contentsline {subsection}{DR-48}{115}{section*.44}
+\contentsline {subsection}{November (NR-48)}{115}{section*.44}
 \contentsline {subsubsection}{What was given to the DM}{115}{section*.45}
 \contentsline {subsubsection}{What was given to the player}{115}{section*.45}
 \contentsline {section}{The Adventures}{115}{section*.45}
 \contentsline {subsection}{Session 01 Summary: Chaos in Tempestas Part 1}{115}{section*.46}
 \contentsline {subsubsection}{Securing Passage to Tempestas}{115}{section*.46}
-\contentsline {subsubsection}{Arrival in Tempestas}{115}{section*.46}
+\contentsline {subsubsection}{Arrival in Tempestas}{116}{section*.46}
 \contentsline {subsubsection}{Exploring Tempestas and the Church Incident}{116}{section*.46}
 \contentsline {subsubsection}{The Prison Break and Escape of Dastan}{117}{section*.46}
-\contentsline {subsection}{Session 02 Summary: Chaos in Tempestas Part 2}{117}{section*.46}
-\contentsline {subsubsection}{The Fortune Teller and Shady Figure}{117}{section*.47}
+\contentsline {subsection}{Session 02 Summary: Chaos in Tempestas Part 2}{118}{section*.46}
+\contentsline {subsubsection}{The Fortune Teller and Shady Figure}{118}{section*.47}
 \contentsline {subsubsection}{Traveling to the Graveyard}{118}{section*.47}
-\contentsline {subsubsection}{Apprehension of Ferrous}{118}{section*.47}
+\contentsline {subsubsection}{Apprehension of Ferrous}{119}{section*.47}
 \contentsline {subsubsection}{the Streaking Tiefling}{119}{section*.47}
-\contentsline {subsubsection}{Disturbing the Graves}{119}{section*.47}
-\contentsline {subsection}{Session 03 Summary: The Coalescence of Unexpected Fates}{119}{section*.47}
-\contentsline {subsubsection}{The Searching of Yzom}{119}{section*.48}
-\contentsline {subsubsection}{The Mysterious Prior of Celestas}{119}{section*.48}
-\contentsline {subsubsection}{The Blue Recluse Inn}{119}{section*.48}
-\contentsline {subsection}{Session 04 Summary: The Mysterious Dastan}{119}{section*.48}
-\contentsline {subsubsection}{The Meeting of Dastan}{119}{section*.49}
-\contentsline {subsubsection}{The Royal Library Drop-off}{119}{section*.49}
-\contentsline {subsubsection}{The Brawlers Guild}{119}{section*.49}
-\contentsline {subsubsection}{Harassing the Enchanter}{119}{section*.49}
-\contentsline {subsection}{Session 05 Summary: Leaving Tempestas Behind}{119}{section*.49}
-\contentsline {subsubsection}{The Quest of Dastan and his Companions}{119}{section*.50}
-\contentsline {subsubsection}{The Battle of Tempestas Harbor}{119}{section*.50}
+\contentsline {subsubsection}{Disturbing the Graves}{120}{section*.47}
+\contentsline {subsection}{Session 03 Summary: The Coalescence of Unexpected Fates}{120}{section*.47}
+\contentsline {subsubsection}{The Searching of Yzom}{120}{section*.48}
+\contentsline {subsubsection}{The Mysterious Prior of Celestas}{120}{section*.48}
+\contentsline {subsubsection}{The Blue Recluse Inn}{120}{section*.48}
+\contentsline {subsection}{Session 04 Summary: The Mysterious Dastan}{120}{section*.48}
+\contentsline {subsubsection}{The Meeting of Dastan}{120}{section*.49}
+\contentsline {subsubsection}{The Royal Library Drop-off}{120}{section*.49}
+\contentsline {subsubsection}{The Brawlers Guild}{120}{section*.49}
+\contentsline {subsubsection}{Harassing the Enchanter}{120}{section*.49}
+\contentsline {subsection}{Session 05 Summary: Leaving Tempestas Behind}{120}{section*.49}
+\contentsline {subsubsection}{The Quest of Dastan and his Companions}{120}{section*.50}
+\contentsline {subsubsection}{The Battle of Tempestas Harbor}{120}{section*.50}
 \contentsline {subsubsection}{The Great Storm}{120}{section*.50}
 \contentsline {subsection}{Session 06 Summary: Awakening on The Jungle Coast}{120}{section*.50}
 \contentsline {subsubsection}{`Visions' of Dreaded Meanings}{120}{section*.51}
-\contentsline {subsubsection}{Treading into The Unknown Forest}{121}{section*.51}
-\contentsline {subsection}{Session 07 Summary: The Eternal Marsh Part 1}{122}{section*.51}
-\contentsline {subsubsection}{The Binding of Flesh and Eternity}{122}{section*.52}
-\contentsline {subsubsection}{Drifting Down The Beach}{123}{section*.52}
+\contentsline {subsubsection}{Treading into The Unknown Forest}{122}{section*.51}
+\contentsline {subsection}{Session 07 Summary: The Eternal Marsh Part 1}{123}{section*.51}
+\contentsline {subsubsection}{The Binding of Flesh and Eternity}{123}{section*.52}
+\contentsline {subsubsection}{Drifting Down The Beach}{124}{section*.52}
 \contentsline {subsubsection}{An Unexpected Change}{124}{section*.52}
 \contentsline {subsubsection}{A Change in Terrain}{125}{section*.52}
 \contentsline {subsubsection}{Dangers Lurking Within the Fog}{125}{section*.52}
-\contentsline {subsection}{Session 08 Summary: The Eternal Marsh Part 2}{125}{section*.52}
-\contentsline {subsubsection}{Darris Verses the Marsh}{125}{section*.53}
+\contentsline {subsection}{Session 08 Summary: The Eternal Marsh Part 2}{126}{section*.52}
+\contentsline {subsubsection}{Darris Verses the Marsh}{126}{section*.53}
 \contentsline {subsubsection}{The Elf and a Xorn}{126}{section*.53}
-\contentsline {subsubsection}{The Bonding of Classes}{126}{section*.53}
+\contentsline {subsubsection}{The Bonding of Classes}{127}{section*.53}
 \contentsline {subsubsection}{The Shimmering Flats}{127}{section*.53}
-\contentsline {subsection}{Session 09 Summary: Discovering Aurushire}{127}{section*.53}
-\contentsline {subsubsection}{The Awakening Water}{127}{section*.54}
-\contentsline {subsubsection}{The Demise of Darris}{127}{section*.54}
+\contentsline {subsection}{Session 09 Summary: Discovering Aurushire}{128}{section*.53}
+\contentsline {subsubsection}{The Awakening Water}{128}{section*.54}
+\contentsline {subsubsection}{The Demise of Darris}{128}{section*.54}
 \contentsline {subsubsection}{An Eternal Warning of Retribution}{128}{section*.54}
-\contentsline {subsubsection}{The Friendly Greeting of Aurushire}{129}{section*.54}
+\contentsline {subsubsection}{The Friendly Greeting of Aurushire}{130}{section*.54}
 \contentsline {subsection}{Session 10 Summary: The Brewery of Chen Stormstout}{130}{section*.54}
 \contentsline {subsubsection}{The Delicate Elixir of Chen}{130}{section*.55}
 \contentsline {subsubsection}{An Unexpected Find}{130}{section*.55}
