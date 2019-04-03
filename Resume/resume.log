@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  19 MAR 2019 10:47
+This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  3 APR 2019 14:33
  restricted system commands enabled.
 **resume.tex
 (./resume.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.687 seconds
+luaotfload | main : initialization completed in 0.648 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 (./moderncv.cls
 Document Class: moderncv 2012/10/31 v1.2.0 modern curriculum vitae and letter do
@@ -924,13 +924,13 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22011 strings out of 494456
+ 22009 strings out of 494456
  100000,552014 words of node,token memory allocated
  469 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 7 attribute, 60 glue_spec, 7 attribute_list
 , 3 write, 2 pdf_colorstack nodes
    avail lists: 2:898,3:212,4:150,5:208,6:67,7:3613,8:71,9:323,10:14,11:291
- 25314 multiletter control sequences out of 65536+200000
+ 25312 multiletter control sequences out of 65536+200000
  42 fonts using 2813695 bytes
  62i,12n,67p,771b,789s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKT
@@ -943,7 +943,7 @@ nts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/awtor/AppData/Roaming/MiKTeX
 /2.9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on resume.pdf (3 pages, 462465 bytes).
+Output written on resume.pdf (3 pages, 462264 bytes).
 
 PDF statistics: 109 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 131072)
