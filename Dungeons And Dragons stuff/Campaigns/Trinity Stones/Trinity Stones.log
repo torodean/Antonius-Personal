@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  27 MAR 2019 14:03
+This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  10 APR 2019 14:12
  restricted system commands enabled.
 **"Trinity Stones.tex"
 ("./Trinity Stones.tex"
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.656 seconds
+luaotfload | main : initialization completed in 0.651 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 ("C:/Program Files/MiKTeX 2.9/tex/latex/base/book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
@@ -9998,7 +9998,7 @@ sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/bookman/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/bookman/ubkli8a.pfb>
-Output written on Trinity Stones.pdf (130 pages, 97753403 bytes).
+Output written on Trinity Stones.pdf (130 pages, 97753404 bytes).
 
 PDF statistics: 2064 PDF objects out of 2073 (max. 8388607)
  313 named destinations out of 1000 (max. 131072)
