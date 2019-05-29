@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  10 APR 2019 14:12
+This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  7 MAY 2019 08:32
  restricted system commands enabled.
 **"Trinity Stones.tex"
 ("./Trinity Stones.tex"
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.651 seconds
+luaotfload | main : initialization completed in 0.668 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 ("C:/Program Files/MiKTeX 2.9/tex/latex/base/book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
@@ -1849,24 +1849,28 @@ RS)
 )(load luc: C:/Users/awtor/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/o
 tl/lmroman7-regular.luc)(load luc: C:/Users/awtor/AppData/Local/MiKTeX/2.9/luate
 x-cache/generic/fonts/otl/lmroman5-regular.luc)
-<img/trinitypaper1.jpg, id=837, pagebox=cropbox, 614.295pt x 794.97pt>
-File: img/trinitypaper1.jpg Graphic file (type jpg)
-<use img/trinitypaper1.jpg>
-Package luatex.def Info: img/trinitypaper1.jpg  used on input line 60. on input 
+warning  (file img/trinitypaper2.jpg) (readjpg): Exif resolution  300dpi x 300dp
+i differs from the input resolution 299dpi x 299dpi
+<img/trinitypaper2.jpg, id=837, pagebox=cropbox, 614.295pt x 794.97pt>
+File: img/trinitypaper2.jpg Graphic file (type jpg)
+<use img/trinitypaper2.jpg>
+Package luatex.def Info: img/trinitypaper2.jpg  used on input line 60. on input 
 line 60.
 Package luatex.def Info: Requested size: 614.31223pt x 794.99231pt on input line
  60.
- [1
+[1
 
 
 {C:/Users/awtor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}<./img/trinity
-paper1.jpg>]
+paper2.jpg
+warning  (readjpg): Exif resolution  300dpi x 300dpi differs from the input reso
+lution 299dpi x 299dpi
+>]
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <10> not available
 (Font)              Font shape `T1/pbk/l/sc' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <24.88> not available
 (Font)              Font shape `T1/pbk/l/sc' tried instead on input line 60.
-
-("./Trinity Stones.toc"
+ ("./Trinity Stones.toc"
 LaTeX Font Info:    Font shape `T1/pbk/bx/sc' in size <10> not available
 (Font)              Font shape `T1/pbk/b/sc' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/pbk/b/sc' in size <10> not available
@@ -9998,7 +10002,7 @@ sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/bookman/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/bookman/ubkli8a.pfb>
-Output written on Trinity Stones.pdf (130 pages, 97753404 bytes).
+Output written on Trinity Stones.pdf (130 pages, 102864405 bytes).
 
 PDF statistics: 2064 PDF objects out of 2073 (max. 8388607)
  313 named destinations out of 1000 (max. 131072)
