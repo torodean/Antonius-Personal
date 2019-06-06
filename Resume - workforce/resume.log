@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  29 MAY 2019 11:41
+This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.12.4)  6 JUN 2019 09:20
  restricted system commands enabled.
 **resume.tex
 (./resume.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.594 seconds
+luaotfload | main : initialization completed in 0.609 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 (./moderncv.cls
 Document Class: moderncv 2012/10/31 v1.2.0 modern curriculum vitae and letter do
@@ -956,7 +956,7 @@ Here is how much of LuaTeX's memory you used:
    14 hlist, 2 vlist, 5 rule, 3 disc, 4 math, 26 glue, 4 kern, 2 penalty, 62 gly
 ph, 30 attribute, 63 glue_spec, 30 attribute_list, 3 write, 1 pdf_start_link, 1 
 pdf_end_link, 1 pdf_action, 6 pdf_colorstack nodes
-   avail lists: 2:1108,3:207,4:157,5:238,6:68,7:3947,8:76,9:339,10:11,11:351
+   avail lists: 2:1108,3:207,4:156,5:238,6:68,7:3961,8:76,9:339,10:11,11:354
  25414 multiletter control sequences out of 65536+200000
  52 fonts using 3516367 bytes
  62i,11n,67p,771b,789s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -969,7 +969,7 @@ nts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 /lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Users/awtor/AppD
 ata/Roaming/MiKTeX/2.9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on resume.pdf (2 pages, 469837 bytes).
+Output written on resume.pdf (2 pages, 469838 bytes).
 
 PDF statistics: 87 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 131072)
