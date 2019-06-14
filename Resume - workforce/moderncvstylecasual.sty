@@ -80,7 +80,9 @@
   \newbox{\makecvtitlepicturebox}%
   \savebox{\makecvtitlepicturebox}{%
     \ifthenelse{\isundefined{\@photo}}%
-      {}%
+      {
+      
+  }%
       {%
        \setlength\fboxrule{\@photoframewidth}%
        \ifdim\@photoframewidth=0pt%

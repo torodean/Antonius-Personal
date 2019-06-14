@@ -1,0 +1,103 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{d0sag3} % CV theme - options include: 'casual' (default), 'd0sag3', 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Antonius} % Your first name
+\familyname{Torode} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\address{2768 NW 152$^\textrm{nd}$ St.}{Clive, IA 50325}
+%\address{16789 Chandler Rd.}{East Lansing, Michigan 48823}
+\mobile{1 (517) 512-3580}
+%\phone{None}
+\email{AWTorode@gmail.com}
+%\homepage{http://goo.gl/EsPPa4}{http://goo.gl/EsPPa4 (LinkedIn)} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{Contact via e-mail is best}
+%\photo[70pt][0.4pt]{pictures/picture_me} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"Everyone is a genius in their own way" - Antonius Torode}
+
+%----------------------------------------------------------------------------------------
+\usepackage{background}
+\backgroundsetup{
+	scale=1,
+	angle=0,
+	opacity=.1,  %% adjust
+	contents={\includegraphics[trim={0 0 0 2cm},width=\paperwidth,height=\paperheight]{pictures/BG3.jpg}}
+}
+\begin{document}
+\makecvtitle 
+%\includegraphics[scale=0.43]{index.png}
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+\recipient{To whom it may concern}{} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+
+\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+% Print letter body here
+\hspace{1cm}Here is a little bit of information about some of the programming projects I’ve done.
+ 
+\hspace{1cm}As far as my experience with Python, I have always used python as a small tool to accomplish small tasks. These have ranged from integral solvers in physics classes to personal things that I’ve needed it for. Some of these include small scripts for updating similar bits of markup text throughout multiple html files simultaneously, downloading and converting YouTube files, discord bots that monitor member and group permissions and rank for various groups, web scraping tools, tools for research (such as data plotting, formatting, re-binning, etc.) and more. My knowledge and experience with python has not been as consistent as with C++ or C\# because I generally only work on small code snippets as they are needed. 
+
+\hspace{1cm}Aside from using C++ as a tool to solve small problems such as a short mathematical problem or minor simulation, there are three main projects I’ve worked on. The first, Local Operations Listing Agent (LOLA) was a program written in C\# for Michigan State University. I used the Visual Studio IDE for creating LOLA. Unfortunately, the program technically belongs to them and so I was not able to open source it like the other two I will mention. This programs purpose was originally to query a windows machine and gather information that we stored in our department database. The information included things such as the computer name, department, computer users, RAM size, HDD size/partitions, IP address and more. This information was gathered by hand before I started working at my position there and by automating it I was able to save the department a lot of time and effort for something so simple. 
+
+\hspace{1cm}After LOLA was able to properly gather all the information, I started to update the programming to be a general tool for us IT workers in the office. I included functions that could gather system information over a network as well as perform other common troubleshooting tasks. These include gathering all drivers installed on a machine, running some common but often time consuming to find windows functions (such as disk cleanup, etc.). Using some C++ code I had, I was able to create DLL’s that LOLA imported to also have the ability to query servers and domains to gather information. This included user account information and could be used by us IT students to check often helpful information about the departmental user accounts.
+
+\hspace{1cm}Another program I created was a GUI program, Generations of Nuclear Activity (GINA). This program was created for use at the National Superconducting Cyclotron Laboratory and I was given permission to open source it on my website and store the code on GitHub (https://github.com/torodean/Antonius-GINA). The program was created to perform calculations and output the data and plots for use with a Tape Station system (used in studying neutron rich isotopes). This program was originally written in python for just the initial calculations but later re-written in C++ as features were added. The calculations and software based around GINA was the basis for a physics paper I published in an international student journal of physics (https://github.com/torodean/Antonius-Personal/blob/master/Papers%20%26%20Publications/Torode%20-%20GINA.pdf).
+
+\hspace{1cm}The third major program I have worked on, Multiple Integrated Applications (MIA) is a personal project designed in C++. This has been a place for me to create programs that I have used in personal use and for general development of my programming capabilities and is also open sourced on my website (https://torodean.github.io/MIA.html). The program contains a compendium of little programs that all work together in a custom terminal interface. These include bots for performing tasks using Windows key code simulations, various encryption algorithms and mathematical functions, a workout generation program, etc. This program also contains a configuration file that can be used to change program settings post-compilation to provide quick and easy changes to aspects of the program and sub-features. 
+
+\hspace{1cm}To practice proper programming etiquette, in conjunction with all three programs listed above are manuals written in LaTeX that outline and describe the various functionality of the programs. The open source programs as well as their manuals and GitHub repositories can all be viewed on the projects page of my website at https://torodean.github.io/projects.html\#programming.
+
+
+\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
