@@ -7,7 +7,7 @@ cd ..
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
 echo "...Updating repository for Antonius-Handbook-II"
-cd Antonius-Handbook
+cd Antonius-Handbook-II
 git pull
 git status
 cd ..
