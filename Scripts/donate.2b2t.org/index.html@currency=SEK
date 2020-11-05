@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>queue priority | Welcome</title>
+
+    <link href="/templates/209/css/style.min.css" rel="stylesheet">
+   
+    <link rel="shortcut icon" href="/templates/209/img/favicon.ico">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        
+        _gaq.push(['_setAccount', 'UA-36735942-3']);
+        _gaq.push(['_trackPageview']);
+        
+                
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    
+    <style>body {
+  color: #fff;
+  background-color: #00042C;
+}
+.modal-header,
+.modal-body,
+.modal-footer {
+  color: #000000;
+}
+.navbar-default {
+  background-color: #213050;
+  border-color: #213050;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f15d38;
+}
+.navbar-default .navbar-nav > .active > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f15d38;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f15d38;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border: 0;
+}
+.dropdown-menu {
+  color: #213050;
+}
+.dropdown-menu > li > a {
+  color: #213050;
+}
+.header .buttons .basket .dropdown-menu .item {
+  border-color: #213050;
+}
+.header .buttons .basket .dropdown-menu .item .remove a {
+  color: #213050;
+}
+.panel {
+  background-color: #213050;
+  border: 0;
+}
+.panel .panel-heading {
+  color: #fff;
+  background-color: #f15d38;
+  border: 0;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  border-color: #00042C;
+}
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #00042C;
+}
+.footer {
+  border-color: #213050;
+}
+.text-primary {
+  color: #f15d38;
+}
+.text-primary:hover {
+  color: #e63b10;
+}
+a {
+  color: #f15d38;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #ce350e;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #f15d38;
+}
+.btn-link {
+  color: #f15d38;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
+.btn-link,
+.btn-link:active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  border-color: transparent;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #ce350e;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #999999;
+  text-decoration: none;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #f15d38;
+}
+.nav-pills > li {
+  float: left;
+}
+.nav-pills > li > a {
+  border-radius: 4px;
+}
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #f15d38;
+}
+.nav-pills > li.active > a .caret,
+.nav-pills > li.active > a:hover .caret,
+.nav-pills > li.active > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+a.list-group-item {
+  color: #555555;
+}
+a.list-group-item .list-group-item-heading {
+  color: #333333;
+}
+a.list-group-item:hover,
+a.list-group-item:focus {
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #f15d38;
+  border-color: #f15d38;
+}
+a.list-group-item.active .list-group-item-heading,
+a.list-group-item.active:hover .list-group-item-heading,
+a.list-group-item.active:focus .list-group-item-heading {
+  color: inherit;
+}
+a.list-group-item.active .list-group-item-text,
+a.list-group-item.active:hover .list-group-item-text,
+a.list-group-item.active:focus .list-group-item-text {
+  color: #fef8f7;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #f15d38;
+  border-color: #ef4a20;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #e63b10;
+  border-color: #c4320e;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #f15d38;
+  border-color: #ef4a20;
+}
+.btn-primary .badge {
+  color: #f15d38;
+  background-color: #ffffff;
+}
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  margin-left: -1px;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #eeeeee;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #f15d38;
+  border-color: #f15d38;
+  cursor: default;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #999999;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  cursor: not-allowed;
+}
+.label-primary {
+  background-color: #f15d38;
+}
+.label-primary[href]:hover,
+.label-primary[href]:focus {
+  background-color: #e63b10;
+}
+.progress-bar {
+  background-color: #f15d38;
+}
+.panel-primary {
+  border-color: #f15d38;
+}
+.panel-primary > .panel-heading {
+  color: #ffffff;
+  background-color: #f15d38;
+  border-color: #f15d38;
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #f15d38;
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #f15d38;
+}
+</style>
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="header">
+
+        <div class="logo">
+                            <span>queue priority</span>
+                    </div>
+
+        <div class="buttons">
+          <div class="toolbar">
+            <div class="logout">
+                            </div>
+            <div class="currency">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                SEK <span class="fa fa-caret-down"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                                                            <li >
+                          <a href="?currency=AUD">AUD</a>
+                        </li>
+                                                                                <li >
+                          <a href="?currency=BRL">BRL</a>
+                        </li>
+                                                                                <li >
+                          <a href="?currency=CAD">CAD</a>
+                        </li>
+                                                                                                                    <li >
+                          <a href="?currency=DKK">DKK</a>
+                        </li>
+                                                                                <li >
+                          <a href="?currency=EUR">EUR</a>
+                        </li>
+                                                                                                                                                                                                                                                                                                        <li >
+                          <a href="?currency=NOK">NOK</a>
+                        </li>
+                                                                                <li >
+                          <a href="?currency=NZD">NZD</a>
+                        </li>
+                                                                                                                    <li >
+                          <a href="?currency=PLN">PLN</a>
+                        </li>
+                                                                                <li >
+                          <a href="?currency=GBP">GBP</a>
+                        </li>
+                                                                                                                    <li class="active">
+                          <a href="?currency=SEK">SEK</a>
+                        </li>
+                                                                                                                                                                                                                                <li >
+                          <a href="?currency=USD">USD</a>
+                        </li>
+                                                                                                                                                                                                  </ul>
+            </div>
+            <div class="basket">
+                                  <a href="#" class="btn btn-info" disabled="disabled"><i class="icon-shopping-cart icon-white"></i> 0 item(s) for 0.00 SEK</a>
+                            </div>
+          </div>
+        </div>
+
+      </div> 
+        
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">queue priority</a>
+          </div>
+
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                                                      <li class=""><a href="/category/738999">Donate</a></li>
+                                                                  
+                                            </ul>
+          </div>
+        </div>
+      </nav>
+        
+      <div class="notification">
+          
+      </div>
+
+      	<div class="body">
+		<div class="content">
+			<div class="panel panel-default">
+				<div class="panel-heading">Welcome</div>
+				<div class="panel-body">
+					<p>
+				  		<p><span style="color:#FAEBD7;"><span style="font-size:16px;">Thank you for considering donating to 2b2t.</span></span></p><p><span style="color:#FAEBD7;"><span style="font-size:16px;">You can donate to have your account be put in a priority queue. This will let you join the server faster.</span></span></p><p><span style="color:#FAEBD7;"><span style="font-size:16px;">When you donate to receive priority queue status on your account, make sure to write your account name correctly as it is in-game and to doublecheck it before proceeding.</span></span></p><p><span style="color:#FAEBD7;"><span style="font-size:16px;">It can take up to 30 minutes for the process to complete. </span></span></p><p><span style="color:#FAEBD7;"><span style="font-size:16px;">Your donations are completely anonymous - and when you choose to receive priority queue status, other players including you will not be able to see this in-game or on your account name, or if you choose to gift it to someone elses account.</span></span></p><p><span style="color:#FAEBD7;"><span style="font-size:16px;">If you have any questions or issues, please send an email to - <em>2b2t.org@gmail.com</em></span></span></p><p><span style="color:#336699;"><em><span style="font-size:9px;">Disclaimer: </span></em><em><span style="font-size:9px;">2b2t is NOT affiliated with Minecraft and Mojang AB. Do NOT email Mojang for support as 2b2t is not affiliated with it and they will not be able to help you.</span></em></span></p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="sidebar">
+			    <div class="panel panel-default module">
+        <div class="panel-heading">Priority Queue - Monthly Subscription</div>
+        <div class="panel-body">
+          <div class="featured-package">
+            <div class="image">
+                <a href="javascript:void(0);" data-remote="/package/1994771" class="toggle-modal">
+                    <img src="/assets/img/empty.png" class="toggle-tooltip img-rounded" title="Click for more details" />
+                </a>
+            </div>
+            <div class="info">
+              <div class="text">
+                <div class="name">Priority queue - one</div>
+                <div class="price">
+                        					    					185.15 <small>USD</small>
+    				                </div>
+              </div>
+              <div class="button">
+                                    <a href="javascript::void(0);" data-remote="/package/1994771" class="btn btn-info btn-sm btn-block toggle-modal">Buy</a>
+                              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="panel panel-default module">
+        <div class="panel-heading">Priority Queue - One Month</div>
+        <div class="panel-body">
+          <div class="featured-package">
+            <div class="image">
+                <a href="javascript:void(0);" data-remote="/package/1994962" class="toggle-modal">
+                    <img src="/assets/img/empty.png" class="toggle-tooltip img-rounded" title="Click for more details" />
+                </a>
+            </div>
+            <div class="info">
+              <div class="text">
+                <div class="name">Priority queue - one</div>
+                <div class="price">
+                        					    					185.15 <small>USD</small>
+    				                </div>
+              </div>
+              <div class="button">
+                                    <a href="javascript::void(0);" data-remote="/package/1994962" class="btn btn-info btn-sm btn-block toggle-modal">Buy</a>
+                              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+		</div>
+	</div>
+
+      
+      <div class="footer">
+          <div class="language">
+              <div class="dropdown dropup">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-globe"></span> Language</a>
+                <ul class="dropdown-menu up">
+                                        <li><a href="?lang=bg">Bulgarian</a></li>
+                                        <li><a href="?lang=da">Danish</a></li>
+                                        <li><a href="?lang=nl">Dutch</a></li>
+                                        <li><a href="?lang=en">English</a></li>
+                                        <li><a href="?lang=fi">Finnish</a></li>
+                                        <li><a href="?lang=fr">French</a></li>
+                                        <li><a href="?lang=de">German</a></li>
+                                        <li><a href="?lang=it">Italian</a></li>
+                                        <li><a href="?lang=no">Norwegian</a></li>
+                                        <li><a href="?lang=en-PT">Pirate</a></li>
+                                        <li><a href="?lang=pt-PT">Portuguese</a></li>
+                                        <li><a href="?lang=pt-BR">Portuguese Brazillian</a></li>
+                                        <li><a href="?lang=ru">Russian</a></li>
+                                        <li><a href="?lang=es-ES">Spanish</a></li>
+                                        <li><a href="?lang=sv-SE">Swedish</a></li>
+                                  </ul>
+              </div>
+          </div>
+                      <div class="branding"> 
+              <!-- Do not remove the Buycraft branding if you are not on the Ultimate Plan. Your account will be deleted. -->
+              Powered by <a href="http://buycraft.net" target="_blank">Buycraft.net</a>
+            </div>
+                </div>
+    
+    </div>
+    
+    <div class="modal" id="popup-modal" tabindex="-1" role="dialog"></div>
+    
+        
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>  
+    <script src="/templates/209/js/bootstrap.min.js"></script>
+    <script src="/templates/209/js/skin.min.js"></script>
+    <script src="/templates/209/js/site.js"></script>
+     <script>
+            jQuery(function(){
+                var countdowns = $(".countdown-to");
+                countdowns.each(function(){
+                   setInterval(function(ele) {
+                       timeLeft = parseInt(ele.attr("data-countdown"));
+                       if (timeLeft == 0) {
+                           ele.html("Time Expired!");
+                       } else {
+                       timeLeft--;
+                       ele.attr("data-countdown", timeLeft);
+                      var days = Math.floor(timeLeft / (60 * 60 * 24));
+                      var hours = Math.floor((timeLeft % (60 * 60 * 24)) / (60 * 60));
+                      var minutes = Math.floor((timeLeft % (60 * 60)) / (60));
+                      var seconds = Math.floor((timeLeft % 60));
+                      ele.html(days + "d " + hours + "h " + minutes + "m " + seconds + "s");
+                       }
+                   }, 1000, jQuery(this));
+                });
+            });
+
+        </script>
+  <script>	
+    jQuery(".card-container").eq(0).remove();	
+</script>	
+<script type="text/javascript" src="/assets/js/discord.js"></script>
+<div id="waiting-overlay" style="display: none;">	
+    <i class="fa fa-cog fa-spin fa-3x"></i>	
+</div>
+</body>
+</html>

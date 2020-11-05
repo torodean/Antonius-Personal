@@ -27,7 +27,9 @@ downloadDirectory = 'ytdownloads'
 
 
 def fileExists(fileName, subDirectory = '', fileExtension = '.txt'):
-	"""Checks if a file exists."""
+	"""
+	Checks if a file exists.
+	"""
 	if subDirectory == '':
 		file = fileName
 	else:
@@ -38,7 +40,9 @@ def fileExists(fileName, subDirectory = '', fileExtension = '.txt'):
 	
 
 def downloadUrl(url):
-	"""Downloads a specified URL file."""
+	"""
+	Downloads a specified URL file.
+	"""
 	try: 
 		print('...Processing Youtube download for {0}'.format(url))
 		sys.stdout.flush()
@@ -66,7 +70,9 @@ def downloadUrl(url):
 	convertMp4(title)
 
 def convertMp4(title):
-	"""Converts an mp4 file to mp3."""
+	"""
+	Converts an mp4 file to mp3.
+	"""
 	try: 
 		if fileExists(title, downloadDirectory, 'mp3'):
 			print("...File already exists: {0}/{1}.mp3".format(downloadDirectory, title))
@@ -84,7 +90,9 @@ def convertMp4(title):
 
 
 def deleteMp4s():
-	"""Used for deleting mp4 files after converting."""
+	"""
+	Used for deleting mp4 files after converting.
+	"""
 	
 
 if urlinput != 'None' and listInput == 'None':
@@ -95,14 +103,6 @@ else:
 	print("...Nothing to convert, invalid inputs.")
 
 print('...Finished program.')
-
-
-
-
-
-
-
-
 
 
 
