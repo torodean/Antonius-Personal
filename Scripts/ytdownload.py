@@ -63,11 +63,10 @@ def downloadUrl(url):
 			stream.download(downloadDirectory)
 
 			print('...Finished download.')
+			convertMp4(title)
 	except Exception as ex:
 		print(ex)
 		print("...An error occured when downloading the specified URL.")
-
-	convertMp4(title)
 
 def convertMp4(title):
 	"""
