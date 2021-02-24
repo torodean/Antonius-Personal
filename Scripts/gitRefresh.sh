@@ -90,3 +90,17 @@ git pull
 git status
 cd ..
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+echo "...Updating repository for GitWebsiteTutorial.github.io"
+cd GitWebsiteTutorial.github.io
+git pull
+git status
+cd ..
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+echo "...Updating repository for MMORPDND.github.io"
+cd MMORPDND.github.io
+git pull
+git status
+cd ..
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
