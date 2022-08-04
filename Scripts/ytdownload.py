@@ -14,8 +14,8 @@ import sys
 
 # Adds arguments that can be passed with program.
 parser = argparse.ArgumentParser()
-parser.add_argument('-u', '--URL', help = 'Youtube URL', type = str, required = False, default='None')
-parser.add_argument('-l', '--LIST', help = 'Use list of URLs', type = str, required = False, default='None')
+parser.add_argument('-u', '--URL', help = 'Youtube URL. Enter value within quotes.', type = str, required = False, default='None')
+parser.add_argument('-l', '--LIST', help = 'Use list of URLs. Input should be text file.', type = str, required = False, default='None')
 parser.add_argument('-v', '--verbose', help = 'Verbose Output.', required = False, action = 'store_true')
 
 # Sets all passed arguments to program variables.
@@ -119,8 +119,10 @@ def deleteMp4s():
 
 if urlinput != 'None' and listInput == 'None':
     downloadUrl(urlinput)
-elif listInput != 'None' and urlInput == 'None':
-    downloadList
+elif listInput != 'None':
+    file = open(listInput, "r")
+    for line in file.readlines():
+        downloadUrl(line)
 else:
     print("...Nothing to convert, invalid inputs.")
 
