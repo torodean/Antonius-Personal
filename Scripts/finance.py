@@ -9,22 +9,54 @@ import argparse
 import math
 
 
+def extract_value(line, delimiter="="):
+    """
+    Extracts the value from the config line.
+    The line should be formatted "variable=value".
+    :param line: The line to parse
+    :param delimiter:  The delimiter value to use. Default = "="
+    :return variable: The variable preceding the delimiter
+    :return value: The variable proceeding the delimiter
+    """
+    variable = line.split(delimiter)[0]
+    value = line.split(delimiter)[1]
+    return variable, value
+
+
+def extract_config_value(line):
+    """
+    Extracts the keyword, identifier, and value of a config file line.
+    The lines should be formatted "keyword_identifier=value"
+    :param line: The line from the config file.
+    :return keyword: The keyword found.
+    :return identifier: The identifier found.
+    :return value: The value found.
+    """
+    variable, value = extract_value(line, "=")
+    keyword, identifier = extract_value(variable, "_")
+    return keyword, identifier, value
+
+
 class Finance:
     """
     The main class containing any finance related information.
     """
 
-    def log(self, text):
+    def log(self, text, force_print=False):
         """
         Writes information to a log, optionally prints the data if verbose is enabled.
         :param: text is the text to log.
         :return:
         """
         # TODO - log to a file.
-        if self.verbose:
+        if self.verbose or force_print:
             print(text)
 
     def __init__(self):
+        # Initialize variables
+        self.log_file = ""
+        self.income = []
+        self.expenses = []
         self.parser = argparse.ArgumentParser()
 
         # Adds arguments that can be passed with program.
@@ -35,7 +67,7 @@ class Finance:
                                  required=False,
                                  default='None')
         self.parser.add_argument('-C',
-                                 '--config-help',
+                                 '--confighelp',
                                  help='Prints help information for the config file.',
                                  required=False,
                                  action='store_true',
@@ -50,6 +82,70 @@ class Finance:
         # Sets all passed arguments to program variables.
         args = self.parser.parse_args()
         self.verbose = args.verbose
+
+        # Prints the help for the config.
+        if args.confighelp:
+            self.config_help()
+
+        # config file defaults to "None" when no parameter is entered.
+        self.configFile = args.config
+
+        # Loads the config file.
+        if self.configFile != "None":
+            self.log("Loading config file: {}".format(self.configFile), force_print=True)
+            self.load_config_file()
+        else:
+            self.log("ERROR: No config file entered.", force_print=True)
+            exit(1)
+
+    def config_help(self):
+        """
+        Prints the config file help information.
+        :return:
+        """
+        print("--- Config File File Information ---")
+        print("Start all values with the appropriate field (keyword) followed by an underscore then an identifier.")
+        print("Anything coming after the first underscore is an identifier.")
+        print("For example, utilities_gas and utilities_electric would give two salaries that will be added together when needed.")
+        print("Valid keywords are salary, utilities, expense, etc.")
+        print("Start all comments with a '#'. These lines will be ignored.")
+
+    def load_config_file(self):
+        """
+        This does the work of loading the config file.
+        :return:
+        """
+        file = open(self.configFile, "r")
+
+        for line in file.readlines():
+            if line[0] == '#':
+                continue
+            else:
+                comment_start_loc = line.find("#")
+                line = line[0:comment_start_loc]
+
+            # Search for logfile name and set appropriate value.
+            if "logfile" in line:
+                self.log_file = extract_value(line)[1]
+                self.log("Log file set to: {}".format(self.log_file))
+
+            # Search for salaries
+            if "salary" in line or "income" in line:
+                income_line = []
+                keyword, identifier, value = extract_config_value(line)
+                income_line.append(identifier)
+                income_line.append(value)
+                self.income.append(income_line)
+                self.log("Added income line: {}".format(income_line))
+
+            # Search for expenses
+            if "expense" in line or "utilities" in line:
+                expense_line = []
+                keyword, identifier, value = extract_config_value(line)
+                expense_line.append(identifier)
+                expense_line.append(value)
+                self.expenses.append(expense_line)
+                self.log("Added expense line: {}".format(expense_line))
 
     def get_taxes_from_gross_income(self, gross_income, deduction=0.00, single=True, head_of_household=False):
         """
@@ -105,12 +201,16 @@ class Finance:
 
                 # Print this since it will be skipped for the last one.
                 taxable_income -= tax_rate_bracket[bracket]
-                self.log("...bracket[{0}] = {1} -> total: {2:.2f}, temp_income: {3:.2f}".format(bracket, tax_bracket[bracket], total, taxable_income))
+                self.log("...bracket[{0}] = {1} -> total: {2:.2f}, temp_income: {3:.2f}".format(bracket,
+                                                                                                tax_bracket[bracket],
+                                                                                                total, taxable_income))
 
                 break  # There's no more money to tax after this.
 
             taxable_income -= tax_rate_bracket[bracket]
-            self.log("...bracket[{0}] = {1} -> total: {2:.2f}, temp_income: {3:.2f}".format(bracket, tax_bracket[bracket], total, taxable_income))
+            self.log(
+                "...bracket[{0}] = {1} -> total: {2:.2f}, temp_income: {3:.2f}".format(bracket, tax_bracket[bracket],
+                                                                                       total, taxable_income))
             bracket += 1
 
         percent = total / gross_income
