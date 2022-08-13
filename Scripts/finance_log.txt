@@ -1,0 +1,44 @@
+2022-08-12 23:36:13.848716 - Log file set to: finance_log.txt
+2022-08-12 23:36:13.849714 - Added income line: ['work', '107000.00']
+2022-08-12 23:36:13.849714 - Added income line: ['extra', '0.00']
+2022-08-12 23:36:13.849714 - Added expense line: ['gas', '100.00']
+2022-08-12 23:36:13.850711 - Added expense line: ['electric', '150.00']
+2022-08-12 23:36:13.850711 - Added expense line: ['internet', '75.00']
+2022-08-12 23:36:13.850711 - Added expense line: ['phone', '40.00']
+2022-08-12 23:36:13.850711 - Added expense line: ['trash', '0.00']
+2022-08-12 23:36:13.850711 - Added expense line: ['other', '0.00']
+2022-08-12 23:36:13.851708 - Added expense line: ['rent', '1350.00']
+2022-08-12 23:36:13.851708 - Added expense line: ['food', '600.00']
+2022-08-12 23:36:13.852705 - Added expense line: ['dining', '150.00']
+2022-08-12 23:36:13.852705 - Added expense line: ['travel', '0.00']
+2022-08-12 23:36:13.852705 - Added savings line: ['starting', '10000.0']
+2022-08-12 23:36:13.852705 - 
+Calculating taxes with get_taxes_from_gross_income(107000.00, 1.00)
+2022-08-12 23:36:13.853703 - ...Using gross taxable income as 94050.00 with deductible of 12950.00
+2022-08-12 23:36:13.853703 - ...bracket[1] = 10275.0 -> total: 1027.50, temp_income: 10274.90
+2022-08-12 23:36:13.853703 - ...bracket[2] = 41775.0 -> total: 4807.50, temp_income: 31499.88
+2022-08-12 23:36:13.853703 - ...bracket[3] = 89075.0 -> total: 15213.50, temp_income: 47299.78
+2022-08-12 23:36:13.854700 - ...bracket[4] = 170050.0 -> total: 16407.50, temp_income: 4974.76
+2022-08-12 23:36:13.854700 - Finished calculation - percent: 0.1745, total: 16407.50)
+2022-08-12 23:36:51.436689: Log file set to: finance_log.txt
+2022-08-12 23:36:51.437687: Added income line: ['work', '107000.00']
+2022-08-12 23:36:51.437687: Added income line: ['extra', '0.00']
+2022-08-12 23:36:51.437687: Added expense line: ['gas', '100.00']
+2022-08-12 23:36:51.438683: Added expense line: ['electric', '150.00']
+2022-08-12 23:36:51.438683: Added expense line: ['internet', '75.00']
+2022-08-12 23:36:51.438683: Added expense line: ['phone', '40.00']
+2022-08-12 23:36:51.438683: Added expense line: ['trash', '0.00']
+2022-08-12 23:36:51.439681: Added expense line: ['other', '0.00']
+2022-08-12 23:36:51.439681: Added expense line: ['rent', '1350.00']
+2022-08-12 23:36:51.439681: Added expense line: ['food', '600.00']
+2022-08-12 23:36:51.439681: Added expense line: ['dining', '150.00']
+2022-08-12 23:36:51.439681: Added expense line: ['travel', '0.00']
+2022-08-12 23:36:51.440678: Added savings line: ['starting', '10000.0']
+2022-08-12 23:36:51.440678: 
+Calculating taxes with get_taxes_from_gross_income(107000.00, 1.00)
+2022-08-12 23:36:51.440678: ...Using gross taxable income as 94050.00 with deductible of 12950.00
+2022-08-12 23:36:51.440678: ...bracket[1] = 10275.0 -> total: 1027.50, temp_income: 10274.90
+2022-08-12 23:36:51.440678: ...bracket[2] = 41775.0 -> total: 4807.50, temp_income: 31499.88
+2022-08-12 23:36:51.441676: ...bracket[3] = 89075.0 -> total: 15213.50, temp_income: 47299.78
+2022-08-12 23:36:51.441676: ...bracket[4] = 170050.0 -> total: 16407.50, temp_income: 4974.76
+2022-08-12 23:36:51.441676: Finished calculation - percent: 0.1745, total: 16407.50)

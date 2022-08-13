@@ -7,6 +7,7 @@
 
 import argparse
 import math
+import datetime
 
 
 def extract_value(line, delimiter="="):
@@ -37,6 +38,19 @@ def extract_config_value(line):
     return keyword, identifier, value
 
 
+def config_help():
+    """
+    Prints the config file help information.
+    :return:
+    """
+    print("--- Config File File Information ---")
+    print("Start all values with the appropriate field (keyword) followed by an underscore then an identifier.")
+    print("Anything coming after the first underscore is an identifier.")
+    print("For example, utilities_gas and utilities_electric would give two salaries that will be added together when needed.")
+    print("Valid keywords are salary, utilities, expense, etc.")
+    print("Start all comments with a '#'. These lines will be ignored.")
+
+
 class Finance:
     """
     The main class containing any finance related information.
@@ -48,15 +62,23 @@ class Finance:
         :param: text is the text to log.
         :return:
         """
-        # TODO - log to a file.
+        log_file = open(self.log_file_name, "a")
+        now = datetime.datetime.now()
+        log_file.write("{}: {}\n".format(now, text))
+        log_file.close()
         if self.verbose or force_print:
             print(text)
 
     def __init__(self):
         # Initialize variables
-        self.log_file = ""
-        self.income = []
-        self.expenses = []
+        self.log_file_name = "log.txt"  # log file name. Defaults to log.txt
+        self.income = []                # Storage for all various income sources.
+        self.total_income = 0           # Storage for total monthly income
+        self.expenses = []              # Storage for all various expenses.
+        self.total_expenses = 0         # Storage for total monthly expenses.
+        self.savings = []               # Storage for amount in monthly savings.
+        self.inflation = []             # Storage for monthly inflation rates.
+
         self.parser = argparse.ArgumentParser()
 
         # Adds arguments that can be passed with program.
@@ -85,30 +107,18 @@ class Finance:
 
         # Prints the help for the config.
         if args.confighelp:
-            self.config_help()
+            config_help()
 
         # config file defaults to "None" when no parameter is entered.
         self.configFile = args.config
 
         # Loads the config file.
         if self.configFile != "None":
-            self.log("Loading config file: {}".format(self.configFile), force_print=True)
+            print("Loading config file: {}".format(self.configFile))
             self.load_config_file()
         else:
-            self.log("ERROR: No config file entered.", force_print=True)
+            print("ERROR: No config file entered.")
             exit(1)
-
-    def config_help(self):
-        """
-        Prints the config file help information.
-        :return:
-        """
-        print("--- Config File File Information ---")
-        print("Start all values with the appropriate field (keyword) followed by an underscore then an identifier.")
-        print("Anything coming after the first underscore is an identifier.")
-        print("For example, utilities_gas and utilities_electric would give two salaries that will be added together when needed.")
-        print("Valid keywords are salary, utilities, expense, etc.")
-        print("Start all comments with a '#'. These lines will be ignored.")
 
     def load_config_file(self):
         """
@@ -126,8 +136,8 @@ class Finance:
 
             # Search for logfile name and set appropriate value.
             if "logfile" in line:
-                self.log_file = extract_value(line)[1]
-                self.log("Log file set to: {}".format(self.log_file))
+                self.log_file_name = extract_value(line)[1]
+                self.log("Log file set to: {}".format(self.log_file_name))
 
             # Search for salaries
             if "salary" in line or "income" in line:
@@ -135,6 +145,7 @@ class Finance:
                 keyword, identifier, value = extract_config_value(line)
                 income_line.append(identifier)
                 income_line.append(value)
+                self.total_income += float(value)
                 self.income.append(income_line)
                 self.log("Added income line: {}".format(income_line))
 
@@ -144,8 +155,20 @@ class Finance:
                 keyword, identifier, value = extract_config_value(line)
                 expense_line.append(identifier)
                 expense_line.append(value)
+                self.total_expenses += float(value)
                 self.expenses.append(expense_line)
                 self.log("Added expense line: {}".format(expense_line))
+
+            # Search for savings
+            if "saving" in line or "savings" in line:
+                savings_line = []
+                keyword, identifier, value = extract_config_value(line)
+                savings_line.append(identifier)
+                savings_line.append(value)
+                if identifier == "starting" or identifier == "start":
+                    self.savings.append(float(value))
+                self.expenses.append(savings_line)
+                self.log("Added savings line: {}".format(savings_line))
 
     def get_taxes_from_gross_income(self, gross_income, deduction=0.00, single=True, head_of_household=False):
         """
