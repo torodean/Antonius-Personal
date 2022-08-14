@@ -95,16 +95,17 @@ class Finance:
 
     def __init__(self):
         # Initialize variables
-        self.log_file_name = "log.txt"          # log file name. Defaults to log.txt
-        self.income = []                        # Storage for all various income sources.
-        self.total_income_monthly = 0           # Storage for total monthly income
-        self.expenses = []                      # Storage for all various expenses.
-        self.total_expenses_monthly = 0         # Storage for total monthly expenses.
-        self.pretax_expenses = []               # Storage for all various pretax expenses.
+        self.log_file_name = "log.txt"  # log file name. Defaults to log.txt
+        self.income = []  # Storage for all various income sources.
+        self.total_income_monthly = 0  # Storage for total monthly income
+        self.expenses = []  # Storage for all various expenses.
+        self.total_expenses_monthly = 0  # Storage for total monthly expenses.
+        self.pretax_expenses = []  # Storage for all various pretax expenses.
         self.total_pretax_expenses_monthly = 0  # Storage for total monthly pretax expenses.
-        self.savings = []                       # Storage for amount in monthly savings.
-        self.inflation = []                     # Storage for monthly inflation rates.
-        self.timeframe_months = 0               # timeframe to run the program (in months).
+        self.savings = []  # Storage for amount in monthly savings.
+        self.inflation_starting = 0  # Starting inflation rate.
+        self.inflation_variable = 0  # Variable inflation rate
+        self.timeframe_months = 0  # timeframe to run the program (in months).
 
         self.parser = argparse.ArgumentParser()
 
@@ -149,7 +150,8 @@ class Finance:
 
         # This is the taxable income for federal taxes. It removes the pre-tax deductions from the total.
         self.taxable_income_yearly = self.total_income_monthly + self.total_pretax_expenses_monthly * 12.0
-        self.log("Taxable income: {0:.2f}".format(self.taxable_income_yearly))
+        self.log("Calculated taxable income: {0:.2f}".format(self.taxable_income_yearly))
+        self.generate_inflation_model()
 
     def load_config_file(self):
         """
@@ -217,11 +219,19 @@ class Finance:
 
             # Search for the timeframe value.
             if "timeframe" in line:
-                timeframe_line = []
-                keyword, identifier, value = extract_config_value(line)
-                timeframe_line.append(identifier)
-                timeframe_line.append(value)
+                value = extract_value(line)[1]
                 self.timeframe_months += float(value) * 12.0
+                self.log("Setting app time frame to {0:.2f} months.".format(self.timeframe_months))
+
+            # Search for inflation rate values
+            if "inflation" in line:
+                keyword, identifier, value = extract_config_value(line)
+                if "start" in identifier:
+                    self.inflation_starting = float(value)
+                    self.log("Starting inflation rate: {0:.4f}".format(self.inflation_starting))
+                elif "variability" in identifier or "variable" in identifier:
+                    self.inflation_variable = float(value)
+                    self.log("Inflation variability rate: {0:.4f}".format(self.inflation_variable))
 
     def get_taxes_from_taxable_income(self, taxable_income, deduction=0.00, single=True, head_of_household=False):
         """
@@ -312,7 +322,7 @@ class Finance:
         percentage = total_taxes_yearly / self.total_income_monthly
         return percentage, total_taxes_yearly, total_taxes_monthly
 
-    def compare_rent_to_mortgage(self, principal, down_payment, interest_rate, rent, upkeep=0.04):
+    def compare_rent_to_mortgage(self, house_cost, down_payment, interest_rate, rent, upkeep=0.04):
         """
         This method will compare a long term mortgage payment to rent.
         With respect to a mortgage, the interest payment is essentially waste, where as with respect to a rent
@@ -320,16 +330,50 @@ class Finance:
         :param interest_rate: The interest rate you are paying on the loan.
         :param down_payment: The down payment made on the house.
         :param upkeep: The upkeep costs for maintanence on the house yearly.
-        :param principal: The mortgage value (loan amount).
+        :param house_cost: The house value.
         :param rent: The comparative rent value.
         :return:
         """
+
+    def calculate_mortgate_payment(self, house_cost, principal, interest_rate, property_tax_rate=0.018, insurance_monthly=250.0):
+        """
+        This will calculate the monthly payment for a mortgage.
+        :param house_cost: The total property cost - used for property taxes.
+        :param principal: The principal value left on the loan.
+        :param interest_rate: The interest rate of the loan.
+        :param property_tax_rate: The property tax rate.
+        :param insurance_monthly: The monthly insurance cost.
+        :return: returns the total monthly payment
+        """
+        n = 30 * 12
+        temp = math.pow((1 + interest_rate / 12), n)
+        payment_monthly = principal * (interest_rate * temp / 12) / (temp - 1)
+        self.log("Monthly mortgage cost: {0:.2f}".format(payment_monthly))
+        property_taxes_monthly = house_cost * property_tax_rate / 12.0
+        self.log("Monthly property taxes cost: {0:.2f}".format(property_taxes_monthly))
+        self.log("Monthly insurance cost: {0:.2f}".format(insurance_monthly))
+        total = payment_monthly + property_taxes_monthly + insurance_monthly
+        self.log("Total monthly mortgage cost: {0:.2f}".format(total))
+        return total
 
     def generate_inflation_model(self):
         """
         This will generate a monthly inflation model. Rates returned are percentage increases from the previous month.
         :return:
         """
+        # Starting values.
+        inflation_low = []
+        inflation_base = []
+        inflation_high = []
+        inflation_low.append(self.inflation_starting)
+        inflation_base.append(self.inflation_starting)
+        inflation_high.append(self.inflation_starting)
+
+        # Calculate monthly values.
+        for i in range(1, int(self.timeframe_months)):
+            inflation_base.append(inflation_base[i - 1])
+            inflation_low.append(inflation_low[i - 1] * (1 - self.inflation_variable))
+            inflation_high.append(inflation_high[i - 1] * (1 + self.inflation_variable))
 
 
 if __name__ == '__main__':
@@ -350,3 +394,5 @@ if __name__ == '__main__':
     finance.log("Post-tax monthly income: {0:.2f}".format(income_monthly))
     finance.log("Total monthly expenses: {0:.2f}".format(finance.total_expenses_monthly))
     finance.log("Net monthly savings: {0:.2f}".format(net_savings_monthly))
+
+    finance.calculate_mortgate_payment(350000, 280000, 0.059)
