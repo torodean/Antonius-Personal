@@ -46,9 +46,33 @@ def config_help():
     print("--- Config File File Information ---")
     print("Start all values with the appropriate field (keyword) followed by an underscore then an identifier.")
     print("Anything coming after the first underscore is an identifier.")
-    print("For example, utilities_gas and utilities_electric would give two salaries that will be added together when needed.")
+    print(
+        "For example, utilities_gas and utilities_electric would give two salaries that will be added together when needed.")
     print("Valid keywords are salary, utilities, expense, etc.")
     print("Start all comments with a '#'. These lines will be ignored.")
+    print("All values should be positive or negative depending on if it's added or subtracted to the totals each week.")
+
+
+def get_medicare_taxes_from_total_income(total_income):
+    """
+    The Medicare tax (ignores pre-tax deductions) = 1.45% of total earnings.
+    https://www.irs.gov/taxtopics/tc751
+    :param total_income: The total earnings for the year.
+    :return: the medicare yearly tax
+    """
+    medicare_rate = 0.0145
+    return total_income * medicare_rate
+
+
+def get_OASDI_taxes_from_total_income(total_income):
+    """
+    The OASDI (Old Age, Survivors, and Disability Insurance program) = 6.2% of total earnings (ignores pre-tax deductions).
+    https://www.irs.gov/taxtopics/tc751
+    :param total_income: The total earnings for the year.
+    :return: the OASDI yearly tax
+    """
+    OASDI_rate = 0.062
+    return total_income * OASDI_rate
 
 
 class Finance:
@@ -71,13 +95,16 @@ class Finance:
 
     def __init__(self):
         # Initialize variables
-        self.log_file_name = "log.txt"  # log file name. Defaults to log.txt
-        self.income = []                # Storage for all various income sources.
-        self.total_income = 0           # Storage for total monthly income
-        self.expenses = []              # Storage for all various expenses.
-        self.total_expenses = 0         # Storage for total monthly expenses.
-        self.savings = []               # Storage for amount in monthly savings.
-        self.inflation = []             # Storage for monthly inflation rates.
+        self.log_file_name = "log.txt"          # log file name. Defaults to log.txt
+        self.income = []                        # Storage for all various income sources.
+        self.total_income_monthly = 0           # Storage for total monthly income
+        self.expenses = []                      # Storage for all various expenses.
+        self.total_expenses_monthly = 0         # Storage for total monthly expenses.
+        self.pretax_expenses = []               # Storage for all various pretax expenses.
+        self.total_pretax_expenses_monthly = 0  # Storage for total monthly pretax expenses.
+        self.savings = []                       # Storage for amount in monthly savings.
+        self.inflation = []                     # Storage for monthly inflation rates.
+        self.timeframe_months = 0               # timeframe to run the program (in months).
 
         self.parser = argparse.ArgumentParser()
 
@@ -120,6 +147,10 @@ class Finance:
             print("ERROR: No config file entered.")
             exit(1)
 
+        # This is the taxable income for federal taxes. It removes the pre-tax deductions from the total.
+        self.taxable_income_yearly = self.total_income_monthly + self.total_pretax_expenses_monthly * 12.0
+        self.log("Taxable income: {0:.2f}".format(self.taxable_income_yearly))
+
     def load_config_file(self):
         """
         This does the work of loading the config file.
@@ -128,11 +159,15 @@ class Finance:
         file = open(self.configFile, "r")
 
         for line in file.readlines():
+            # Ignore comments.
             if line[0] == '#':
                 continue
             else:
                 comment_start_loc = line.find("#")
                 line = line[0:comment_start_loc]
+
+            # set all variables to lower case.
+            line.lower()
 
             # Search for logfile name and set appropriate value.
             if "logfile" in line:
@@ -145,7 +180,7 @@ class Finance:
                 keyword, identifier, value = extract_config_value(line)
                 income_line.append(identifier)
                 income_line.append(value)
-                self.total_income += float(value)
+                self.total_income_monthly += float(value)
                 self.income.append(income_line)
                 self.log("Added income line: {}".format(income_line))
 
@@ -155,7 +190,7 @@ class Finance:
                 keyword, identifier, value = extract_config_value(line)
                 expense_line.append(identifier)
                 expense_line.append(value)
-                self.total_expenses += float(value)
+                self.total_expenses_monthly += float(value)
                 self.expenses.append(expense_line)
                 self.log("Added expense line: {}".format(expense_line))
 
@@ -170,16 +205,35 @@ class Finance:
                 self.expenses.append(savings_line)
                 self.log("Added savings line: {}".format(savings_line))
 
-    def get_taxes_from_gross_income(self, gross_income, deduction=0.00, single=True, head_of_household=False):
+            # Search for pretax values
+            if "pretax" in line:
+                pretax_line = []
+                keyword, identifier, value = extract_config_value(line)
+                pretax_line.append(identifier)
+                pretax_line.append(value)
+                self.total_pretax_expenses_monthly += float(value)
+                self.expenses.append(pretax_line)
+                self.log("Added pretax line: {}".format(pretax_line))
+
+            # Search for the timeframe value.
+            if "timeframe" in line:
+                timeframe_line = []
+                keyword, identifier, value = extract_config_value(line)
+                timeframe_line.append(identifier)
+                timeframe_line.append(value)
+                self.timeframe_months += float(value) * 12.0
+
+    def get_taxes_from_taxable_income(self, taxable_income, deduction=0.00, single=True, head_of_household=False):
         """
-        Calculates taxes on a gross_income. Optimizes deductible based on input vs standard.
-        :param gross_income: The income to calculate taxes from.
+        Calculates taxes on a taxable income. Optimizes deductible based on input vs standard.
+        :param taxable_income: The income to calculate taxes from.
         :param deduction: A deductible to use.
         :param single: True if filing as single, False if filing as a joint married couple.
         :param head_of_household: True if filing as head of household, False if not.
         :return: The percent tax rate and total taxes [percent, taxes]
         """
-        self.log("\nCalculating taxes with get_taxes_from_gross_income({0:.2f}, {1:.2f})".format(gross_income, single))
+        self.log(
+            "\nCalculating taxes with get_taxes_from_taxable_income({0:.2f}, {1:.2f})".format(taxable_income, single))
         total = 0
 
         # Values taken from https://www.irs.gov/newsroom/irs-provides-tax-inflation-adjustments-for-tax-year-2022
@@ -208,40 +262,91 @@ class Finance:
             deductible = deduction
 
         # Adjust taxable income.
-        gross_income -= deductible
-        self.log("...Using gross taxable income as {0:.2f} with deductible of {1:.2f}".format(gross_income, deductible))
+        taxable_income -= deductible
+        self.log(
+            "...Using gross taxable income as {0:.2f} with deductible of {1:.2f}".format(taxable_income, deductible))
 
         bracket = 1
         while True:
-            if gross_income > tax_bracket[bracket]:
+            if taxable_income > tax_bracket[bracket]:
                 # Calculate the taxable income between brackets.
-                taxable_income = tax_bracket[bracket] - tax_bracket[bracket - 1]
-                total += tax_rate_bracket[bracket] * taxable_income
+                tax_bracket_income = tax_bracket[bracket] - tax_bracket[bracket - 1]
+                total += tax_rate_bracket[bracket] * tax_bracket_income
             else:
                 # Calculate the taxable income left until next bracket cap.
-                taxable_income = gross_income - tax_bracket[bracket - 1]
-                total += tax_rate_bracket[bracket] * taxable_income
+                tax_bracket_income = taxable_income - tax_bracket[bracket - 1]
+                total += tax_rate_bracket[bracket] * tax_bracket_income
 
                 # Print this since it will be skipped for the last one.
-                taxable_income -= tax_rate_bracket[bracket]
+                tax_bracket_income -= tax_rate_bracket[bracket]
                 self.log("...bracket[{0}] = {1} -> total: {2:.2f}, temp_income: {3:.2f}".format(bracket,
                                                                                                 tax_bracket[bracket],
-                                                                                                total, taxable_income))
+                                                                                                total,
+                                                                                                tax_bracket_income))
 
                 break  # There's no more money to tax after this.
 
-            taxable_income -= tax_rate_bracket[bracket]
+            tax_bracket_income -= tax_rate_bracket[bracket]
             self.log(
                 "...bracket[{0}] = {1} -> total: {2:.2f}, temp_income: {3:.2f}".format(bracket, tax_bracket[bracket],
-                                                                                       total, taxable_income))
+                                                                                       total, tax_bracket_income))
             bracket += 1
 
-        percent = total / gross_income
-        self.log("Finished calculation - percent: {0:.4f}, total: {1:.2f})".format(percent, total))
+        percent = total / taxable_income
+        total_monthly = total / 12.0
+        self.log("Finished tax calculation - percent: {0:.4f}, total: {1:.2f})".format(percent, total))
+        self.log("Total federal taxes: percent = {0:.4f}, yearly = {1:.2f}, monthly = {2:.2f}".format(percent, total,
+                                                                                                      total_monthly))
         return percent, total
+
+    def get_total_taxes(self):
+        """
+        Returns the total taxes paid yearly and monthly.
+        :return: percentage, total_taxes_yearly, total_taxes_monthly
+        """
+        federal_taxes_yearly = self.get_taxes_from_taxable_income(self.taxable_income_yearly, True)[1]
+        OASDI_taxes_yearly = get_OASDI_taxes_from_total_income(self.total_income_monthly)
+        medicare_taxes_yearly = get_medicare_taxes_from_total_income(self.total_income_monthly)
+        total_taxes_yearly = federal_taxes_yearly + OASDI_taxes_yearly + medicare_taxes_yearly
+        total_taxes_monthly = total_taxes_yearly / 12.0
+        percentage = total_taxes_yearly / self.total_income_monthly
+        return percentage, total_taxes_yearly, total_taxes_monthly
+
+    def compare_rent_to_mortgage(self, principal, down_payment, interest_rate, rent, upkeep=0.04):
+        """
+        This method will compare a long term mortgage payment to rent.
+        With respect to a mortgage, the interest payment is essentially waste, where as with respect to a rent
+        payment, the rent is essentially waste.
+        :param interest_rate: The interest rate you are paying on the loan.
+        :param down_payment: The down payment made on the house.
+        :param upkeep: The upkeep costs for maintanence on the house yearly.
+        :param principal: The mortgage value (loan amount).
+        :param rent: The comparative rent value.
+        :return:
+        """
+
+    def generate_inflation_model(self):
+        """
+        This will generate a monthly inflation model. Rates returned are percentage increases from the previous month.
+        :return:
+        """
 
 
 if __name__ == '__main__':
-    print("-- Starting finance calculator --")
+    print("\n-- Starting finance calculator --")
     finance = Finance()
-    finance.get_taxes_from_gross_income(107000.00, True)
+
+    percentage, total_taxes_yearly, total_taxes_monthly = finance.get_total_taxes()
+    income_yearly = finance.taxable_income_yearly - total_taxes_yearly
+    income_monthly = income_yearly / 12.0
+    net_savings_monthly = income_monthly + finance.total_expenses_monthly
+
+    finance.log("\n-- Finance Information --")
+    finance.log("Total income from all sources: {0:.2f}".format(finance.total_income_monthly))
+    finance.log("Adjusted income after pre-tax deductions: {0:.2f}".format(finance.taxable_income_yearly))
+    finance.log("Total Taxes: Yearly = {0:.2f}, Monthly = {1:.2f}".format(total_taxes_yearly, total_taxes_monthly))
+    finance.log("Percent of income paid to taxes: {0:.4f}".format(percentage))
+    finance.log("Pre-tax/deduction monthly income: {0:.2f}".format(finance.total_income_monthly / 12.0))
+    finance.log("Post-tax monthly income: {0:.2f}".format(income_monthly))
+    finance.log("Total monthly expenses: {0:.2f}".format(finance.total_expenses_monthly))
+    finance.log("Net monthly savings: {0:.2f}".format(net_savings_monthly))
