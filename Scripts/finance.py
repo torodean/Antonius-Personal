@@ -46,8 +46,7 @@ def config_help():
     print("--- Config File File Information ---")
     print("Start all values with the appropriate field (keyword) followed by an underscore then an identifier.")
     print("Anything coming after the first underscore is an identifier.")
-    print(
-        "For example, utilities_gas and utilities_electric would give two salaries that will be added together when needed.")
+    print("For example, utilities_gas and utilities_electric would give two salaries that will be added together when needed.")
     print("Valid keywords are salary, utilities, expense, etc.")
     print("Start all comments with a '#'. These lines will be ignored.")
     print("All values should be positive or negative depending on if it's added or subtracted to the totals each week.")
@@ -395,4 +394,4 @@ if __name__ == '__main__':
     finance.log("Total monthly expenses: {0:.2f}".format(finance.total_expenses_monthly))
     finance.log("Net monthly savings: {0:.2f}".format(net_savings_monthly))
 
-    finance.calculate_mortgate_payment(350000, 280000, 0.059)
+    #finance.calculate_mortgate_payment(350000, 280000, 0.059)
