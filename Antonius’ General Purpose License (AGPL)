@@ -1,8 +1,8 @@
 ###################################################
 ###  Antonius’ General Purpose License (AGPL)
-###  Version: 1.000
+###  Version: 1.100
 ###  Created on: 21 February 2017
-###  Modified on: 03 April 2018
+###  Last modified: April 2023
 ###################################################
 
 
@@ -43,7 +43,11 @@ The programs, codes, and images accompanying this document may be freely used an
 
 This license may be modified at any time by the original maintainer.
 
-3. Exceptions and addendum to these permissions can be found below in the "Antonius Specific Projects" section.
+3. Warranty Disclaimer
+
+"THE SOFTWARE AND CODE ARE PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR CODE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE OR CODE."
+
+4. Exceptions and addendum to these permissions can be found below in the "Antonius Specific Projects" section.
 
 ####################################
 ###  Antonius Specific Projects
