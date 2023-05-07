@@ -10,7 +10,20 @@ git add -A
 echo "..."
 git status
 echo "..."
-git commit -m "$1"
+commit_message=""
+while getopts ":m:" opt; do
+  case ${opt} in
+    m ) commit_message="$OPTARG";;
+    \? ) echo "Invalid option: -$OPTARG" 1>&2; exit 1;;
+    : ) echo "Option -$OPTARG requires an argument." 1>&2; exit 1;;
+  esac
+done
+if [ -z "$commit_message" ]
+then
+  git commit -m "$1"
+else
+  git commit -m "$commit_message"
+fi
 echo "..."
 git status
 echo "..."
