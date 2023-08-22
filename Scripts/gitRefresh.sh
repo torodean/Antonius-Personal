@@ -104,3 +104,24 @@ git pull
 git status
 cd ..
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+echo "...Updating repository for Antonius-DnD"
+cd Antonius-DnD
+git pull
+git status
+cd ..
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+echo "...Updating repository for Antonius-Compendium"
+cd Antonius-Compendium
+git pull
+git status
+cd ..
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+echo "...Updating repository for Antonius-Workouts"
+cd Antonius-Workouts
+git pull
+git status
+cd ..
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
