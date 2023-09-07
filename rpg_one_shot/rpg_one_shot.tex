@@ -1,0 +1,142 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{titling}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{ulem}  % For underbraces
+\usepackage{hyperref}
+
+\title{RPG One-Shot}
+\date{} % Remove the date
+
+% Adjust the vertical spacing for the title
+\setlength{\droptitle}{-1.5cm} % Adjust the value as needed
+
+\begin{document}
+
+\maketitle % Generates the title
+
+% Reduce the distance between the title and the next section
+\vspace{-1cm}
+
+Players create and embody unique characters and embark on adventures, guided by a Game Master (GM) who narrates the story. The goal is to complete quests and challenges while leveraging character skills and overcoming weaknesses.
+
+
+\section*{Rules \& Logistics}
+
+
+
+\begin{itemize}
+  \item The GM narrates the story, setting the scene, introducing challenges, and portraying non-player characters (NPCs).
+  \item Players describe their characters' actions and intentions. 
+  \begin{multicols}{2}
+    \begin{itemize}
+      \item $2d6$: Roll $2$-$4$ = Failure
+      \item $2d6$: Roll $4$-$9$ = Partial Success/Failure
+      \item $2d6$: Roll $10$-$12$ = Success
+      \item $1d20$: Roll $1$-$5$ = Failure
+      \item $1d20$: Roll $6$-$14$ = Partial Success/Failure
+      \item $1d20$: Roll $15$-$20$ = Success
+    \end{itemize}
+  \end{multicols}
+  \item Characters can receive a bonus (+3 for 2d6, +5 for 1d20) if they adequately explain how their action uses one of their skills.
+  \item   Characters receive a penalty (-3 for 2d6, -5 for 1d20) if they use a skill that matches one of their weaknesses.    
+  \item The GM determines the difficulty of actions and assigns target numbers for success.      
+  \item Players work together to accomplish the overarching goal of the questline, which is set by the GM. This goal can involve solving mysteries, defeating foes, or achieving a specific objective.
+\end{itemize}
+
+\subsection*{Health Points (HP)}
+
+Each character will start with 10 hp. When they drop to zero, they die.
+
+\subsection*{Experience Points (XP)}
+
+Characters earn XP for their actions, both successful and unsuccessful. XP can be used to acquire new random skills or remove weaknesses. See the XP table below.
+
+\section*{End of Game}
+
+The game continues until the players achieve the questline's goal or until the GM decides to conclude the story. Players can then choose to embark on new adventures with the same characters or create entirely new ones for different quests.
+
+\section*{Winning}
+
+There are no strict winners or losers. Success is measured by the enjoyment of the storytelling, the character development, and the memorable experiences shared during the game.
+
+\section*{Rule Adjudication}
+
+The GM is the final authority on all rules, disputes, and storytelling elements. Their role is to ensure an engaging and fun experience for all players while maintaining the integrity of the game's structure.
+
+\newpage
+
+
+\begin{table}[ht]
+  \centering \Large
+  \begin{tabularx}{\textwidth}{|c|X|p{8cm}|}
+    \hline
+    \textbf{Num} & \textbf{Value} & \\
+    \hline
+    1 & A name & \\ \midrule
+    2 & A place & \\ \midrule
+    3 & Adjective & \\ \midrule
+    4 & A species - plant or animal & \\ \midrule
+    5 & Adjective & \\ \midrule
+    6 & 1d6 & \\ \midrule
+    7 & Adjective & \\ \midrule
+    8 & Hobby or profession & \\ \midrule
+    9 & An object & \\ \midrule
+    10 & An -ing verb & \\ \midrule
+    11 & An -ing verb & \\ \midrule
+    12 & An -ing verb & \\ \midrule
+    13 & An -ing verb & \\ \midrule
+    14 & An -ing verb & \\ \midrule
+    15 & A Monster & \\
+    \hline
+  \end{tabularx}
+\end{table}
+
+\newpage
+
+\section*{Character Sheet}
+\vspace{1cm}
+\begin{itemize}
+  \item Character Name: \TextField[name=name,width=4cm]{} (1) of \TextField[name=name,width=4cm]{} (2)
+  \item Character Race: \TextField[name=name,width=4cm]{} (3) \TextField[name=name,width=4cm]{} (4)
+  \item Character Class: \TextField[name=name,width=4cm]{} (5) \TextField[name=name,width=4cm]{} (6)
+\begin{multicols}{2}
+	\begin{enumerate}
+		\item Warrior or Fighter
+		\item Mage or Wizard
+		\item Rogue or Thief
+		\item Cleric or Healer
+		\item Ranger or Archer
+		\item Paladin or Knight
+	\end{enumerate}
+\end{multicols}
+  \item Character Background: \TextField[name=name,width=4cm]{} (7) \TextField[name=name,width=4cm]{} (8)
+  \item Character Weapon: \TextField[name=name,width=4cm]{} (9) of \TextField[name=name,width=4cm]{} (10)
+  \item Character Skills: \TextField[name=name,width=4cm]{} (11), \TextField[name=name,width=4cm]{} (13)
+  \item Character Weaknesses: \TextField[name=name,width=4cm]{} (12), \TextField[name=name,width=4cm]{} (14)
+\end{itemize}
+
+\vspace{2cm}
+
+\begin{table}[h]
+  \centering
+  \begin{tabularx}{\textwidth}{|c|X|}
+    \toprule
+    \textbf{XP Cost} & \textbf{Character Development Options} \\
+    \midrule
+    1 XP & \textbf{Skill Enhancement}: Choose one skill or weakness and increase its effectiveness. Gain a +1 (If using 2d6) or +2 (if using d20) bonus when using that skill. \\ \midrule
+    2 XP & \textbf{New Skill}: Acquire a new random skill for your character. See skills section. \\ \midrule
+    2 XP & \textbf{Weakness Removal}: Eliminate one of your character's weaknesses. Your character's progress in overcoming their limitations contributes to a more well-rounded persona. \\ \midrule
+    2 XP & \textbf{Quirk Enhancement}: Strengthen one of your character's quirks or eccentricities. This quirk can be used creatively in the game to your advantage more frequently. \\ \midrule
+    3 XP & \textbf{Signature Move}: Develop a unique and powerful signature move or ability for your character. This move can be a game-changer in critical situations. Collaborate with the GM to balance its power. \\ \midrule
+    4 XP & \textbf{Epic Transformation}: Your character undergoes a dramatic transformation, gaining new appearance traits, powers, or abilities. This transformation should be significant and align with your character's growth throughout the campaign. \\ \midrule
+    4 XP & \textbf{Master of the Absurd}: Your character becomes a master of their eccentricities and outlandish traits. They can use these attributes in unprecedented and creative ways, turning even the most bizarre situations to their advantage. \\ \midrule
+    5 XP & \textbf{Narrative Influence}: Gain the ability to influence the game's narrative in subtle or profound ways. You can introduce plot twists, create unique NPCs, or even temporarily alter the reality of the game world. This power should be used judiciously and collaboratively with the GM. \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\end{document}
