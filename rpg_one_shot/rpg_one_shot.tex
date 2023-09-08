@@ -8,6 +8,8 @@
 \usepackage{ulem}  % For underbraces
 \usepackage{hyperref}
 
+\pagestyle{empty} % Removes page numbers and headers/footers
+
 \title{RPG One-Shot}
 \date{} % Remove the date
 
@@ -17,7 +19,7 @@
 \begin{document}
 
 \maketitle % Generates the title
-
+\thispagestyle{empty} % Removes page numbers and headers/footers
 % Reduce the distance between the title and the next section
 \vspace{-1cm}
 
@@ -69,6 +71,7 @@ The GM is the final authority on all rules, disputes, and storytelling elements.
 
 \newpage
 
+\section*{Commence... The Mad Libs}
 
 \begin{table}[ht]
   \centering \Large
@@ -100,9 +103,9 @@ The GM is the final authority on all rules, disputes, and storytelling elements.
 \section*{Character Sheet}
 \vspace{1cm}
 \begin{itemize}
-  \item Character Name: \TextField[name=name,width=4cm]{} (1) of \TextField[name=name,width=4cm]{} (2)
-  \item Character Race: \TextField[name=name,width=4cm]{} (3) \TextField[name=name,width=4cm]{} (4)
-  \item Character Class: \TextField[name=name,width=4cm]{} (5) \TextField[name=name,width=4cm]{} (6)
+  \item Character Name: $\underline{\TextField[name=name,width=4cm]{}}$ (1) of $\underline{\TextField[name=name,width=4cm]{}}$ (2)
+  \item Character Race: $\underline{\TextField[name=name,width=4cm]{}}$ (3) $\underline{\TextField[name=name,width=4cm]{}}$ (4)
+  \item Character Class: $\underline{\TextField[name=name,width=4cm]{}}$ (5) $\underline{\TextField[name=name,width=4cm]{}}$ (6)
 \begin{multicols}{2}
 	\begin{enumerate}
 		\item Warrior or Fighter
@@ -113,10 +116,10 @@ The GM is the final authority on all rules, disputes, and storytelling elements.
 		\item Paladin or Knight
 	\end{enumerate}
 \end{multicols}
-  \item Character Background: \TextField[name=name,width=4cm]{} (7) \TextField[name=name,width=4cm]{} (8)
-  \item Character Weapon: \TextField[name=name,width=4cm]{} (9) of \TextField[name=name,width=4cm]{} (10)
-  \item Character Skills: \TextField[name=name,width=4cm]{} (11), \TextField[name=name,width=4cm]{} (13)
-  \item Character Weaknesses: \TextField[name=name,width=4cm]{} (12), \TextField[name=name,width=4cm]{} (14)
+  \item Character Background: $\underline{\TextField[name=name,width=4cm]{}}$ (7) $\underline{\TextField[name=name,width=4cm]{}}$ (8)
+  \item Character Weapon: $\underline{\TextField[name=name,width=4cm]{}}$ (9) of $\underline{\TextField[name=name,width=4cm]{}}$ (10)
+  \item Character Skills: $\underline{\TextField[name=name,width=4cm]{}}$ (11), $\underline{\TextField[name=name,width=4cm]{}}$ (13)
+  \item Character Weaknesses: $\underline{\TextField[name=name,width=4cm]{}}$ (12), $\underline{\TextField[name=name,width=4cm]{}}$ (14)
 \end{itemize}
 
 \vspace{2cm}
