@@ -99,7 +99,7 @@
 			\end{itemize}			
 			
 			\begin{minipage}{0.85\columnwidth} % Create a minipage that spans a single column
-				\begin{figure}[H] % Specify placement options (here, 'htbp' means 'here', 'top', 'bottom', 'page')
+				\begin{figure}[H] 
 					\centering % Center the figure horizontally
 					\begin{circuitikz}
 						% Draw the rectangle for DHT11
@@ -126,7 +126,7 @@
 			\end{itemize}
 			
 			\begin{minipage}{0.85\columnwidth} % Create a minipage that spans a single column
-				\begin{figure}[H] % Specify placement options (here, 'htbp' means 'here', 'top', 'bottom', 'page')
+				\begin{figure}[H] 
 					\centering % Center the figure horizontally
 					\begin{circuitikz}
 						% Draw the rectangle for DHT11
@@ -154,7 +154,7 @@
 			The I$^2$C driver means the bus consists of two signals: SDA and SCL. SDA (Serial Data) is the data signal and SCL (Serial Clock) is the clock signal.
 		
 			\begin{minipage}{0.85\columnwidth} % Create a minipage that spans a single column
-				\begin{figure}[H] % Specify placement options (here, 'htbp' means 'here', 'top', 'bottom', 'page')
+				\begin{figure}[H] 
 					\centering % Center the figure horizontally
 					\begin{circuitikz}
 						% Draw the rectangle for DHT11
@@ -170,6 +170,31 @@
 					\label{fig:OLED}
 				\end{figure}
 			\end{minipage}
+		
+			\subsubsection{2N 2222A NPN Transistor}
+			
+			A transistor can be used as a switch by controlling the flow of current between its collector and emitter terminals. When a small current flows into the transistor's base terminal, it allows a larger current to pass from the collector to the emitter, effectively acting as an electronic switch that can be turned on and off based on the base current.
+			
+			\begin{minipage}{0.85\columnwidth} % Create a minipage that spans a single column
+				\begin{figure}[H] 
+					\centering % Center the figure horizontally
+					\begin{circuitikz}
+						% Transistor
+						\draw (0,0) node[npn, anchor=E] (npn) {}; % Anchor at the emitter (E)
+						
+						\draw (npn.C) node[left] {C};
+						\draw (npn.E) node[left] {E};
+						\draw (npn.B) node[above] {B};
+						
+						\draw (npn.C) -- ++(0,1) node[draw, circle, minimum size=0.5cm, anchor=south] {5V}; 
+						\draw (npn.E) -- ++(0,-1) node[draw, circle, minimum size=0.5cm, anchor=north] {OUT};
+						\draw (npn.B) -- ++(-1,0) node[draw, circle, minimum size=0.5cm, anchor=east] {IN}; 
+					\end{circuitikz}
+					\caption{\footnotesize The 2N 2222A NPN Transistor. The IN is the triggering 3.3V input signal. The OUT is connected to the device being powered and is activated when the IN voltage is powered on.}
+					\label{fig:Transistor}
+				\end{figure}
+			\end{minipage}
+
 		
 			\subsubsection{Arduino Nano}
 			
