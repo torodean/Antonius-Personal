@@ -140,6 +140,31 @@
 				\end{figure}
 			\end{minipage}
 		
+			\subsubsection{Arduino Nano}
+			
+			The Arduino Nano is a compact and versatile micro-controller board designed for embedded electronics projects and prototyping. The Nano is known for its small physical size, making it suitable for applications with limited space or when a compact design is essential. The Nano includes a set of digital and analog pins, allowing you to interface with sensors, actuators, and other electronic components. These pins can be programmed for input or output. It features a USB connector for easy programming and communication with a computer. This makes it convenient for uploading code and debugging. It is programmed using the Arduino IDE, which provides a user-friendly interface for writing, uploading, and debugging code. A large community and extensive libraries are available to simplify development. Like other Arduino boards, the Nano is open-source hardware and software. This means that the design files, schematics, and software are freely available for modification and customization.
+			
+			Some features of the arduino nano that are important for this project are as follows:
+			\begin{itemize}[itemsep=1pt, parsep=1pt]
+				\item High-performance low-power 8-bit processor
+				\item Has a 5V DC output pin.
+				\item Has multiple programmable I/O pins.
+				\item Has SDA and SCL connections for I$^2$C communication.
+			\end{itemize}
+		
+			\subsubsection{Raspberry Pi}
+			
+			The Raspberry Pi is a versatile and powerful single-board computer designed for various computing and electronics projects. The Raspberry Pi is equipped with a high-performance ARM-based\footnote{This is important because the newer versions of the arduino IDE are not pre-built for the ARM architecture.} processor (varies by model) that provides the processing power needed for a wide range of applications. It features a set of General-Purpose Input/Output (GPIO) pins, which can be programmed for digital input and output as well as hardware interfacing. These pins are crucial for connecting sensors, actuators, and other components. The Raspberry Pi supports communication protocols like I$^2$C and SPI, allowing you to connect and communicate with a variety of sensors and devices easily. Like Arduino, the Raspberry Pi is open-source hardware and software. It has a large and active community that offers support, tutorials, and a wide range of software packages.
+			
+			Some Raspberry Pi models include built-in Wi-Fi and Bluetooth capabilities, making wireless communication and IoT projects convenient. The Raspberry Pi has an HDMI output for connecting to displays, making it suitable for applications that require visual feedback. Between these two features, a lot of possibilities open up with allowing the DHT11 sensor to be displayed on Pi screen rather than an OLED as well as potentially being able to monitor it remotely.
+			
+			Some features of the raspberry pi has that are important for this project are as follows:
+			\begin{itemize}[itemsep=1pt, parsep=1pt]
+				\item Has a 5V DC output pin.
+				\item Has multiple programmable GPIO pins.
+				\item Has SDA and SCL connections for I$^2$C communication.
+			\end{itemize}
+		
 		\section{System Architecture}
 		\lipsum[14-16]
 		
@@ -190,6 +215,7 @@
 		\begin{thebibliography}{X}
 			\bibitem{DHT11} DHT11: https://www.adafruit.com/product/386
 			\bibitem{SSD1306_datasheet} SSD1306 Datasheet: https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
+			\bibitem{arduino nano} Arduino Nano: https://docs.arduino.cc/hardware/nano
 		\end{thebibliography}	
 	
 		\section{Appendices}
