@@ -3,6 +3,10 @@
 % Use the geometry package to adjust margins
 \usepackage[margin=1in]{geometry}
 \usepackage{multicol} % For two-column layout
+\usepackage{circuitikz}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{float} % Add the float package
 
 % Remove section numbering and adjust formatting
 \usepackage{titlesec}
@@ -49,25 +53,109 @@
 		\lipsum[8-10]
 		
 		\subsection{Component Descriptions}
-		\lipsum[11-13]
+			
+			\subsubsection{DHT11}
+			
+			The DHT11 sensor is a low-cost and easy to use sensor for measuring temperature and humidity levels. The sensor provides digital output, making it easy to interface with micro-controllers like Arduino or Raspberry Pi. It uses a single wire to transmit two environmental data points in a single package. The DHT11 has the following features:			
+			\begin{itemize}[itemsep=1pt, parsep=1pt]
+				\item 3 to 5V power and I/O
+				\item 2.5mA max current use during conversion (while requesting data)
+				\item Good for 20-80\% humidity readings with 5\% accuracy
+				\item Good for 0-50$^\circ$C temperature readings $\pm$2$^\circ$C accuracy
+				\item No more than 1 Hz sampling rate (once every second)
+				\item Body size 15.5mm $\times$ 12mm $\times$ 5.5mm
+				\item 4 pins with 0.1" spacing
+			\end{itemize}			
+			
+			\begin{minipage}{0.85\columnwidth} % Create a minipage that spans a single column
+				\begin{figure}[H] % Specify placement options (here, 'htbp' means 'here', 'top', 'bottom', 'page')
+					\centering % Center the figure horizontally
+					\begin{circuitikz}
+						% Draw the rectangle for DHT11
+						\draw (0,0) rectangle (2,2) node[midway] {DHT11};
+						
+						% Draw pins on the right side
+						\draw (2,1.7) -- ++(1,0) -- ++(0,1) node[draw, circle, minimum size=0.5cm, anchor=south] {5V}; % VCC
+						\draw (2,1) -- ++(4,0) node[draw, circle, minimum size=0.5cm, anchor=west] {S}; % Data		
+						\draw (5,1) -- (5,1.7) to [R, l=$10 \, \mathrm{k}\Omega$] (3,1.7);
+						\draw (2,0.3) -- ++(1,0) node[ground] {}; % GND
+					\end{circuitikz}
+					\caption{\footnotesize The DHT11 circuit setup. The GND pin needs connected to ground. The 5V pin needs connected to a constant 5V DC source. The data pin needs connected to the proper data channel to read from. A $10\mathrm{k}\Omega$ resistor is connected between the data pin and voltage pin that serves as a `pull-up' for the data.}
+					\label{fig:DHT11}
+				\end{figure}
+			\end{minipage}
+	
+			\subsubsection{Mini Submersible Water Pump}
+			
+			The pump I found for this project was a micro submersible mini water pump. It has the following features:			
+			\begin{itemize}[itemsep=1pt, parsep=1pt]
+				\item Rated voltage: 3.3V or 5V DC
+				\item No load of water discharge capacity: 100L / H
+				\item Load rated current: 150-250mA, Use: diving type
+			\end{itemize}
+			
+			\begin{minipage}{0.85\columnwidth} % Create a minipage that spans a single column
+				\begin{figure}[H] % Specify placement options (here, 'htbp' means 'here', 'top', 'bottom', 'page')
+					\centering % Center the figure horizontally
+					\begin{circuitikz}
+						% Draw the rectangle for DHT11
+						\draw (0,0) rectangle (2,1) node[midway] {Pump};
+						
+						% Draw pins on the right side
+						\draw (2,0.7) -- ++(1.5,0) node[draw, circle, minimum size=0.5cm, anchor=west] {5V}; % VCC
+						\draw (2,0.3) -- ++(1,0) node[ground] {}; % GND
+					\end{circuitikz}
+					\caption{\footnotesize The water pump only has two connectors, one for voltage, and the other for ground.}
+					\label{fig:pump}
+				\end{figure}
+			\end{minipage}
+		
+			\subsubsection{SSD1306 I$^2$C OLED Display}
+			
+			The display I used for this project is a SSD1306 0.96 inch I$^2$C organic light-emitting diode (OLED) display. The OLED display doesn’t require backlight and the pixels only consume energy when on. The model I am using has 4 pins ($V_{in}$, GND, SCL, SDA). Some features of the display are as follows:
+			\begin{itemize}[itemsep=1pt, parsep=1pt]
+				\item Resolution: 128 x 64 dot matrix panel
+				\item Support voltage: 3.3V-5V DC
+				\item Wide range of operating temperature: -40$^\circ$C to 85$^\circ$C
+				\item Embedded Driver IC: SSD1306. Communication: I2C/IIC Interface, only need two I / O ports
+			\end{itemize}
+		
+			The I$^2$C driver means the bus consists of two signals: SDA and SCL. SDA (Serial Data) is the data signal and SCL (Serial Clock) is the clock signal.
+		
+			\begin{minipage}{0.85\columnwidth} % Create a minipage that spans a single column
+				\begin{figure}[H] % Specify placement options (here, 'htbp' means 'here', 'top', 'bottom', 'page')
+					\centering % Center the figure horizontally
+					\begin{circuitikz}
+						% Draw the rectangle for DHT11
+						\draw (0,0) rectangle (2,2) node[midway] {OLED};
+						
+						% Draw pins on the right side
+						\draw (0.3, 2) -- ++(0,0.5) -- ++(-0.5, 0) node[draw, circle, minimum size=0.5cm, anchor=east] {5V}; % VCC
+						\draw (0.7, 2) -- ++(0,1) node[ground, rotate=180] {}; % GND
+						\draw (1.3, 2) -- ++(0,1) -- ++(0.5,0) node[draw, circle, minimum size=0.5cm, anchor=west] {SCL}; % VCC
+						\draw (1.7, 2) -- ++(0,0.25) -- ++(1,0) node[draw, circle, minimum size=0.5cm, anchor=west] {SDA}; % GND
+					\end{circuitikz}
+					\caption{\footnotesize The OLED display has 4 inputs. The VCC is the power input, GND is ground, SDA is the serial data connector and SCL is the serial clock.}
+					\label{fig:OLED}
+				\end{figure}
+			\end{minipage}
 		
 		\section{System Architecture}
 		\lipsum[14-16]
 		
 		\section{Raspberry Pi Implementation}
-		\lipsum[17-19]
 		
-		\subsection{Circuit Diagram and Wiring}
-		\lipsum[20-22]
-		
-		\subsection{Software Setup}
-		\lipsum[23-25]
-		
-		\subsection{Python Code}
-		\lipsum[26-28]
-		
-		\subsection{Testing and Troubleshooting}
-		\lipsum[29-31]
+			\subsection{Circuit Diagram and Wiring}
+			\lipsum[20-22]
+			
+			\subsection{Software Setup}
+			\lipsum[23-25]
+			
+			\subsection{Python Code}
+			\lipsum[26-28]
+			
+			\subsection{Testing and Troubleshooting}
+			\lipsum[29-31]
 		
 		\section{Arduino Nano Implementation}
 		\lipsum[32-34]
@@ -97,31 +185,25 @@
 		\lipsum[56-58]
 		
 		\section{Conclusion}
-		\lipsum[59-61]
+		\lipsum[59-61]	
 		
-		\section{References}
-		\lipsum[62-64]
-		
+		\begin{thebibliography}{X}
+			\bibitem{DHT11} DHT11: https://www.adafruit.com/product/386
+			\bibitem{SSD1306_datasheet} SSD1306 Datasheet: https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
+		\end{thebibliography}	
+	
 		\section{Appendices}
 		\lipsum[65-67]
 		
 		\subsection{Appendix A: Bill of Materials}
-		\lipsum[68-70]
 		
 		\subsection{Appendix B: Schematics and PCB Designs}
-		\lipsum[71-73]
 		
 		\subsection{Appendix C: Code Samples}
-		\lipsum[74-76]
 		
 		\subsection{Appendix D: 3D Printing Files}
-		\lipsum[77-79]
-		
-		\section{Acknowledgments}
-		\lipsum[80-82]
 		
 		\section{Author Contact Information}
-		\lipsum[83-85]
 		
 	\end{multicols} % End two-column layout
 	
