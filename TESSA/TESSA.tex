@@ -7,10 +7,11 @@
 \usepackage{enumitem}
 \usepackage{caption}
 \usepackage{float} % Add the float package
+\usepackage{url}
+
 
 % Remove section numbering and adjust formatting
 \usepackage{titlesec}
-\titleformat{\section}{\normalfont\Large\bfseries}{}{0em}{}[\titlerule]
 \titleformat{\subsection}{\normalfont\large\bfseries}{}{0em}{}
 \titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{}{0em}{}
 
@@ -163,8 +164,8 @@
 						% Draw pins on the right side
 						\draw (0.3, 2) -- ++(0,0.5) -- ++(-0.5, 0) node[draw, circle, minimum size=0.5cm, anchor=east] {5V}; % VCC
 						\draw (0.7, 2) -- ++(0,1) node[ground, rotate=180] {}; % GND
-						\draw (1.3, 2) -- ++(0,1) -- ++(0.5,0) node[draw, circle, minimum size=0.5cm, anchor=west] {SCL}; % VCC
-						\draw (1.7, 2) -- ++(0,0.25) -- ++(1,0) node[draw, circle, minimum size=0.5cm, anchor=west] {SDA}; % GND
+						\draw (1.3, 2) -- ++(0,1) -- ++(0.5,0) node[draw, circle, minimum size=0.5cm, anchor=west] {SCL};
+						\draw (1.7, 2) -- ++(0,0.25) -- ++(1,0) node[draw, circle, minimum size=0.5cm, anchor=west] {SDA};
 					\end{circuitikz}
 					\caption{\footnotesize The OLED display has 4 inputs. The VCC is the power input, GND is ground, SDA is the serial data connector and SCL is the serial clock.}
 					\label{fig:OLED}
@@ -257,10 +258,10 @@
 			THIS SECTION IN PROGRESS.
 		
 		\section{Arduino Nano Implementation}
-		THIS SECTION IN PROGRESS.
+		This is the implementation using the Arduino Nano as the micro-controller. This setup is completely standalone and does not require a desktop monitor hookup once finished. Rather, it displays all the information on the OLED display and runs the pump based on a pre-programmed timer.
 		
 			\subsection{Circuit Diagram and Wiring}
-			THIS SECTION IN PROGRESS.
+			See figure \ref{fig:Arduino Nano Setup} in section \ref{appendix:schematics}.
 			
 			\subsection{Software Setup}
 			\begin{enumerate}
@@ -294,12 +295,16 @@
 		THIS SECTION IN PROGRESS.
 		
 		\section{Future Enhancements}
-		THIS SECTION IN PROGRESS.
-		
-		\section{Conclusion}
-		THIS SECTION IN PROGRESS.
+		There are many additions or future enhancements that can be made to this system. These can include (but are not limited to) the following:
+		\begin{itemize}
+			\item Add in an override switch for activating the pump outside of the normal programmed timing for the Arduino Nano setup.
+		\end{itemize}
 	
 		\section{Author Contact Information}
+		
+		If you have any questions or comments about this project, you can find the authors contact information on his website at the following link:
+		
+		\url{https://torodean.github.io}
 		
 \end{multicols} % End two-column layout	
 
@@ -314,7 +319,52 @@
 		
 		\subsection{Appendix A: Bill of Materials}
 		
-		\subsection{Appendix B: Schematics and PCB Designs}
+		\subsection{Appendix B: Schematics and PCB Designs \label{appendix:schematics}}
+		
+		\subsubsection{Arduino Nano Circuit Design}
+		\begin{figure}[h] 
+			\centering % Center the figure horizontally
+			\begin{circuitikz}
+				% Draw the rectangle for DHT11
+				\draw (0,0) rectangle (2,2) node[midway] {DHT11};
+				
+				\node[draw, circle, minimum size=0.5cm] (power) at (3,3) {5V};
+				\node[draw, rectangle, minimum width=2cm, minimum height=1cm] (pump) at (12,2.8) {Pump};
+				\node[draw, rectangle, minimum width=2cm, minimum height=2cm] (oled) at (8,-2) {OLED};
+				
+				% Power
+				\draw (2,1.7) -- (3,1.7) -- (power.south); % VCC
+				
+				% DHT11
+				\draw (2,1) -- ++(3.5,0) node[draw, circle, minimum size=0.5cm, anchor=west] {11}; % Data		
+				\draw (5,1) -- (5,1.7) to [R, l=$10 \, \mathrm{k}\Omega$] (3,1.7);
+				\draw (2,0.3) -- ++(1,0) node[ground] {}; % GND
+				
+				% Transistor
+				\draw (10,3) node[npn, anchor=E, rotate=90] (npn) {}; % Anchor at the emitter (E)
+				
+				% Transistor Labels
+				\draw (npn.C) node[above] {C};
+				\draw (npn.E) node[above] {E};
+				\draw (npn.B) node[left] {B};
+				
+				% Transistor Connectors
+				\draw (npn.C) -- (power.east); % Collector to Vcc
+				\draw (npn.E) -- (11,3);
+				\draw (npn.B) -- ++(0,-0.8) node[draw, circle, minimum size=0.5cm, anchor=north] {12}; 
+				
+				% OLED connectors.		
+				\draw (7.3,-1) -- (7.3,3); % GND
+				\draw (7.8,-1) -- ++(0,1) node[ground, rotate=180] {}; % GND		
+				\draw (8.3,-1) -- ++(0,1) -- ++(1.5,0) node[draw, circle, minimum size=0.5cm, anchor=west] {A5};
+				\draw (8.7,-1) -- ++(0,0.25) -- ++(2,0) node[draw, circle, minimum size=0.5cm, anchor=west] {A4};
+				
+				\draw (11,2.6) -- ++(-0.3, 0) -- ++(0, -0.5) node[ground]{};
+			\end{circuitikz}
+			\caption{\footnotesize The Circuit diagram for the Arduino Nano setup. All grounds must be common.}
+			\label{fig:Arduino Nano Setup}
+		\end{figure}
+		
 		
 		\subsection{Appendix C: Code Samples}
 		
