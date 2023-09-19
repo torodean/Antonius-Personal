@@ -190,7 +190,7 @@
 						\draw (npn.E) -- ++(0,-1) node[draw, circle, minimum size=0.5cm, anchor=north] {OUT};
 						\draw (npn.B) -- ++(-1,0) node[draw, circle, minimum size=0.5cm, anchor=east] {IN}; 
 					\end{circuitikz}
-					\caption{\footnotesize The 2N 2222A NPN Transistor. The IN is the triggering 3.3V input signal. The OUT is connected to the device being powered and is activated when the IN voltage is powered on.}
+					\caption{\footnotesize The 2N 2222A NPN Transistor. The IN is the triggering 3.3V input signal. The OUT is connected to the device being powered and is activated when the IN voltage is powered on. A common ground should be used among the connected components.}
 					\label{fig:Transistor}
 				\end{figure}
 			\end{minipage}
@@ -230,7 +230,25 @@
 			THIS SECTION IN PROGRESS.
 			
 			\subsection{Software Setup}
-			THIS SECTION IN PROGRESS.
+			
+			\begin{enumerate}
+				\item Setup and Install Python3 for development
+				\begin{itemize}
+					\item sudo apt-get install python3
+					\item sudo apt-get install python3-pip
+					\item sudo apt-get install build-essential python3-dev
+				\end{itemize}
+				\item Setup and Install git
+				\begin{itemize}
+					\item sudo apt-get install git-core
+				\end{itemize}
+				\item Install DHT11 Drivers
+				\begin{itemize}
+					\item git clone https://github.com/adafruit/ Adafruit\_Python\_DHT.git
+					\item cd Adafruit\_Python\_DHT
+					\item sudo python3 setup.py install
+				\end{itemize}
+			\end{enumerate}
 			
 			\subsection{Python Code}
 			THIS SECTION IN PROGRESS.
@@ -243,6 +261,19 @@
 		
 			\subsection{Circuit Diagram and Wiring}
 			THIS SECTION IN PROGRESS.
+			
+			\subsection{Software Setup}
+			\begin{enumerate}
+				\item Install Arduino IDE
+				\item Install DHT11 Drivers
+				\begin{itemize}
+					\item This should show as ``" in the Arduino IDE Library Manager
+				\end{itemize}
+				\item Install SSD1306 Drivers
+				\begin{itemize}
+					\item This should show as ``Adafruit SSD1306" in the Arduino IDE Library Manager
+				\end{itemize}
+			\end{enumerate}
 			
 			\subsection{Arduino Code}
 			THIS SECTION IN PROGRESS.
