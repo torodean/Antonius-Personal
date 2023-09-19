@@ -1,0 +1,128 @@
+\documentclass{article}
+
+% Use the geometry package to adjust margins
+\usepackage[margin=1in]{geometry}
+\usepackage{multicol} % For two-column layout
+
+% Remove section numbering and adjust formatting
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\Large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\normalfont\large\bfseries}{}{0em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{}{0em}{}
+
+% Adjust the table of contents formatting
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsecpagefont}{\normalfont}
+\renewcommand{\cftsecafterpnum}{\vspace{-0.5ex}}
+\setlength{\cftbeforesecskip}{0.5ex}
+
+\usepackage{lipsum} % For generating dummy text
+
+\title{TESSA - Terrarium Environmental System with Smart Automation\\
+	Documentation and Build Guide}
+\author{Antonius Torode}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	
+	\tableofcontents
+	
+	\listoffigures % If you have figures
+	\listoftables % If you have tables
+	
+	\begin{abstract}
+		\lipsum[1]
+	\end{abstract}
+	
+	\begin{multicols}{2} % Start two-column layout
+		
+		\section{Introduction}
+		\lipsum[2-4]
+		
+		\section{Project Overview}
+		\lipsum[5-7]
+		
+		\section{Components and Materials}
+		\lipsum[8-10]
+		
+		\subsection{Component Descriptions}
+		\lipsum[11-13]
+		
+		\section{System Architecture}
+		\lipsum[14-16]
+		
+		\section{Raspberry Pi Implementation}
+		\lipsum[17-19]
+		
+		\subsection{Circuit Diagram and Wiring}
+		\lipsum[20-22]
+		
+		\subsection{Software Setup}
+		\lipsum[23-25]
+		
+		\subsection{Python Code}
+		\lipsum[26-28]
+		
+		\subsection{Testing and Troubleshooting}
+		\lipsum[29-31]
+		
+		\section{Arduino Nano Implementation}
+		\lipsum[32-34]
+		
+		\subsection{Circuit Diagram and Wiring}
+		\lipsum[35-37]
+		
+		\subsection{Arduino Code}
+		\lipsum[38-40]
+		
+		\subsection{Testing and Troubleshooting}
+		\lipsum[41-43]
+		
+		\section{3D Printed Enclosure}
+		\lipsum[44-46]
+		
+		\section{Power Supply}
+		\lipsum[47-49]
+		
+		\section{Usage and Operation}
+		\lipsum[50-52]
+		
+		\section{Maintenance and Troubleshooting}
+		\lipsum[53-55]
+		
+		\section{Future Enhancements}
+		\lipsum[56-58]
+		
+		\section{Conclusion}
+		\lipsum[59-61]
+		
+		\section{References}
+		\lipsum[62-64]
+		
+		\section{Appendices}
+		\lipsum[65-67]
+		
+		\subsection{Appendix A: Bill of Materials}
+		\lipsum[68-70]
+		
+		\subsection{Appendix B: Schematics and PCB Designs}
+		\lipsum[71-73]
+		
+		\subsection{Appendix C: Code Samples}
+		\lipsum[74-76]
+		
+		\subsection{Appendix D: 3D Printing Files}
+		\lipsum[77-79]
+		
+		\section{Acknowledgments}
+		\lipsum[80-82]
+		
+		\section{Author Contact Information}
+		\lipsum[83-85]
+		
+	\end{multicols} % End two-column layout
+	
+\end{document}
