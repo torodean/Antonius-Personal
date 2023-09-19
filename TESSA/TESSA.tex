@@ -34,8 +34,10 @@
 	
 	\tableofcontents
 	
-	\listoffigures % If you have figures
-	\listoftables % If you have tables
+	%\listoffigures % If you have figures
+	%\listoftables % If you have tables
+	
+	\newpage
 	
 	\begin{abstract}
 		\lipsum[1]
@@ -50,7 +52,36 @@
 		\lipsum[5-7]
 		
 		\section{Components and Materials}
-		\lipsum[8-10]
+		
+		At the heart of this project, some sort of micro-controller will be needed (i.e. Arduino Nano). This will store the basic timing and control components for the various components. These components include a temperature and humidity sensor (DHT11), a submersible low voltage water pump, and a display for output (OLED). the setup for this type of system is highly configurable and therefore the components can also vary widely. Basic circuit components will also be needed.
+		
+		For testing the system, jumper cables and a breadboard are recommended. A complete components list is available for two various/possible setups.
+		
+		\subsubsection{Arduino Setup Components List}
+		\begin{itemize}[itemsep=1pt, parsep=1pt]
+			\item 1 Arduino Nano
+			\item 1 DHT11 Sensor
+			\item 1 SSD1306 OLED Display
+			\item 1 micro 5V submersible pump
+			\item 1 10k$\Omega$ resistor
+			\item 1 diode (1N4001-1N4007)
+			\item 1 2N 2222A Transistor (or similar NPN transistor)
+			\item 1 12$\times$24 PCB
+			\item Wires (varying sizes)
+			\item Soldering kit (Solder Iron, Solder, Flux, etc)
+		\end{itemize}
+		
+		\subsubsection{Raspberry Pi Setup Components List}
+		\begin{itemize}[itemsep=1pt, parsep=1pt]
+			\item 1 Raspberry pi
+			\item 1 DHT11 Sensor
+			\item 1 SSD1306 OLED Display (optional)
+			\item 1 micro 5V submersible pump
+			\item 1 10k$\Omega$ resistor
+			\item Wires (varying sizes)
+			\item Jumper cables
+		\end{itemize}
+		
 		
 		\subsection{Component Descriptions}
 			
@@ -166,51 +197,51 @@
 			\end{itemize}
 		
 		\section{System Architecture}
-		\lipsum[14-16]
+		THIS SECTION IN PROGRESS.
 		
 		\section{Raspberry Pi Implementation}
 		
 			\subsection{Circuit Diagram and Wiring}
-			\lipsum[20-22]
+			THIS SECTION IN PROGRESS.
 			
 			\subsection{Software Setup}
-			\lipsum[23-25]
+			THIS SECTION IN PROGRESS.
 			
 			\subsection{Python Code}
-			\lipsum[26-28]
+			THIS SECTION IN PROGRESS.
 			
 			\subsection{Testing and Troubleshooting}
-			\lipsum[29-31]
+			THIS SECTION IN PROGRESS.
 		
 		\section{Arduino Nano Implementation}
-		\lipsum[32-34]
+		THIS SECTION IN PROGRESS.
 		
-		\subsection{Circuit Diagram and Wiring}
-		\lipsum[35-37]
-		
-		\subsection{Arduino Code}
-		\lipsum[38-40]
-		
-		\subsection{Testing and Troubleshooting}
-		\lipsum[41-43]
+			\subsection{Circuit Diagram and Wiring}
+			THIS SECTION IN PROGRESS.
+			
+			\subsection{Arduino Code}
+			THIS SECTION IN PROGRESS.
+			
+			\subsection{Testing and Troubleshooting}
+			THIS SECTION IN PROGRESS.
 		
 		\section{3D Printed Enclosure}
-		\lipsum[44-46]
+		THIS SECTION IN PROGRESS.
 		
 		\section{Power Supply}
-		\lipsum[47-49]
+		THIS SECTION IN PROGRESS.
 		
 		\section{Usage and Operation}
-		\lipsum[50-52]
+		THIS SECTION IN PROGRESS.
 		
 		\section{Maintenance and Troubleshooting}
-		\lipsum[53-55]
+		THIS SECTION IN PROGRESS.
 		
 		\section{Future Enhancements}
-		\lipsum[56-58]
+		THIS SECTION IN PROGRESS.
 		
 		\section{Conclusion}
-		\lipsum[59-61]	
+		THIS SECTION IN PROGRESS.
 		
 		\begin{thebibliography}{X}
 			\bibitem{DHT11} DHT11: https://www.adafruit.com/product/386
