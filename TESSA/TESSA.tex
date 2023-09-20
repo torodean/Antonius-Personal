@@ -45,7 +45,7 @@
 		\lipsum[1]
 	\end{abstract}
 	
-	\begin{multicols}{2} % Start two-column layout
+		\hrule
 		
 		\section{Introduction}
 		Recently, I acquired two small gecko's (I caught them roaming about my living room). I created a terrarium enclosure for them to live, where I have provided them with a few plants, live crickets for food, and a large hollowed rock which I keep full of water. Every now and then I spray down the plants (to give them water) as well as filling the water dish. Unfortunately with the approach of a long needed vacation, a need for automation arose. I cannot leave the water dish for the length of my trip without it evaporating and them running out of water. Therefore, I decided to create an automated system for keeping their water full and plants watered. This opportunity serves as the perfect one for re-learning some circuitry skills as well as developing them further.
@@ -54,6 +54,15 @@
 		
 		\section{Project Overview}
 		This is a simple project that utilizes an Arduino Nano (or a separate raspberry pi implementation) to setup an automated temperature/humidity monitoring for a terrarium as well as automating watering for filling a water dish and/or watering plants. The project involves created a self contained system. This system is highly versatile and the principals and components contained can be modified to fit a variety of situations and needs.
+
+		For more project details, files, and a complete set of supplemental material - see the git repository here:
+		\begin{mdframed}[backgroundcolor=gray!08, linewidth=1pt]
+			https://github.com/torodean/Antonius-Personal/tree/master/TESSA
+		\end{mdframed}
+	
+	\hrule
+
+	\begin{multicols}{2} % Start two-column layout
 		
 		\section{Components and Materials}
 		
@@ -88,6 +97,8 @@
 		
 		
 		\subsection{Component Descriptions}
+		
+		This project can be accomplished using many different components. Below is a list and description of some of the components used for this specific implementation. Some components have subtleties in how they should be implemented. It is recommended to read documentation on the components before using them.
 		
 		\subsubsection{DHT11}
 		
@@ -233,7 +244,7 @@
 		\section{Raspberry Pi Implementation}
 		
 		\subsection{Circuit Diagram and Wiring}
-		\textbf{THIS SECTION IN PROGRESS.}
+		See figure \ref{fig:Raspberry Pi Setup} in section \ref{appendix:schematics}.
 		
 		\subsection{Software Setup}
 		
@@ -254,13 +265,18 @@
 				\item cd Adafruit\_Python\_DHT
 				\item sudo python3 setup.py install
 			\end{itemize}
+			\item Install OLED Drivers
+			\begin{itemize}
+				\item \textbf{THIS SECTION IN PROGRESS.}
+				\item sudo python3 setup.py install
+			\end{itemize}
 		\end{enumerate}
 		
 		\subsection{Python Code}
-		\textbf{THIS SECTION IN PROGRESS.}
+		For testing, two separate programs were created. One which tests the DHT11 sensor and displays the output to the OLED and one which tests the pump timing. After these were working, another python script was made which combines these functions into one script. These can all be seen in section \ref{appendix:code}.
 		
 		\subsection{Testing and Troubleshooting}
-		\textbf{THIS SECTION IN PROGRESS.}
+		I did not really experience any issues with this setup, so I have no troubleshooting advice to give here.
 		
 		\section{Arduino Nano Implementation}
 		This is the implementation using the Arduino Nano as the micro-controller. This setup is completely standalone and does not require a desktop monitor hookup once finished. Rather, it displays all the information on the OLED display and runs the pump based on a pre-programmed timer. A separate machine will be required to program the Arduino Nano. I recommend using a laptop or desktop running Linux (I have not tried this on a windows machine). If a raspberry pi is used as the development machine (this is what I used), a few extra steps will be needed to get the Arduino IDE software functioning. 
@@ -285,10 +301,10 @@
 		\end{enumerate}
 		
 		\subsection{Arduino Code}
-		\textbf{THIS SECTION IN PROGRESS.}
+		For testing, three separate programs were created. One which testse the OLED display on it's own, one which tests the DHT11 sensor and displays the output to the OLED and one which tests the pump timing. After these were working, another script was made which combines these functions into one script. These can all be seen in section \ref{appendix:code}.
 		
 		\subsection{Testing and Troubleshooting}
-		\textbf{THIS SECTION IN PROGRESS.}
+		If you are testing the setup using a breadboard, I recommend making sure the Arduino Nano jumper pins (at least the ones being used) are soldered on. If they are not soldered on, some of the jumper pins may not have a good connection and things can work unexpectedly.
 		
 		\section{3D Printed Enclosure}
 		At the time of creating this project, no 3D printed enclosure was designed. This is, however, a plan for the future to keep everything protected and enclosed.
@@ -344,13 +360,14 @@
 		\begin{itemize}
 			\item Raspberry Pi Implementation
 			\begin{itemize}
-				\item Raspberry Pi 4: \$
+				\item Raspberry Pi 4: \$70
 				\item Mini Water Pump: \$2
 				\item DHT11 sensor: \$2
 				\item (optional) OLED display: \$3
 				\item Jumper Cables/wiring: \$2
 				\item Resistor/Transistor/Diode: \$1
 				\item Breadboard: \$3
+				\item \textbf{Total: \$83}
 			\end{itemize}
 			
 			\columnbreak
@@ -366,10 +383,10 @@
 				\item Resistor/Transistor/Diode: \$1
 				\item (optional for testing) Breadboard: \$3
 				\item Soldering iron, wire cutters, solder, flux, etc: Variable
+				\item \textbf{Total: \$20}
 			\end{itemize}
 		\end{itemize}
 	\end{multicols}
-	\textbf{THIS SECTION IN PROGRESS.}
 	
 	\subsection{Appendix B: Schematics and PCB Designs \label{appendix:schematics}}
 	
@@ -413,12 +430,66 @@
 			
 			\draw (11,2.6) -- ++(-0.3, 0) -- ++(0, -0.5) node[ground]{};
 		\end{circuitikz}
-		\caption{\footnotesize The Circuit diagram for the Arduino Nano setup. All grounds must be common.}
+		\caption{\footnotesize The Circuit diagram for the Arduino Nano setup. All grounds must be common. The A4 and A5 pins correspond to the Arduino Nano's SDA/SCL pins and should not be modified. The other circle connectors 11 and 12 correspond to the I/O pins on the Nano and can be changed to any of the other I/O pins if desired (the code and circuitry would need updated appropriately).}
 		\label{fig:Arduino Nano Setup}
+	\end{figure}
+
+	\subsubsection{Raspberry Pi Circuit Design}
+	\begin{figure}[H] 
+		\centering % Center the figure horizontally
+		\begin{circuitikz}
+			% Draw the rectangle for DHT11
+			\draw (0,0) rectangle (2,2) node[midway] {DHT11};
+			
+			\node[draw, circle, minimum size=0.5cm] (power) at (3,3) {5V};
+			\node[draw, rectangle, minimum width=2cm, minimum height=1cm] (pump) at (12,2.8) {Pump};
+			\node[draw, rectangle, minimum width=2cm, minimum height=2cm] (oled) at (8,-3) {OLED};
+			
+			% Power
+			\draw (2,1.7) -- (3,1.7) -- (power.south); % VCC
+			
+			% DHT11
+			\draw (2,1) -- ++(3.5,0) node[draw, circle, minimum size=0.5cm, anchor=west] {17}; % Data		
+			\draw (5,1) -- (5,1.7) to [R, l=$10 \, \mathrm{k}\Omega$] (3,1.7);
+			\draw (2,0.3) -- ++(1,0) node[ground] {}; % GND
+			
+			% Transistor
+			\draw (10,3) node[npn, anchor=E, rotate=90] (npn) {}; % Anchor at the emitter (E)
+			
+			% Transistor Labels
+			\draw (npn.C) node[above] {C};
+			\draw (npn.E) node[above] {E};
+			\draw (npn.B) node[left] {B};
+			
+			% Transistor Connectors
+			\draw (npn.C) -- (power.east); % Collector to Vcc
+			\draw (npn.E) -- (11,3);
+			\draw (npn.B) -- ++(0,-0.8) node[draw, circle, minimum size=0.5cm, anchor=north] {18}; 
+			
+						% OLED connectors.		
+			\draw (7.3,-2) -- (7.3,3); % GND
+			\draw (7.8,-2) -- ++(0,1) node[ground, rotate=180] {}; % GND		
+			\draw (8.3,-2) -- ++(0,1) -- ++(1.5,0) node[draw, circle, minimum size=0.5cm, anchor=west] {2};
+			\draw (8.7,-2) -- ++(0,0.25) -- ++(2,0) node[draw, circle, minimum size=0.5cm, anchor=west] {3};
+			
+			\draw (11,2.6) -- ++(-0.3, 0) -- ++(0, -0.5) node[ground]{};
+			
+			\draw[dotted] (6,0) -- (6,-4.3) -- (12,-4.3) -- (12,0) -- (6,0);
+			
+			\draw (10.5, -3) node[]{OPTIONAL};
+			\draw (10.5, -3.5) node[]{OLED};
+		\end{circuitikz}
+		\caption{\footnotesize The Circuit diagram for the Raspberry Pi setup. All grounds must be common. The OLED section is optional and can be omitted if the user would rather monitor from the same display as the Raspberry Pi. the circles with numbers correspond to the GPIO pins on the raspberry pi. Pins 2 and 3 are the SDA/SCL pins respectively and should be kept as they are but the others can be used with other GPIO pins if desired (the code will need updated appropriately).}
+		\label{fig:Raspberry Pi Setup}
 	\end{figure}	
 	
-	\subsection{Appendix C: Code Samples}
+	\subsection{Appendix C: Code Samples \label{appendix:code}}
+	
+		\subsubsection{Raspberry Pi Python Code}
+		
+		\subsubsection{Raspberry Pi Python Code}
 	
 	\subsection{Appendix D: 3D Printing Files}
+	\textbf{THIS SECTION IN PROGRESS.}
 	
 \end{document}
