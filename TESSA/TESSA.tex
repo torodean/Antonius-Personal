@@ -39,10 +39,8 @@
 	%\listoffigures % If you have figures
 	%\listoftables % If you have tables
 	
-	\newpage
-	
 	\begin{abstract}
-		This project addresses the need for automated monitoring and periodic watering in a terrarium housing small geckos. The terrarium contains live plants and animals which will benefit from consistent monitoring of humidity and temperature. To ensure the geckos' well-being during extended absences, an automated system was developed to monitor and display environmental data. Additionally, the system includes a timer-based water dispensing mechanism for the plants and geckos. The project explores two implementations: one utilizing a Raspberry Pi and the other an Arduino Nano microcontroller. Both implementations involve the creation of a self-contained system adaptable to various scenarios, with a primary focus on automating environmental data display and periodic plant watering.
+		This project addresses the need for automated monitoring and periodic watering in a terrarium housing small geckos. The terrarium contains live plants and animals which will benefit from consistent monitoring of humidity and temperature. To ensure the geckos' well-being during extended absences, an automated system was developed to monitor and display environmental data. Additionally, the system includes a timer-based water dispensing mechanism for the plants and geckos. The project explores two implementations: one utilizing a Raspberry Pi and the other an Arduino Nano micro-controller. Both implementations involve the creation of a self-contained system adaptable to various scenarios, with a primary focus on automating environmental data display and periodic plant watering.
 	\end{abstract}
 	
 		\hrule
@@ -50,10 +48,10 @@
 		\section{Introduction}
 		Recently, I acquired two small gecko's (I caught them roaming about my living room). I created a terrarium enclosure for them to live, where I have provided them with a few plants, live crickets for food, and a large hollowed rock which I keep full of water. Every now and then I spray down the plants (to give them water) as well as filling the water dish. Unfortunately with the approach of a long needed vacation, a need for automation arose. I cannot leave the water dish for the length of my trip without it evaporating and them running out of water. Therefore, I decided to create an automated system for keeping their water full and plants watered. This opportunity serves as the perfect one for re-learning some circuitry skills as well as developing them further.
 		
-		At the time of inception for this project, I had a few things laying around (including a raspberry pi). Therefore, a raspberry pi implementation was developed. With the desire to simplify the cost of the project as well as create a standalone system that doesn't rely on an OS, I explored using an Arduino Nano, and created an implementation using that as well. The primary goal of this project was both to automate and care for my gecko's enclosure while also furthering my skills and knowledge. It was decided (as I had never done it before) to create a complete integrated circuit (from a bare board and some pre-made components) for this project.
+		At the time of inception for this project, I had a few things laying around (including a Raspberry Pi). Therefore, a Raspberry Pi implementation was developed. With the desire to simplify the cost of the project as well as create a standalone system that doesn't rely on an OS, I explored using an Arduino Nano, and created an implementation using that as well. The primary goal of this project was both to automate and care for my gecko's enclosure while also furthering my skills and knowledge. It was decided (as I had never done it before) to create a complete integrated circuit (from a bare board and some pre-made components) for this project.
 		
 		\section{Project Overview}
-		This is a simple project that utilizes an Arduino Nano (or a separate raspberry pi implementation) to setup an automated temperature/humidity monitoring for a terrarium as well as automating watering for filling a water dish and/or watering plants. The project involves created a self contained system. This system is highly versatile and the principals and components contained can be modified to fit a variety of situations and needs.
+		This is a simple project that utilizes an Arduino Nano (or a separate Raspberry Pi implementation) to setup an automated temperature/humidity monitoring for a terrarium as well as automating watering for filling a water dish and/or watering plants. The project involves created a self contained system. This system is highly versatile and the principals and components contained can be modified to fit a variety of situations and needs.
 
 		For more project details, files, and a complete set of supplemental material - see the git repository here:
 		\begin{mdframed}[backgroundcolor=gray!08, linewidth=1pt]
@@ -86,7 +84,7 @@
 		
 		\subsubsection{Raspberry Pi Setup Components List}
 		\begin{itemize}[itemsep=1pt, parsep=1pt]
-			\item 1 Raspberry pi
+			\item 1 Raspberry Pi
 			\item 1 DHT11 Sensor
 			\item 1 SSD1306 OLED Display (optional)
 			\item 1 micro 5V submersible pump
@@ -158,7 +156,7 @@
 		
 		\subsubsection{SSD1306 I$^2$C OLED Display}
 		
-		The display I used for this project is a SSD1306 0.96 inch I$^2$C organic light-emitting diode (OLED) display. The OLED display doesn’t require backlight and the pixels only consume energy when on. The model I am using has 4 pins ($V_{in}$, GND, SCL, SDA). Some features of the display are as follows:
+		The display I used for this project is a SSD1306 0.96 inch I$^2$C organic light-emitting diode (OLED) display. The OLED display doesn’t require a back light and the pixels only consume energy when on. The model I am using has 4 pins ($V_{in}$, GND, SCL, SDA). Some features of the display are as follows:
 		\begin{itemize}[itemsep=1pt, parsep=1pt]
 			\item Resolution: 128 x 64 dot matrix panel
 			\item Support voltage: 3.3V-5V DC
@@ -225,11 +223,11 @@
 		
 		\subsubsection{Raspberry Pi}
 		
-		The Raspberry Pi is a versatile and powerful single-board computer designed for various computing and electronics projects. The Raspberry Pi is equipped with a high-performance ARM-based\footnote{This is important because the newer versions of the arduino IDE are not pre-built for the ARM architecture.} processor (varies by model) that provides the processing power needed for a wide range of applications. It features a set of General-Purpose Input/Output (GPIO) pins, which can be programmed for digital input and output as well as hardware interfacing. These pins are crucial for connecting sensors, actuators, and other components. The Raspberry Pi supports communication protocols like I$^2$C and SPI, allowing you to connect and communicate with a variety of sensors and devices easily. Like Arduino, the Raspberry Pi is open-source hardware and software. It has a large and active community that offers support, tutorials, and a wide range of software packages.
+		The Raspberry Pi is a versatile and powerful single-board computer designed for various computing and electronics projects. The Raspberry Pi is equipped with a high-performance ARM-based\footnote{This is important because the newer versions of the Arduino IDE are not pre-built for the ARM architecture.} processor (varies by model) that provides the processing power needed for a wide range of applications. It features a set of General-Purpose Input/Output (GPIO) pins, which can be programmed for digital input and output as well as hardware interfacing. These pins are crucial for connecting sensors, actuators, and other components. The Raspberry Pi supports communication protocols like I$^2$C and SPI, allowing you to connect and communicate with a variety of sensors and devices easily. Like Arduino, the Raspberry Pi is open-source hardware and software. It has a large and active community that offers support, tutorials, and a wide range of software packages.
 		
 		Some Raspberry Pi models include built-in Wi-Fi and Bluetooth capabilities, making wireless communication and IoT projects convenient. The Raspberry Pi has an HDMI output for connecting to displays, making it suitable for applications that require visual feedback. Between these two features, a lot of possibilities open up with allowing the DHT11 sensor to be displayed on Pi screen rather than an OLED as well as potentially being able to monitor it remotely.
 		
-		Some features of the raspberry pi has that are important for this project are as follows:
+		Some features of the Raspberry Pi has that are important for this project are as follows:
 		\begin{itemize}[itemsep=1pt, parsep=1pt]
 			\item Has a 5V DC output pin.
 			\item Has multiple programmable GPIO pins.
@@ -279,7 +277,7 @@
 		I did not really experience any issues with this setup, so I have no troubleshooting advice to give here.
 		
 		\section{Arduino Nano Implementation}
-		This is the implementation using the Arduino Nano as the micro-controller. This setup is completely standalone and does not require a desktop monitor hookup once finished. Rather, it displays all the information on the OLED display and runs the pump based on a pre-programmed timer. A separate machine will be required to program the Arduino Nano. I recommend using a laptop or desktop running Linux (I have not tried this on a windows machine). If a raspberry pi is used as the development machine (this is what I used), a few extra steps will be needed to get the Arduino IDE software functioning. 
+		This is the implementation using the Arduino Nano as the micro-controller. This setup is completely standalone and does not require a desktop monitor hookup once finished. Rather, it displays all the information on the OLED display and runs the pump based on a pre-programmed timer. A separate machine will be required to program the Arduino Nano. I recommend using a laptop or desktop running Linux (I have not tried this on a windows machine). If a Raspberry Pi is used as the development machine (this is what I used), a few extra steps will be needed to get the Arduino IDE software functioning. 
 		
 		\subsection{Circuit Diagram and Wiring}
 		See figure \ref{fig:Arduino Nano Setup} in section \ref{appendix:schematics}.
@@ -301,7 +299,7 @@
 		\end{enumerate}
 		
 		\subsection{Arduino Code}
-		For testing, three separate programs were created. One which testse the OLED display on it's own, one which tests the DHT11 sensor and displays the output to the OLED and one which tests the pump timing. After these were working, another script was made which combines these functions into one script. These can all be seen in section \ref{appendix:code}.
+		For testing, three separate programs were created. One which tests the OLED display on it's own, one which tests the DHT11 sensor and displays the output to the OLED and one which tests the pump timing. After these were working, another script was made which combines these functions into one script. These can all be seen in section \ref{appendix:code}.
 		
 		\subsection{Testing and Troubleshooting}
 		If you are testing the setup using a breadboard, I recommend making sure the Arduino Nano jumper pins (at least the ones being used) are soldered on. If they are not soldered on, some of the jumper pins may not have a good connection and things can work unexpectedly.
@@ -310,7 +308,7 @@
 		At the time of creating this project, no 3D printed enclosure was designed. This is, however, a plan for the future to keep everything protected and enclosed.
 		
 		\section{Power Supply}
-		For the Raspberry Pi implementation, all power comes from the raspberry pi itself, therefore no extra power sources are needed\footnote{If this project is adapted to use a more powerful pump, this will of course change.}. For the Arduino Nano implementation, the power comes from a dedicated USB powered cable. This can be accomplished in any of the usual ways that a USB device is charged (I would not recommend trying fast chargers as I have no tested with any of those).
+		For the Raspberry Pi implementation, all power comes from the Raspberry Pi itself, therefore no extra power sources are needed\footnote{If this project is adapted to use a more powerful pump, this will of course change.}. For the Arduino Nano implementation, the power comes from a dedicated USB powered cable. This can be accomplished in any of the usual ways that a USB device is charged (I would not recommend trying fast chargers as I have no tested with any of those).
 		
 		\section{Usage and Operation}
 		\textbf{THIS SECTION IN PROGRESS.}
@@ -479,7 +477,7 @@
 			\draw (10.5, -3) node[]{OPTIONAL};
 			\draw (10.5, -3.5) node[]{OLED};
 		\end{circuitikz}
-		\caption{\footnotesize The Circuit diagram for the Raspberry Pi setup. All grounds must be common. The OLED section is optional and can be omitted if the user would rather monitor from the same display as the Raspberry Pi. the circles with numbers correspond to the GPIO pins on the raspberry pi. Pins 2 and 3 are the SDA/SCL pins respectively and should be kept as they are but the others can be used with other GPIO pins if desired (the code will need updated appropriately).}
+		\caption{\footnotesize The Circuit diagram for the Raspberry Pi setup. All grounds must be common. The OLED section is optional and can be omitted if the user would rather monitor from the same display as the Raspberry Pi. the circles with numbers correspond to the GPIO pins on the Raspberry Pi. Pins 2 and 3 are the SDA/SCL pins respectively and should be kept as they are but the others can be used with other GPIO pins if desired (the code will need updated appropriately).}
 		\label{fig:Raspberry Pi Setup}
 	\end{figure}	
 	
