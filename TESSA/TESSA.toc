@@ -1,23 +1,23 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{}%
 \contentsline {section}{\numberline {2}Project Overview}{2}{}%
-\contentsline {section}{\numberline {3}Components and Materials}{2}{}%
+\contentsline {section}{\numberline {3}Components and Materials}{3}{}%
 \contentsline {subsubsection}{\numberline {3.0.1}Arduino Setup Components List}{3}{}%
 \contentsline {subsubsection}{\numberline {3.0.2}Raspberry Pi Setup Components List}{3}{}%
 \contentsline {subsection}{\numberline {3.1}Component Descriptions}{3}{}%
 \contentsline {subsubsection}{\numberline {3.1.1}DHT11}{3}{}%
 \contentsline {subsubsection}{\numberline {3.1.2}Mini Submersible Water Pump}{3}{}%
-\contentsline {subsubsection}{\numberline {3.1.3}SSD1306 I$^2$C OLED Display}{3}{}%
+\contentsline {subsubsection}{\numberline {3.1.3}SSD1306 I$^2$C OLED Display}{4}{}%
 \contentsline {subsubsection}{\numberline {3.1.4}2N 2222A NPN Transistor}{4}{}%
 \contentsline {subsubsection}{\numberline {3.1.5}Arduino Nano}{4}{}%
-\contentsline {subsubsection}{\numberline {3.1.6}Raspberry Pi}{4}{}%
+\contentsline {subsubsection}{\numberline {3.1.6}Raspberry Pi}{5}{}%
 \contentsline {section}{\numberline {4}System Architecture}{5}{}%
 \contentsline {section}{\numberline {5}Raspberry Pi Implementation}{5}{}%
 \contentsline {subsection}{\numberline {5.1}Circuit Diagram and Wiring}{5}{}%
 \contentsline {subsection}{\numberline {5.2}Software Setup}{5}{}%
 \contentsline {subsection}{\numberline {5.3}Python Code}{5}{}%
 \contentsline {subsection}{\numberline {5.4}Testing and Troubleshooting}{5}{}%
-\contentsline {section}{\numberline {6}Arduino Nano Implementation}{5}{}%
-\contentsline {subsection}{\numberline {6.1}Circuit Diagram and Wiring}{5}{}%
+\contentsline {section}{\numberline {6}Arduino Nano Implementation}{6}{}%
+\contentsline {subsection}{\numberline {6.1}Circuit Diagram and Wiring}{6}{}%
 \contentsline {subsection}{\numberline {6.2}Software Setup}{6}{}%
 \contentsline {subsection}{\numberline {6.3}Arduino Code}{6}{}%
 \contentsline {subsection}{\numberline {6.4}Testing and Troubleshooting}{6}{}%
@@ -28,8 +28,8 @@
 \contentsline {section}{\numberline {11}Full Enclosure Setup}{6}{}%
 \contentsline {subsection}{\numberline {11.1}Equipment and Tools}{6}{}%
 \contentsline {subsection}{\numberline {11.2}Setup and Implementation}{6}{}%
-\contentsline {section}{\numberline {12}Future Enhancements}{6}{}%
-\contentsline {section}{\numberline {13}Author Contact Information}{6}{}%
+\contentsline {section}{\numberline {12}Future Enhancements}{7}{}%
+\contentsline {section}{\numberline {13}Author Contact Information}{7}{}%
 \contentsline {section}{\numberline {14}Appendices}{7}{}%
 \contentsline {subsection}{\numberline {14.1}Appendix A: Bill of Materials}{7}{}%
 \contentsline {subsection}{\numberline {14.2}Appendix B: Schematics and PCB Designs }{8}{}%
@@ -37,9 +37,12 @@
 \contentsline {subsubsection}{\numberline {14.2.2}Arduino Nano Circuit Design With Extra Pump(s)}{8}{}%
 \contentsline {subsubsection}{\numberline {14.2.3}Raspberry Pi Circuit Design}{9}{}%
 \contentsline {subsection}{\numberline {14.3}Appendix C: Code Samples }{9}{}%
-\contentsline {subsubsection}{\numberline {14.3.1}Raspberry Pi Python Code}{9}{}%
-\contentsline {subsubsection}{\numberline {14.3.2}Arduino Nano Code}{9}{}%
-\contentsline {subsection}{\numberline {14.4}Appendix D: 3D Printing Files}{9}{}%
-\contentsline {subsection}{\numberline {14.5}Appendix E: Micro-Controller Pin Diagrams}{10}{}%
-\contentsline {subsubsection}{\numberline {14.5.1}Arduino Nano Pinout}{10}{}%
-\contentsline {subsubsection}{\numberline {14.5.2}Raspberry Pi Pinout}{11}{}%
+\contentsline {subsubsection}{\numberline {14.3.1}Raspberry Pi Python Code: Run all features (one pump installed)}{9}{}%
+\contentsline {subsubsection}{\numberline {14.3.2}Raspberry Pi Python Code: Test DHT11 with OLED display}{11}{}%
+\contentsline {subsubsection}{\numberline {14.3.3}Raspberry Pi Python Code: Test the motor}{12}{}%
+\contentsline {subsubsection}{\numberline {14.3.4}Arduino Nano Code: Complete 2 pump setup}{12}{}%
+\contentsline {subsubsection}{\numberline {14.3.5}Arduino Nano Code: OLED display testing}{14}{}%
+\contentsline {subsection}{\numberline {14.4}Appendix D: 3D Printing Files}{15}{}%
+\contentsline {subsection}{\numberline {14.5}Appendix E: Micro-Controller Pin Diagrams}{15}{}%
+\contentsline {subsubsection}{\numberline {14.5.1}Arduino Nano Pinout}{15}{}%
+\contentsline {subsubsection}{\numberline {14.5.2}Raspberry Pi Pinout}{16}{}%

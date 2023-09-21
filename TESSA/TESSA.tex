@@ -11,6 +11,54 @@
 \usepackage{mdframed}
 
 
+\usepackage{listings}
+
+% Define Python style
+\lstdefinestyle{pythonstyle}{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  frame=single,
+  rulecolor=\color{black},
+  keywordstyle=\color{blue},
+  commentstyle=\color{green!40!black},
+  stringstyle=\color{red},
+  breaklines=true,
+  tabsize=4,
+  captionpos=b,
+  extendedchars=true,
+  inputencoding=utf8,
+  showspaces=false,
+  showstringspaces=false,
+  xleftmargin=\parindent,
+  xrightmargin=\parindent
+}
+
+% Define C++ style
+\lstdefinestyle{cppstyle}{
+  language=C++,
+  basicstyle=\ttfamily\small,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  frame=single,
+  rulecolor=\color{black},
+  keywordstyle=\color{blue},
+  commentstyle=\color{green!40!black},
+  stringstyle=\color{red},
+  breaklines=true,
+  tabsize=4,
+  captionpos=b,
+  extendedchars=true,
+  inputencoding=utf8,
+  showspaces=false,
+  showstringspaces=false,
+  xleftmargin=\parindent,
+  xrightmargin=\parindent
+}
+
+
+
 % Remove section numbering and adjust formatting
 \usepackage{titlesec}
 \titleformat{\subsection}{\normalfont\large\bfseries}{}{0em}{}
@@ -299,7 +347,7 @@
 		\end{enumerate}
 		
 		\subsection{Arduino Code}
-		For testing, three separate programs were created. One which tests the OLED display on it's own, one which tests the DHT11 sensor and displays the output to the OLED and one which tests the pump timing. After these were working, another script was made which combines these functions into one script. These can all be seen in section \ref{appendix:code}.
+		For testing, three separate programs were created. One which tests the OLED display on it's own, and one which tests the DHT11 sensor and displays the output to the OLED and one which tests the pump timing. After these were working, the latter two scripts were combined with the OLED code to add these functions into one script. The first program and final can be seen in section \ref{appendix:code}. Unfortunately, I forgot to save the code that only tested the DHT11 sensor and displays the output to the OLED as well as the simple timing code. Fortunately, those were quite simple and not needed.
 		
 		\subsection{Testing and Troubleshooting}
 		If you are testing the setup using a breadboard, I recommend making sure the Arduino Nano jumper pins (at least the ones being used) are soldered on. If they are not soldered on, some of the jumper pins may not have a good connection and things can work unexpectedly.
@@ -548,11 +596,327 @@
 	
 	\subsection{Appendix C: Code Samples \label{appendix:code}}
 	
-		\subsubsection{Raspberry Pi Python Code}
-		\textbf{THIS SECTION IN PROGRESS.}
+		\subsubsection{Raspberry Pi Python Code: Run all features (one pump installed)}
+\begin{lstlisting}[style=pythonstyle]
+import Adafruit_DHT
+import Adafruit_SSD1306
+from PIL import Image, ImageDraw, ImageFont
+import RPi.GPIO as GPIO
+import time
+import threading
+
+# Set the GPIO mode to BCM
+GPIO.setmode(GPIO.BCM)
+
+# Define the GPIO pin you want to use
+gpio_pin = 18  # Replace with the actual GPIO pin number
+
+# Set the GPIO pin as an output
+GPIO.setup(gpio_pin, GPIO.OUT)
+
+# Constants for DHT11 sensor and GPIO pin
+DHT_SENSOR = Adafruit_DHT.DHT11
+DHT_PIN = 4
+
+# Initialize the OLED display
+disp = Adafruit_SSD1306.SSD1306_128_64(rst=None)
+disp.begin()
+
+# Clear the display
+disp.clear()
+disp.display()
+
+# Create a blank image for drawing
+width = disp.width
+height = disp.height
+image = Image.new("1", (width, height))
+
+# Create a drawing object
+draw = ImageDraw.Draw(image)
+
+# Load a font
+font = ImageFont.load_default()
+
+# Initialize the device status variable
+device_running = False
+
+def device_ON(t=5):
+    """
+    Turns the device on for t seconds.
+    """
+    global device_running
+    # Set the device status to running
+    device_running = True
+
+    # Turn on the 5V output
+    GPIO.output(gpio_pin, GPIO.HIGH)
+    print("Device is ON")
+
+    # Wait for some time (you can perform other tasks here)
+    time.sleep(t)  # Wait for t seconds
+
+    # Turn off the 5V output
+    GPIO.output(gpio_pin, GPIO.LOW)
+    print("Device is OFF")
+
+    # Set the device status to not running
+    device_running = False
+
+def device_control_thread():
+    while True:
+        device_ON()
+        time.sleep(30)  # Run device_ON() every 30 seconds
+
+# Create a separate thread for device control
+device_thread = threading.Thread(target=device_control_thread)
+device_thread.daemon = True  # This allows the thread to exit when the main program exits
+device_thread.start()
+
+try:
+    while True:
+        # Read data from the DHT11 sensor
+        humidity, temperature = Adafruit_DHT.read(DHT_SENSOR, DHT_PIN)
+
+        # Check if data is valid
+        if humidity is not None and temperature is not None:
+            # Clear the previous content on the OLED display
+            draw.rectangle((0, 0, width, height), outline=0, fill=0)
+
+            # Format and display the temperature and humidity
+            message = f"Temp: {temperature:.1f}C\nHumidity: {humidity:.1f}%"
+            draw.text((5, 5), message, font=font, fill=255)
+
+            # Display the device status
+            status_message = "Pump ACTIVE" if device_running else "Pump IDLE"
+            draw.text((5, height - 15), status_message, font=font, fill=255)
+
+            # Display the updated content on the OLED
+            disp.image(image)
+            disp.display()
+except KeyboardInterrupt:
+    pass
+finally:
+    # Clear the display and turn it off
+    disp.clear()
+    disp.display()
+    # Clean up GPIO configuration
+    GPIO.cleanup()
+\end{lstlisting}
+
+		\subsubsection{Raspberry Pi Python Code: Test DHT11 with OLED display}
 		
-		\subsubsection{Arduino Nano Code}
-		\textbf{THIS SECTION IN PROGRESS.}
+\begin{lstlisting}[style=pythonstyle]
+import Adafruit_DHT
+import Adafruit_SSD1306
+from PIL import Image, ImageDraw, ImageFont
+
+# Constants for DHT11 sensor and GPIO pin
+DHT_SENSOR = Adafruit_DHT.DHT11
+DHT_PIN = 4
+
+# Initialize the OLED display
+disp = Adafruit_SSD1306.SSD1306_128_64(rst=None)
+disp.begin()
+
+# Clear the display
+disp.clear()
+disp.display()
+
+# Create a blank image for drawing
+width = disp.width
+height = disp.height
+image = Image.new("1", (width, height))
+
+# Create a drawing object
+draw = ImageDraw.Draw(image)
+
+# Load a font
+font = ImageFont.load_default()
+
+try:
+    while True:
+        # Read data from the DHT11 sensor
+        humidity, temperature = Adafruit_DHT.read(DHT_SENSOR, DHT_PIN)
+
+        # Check if data is valid
+        if humidity is not None and temperature is not None:
+            # Clear the previous content on the OLED display
+            draw.rectangle((0, 0, width, height), outline=0, fill=0)
+
+            # Format and display the temperature and humidity
+            message = f"Temp: {temperature:.1f}C\nHumidity: {humidity:.1f}%"
+            draw.text((5, 5), message, font=font, fill=255)
+
+            # Display the updated content on the OLED
+            disp.image(image)
+            disp.display()
+except KeyboardInterrupt:
+    pass
+finally:
+    # Clear the display and turn it off
+    disp.clear()
+    disp.display()
+\end{lstlisting}
+
+		\subsubsection{Raspberry Pi Python Code: Test the motor}
+		
+\begin{lstlisting}[style=pythonstyle]
+import RPi.GPIO as GPIO
+import time
+
+# Set the GPIO mode to BCM (Broadcom SOC channel)
+GPIO.setmode(GPIO.BCM)
+
+# Set the pin 12 (GPIO18) as an output
+gpio_pin = 18  # This corresponds to GPIO18
+GPIO.setup(gpio_pin, GPIO.OUT)
+
+try:
+    # Turn on the GPIO pin
+    GPIO.output(gpio_pin, GPIO.HIGH)
+    print(f"GPIO pin {gpio_pin} is turned ON.")
+    
+    # Run for 5 seconds
+    time.sleep(5)
+
+    # Turn off the GPIO pin
+    GPIO.output(gpio_pin, GPIO.LOW)
+    print(f"GPIO pin {gpio_pin} is turned OFF.")
+
+except KeyboardInterrupt:
+    # Clean up GPIO configuration on Ctrl+C
+    GPIO.cleanup()
+
+finally:
+    # Clean up GPIO configuration on program exit
+    GPIO.cleanup()
+\end{lstlisting}
+		
+		\subsubsection{Arduino Nano Code: Complete 2 pump setup}
+\begin{lstlisting}[style=cppstyle]
+#include <Wire.h>             /*Wire Communication library*/
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h> /*OLED Adafruit library*/
+#include <Adafruit_Sensor.h>
+#include <DHT.h>              /*DHT sensor library*/
+
+#define SCREEN_WIDTH 128   /*128 width OLED in pixels*/
+#define SCREEN_HEIGHT 64   /*64 height OLED in pixel*/
+
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1); /*I2C Display initialization*/
+
+#define DHTPIN 12   /*DHT11 signal pin*/
+#define DHTTYPE DHT11
+#define PUMPPIN1 10 /*Pump 1 signal pin*/
+#define PUMPPIN2 4  /*Pump 2 signal pin*/
+
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+	pinMode(PUMPPIN1, OUTPUT);
+	pinMode(PUMPPIN2, OUTPUT);
+	Serial.begin(9600);
+	dht.begin();
+	if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {   /*OLED I2C Address*/
+		Serial.println(F("SSD1306 allocation failed"));
+		for(;;);
+	}
+	// Show initial display buffer contents on the screen --
+	// the library initializes this with an Adafruit splash screen.
+	display.display();
+	delay(2000);
+	display.clearDisplay();
+	display.setTextColor(WHITE);  /*Text color*/
+}
+
+long count = 0;
+
+// The time to keep the first pump on.
+long onTime = 30;
+
+// The time to keep the second pump on.
+long onTime2 = 30;
+
+// The delay for turning the pump on.
+long delayTime = 24L*60L*60L - onTime - onTime2; // one day - on times.
+
+void loop() {
+	delay(1000);
+	count++;
+	if (count >= delayTime + onTime + onTime2) {
+		digitalWrite(PUMPPIN2, LOW);
+		displayText(false);
+		count = 0;
+	} else if(count >= delayTime + onTime){
+		digitalWrite(PUMPPIN2, HIGH);
+		digitalWrite(PUMPPIN1, LOW);
+		displayText(true);
+	} else if(count >= delayTime){
+		digitalWrite(PUMPPIN1, HIGH);
+		displayText(true);
+	} else {
+		displayText(false);
+	}  
+}
+
+void displayText(bool pumpStatus){
+	float t = dht.readTemperature();  /*read temp*/
+	float h = dht.readHumidity();    /*read humidity*/
+	if (isnan(h) || isnan(t)) {
+		Serial.println("Failed to read from DHT sensor!");
+	}
+	display.clearDisplay();  /*clear display*/
+	display.setTextSize(1); /*OLED font size*/
+	display.setCursor(0,0);
+	display.print("Temp: ");
+	display.print(t);       /*print temp in Celsius*/
+	display.print(" ");
+	display.cp437(true);
+	display.write(167);
+	display.print("C");  
+	display.setCursor(0, 10);
+	display.print("Humidity: ");
+	display.print(h);      /*prints humidity percentage*/
+	display.print(" %");
+	if (pumpStatus) {
+		display.setCursor(0, 35);
+		display.print("Pump ACTIVE");
+	} else {
+		display.setCursor(0, 35);
+		display.print("Pump IDLE"); 
+	}
+	display.display();
+}
+\end{lstlisting}
+				
+	\subsubsection{Arduino Nano Code: OLED display testing}
+\begin{lstlisting}[style=cppstyle]
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+#define SCREEN_WIDTH 128 /*128 width of OLED in pixels*/
+#define SCREEN_HEIGHT 64 /*64 height of OLED in pixels*/
+
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1); /*OLED display connected at I2C pins (SDA, SCL)*/
+
+void setup() {
+	Serial.begin(115200);  /*Baud rate UART communication */
+	if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { /*I2C Address at which OLED will communicate*/
+		Serial.println(F("SSD1306 allocation failed"));
+		for(;;);
+	}
+	delay(2000);
+	display.clearDisplay();  /*Clear display*/
+	display.setTextSize(2);  /*OLED screen text size defined*/
+	display.setTextColor(WHITE); /*OLED screen text color*/
+	display.setCursor(0, 10); /*Display static text*/
+	display.println("HELLO WORLD!!");  /*String to represent on OLED display*/
+	display.display();
+}
+
+void loop() {}
+\end{lstlisting}
 	
 	\subsection{Appendix D: 3D Printing Files}
 	\textbf{THIS SECTION IN PROGRESS.}

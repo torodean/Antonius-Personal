@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.11.14)  20 SEP 2023 22:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.11.14)  20 SEP 2023 23:32
 entering extended mode
 **./TESSA.tex
 (TESSA.tex
@@ -773,18 +773,45 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@zref@counter=\count304
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
+(C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.st
+y
+\lst@mode=\count305
+\lst@gtempboxa=\box114
+\lst@token=\toks32
+\lst@length=\count306
+\lst@currlwidth=\dimen295
+\lst@column=\count307
+\lst@pos=\count308
+\lst@lostspace=\dimen296
+\lst@width=\dimen297
+\lst@newlines=\count309
+\lst@lineno=\count310
+\lst@maxwidth=\dimen298
+
+(C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count311
+\lst@skipnumbers=\count312
+\lst@framebox=\box115
+)
+(C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cf
+g
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
 (C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
 y
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box114
+\ttl@box=\box116
 \beforetitleunit=\skip119
 \aftertitleunit=\skip120
-\ttl@plus=\dimen295
-\ttl@minus=\dimen296
-\ttl@toksa=\toks32
-\titlewidth=\dimen297
-\titlewidthlast=\dimen298
-\titlewidthfirst=\dimen299
+\ttl@plus=\dimen299
+\ttl@minus=\dimen300
+\ttl@toksa=\toks33
+\titlewidth=\dimen301
+\titlewidthlast=\dimen302
+\titlewidthfirst=\dimen303
 )
 (C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
@@ -815,8 +842,8 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cftbeforefigskip=\skip144
 \cftfigindent=\skip145
 \cftfignumwidth=\skip146
-\c@lofdepth=\count305
-\c@lotdepth=\count306
+\c@lofdepth=\count313
+\c@lotdepth=\count314
 \cftbeforelottitleskip=\skip147
 \cftafterlottitleskip=\skip148
 \cftbeforetabskip=\skip149
@@ -828,28 +855,28 @@ l3keys2e.sty
 Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count307
-\l__lipsum_a_int=\count308
-\l__lipsum_b_int=\count309
+\g__lipsum_par_int=\count315
+\l__lipsum_a_int=\count316
+\l__lipsum_b_int=\count317
 
 (C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.te
 x)) (TESSA.aux)
 \openout1 = `TESSA.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -889,17 +916,17 @@ LaTeX Font Info:    ... okay on input line 33.
 (C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
-\scratchdimen=\dimen300
-\scratchbox=\box115
-\nofMPsegments=\count311
-\nofMParguments=\count312
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count313
-\MPscratchDim=\dimen301
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count318
+\scratchdimen=\dimen304
+\scratchbox=\box117
+\nofMPsegments=\count319
+\nofMParguments=\count320
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count321
+\MPscratchDim=\dimen305
+\MPnumerator=\count322
+\makeMPintoPDFobject=\count323
+\everyMPtoPDFconversion=\toks35
 )
 (C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
 f-base.sty
@@ -909,13 +936,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count324
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 35.
+(Font)              <12> on input line 83.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 35.
+(Font)              <8> on input line 83.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 35.
+(Font)              <6> on input line 83.
  (TESSA.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 1.
@@ -927,43 +956,63 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `TESSA.toc'.
 
- [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+ [2] [3]
+
+Package multicol Warning: I moved some lines to the next page.
+(multicol)                Footnotes on page 4 might be wrong on input line 275.
+
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 []\OT1/cmr/m/n/10 sudo apt-get in-stall build-essential
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 262--263
+Underfull \hbox (badness 6825) in paragraph at lines 310--311
 []\OT1/cmr/m/n/10 git clone https://github.com/adafruit/
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
 |[]\OT1/cmr/bx/n/14.4 Maintenance and Trou-
  []
 
 [6] [7] [8]
-<A000005-pinout.png, id=47, 619.3539pt x 619.5948pt>
+(C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.st
+y
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) [9] [10] [11]
+(C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.st
+y
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.st
+y
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+) [12] [13] [14]
+<A000005-pinout.png, id=68, 619.3539pt x 619.5948pt>
 File: A000005-pinout.png Graphic file (type png)
 <use A000005-pinout.png>
-Package pdftex.def Info: A000005-pinout.png  used on input line 564.
+Package pdftex.def Info: A000005-pinout.png  used on input line 928.
 (pdftex.def)             Requested size: 469.75502pt x 469.94206pt.
- [9]
-<GPIO-Pinout-Diagram-2.png, id=51, 2071.74pt x 1189.44376pt>
+<GPIO-Pinout-Diagram-2.png, id=69, 2071.74pt x 1189.44376pt>
 File: GPIO-Pinout-Diagram-2.png Graphic file (type png)
 <use GPIO-Pinout-Diagram-2.png>
-Package pdftex.def Info: GPIO-Pinout-Diagram-2.png  used on input line 568.
+Package pdftex.def Info: GPIO-Pinout-Diagram-2.png  used on input line 932.
 (pdftex.def)             Requested size: 469.75502pt x 269.70049pt.
- [10 <./A000005-pinout.png (PNG copy)>] [11 <./GPIO-Pinout-Diagram-2.png (PNG c
+ [15 <./A000005-pinout.png (PNG copy)>] [16 <./GPIO-Pinout-Diagram-2.png (PNG c
 opy)>] (TESSA.aux) ) 
 Here is how much of TeX's memory you used:
- 31214 strings out of 479334
- 778331 string characters out of 2855658
- 1417662 words of memory out of 3000000
- 48297 multiletter control sequences out of 15000+200000
- 409135 words of font info for 46 fonts, out of 3000000 for 9000
+ 33236 strings out of 479334
+ 804951 string characters out of 2855658
+ 1971512 words of memory out of 3000000
+ 50296 multiletter control sequences out of 15000+200000
+ 409302 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,10n,130p,1009b,1041s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 128i,10n,130p,1009b,1866s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\awtorode\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
 nappen/ec/dpi600\tcbx1000.pk> <C:\Users\awtorode\AppData\Local\MiKTeX\fonts/pk/
 ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/awtorode/AppData/Local/Programs
@@ -976,17 +1025,19 @@ nts/cm/cmmi7.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/awtorode/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/awtorode/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/awtorode/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users
-/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/awtorode/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users
+/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
 ><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmr9.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmsy7.pfb><C:/Users/awtorode/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on TESSA.pdf (11 pages, 706334 bytes).
+m/cmr8.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr9.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/awtorode/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/awtorode/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on TESSA.pdf (16 pages, 759040 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 138 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
