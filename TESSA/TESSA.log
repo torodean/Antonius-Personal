@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.11.14)  20 SEP 2023 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.11.14)  20 SEP 2023 22:51
 entering extended mode
 **./TESSA.tex
 (TESSA.tex
@@ -833,11 +833,7 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_b_int=\count309
 
 (C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.te
-x)) (TESSA.aux
-
-LaTeX Warning: Label `fig:Arduino Nano Setup' multiply defined.
-
-)
+x)) (TESSA.aux)
 \openout1 = `TESSA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -950,49 +946,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--316
 <A000005-pinout.png, id=47, 619.3539pt x 619.5948pt>
 File: A000005-pinout.png Graphic file (type png)
 <use A000005-pinout.png>
-Package pdftex.def Info: A000005-pinout.png  used on input line 555.
+Package pdftex.def Info: A000005-pinout.png  used on input line 564.
 (pdftex.def)             Requested size: 469.75502pt x 469.94206pt.
  [9]
 <GPIO-Pinout-Diagram-2.png, id=51, 2071.74pt x 1189.44376pt>
 File: GPIO-Pinout-Diagram-2.png Graphic file (type png)
 <use GPIO-Pinout-Diagram-2.png>
-Package pdftex.def Info: GPIO-Pinout-Diagram-2.png  used on input line 559.
+Package pdftex.def Info: GPIO-Pinout-Diagram-2.png  used on input line 568.
 (pdftex.def)             Requested size: 469.75502pt x 269.70049pt.
  [10 <./A000005-pinout.png (PNG copy)>] [11 <./GPIO-Pinout-Diagram-2.png (PNG c
-opy)>] (TESSA.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+opy)>] (TESSA.aux) ) 
 Here is how much of TeX's memory you used:
- 31120 strings out of 479334
- 775184 string characters out of 2855658
- 1411016 words of memory out of 3000000
- 48203 multiletter control sequences out of 15000+200000
+ 31214 strings out of 479334
+ 778331 string characters out of 2855658
+ 1417662 words of memory out of 3000000
+ 48297 multiletter control sequences out of 15000+200000
  409135 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,10n,130p,1009b,1041s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\awtorode\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
-cbx1000.pk> <C:\Users\awtorode\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\tcrm1000.pk><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/awtorode/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/awtorode/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aw
-torode/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
-C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr12.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/awtorode/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/awtorode/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/awtorod
-e/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Use
-rs/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmsy7.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmtt10.pfb>
-Output written on TESSA.pdf (11 pages, 706005 bytes).
+ <C:\Users\awtorode\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\tcbx1000.pk> <C:\Users\awtorode\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/awtorode/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/awtorode/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/awtorod
+e/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Us
+ers/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/awtorode/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/awtorode/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/awtorode/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users
+/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb
+><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr9.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy7.pfb><C:/Users/awtorode/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on TESSA.pdf (11 pages, 706334 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

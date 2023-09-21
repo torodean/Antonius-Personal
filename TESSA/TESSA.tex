@@ -396,7 +396,7 @@
 			\draw (0,0) rectangle (2,2) node[midway] {DHT11};
 			
 			\node[draw, circle, minimum size=0.5cm] (power) at (3,3) {5V};
-			\node[draw, rectangle, minimum width=2cm, minimum height=1cm] (pump) at (12,2.8) {Pump};
+			\node[draw, rectangle, minimum width=2cm, minimum height=1cm] (pump) at (14,2.8) {Pump};
 			\node[draw, rectangle, minimum width=2cm, minimum height=2cm] (oled) at (8,-2) {OLED};
 			
 			% Power
@@ -417,7 +417,7 @@
 			
 			% Transistor Connectors
 			\draw (npn.C) -- (power.east); % Collector to Vcc
-			\draw (npn.E) -- (11,3);
+			\draw (npn.E) -- (13,3);
 			\draw (npn.B) -- ++(0,-0.8) node[draw, circle, minimum size=0.5cm, anchor=north] {12}; 
 			
 			% OLED connectors.		
@@ -426,7 +426,9 @@
 			\draw (8.3,-1) -- ++(0,1) -- ++(1.5,0) node[draw, circle, minimum size=0.5cm, anchor=west] {A5};
 			\draw (8.7,-1) -- ++(0,0.25) -- ++(2,0) node[draw, circle, minimum size=0.5cm, anchor=west] {A4};
 			
-			\draw (11,2.6) -- ++(-0.3, 0) -- ++(0, -0.5) node[ground]{};
+			\draw (13,2.5) -- ++(-0.3, 0) -- ++(0, -0.5) node[ground]{};
+			
+			\draw (13,2.5) to  [full diode] (11,2.5) -- (11,3);
 		\end{circuitikz}
 		\caption{\footnotesize The Circuit diagram for the Arduino Nano setup. All grounds must be common. The A4 and A5 pins correspond to the Arduino Nano's SDA/SCL pins and should not be modified. The other circle connectors 11 and 12 correspond to the I/O pins on the Nano and can be changed to any of the other I/O pins if desired (the code and circuitry would need updated appropriately).}
 		\label{fig:Arduino Nano Setup}
@@ -440,8 +442,8 @@
 			\draw (0,0) rectangle (2,2) node[midway] {DHT11};
 			
 			\node[draw, circle, minimum size=0.5cm] (power) at (3,3) {5V};
-			\node[draw, rectangle, minimum width=2cm, minimum height=1cm] (pump) at (12,2.8) {Pump 1};			
-			\node[draw, rectangle, minimum width=2cm, minimum height=1cm] (pump2) at (12,0.3) {Pump 2};
+			\node[draw, rectangle, minimum width=2cm, minimum height=1cm] (pump) at (14,2.8) {Pump 1};			
+			\node[draw, rectangle, minimum width=2cm, minimum height=1cm] (pump2) at (14,0.3) {Pump 2};
 			\node[draw, rectangle, minimum width=2cm, minimum height=2cm] (oled) at (8,-4.5) {OLED};
 			
 			% Power
@@ -468,24 +470,29 @@
 			
 			% Transistor Connectors
 			\draw (npn.C) -- (power.east); % Collector to Vcc
-			\draw (npn.E) -- (11,3);
-			\draw (npn.B) -- ++(0,-0.5) node[draw, circle, minimum size=0.5cm, anchor=north] {12}; 
+			\draw (npn.E) -- (13,3); % Emitter
+			\draw (npn.B) -- ++(0,-0.5) node[draw, circle, minimum size=0.5cm, anchor=north] {12};  % Base
 			
 			% Transistor Connectors
 			\draw (npn2.C) -- (7.3,0.5); % Collector to Vcc
-			\draw (npn2.E) -- (11,0.5);
-			\draw (npn2.B) -- ++(0,-0.5) node[draw, circle, minimum size=0.5cm, anchor=north] {10}; 
+			\draw (npn2.E) -- (13,0.5);
+			\draw (npn2.B) -- ++(0,-0.5) node[draw, circle, minimum size=0.5cm, anchor=north] {4}; 
 			
 			% OLED connectors.		
 			\draw (7.3,-3.5) -- (7.3,3); % GND
-			\draw (7.8,-3.5) -- ++(0,1) node[ground, rotate=180] {}; % GND		
+			\draw (7.8,-3.5) -- ++(0,1) node[ground, rotate=180] {}; % GND
 			\draw (8.3,-3.5) -- ++(0,1) -- ++(1.5,0) node[draw, circle, minimum size=0.5cm, anchor=west] {A5};
 			\draw (8.7,-3.5) -- ++(0,0.25) -- ++(2,0) node[draw, circle, minimum size=0.5cm, anchor=west] {A4};
 			
-			\draw (11,2.6) -- ++(-0.3, 0) -- ++(0, -0.5) node[ground]{};
+			\draw (13,2.5) -- ++(-0.3, 0) -- ++(0, -0.5) node[ground]{};
+			\draw (13,0) -- ++(-0.3, 0) -- ++(0, -0.5) node[ground]{};
+			
+			% Diodes
+			\draw (13,0) to  [full diode] (11,0)-- (11,0.5);
+			\draw (13,2.5) to  [full diode] (11,2.5) -- (11,3);
 		\end{circuitikz}
-		\caption{\footnotesize The Circuit diagram for the Arduino Nano setup. All grounds must be common. The A4 and A5 pins correspond to the Arduino Nano's SDA/SCL pins and should not be modified. The other circle connectors 10, 11 and 12 correspond to the I/O pins on the Nano and can be changed to any of the other I/O pins if desired (the code and circuitry would need updated appropriately).}
-		\label{fig:Arduino Nano Setup}
+		\caption{\footnotesize The Circuit diagram for the Arduino Nano setup. All grounds must be common. The A4 and A5 pins correspond to the Arduino Nano's SDA/SCL pins and should not be modified. The other circle connectors 4, 11 and 12 correspond to the I/O pins on the Nano and can be changed to any of the other I/O pins if desired (the code and circuitry would need updated appropriately).}
+		\label{fig:Arduino Nano Setup 2}
 	\end{figure}
 
 	\subsubsection{Raspberry Pi Circuit Design}
@@ -496,7 +503,7 @@
 			\draw (0,0) rectangle (2,2) node[midway] {DHT11};
 			
 			\node[draw, circle, minimum size=0.5cm] (power) at (3,3) {5V};
-			\node[draw, rectangle, minimum width=2cm, minimum height=1cm] (pump) at (12,2.8) {Pump};
+			\node[draw, rectangle, minimum width=2cm, minimum height=1cm] (pump) at (14,2.8) {Pump};
 			\node[draw, rectangle, minimum width=2cm, minimum height=2cm] (oled) at (8,-3) {OLED};
 			
 			% Power
@@ -517,21 +524,23 @@
 			
 			% Transistor Connectors
 			\draw (npn.C) -- (power.east); % Collector to Vcc
-			\draw (npn.E) -- (11,3);
+			\draw (npn.E) -- (13,3);
 			\draw (npn.B) -- ++(0,-0.8) node[draw, circle, minimum size=0.5cm, anchor=north] {18}; 
 			
-						% OLED connectors.		
+			% OLED connectors.		
 			\draw (7.3,-2) -- (7.3,3); % GND
 			\draw (7.8,-2) -- ++(0,1) node[ground, rotate=180] {}; % GND		
 			\draw (8.3,-2) -- ++(0,1) -- ++(1.5,0) node[draw, circle, minimum size=0.5cm, anchor=west] {2};
 			\draw (8.7,-2) -- ++(0,0.25) -- ++(2,0) node[draw, circle, minimum size=0.5cm, anchor=west] {3};
 			
-			\draw (11,2.6) -- ++(-0.3, 0) -- ++(0, -0.5) node[ground]{};
+			\draw (13,2.5) -- ++(-0.3, 0) -- ++(0, -0.5) node[ground]{};
 			
 			\draw[dotted] (6,0) -- (6,-4.3) -- (12,-4.3) -- (12,0) -- (6,0);
 			
 			\draw (10.5, -3) node[]{OPTIONAL};
 			\draw (10.5, -3.5) node[]{OLED};
+			
+			\draw (13,2.5) to  [full diode] (11,2.5) -- (11,3);
 		\end{circuitikz}
 		\caption{\footnotesize The Circuit diagram for the Raspberry Pi setup. All grounds must be common. The OLED section is optional and can be omitted if the user would rather monitor from the same display as the Raspberry Pi. the circles with numbers correspond to the GPIO pins on the Raspberry Pi. Pins 2 and 3 are the SDA/SCL pins respectively and should be kept as they are but the others can be used with other GPIO pins if desired (the code will need updated appropriately).}
 		\label{fig:Raspberry Pi Setup}
