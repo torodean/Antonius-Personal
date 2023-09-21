@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.11.14)  20 SEP 2023 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.11.14)  20 SEP 2023 23:53
 entering extended mode
 **./TESSA.tex
 (TESSA.tex
@@ -973,15 +973,21 @@ Underfull \hbox (badness 6825) in paragraph at lines 310--311
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
 |[]\OT1/cmr/bx/n/14.4 Maintenance and Trou-
  []
 
-[6] [7] [8]
+[6] [7]
+<circuit.jpg, id=44, 1254.6875pt x 1219.55624pt>
+File: circuit.jpg Graphic file (type jpg)
+<use circuit.jpg>
+Package pdftex.def Info: circuit.jpg  used on input line 551.
+(pdftex.def)             Requested size: 469.75502pt x 456.60672pt.
+ [8] [9 <./circuit.jpg>]
 (C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.st
 y
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [9] [10] [11]
+) [10] [11] [12]
 (C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.st
 y
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -992,24 +998,24 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (C:\Users\awtorode\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-) [12] [13] [14]
-<A000005-pinout.png, id=68, 619.3539pt x 619.5948pt>
+) [13] [14] [15]
+<A000005-pinout.png, id=72, 619.3539pt x 619.5948pt>
 File: A000005-pinout.png Graphic file (type png)
 <use A000005-pinout.png>
-Package pdftex.def Info: A000005-pinout.png  used on input line 928.
+Package pdftex.def Info: A000005-pinout.png  used on input line 938.
 (pdftex.def)             Requested size: 469.75502pt x 469.94206pt.
-<GPIO-Pinout-Diagram-2.png, id=69, 2071.74pt x 1189.44376pt>
+<GPIO-Pinout-Diagram-2.png, id=73, 2071.74pt x 1189.44376pt>
 File: GPIO-Pinout-Diagram-2.png Graphic file (type png)
 <use GPIO-Pinout-Diagram-2.png>
-Package pdftex.def Info: GPIO-Pinout-Diagram-2.png  used on input line 932.
+Package pdftex.def Info: GPIO-Pinout-Diagram-2.png  used on input line 942.
 (pdftex.def)             Requested size: 469.75502pt x 269.70049pt.
- [15 <./A000005-pinout.png (PNG copy)>] [16 <./GPIO-Pinout-Diagram-2.png (PNG c
+ [16 <./A000005-pinout.png (PNG copy)>] [17 <./GPIO-Pinout-Diagram-2.png (PNG c
 opy)>] (TESSA.aux) ) 
 Here is how much of TeX's memory you used:
- 33236 strings out of 479334
- 804951 string characters out of 2855658
- 1971512 words of memory out of 3000000
- 50296 multiletter control sequences out of 15000+200000
+ 33246 strings out of 479334
+ 805088 string characters out of 2855658
+ 1971578 words of memory out of 3000000
+ 50305 multiletter control sequences out of 15000+200000
  409302 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,10n,130p,1009b,1866s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1035,9 +1041,9 @@ e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/awtorode/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/awtorode/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on TESSA.pdf (16 pages, 759040 bytes).
+Output written on TESSA.pdf (17 pages, 2011591 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
+ 142 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

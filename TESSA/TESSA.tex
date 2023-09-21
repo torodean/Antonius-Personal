@@ -328,7 +328,9 @@
 		This is the implementation using the Arduino Nano as the micro-controller. This setup is completely standalone and does not require a desktop monitor hookup once finished. Rather, it displays all the information on the OLED display and runs the pump based on a pre-programmed timer. A separate machine will be required to program the Arduino Nano. I recommend using a laptop or desktop running Linux (I have not tried this on a windows machine). If a Raspberry Pi is used as the development machine (this is what I used), a few extra steps will be needed to get the Arduino IDE software functioning. 
 		
 		\subsection{Circuit Diagram and Wiring}
-		See figure \ref{fig:Arduino Nano Setup} in section \ref{appendix:schematics}.
+		See figure \ref{fig:Arduino Nano Setup} and figure \ref{fig:Arduino Nano Setup 2} in section \ref{appendix:schematics} for circuit diagrams. For a PCB schematic, see figure \ref{fig:Arduino Nano Setup 3}.
+		
+		
 		
 		\subsection{Software Setup}
 		\begin{enumerate}
@@ -542,6 +544,14 @@
 		\caption{\footnotesize The Circuit diagram for the Arduino Nano setup. All grounds must be common. The A4 and A5 pins correspond to the Arduino Nano's SDA/SCL pins and should not be modified. The other circle connectors 4, 11 and 12 correspond to the I/O pins on the Nano and can be changed to any of the other I/O pins if desired (the code and circuitry would need updated appropriately).}
 		\label{fig:Arduino Nano Setup 2}
 	\end{figure}
+	
+		\subsubsection{Arduino Nano PCB schematic}
+		\begin{figure}[H] 
+			\centering % Center the figure horizontally
+			\includegraphics[width=\textwidth]{circuit}
+			\caption{\footnotesize The Circuit PCB schematic for the Arduino Nano setup (one pump displayed). The colored lines represent soldered connections or wires. The yellow circles indicate wires on the other side of the board. The green dots are the placement of the Arduino Nano.}
+			\label{fig:Arduino Nano Setup 3}
+		\end{figure}
 
 	\subsubsection{Raspberry Pi Circuit Design}
 	\begin{figure}[H] 
