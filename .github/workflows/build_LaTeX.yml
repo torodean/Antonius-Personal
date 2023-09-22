@@ -1,0 +1,36 @@
+name: Build LaTeX Documents
+
+on:
+  push:
+    branches:
+      - master  # Adjust this to the branch you want to trigger the workflow on
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Setup TeX Live
+      uses: xu-cheng/latex-action@v2
+      with:      
+        working_directory: TESSA
+        root_file: TESSA.tex  # You can adjust the TeX Live profile
+        
+    - name: Rename LaTeX document
+      run: |
+        cd TESSA  # Change directory to the subfolder
+        mv TESSA.pdf TESSA_autogen.pdf
+        
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'Antonius Torode'
+        git config --global user.email 'torodean@users.noreply.github.com'
+        git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
+        git checkout "${GITHUB_REF:11}"
+        cd TESSA  # Change directory to the subfolder
+        git add TESSA_autogen.pdf
+        git commit -m "Automated LaTeX generation - updating PDF"
+        git push
