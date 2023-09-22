@@ -9,6 +9,7 @@ Scripts/ytdownloads/*
 *.out
 *.fmt
 *.fot
+*.toc
 *.cb
 *.cb2
 .*.lb
