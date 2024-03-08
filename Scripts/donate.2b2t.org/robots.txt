@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: *?currency=*
-Disallow: *?lang=*
-Disallow: *?locale=*
-Disallow: *?ign=*
