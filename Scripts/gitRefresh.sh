@@ -1,127 +1,24 @@
-#!/bin/sh
+#!/bin/bash
 
-echo "...Updating repository for torodean.github.io"
-cd torodean.github.io
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+# Iterate through each directory in the current location
+for dir in */; do
+    # Check if it's a directory
+    if [ -d "$dir" ]; then
+        # Enter the directory
+        cd "$dir" || continue
+        
+        # Check if it's a Git repository
+        if [ -d ".git" ]; then
+            echo "...Updating repository for $dir"
+            # Update the repository
+            git pull
+            git status
+            echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        else
+            echo "Skipping $dir - Not a Git repository"
+        fi
 
-echo "...Updating repository for Antonius-InventoryManagement"
-cd Antonius-InventoryManagement
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for Antonius-Handbook"
-cd Antonius-Handbook
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for Antonius-Handbook-II"
-cd Antonius-Handbook-II
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for  Antonius-GameTemplate"
-cd  Antonius-GameTemplate
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for Antonius-Notes"
-cd Antonius-Notes
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for Antonius-Personal"
-cd Antonius-Personal
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for Antonius-MIA"
-cd Antonius-MIA
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for Antonius-Templates"
-cd Antonius-Templates
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for Antonius-GINA"
-cd Antonius-GINA
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for Antonius-Cookbook"
-cd Antonius-Cookbook
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for Antonius-Websites"
-cd Antonius-Websites
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for The-Potato-Pages"
-cd The-Potato-Pages
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for GitWebsiteTutorial.github.io"
-cd GitWebsiteTutorial.github.io
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for MMORPDND.github.io"
-cd MMORPDND.github.io
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for Antonius-DnD"
-cd Antonius-DnD
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for Antonius-Compendium"
-cd Antonius-Compendium
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-echo "...Updating repository for Antonius-Workouts"
-cd Antonius-Workouts
-git pull
-git status
-cd ..
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        # Go back to the original directory
+        cd - >/dev/null || exit
+    fi
+done
