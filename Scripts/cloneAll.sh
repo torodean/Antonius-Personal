@@ -1,20 +1,31 @@
-#!/bin/sh                                                                                                              
+#!/bin/bash
 
-git clone https://github.com/torodean/Antonius-Handbook.git
-git clone https://github.com/torodean/Antonius-Handbook-II.git
-git clone https://github.com/torodean/Antonius-Personal.git
-git clone https://github.com/torodean/Antonius-MIA.git
-git clone https://github.com/torodean/Antonius-Websites.git
-git clone https://github.com/torodean/Antonius-Templates.git
-git clone https://github.com/torodean/Antonius-GINA.git
-git clone https://github.com/torodean/Antonius-Cookbook.git
-git clone https://github.com/torodean/Antonius-Notes.git
-git clone https://github.com/torodean/The-Potato-Pages.git
-git clone https://github.com/torodean/torodean.github.io.git
-git clone https://github.com/torodean/Antonius-InventoryManagement.git
-git clone https://github.com/torodean/Antonius-GameTemplate
+# Define an array of GitHub repositories to clone
+repositories=(
+    "torodean/Antonius-Handbook"
+    "torodean/Antonius-Handbook-II"
+    "torodean/DnD.git"
+    "torodean/Antonius-DnD.git"
+    "torodean/Antonius-Personal"
+    "torodean/Antonius-MIA"
+    "torodean/Antonius-Websites"
+    "torodean/Antonius-Templates"
+    "torodean/Antonius-GINA"
+    "torodean/Antonius-Cookbook"
+    "torodean/Antonius-Survival.git"
+    "torodean/Antonius-Workouts.git"
+    "torodean/Antonius-Notes"
+    "torodean/The-Potato-Pages"
+    "torodean/torodean.github.io"
+    "torodean/Antonius-InventoryManagement"
+    "torodean/Antonius-GameTemplate"
+    "GitWebsiteTutorial/GitWebsiteTutorial.github.io"
+    "MMORPDND/MMORPDND.github.io"
+)
 
-git clone https://github.com/GitWebsiteTutorial/GitWebsiteTutorial.github.io.git
-git clone https://github.com/MMORPDND/MMORPDND.github.io.git
-
-
+# Loop through each repository and clone it
+for repo in "${repositories[@]}"; do
+    echo "Cloning repository: $repo"
+    git clone "https://github.com/$repo.git"
+    echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+done
