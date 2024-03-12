@@ -1,4 +1,3 @@
-File Edit Options Buffers Tools Sh-Script Help                                                                         
 #!/bin/sh                                                                                                              
 
 git clone https://github.com/torodean/Antonius-Handbook.git
