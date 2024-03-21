@@ -845,85 +845,96 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1); /*I2C Display 
 
 #define DHTPIN 12   /*DHT11 signal pin*/
 #define DHTTYPE DHT11
-#define PUMPPIN1 10 /*Pump 1 signal pin*/
-#define PUMPPIN2 4  /*Pump 2 signal pin*/
+#define PUMPPIN1 10 /*Pump 1 signal pin - SIDE PUMP*/
+#define PUMPPIN2 4  /*Pump 2 signal pin - TOP PUMP*/
 
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
-	pinMode(PUMPPIN1, OUTPUT);
-	pinMode(PUMPPIN2, OUTPUT);
-	Serial.begin(9600);
-	dht.begin();
-	if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {   /*OLED I2C Address*/
-		Serial.println(F("SSD1306 allocation failed"));
-		for(;;);
-	}
-	// Show initial display buffer contents on the screen --
-	// the library initializes this with an Adafruit splash screen.
-	display.display();
-	delay(2000);
-	display.clearDisplay();
-	display.setTextColor(WHITE);  /*Text color*/
+  pinMode(PUMPPIN1, OUTPUT);
+  pinMode(PUMPPIN2, OUTPUT);
+  Serial.begin(9600);
+  dht.begin();
+  if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {   /*OLED I2C Address*/
+    Serial.println(F("SSD1306 allocation failed"));
+    for(;;);
+  }
+  // Show initial display buffer contents on the screen --
+  // the library initializes this with an Adafruit splash screen.
+  display.display();
+  delay(2000);
+  display.clearDisplay();
+  display.setTextColor(WHITE);  /*Text color*/
 }
 
-long count = 0;
+
+long timer = 0;
+long activeTimer = 0;
 
 // The time to keep the first pump on.
-long onTime = 30;
+long onTime1 = 20;
 
 // The time to keep the second pump on.
-long onTime2 = 30;
+long onTime2 = 20;
 
 // The delay for turning the pump on.
-long delayTime = 24L*60L*60L - onTime - onTime2; // one day - on times.
+long delayTime = 24L*60L*60L - onTime1 - onTime2; // one day - on times.
+long count = delayTime - 60;
+
 
 void loop() {
-	delay(1000);
-	count++;
-	if (count >= delayTime + onTime + onTime2) {
-		digitalWrite(PUMPPIN2, LOW);
-		displayText(false);
-		count = 0;
-	} else if(count >= delayTime + onTime){
-		digitalWrite(PUMPPIN2, HIGH);
-		digitalWrite(PUMPPIN1, LOW);
-		displayText(true);
-	} else if(count >= delayTime){
-		digitalWrite(PUMPPIN1, HIGH);
-		displayText(true);
-	} else {
-		displayText(false);
-	}  
+  delay(1000);
+  count++;
+  timer = delayTime - count;
+  if (count >= delayTime + onTime1 + onTime2) {
+    digitalWrite(PUMPPIN2, LOW);
+    displayText(false);
+    count = 0;
+  } else if(count >= delayTime + onTime1){
+    digitalWrite(PUMPPIN2, HIGH);
+    digitalWrite(PUMPPIN1, LOW);
+    displayText(true);
+  } else if(count >= delayTime){
+    digitalWrite(PUMPPIN1, HIGH);
+    displayText(true);
+  } else {
+    displayText(false);
+  }  
 }
 
 void displayText(bool pumpStatus){
-	float t = dht.readTemperature();  /*read temp*/
-	float h = dht.readHumidity();    /*read humidity*/
-	if (isnan(h) || isnan(t)) {
-		Serial.println("Failed to read from DHT sensor!");
-	}
-	display.clearDisplay();  /*clear display*/
-	display.setTextSize(1); /*OLED font size*/
-	display.setCursor(0,0);
-	display.print("Temp: ");
-	display.print(t);       /*print temp in Celsius*/
-	display.print(" ");
-	display.cp437(true);
-	display.write(167);
-	display.print("C");  
-	display.setCursor(0, 10);
-	display.print("Humidity: ");
-	display.print(h);      /*prints humidity percentage*/
-	display.print(" %");
-	if (pumpStatus) {
-		display.setCursor(0, 35);
-		display.print("Pump ACTIVE");
-	} else {
-		display.setCursor(0, 35);
-		display.print("Pump IDLE"); 
-	}
-	display.display();
+  float t = dht.readTemperature();  /*read temp*/
+  float h = dht.readHumidity();    /*read humidity*/
+  if (isnan(h) || isnan(t)) {
+    Serial.println("Failed to read from DHT sensor!");
+  }
+  display.clearDisplay();  /*clear display*/
+  display.setTextSize(1); /*OLED font size*/
+  display.setCursor(0,0);
+  display.print("Temp: ");
+  display.print(t);       /*print temp in Celsius*/
+  display.print(" ");
+  display.cp437(true);
+  display.write(167);
+  display.print("C");  
+  display.setCursor(0, 10);
+  display.print("Humidity: ");
+  display.print(h);      /*prints humidity percentage*/
+  display.print(" %");
+  display.setCursor(0, 20);
+  if (pumpStatus) {
+    display.print("Switch in: ");
+    activeTimer = onTime1 + onTime2 + timer;
+    display.print(activeTimer);
+    display.setCursor(0, 35);
+    display.print("Pump ACTIVE");
+  } else {
+    display.print("Switch in: ");
+    display.print(timer);
+    display.setCursor(0, 35);
+    display.print("Pump IDLE");
+  }
+  display.display();
 }
 \end{lstlisting}
 				
