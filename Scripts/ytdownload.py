@@ -3,136 +3,127 @@
 ## Program: ytdownload.py
 ## Author: Antonius Torode
 ## Date: 3/13/2019
-## Purpose: For downloading videos from youtube then converting to mp3.
+## Purpose: For downloading videos from YouTube then converting to mp3.
 ##################################################################################
 
 from pytube import YouTube
-from os import path
-from os import system
+import os
 import argparse
 import moviepy.editor as mp
 import sys
-import os
 
-# Adds arguments that can be passed with program.
+# Adds arguments that can be passed with the program.
 parser = argparse.ArgumentParser()
-parser.add_argument('-u', '--URL', help='Youtube URL. Enter value within quotes.', type=str, required=False, default='None')
-parser.add_argument('-l', '--LIST', help='Use list of URLs. Input should be text file.', type=str, required=False,
-                    default='None')
-parser.add_argument('-v', '--verbose', help='Verbose Output.', required=False, action='store_true')
+parser.add_argument('-u', '--url', help='YouTube URL. Enter value within quotes.', type=str)
+parser.add_argument('-l', '--list', help='Use list of URLs. Input should be a text file.', type=str)
+parser.add_argument('-v', '--verbose', help='Verbose Output.', action='store_true')
+parser.add_argument('-k', '--keepmp4', help='Keeps the mp4 file', action='store_true')
 
 # Sets all passed arguments to program variables.
 args = parser.parse_args()
-urlinput = args.URL
-listInput = args.LIST
-verboseMode = args.verbose
+url_input = args.url
+list_input = args.list
+verbose_mode = args.verbose
 
-downloadDirectory = 'ytdownloads'
+download_directory = 'ytdownloads'
 
 
-def fileExists(fileName, subDirectory='', fileExtension='.txt'):
+def file_exists(file_name, sub_directory='', file_extension='.txt'):
     """
     Checks if a file exists.
     """
-    if subDirectory == '':
-        file = fileName
-    else:
-        file = subDirectory + '/' + fileName + '.' + fileExtension
-    print("...checking if {0} exists.".format(file))
+    file_path = os.path.join(sub_directory, f"{file_name}.{file_extension}") if sub_directory else file_name
+    print(f"...checking if {file_path} exists.")
     sys.stdout.flush()
-    return path.exists(file)
+    return os.path.exists(file_path)
 
 
-def extractHighestBitRateAsitag(list):
-    bitrate = 0
-    itag = "0"
-    for item in list:
-        br = item.split("abr=\"")[1].split("kbp")[0]
-        if int(br) > bitrate:
-            bitrate = int(br)
-    for item in list:
-        if "abr=\"{0}".format(bitrate) in item:
-            itag = item.split("itag=\"")[1].split("\" ")[0]
-    return int(itag)
+def extract_highest_bitrate_itag(streams):
+    """
+    Extract the highest bitrate itag from the list of streams.
+    """
+    highest_bitrate = 0
+    highest_itag = None
+    for stream in streams:
+        if stream.abr:
+            bitrate = int(stream.abr.replace('kbps', ''))
+            if bitrate > highest_bitrate:
+                highest_bitrate = bitrate
+                highest_itag = stream.itag
+    return highest_itag
 
 
-def downloadUrl(url):
+def download_url(url):
     """
     Downloads a specified URL file.
     """
     try:
-        print('...Processing Youtube download for {0}'.format(url))
+        print(f'...Processing YouTube download for {url}')
         sys.stdout.flush()
         yt = YouTube(url)
         title = yt.title
-        fileName = ''.join(e for e in title if e.isalnum() or e.isspace())
+        file_name = ''.join(e for e in title if e.isalnum() or e.isspace())
 
-        print(fileName)
-
-        if fileExists(fileName, downloadDirectory, 'mp4'):
-            print("...File already exists: {0}/{1}.mp4".format(downloadDirectory, fileName))
+        if file_exists(file_name, download_directory, 'mp4'):
+            print(f"...File already exists: {download_directory}/{file_name}.mp4")
             print('...Skipping download.')
         else:
-            streams = yt.streams.filter(only_audio=True, file_extension='mp4')
-            streamlist = []
-            for stream in streams:
-                print(stream)
-                streamlist.append(str(stream))
-            sys.stdout.flush()
-            itag = extractHighestBitRateAsitag(streamlist)
+            streams = yt.streams.filter(file_extension='mp4')
+            itag = extract_highest_bitrate_itag(streams)
             stream = yt.streams.get_by_itag(itag)
-            print('...Downloading first stream ({0}):'.format(title))
+            print(f'...Downloading {title} with itag {itag}')
             sys.stdout.flush()
-            stream.download(downloadDirectory)
-            system("cp -uv \"{0}/\"*\".mp4\" \"{0}/{1}.mp4\"".format(downloadDirectory, fileName))
-
+            stream.download(download_directory, filename=f"{file_name}.mp4")
             print('...Finished download.')
-        convertMp4(fileName)
-        deleteMp4s()
+        
+        convert_mp4(file_name)
+        if not args.keepmp4:
+            delete_mp4s(file_name)
     except Exception as ex:
         print(ex)
         print("...An error occurred when downloading the specified URL.")
 
 
-def convertMp4(title):
+def convert_mp4(title):
     """
     Converts an mp4 file to mp3.
     """
     try:
-        if fileExists(title, downloadDirectory, 'mp3'):
-            print("...File already exists: {0}/{1}.mp3".format(downloadDirectory, title))
+        if file_exists(title, download_directory, 'mp3'):
+            print(f"...File already exists: {download_directory}/{title}.mp3")
             print('...Skipping conversion.')
         else:
-            print('...Starting converter for {0}.mp4'.format(title))
-            clip = mp.AudioFileClip('{0}/{1}.mp4'.format(downloadDirectory, title))
-            clip.write_audiofile('{0}/{1}.mp3'.format(downloadDirectory, title))
-
+            print(f'...Starting conversion for {title}.mp4')
+            clip = mp.AudioFileClip(os.path.join(download_directory, f"{title}.mp4"))
+            clip.write_audiofile(os.path.join(download_directory, f"{title}.mp3"))
             print('...Finished conversion.')
-
     except Exception as ex:
         print(ex)
         print("...An error occurred when converting the specified URL.")
 
 
-def deleteMp4s():
+def delete_mp4s(title):
     """
     Used for deleting mp4 files after converting.
     """
-    print("...Deleting mp4's")
-    system("rm -vrf {0}/*.mp4".format(downloadDirectory))
+    try:
+        os.remove(os.path.join(download_directory, f"{title}.mp4"))
+        print(f"...Deleted {title}.mp4")
+    except Exception as ex:
+        print(ex)
+        print(f"...An error occurred when deleting {title}.mp4")
 
 
-if urlinput != 'None' and listInput == 'None':
-    downloadUrl(urlinput)
-elif listInput != 'None':
-    file = open(listInput, "r")
-    for line in file.readlines():
-        downloadUrl(line)
+if not os.path.exists(download_directory):
+    os.makedirs(download_directory)
+
+if url_input and not list_input:
+    download_url(url_input)
+elif list_input:
+    with open(list_input, "r") as file:
+        for line in file:
+            download_url(line.strip())
 else:
     print("...Nothing to convert, invalid inputs.")
 
 print('...Finished program.')
-
-
-
-
