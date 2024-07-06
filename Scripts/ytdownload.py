@@ -18,6 +18,8 @@ parser.add_argument('-u', '--url', help='YouTube URL. Enter value within quotes.
 parser.add_argument('-l', '--list', help='Use list of URLs. Input should be a text file.', type=str)
 parser.add_argument('-v', '--verbose', help='Verbose Output.', action='store_true')
 parser.add_argument('-k', '--keepmp4', help='Keeps the mp4 file', action='store_true')
+parser.add_argument('-m', '--maxquality', help='Download highest quality video.', action='store_true')
+parser.add_argument('-f', '--forcevideo', help='Force download highest quality video even without audio.', action='store_true')
 
 # Sets all passed arguments to program variables.
 args = parser.parse_args()
@@ -44,11 +46,44 @@ def extract_highest_bitrate_itag(streams):
     """
     highest_bitrate = 0
     highest_itag = None
-    for stream in streams:
+    for stream in streams.filter(progressive=True):
+        print(stream)
         if stream.abr:
             bitrate = int(stream.abr.replace('kbps', ''))
             if bitrate > highest_bitrate:
                 highest_bitrate = bitrate
+                highest_itag = stream.itag
+    return highest_itag
+
+
+def extract_highest_quality_itag(streams):
+    """
+    Extract the highest quality itag from the list of streams.
+    """
+    highest_resolution = 0
+    highest_itag = None
+    for stream in streams.filter(progressive=True, file_extension='mp4'):
+        print(stream)
+        if stream.resolution:
+            resolution = int(stream.resolution.replace('p', ''))
+            if resolution > highest_resolution:
+                highest_resolution = resolution
+                highest_itag = stream.itag
+    return highest_itag
+
+
+def extract_highest_quality_itag_no_filter(streams):
+    """
+    Extract the highest quality itag from the list of streams without any filter.
+    """
+    highest_resolution = 0
+    highest_itag = None
+    for stream in streams.filter(file_extension='mp4'):
+        print(stream)
+        if stream.resolution:
+            resolution = int(stream.resolution.replace('p', ''))
+            if resolution > highest_resolution:
+                highest_resolution = resolution
                 highest_itag = stream.itag
     return highest_itag
 
@@ -68,20 +103,28 @@ def download_url(url):
             print(f"...File already exists: {download_directory}/{file_name}.mp4")
             print('...Skipping download.')
         else:
-            streams = yt.streams.filter(file_extension='mp4')
-            itag = extract_highest_bitrate_itag(streams)
+            if args.forcevideo:
+                streams = yt.streams.filter(file_extension='mp4')
+                itag = extract_highest_quality_itag_no_filter(streams)
+            elif args.maxquality:
+                streams = yt.streams.filter(progressive=True, file_extension='mp4')
+                itag = extract_highest_quality_itag(streams)
+            else:
+                streams = yt.streams.filter(progressive=True, file_extension='mp4')
+                itag = extract_highest_bitrate_itag(streams)
+
             stream = yt.streams.get_by_itag(itag)
             print(f'...Downloading {title} with itag {itag}')
             sys.stdout.flush()
             stream.download(download_directory, filename=f"{file_name}.mp4")
             print('...Finished download.')
-        
+
         convert_mp4(file_name)
         if not args.keepmp4:
             delete_mp4s(file_name)
     except Exception as ex:
         print(ex)
-        print("...An error occurred when downloading the specified URL.")
+        print(f"...ERROR: {ex}")
 
 
 def convert_mp4(title):
@@ -94,7 +137,14 @@ def convert_mp4(title):
             print('...Skipping conversion.')
         else:
             print(f'...Starting conversion for {title}.mp4')
-            clip = mp.AudioFileClip(os.path.join(download_directory, f"{title}.mp4"))
+            mp4_path = os.path.join(download_directory, f"{title}.mp4")
+
+            # Ensure the file is valid and not empty
+            if os.path.getsize(mp4_path) == 0:
+                print(f"...ERROR: {title}.mp4 is empty.")
+                return
+
+            clip = mp.AudioFileClip(mp4_path)
             clip.write_audiofile(os.path.join(download_directory, f"{title}.mp3"))
             print('...Finished conversion.')
     except Exception as ex:
