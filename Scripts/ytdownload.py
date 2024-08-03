@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/bin/python3.9
 ##################################################################################
 ## Program: ytdownload.py
 ## Author: Antonius Torode
@@ -7,6 +7,7 @@
 ##################################################################################
 
 from pytube import YouTube
+from pytube import Playlist
 import os
 import argparse
 import moviepy.editor as mp
@@ -88,12 +89,33 @@ def extract_highest_quality_itag_no_filter(streams):
     return highest_itag
 
 
+def get_video_links_from_playlist(playlist_url):
+    try:
+        playlist = Playlist(playlist_url)
+        video_links = [video.watch_url for video in playlist.videos]
+        return video_links
+    except Exception as e:
+        print(f"...ERROR: {e}")
+        return []
+
+
+def download_playlist(playlist_url):
+    """
+    Downloads an entire playlist.
+    """
+    video_links = get_video_links_from_playlist(playlist_url)
+    for link in video_links:
+        download_url(link)
+
+
 def download_url(url):
     """
     Downloads a specified URL file.
     """
     try:
         print(f'...Processing YouTube download for {url}')
+        if "&list=" in url:
+            download_playlist(url)
         sys.stdout.flush()
         yt = YouTube(url)
         title = yt.title
