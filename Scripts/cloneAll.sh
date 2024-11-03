@@ -4,6 +4,8 @@
 repositories=(
     "torodean/Antonius-Handbook"
     "torodean/Antonius-Handbook-II"
+    "torodean/Antonius-Compendium.git"
+    "torodean/Antonius-Adventure.git"
     "torodean/DnD.git"
     "torodean/Antonius-DnD.git"
     "torodean/Antonius-Personal"
