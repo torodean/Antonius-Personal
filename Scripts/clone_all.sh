@@ -4,18 +4,18 @@
 repositories=(
     "torodean/Antonius-Handbook"
     "torodean/Antonius-Handbook-II"
-    "torodean/Antonius-Compendium.git"
-    "torodean/Antonius-Adventure.git"
-    "torodean/DnD.git"
-    "torodean/Antonius-DnD.git"
+    "torodean/Antonius-Compendium"
+    "torodean/Antonius-Adventure"
+    "torodean/DnD"
+    "torodean/Antonius-DnD"
     "torodean/Antonius-Personal"
     "torodean/Antonius-MIA"
     "torodean/Antonius-Websites"
     "torodean/Antonius-Templates"
     "torodean/Antonius-GINA"
     "torodean/Antonius-Cookbook"
-    "torodean/Antonius-Survival.git"
-    "torodean/Antonius-Workouts.git"
+    "torodean/Antonius-Survival"
+    "torodean/Antonius-Workouts"
     "torodean/Antonius-Notes"
     "torodean/The-Potato-Pages"
     "torodean/torodean.github.io"
@@ -28,6 +28,6 @@ repositories=(
 # Loop through each repository and clone it
 for repo in "${repositories[@]}"; do
     echo "Cloning repository: $repo"
-    git clone "https://github.com/$repo.git"
+    git clone "git@github.com:$repo.git"
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 done
