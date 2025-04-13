@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.6)  31 AUG 2021 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.11.14)  13 APR 2025 15:48
 entering extended mode
 **./Antonius_Torode_resume.tex
 (Antonius_Torode_resume.tex
@@ -995,27 +995,23 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 122.
+(Font)              using `T1/lmss/m/sc' instead on input line 129.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 127.
+(Font)              using `T1/lmss/m/sc' instead on input line 134.
 
-
-LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 135.
-
-
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 135.
-
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
 (Font)              using `T1/lmss/m/sc' instead on input line 142.
 
+
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 142.
+
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
 (Font)              using `T1/lmss/m/sc' instead on input line 149.
@@ -1031,7 +1027,7 @@ Package pdftex.def Info: pictures/BG5.jpg  used on input line 150.
 G5.jpg>]
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 157.
+(Font)              using `T1/lmss/m/sc' instead on input line 156.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
@@ -1039,36 +1035,35 @@ LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 174.
+(Font)              using `T1/lmss/m/sc' instead on input line 171.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 183.
+(Font)              using `T1/lmss/m/sc' instead on input line 181.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 192.
+(Font)              using `T1/lmss/m/sc' instead on input line 190.
+
+
+LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
+(Font)              using `T1/lmss/m/sc' instead on input line 198.
 
 File: pictures/BG5.jpg Graphic file (type jpg)
 <use pictures/BG5.jpg>
-Package pdftex.def Info: pictures/BG5.jpg  used on input line 303.
+Package pdftex.def Info: pictures/BG5.jpg  used on input line 314.
 (pdftex.def)             Requested size: 597.51956pt x 845.04561pt.
 [2] (Antonius_Torode_resume.aux)
+Package rerunfilecheck Info: File `Antonius_Torode_resume.out' has not changed.
 
-Package rerunfilecheck Warning: File `Antonius_Torode_resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Antonius_Torode_resume.out':
-(rerunfilecheck)             Before: 5BF98E3655DF3110DCE29C07F5A52A4C;688
-(rerunfilecheck)             After:  18438FF3405116EE3E737FB79C5F276D;683.
+(rerunfilecheck)             Checksum: 18438FF3405116EE3E737FB79C5F276D;683.
  ) 
 Here is how much of TeX's memory you used:
- 21850 strings out of 479334
- 404070 string characters out of 2855660
- 723409 words of memory out of 3000000
- 38765 multiletter control sequences out of 15000+200000
- 469901 words of font info for 118 fonts, out of 3000000 for 9000
+ 21856 strings out of 479334
+ 404159 string characters out of 2855658
+ 724864 words of memory out of 3000000
+ 38767 multiletter control sequences out of 15000+200000
+ 470103 words of font info for 120 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,102p,482b,770s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc
@@ -1082,7 +1077,7 @@ blic/lm/lmssbx10.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/lm/lmsso10.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/lm/lmsso17.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/marvosym/marvosym.pfb>
-Output written on Antonius_Torode_resume.pdf (2 pages, 450548 bytes).
+Output written on Antonius_Torode_resume.pdf (2 pages, 451493 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
