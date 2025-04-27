@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2025.4.27)  27 APR 2025 13:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2025.4.27)  27 APR 2025 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,7 +986,7 @@ LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
 
 File: pictures/BG5.jpg Graphic file (type jpg)
 <use pictures/BG5.jpg>
-Package pdftex.def Info: pictures/BG5.jpg  used on input line 314.
+Package pdftex.def Info: pictures/BG5.jpg  used on input line 315.
 (pdftex.def)             Requested size: 597.51956pt x 845.04561pt.
 [2] (Antonius_Torode_resume.aux)
  ***********
@@ -1000,7 +1000,7 @@ Package rerunfilecheck Info: File `Antonius_Torode_resume.out' has not changed.
 Here is how much of TeX's memory you used:
  23109 strings out of 469927
  430878 string characters out of 5475764
- 849711 words of memory out of 5000000
+ 848711 words of memory out of 5000000
  49392 multiletter control sequences out of 15000+600000
  693599 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1013,7 +1013,7 @@ xmf/fonts/type1/public/lm/lmss12.pfb></usr/local/share/miktex-texmf/fonts/type1
 ocal/share/miktex-texmf/fonts/type1/public/lm/lmsso10.pfb></usr/local/share/mik
 tex-texmf/fonts/type1/public/lm/lmsso17.pfb></usr/local/share/miktex-texmf/font
 s/type1/public/marvosym/marvosym.pfb>
-Output written on Antonius_Torode_resume.pdf (2 pages, 459843 bytes).
+Output written on Antonius_Torode_resume.pdf (2 pages, 459850 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
