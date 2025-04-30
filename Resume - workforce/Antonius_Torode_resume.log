@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2025.4.27)  27 APR 2025 14:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2025.4.27)  30 APR 2025 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1000,7 +1000,7 @@ Package rerunfilecheck Info: File `Antonius_Torode_resume.out' has not changed.
 Here is how much of TeX's memory you used:
  23107 strings out of 469927
  430856 string characters out of 5475764
- 849711 words of memory out of 5000000
+ 848711 words of memory out of 5000000
  49392 multiletter control sequences out of 15000+600000
  693498 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1013,7 +1013,7 @@ xmf/fonts/type1/public/lm/lmss12.pfb></usr/local/share/miktex-texmf/fonts/type1
 ocal/share/miktex-texmf/fonts/type1/public/lm/lmsso10.pfb></usr/local/share/mik
 tex-texmf/fonts/type1/public/lm/lmsso17.pfb></usr/local/share/miktex-texmf/font
 s/type1/public/marvosym/marvosym.pfb>
-Output written on Antonius_Torode_resume.pdf (2 pages, 459842 bytes).
+Output written on Antonius_Torode_resume.pdf (2 pages, 459855 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
