@@ -1,4 +1,4 @@
-#!/bin/python3.9
+#!/bin/python3
 ##################################################################################
 ## Program: ytdownload.py
 ## Author: Antonius Torode
@@ -6,8 +6,8 @@
 ## Purpose: For downloading videos from YouTube then converting to mp3.
 ##################################################################################
 
-from pytube import YouTube
-from pytube import Playlist
+from pytubefix import YouTube
+from pytubefix import Playlist
 import os
 import argparse
 import moviepy.editor as mp
@@ -117,6 +117,7 @@ def download_url(url):
         if "&list=" in url:
             download_playlist(url)
         sys.stdout.flush()
+        url = url.strip()
         yt = YouTube(url)
         title = yt.title
         file_name = ''.join(e for e in title if e.isalnum() or e.isspace())
