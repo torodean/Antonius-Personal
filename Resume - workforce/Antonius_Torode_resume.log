@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.11.14)  5 JUL 2026 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.11.14)  5 JUL 2026 16:01
 entering extended mode
 **./Antonius_Torode_resume.tex
 (Antonius_Torode_resume.tex
@@ -1061,11 +1061,11 @@ Package rerunfilecheck Info: File `Antonius_Torode_resume.out' has not changed.
 (rerunfilecheck)             Checksum: 18438FF3405116EE3E737FB79C5F276D;683.
  ) 
 Here is how much of TeX's memory you used:
- 21853 strings out of 479334
- 403964 string characters out of 2855658
+ 21849 strings out of 479334
+ 403918 string characters out of 2855658
  724817 words of memory out of 3000000
  38765 multiletter control sequences out of 15000+200000
- 470103 words of font info for 120 fonts, out of 3000000 for 9000
+ 469901 words of font info for 118 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,102p,482b,770s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc
@@ -1079,7 +1079,7 @@ blic/lm/lmssbx10.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/lm/lmsso10.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/lm/lmsso17.pfb><C:/Users/awtorode/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/marvosym/marvosym.pfb>
-Output written on Antonius_Torode_resume.pdf (2 pages, 451520 bytes).
+Output written on Antonius_Torode_resume.pdf (2 pages, 451513 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
